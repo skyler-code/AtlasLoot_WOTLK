@@ -260,7 +260,9 @@ do
 			if queryAllAnimationGroup:IsPlaying() then
 				queryAllAnimationGroup:Stop()
 			end
-			AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex]:Refresh()
+			if AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex] then
+				AtlasLoot.ItemFrame.ItemButtons[queryAllButtonIndex]:Refresh()
+			end
 			QueryNextItem()
 		else
 			queryAllAnimationGroup:Play()

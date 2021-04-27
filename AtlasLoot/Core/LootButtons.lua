@@ -591,11 +591,7 @@ do
 							if k == 1 then
 								extraText2 = extraText2..v[1]
 							else
-								if type(v[2]) == "function" then
-									print(v[2]())
-								else
-									icon = GetItemIcon(CURRENCY_PRICE[v[2]].itemID)
-								end
+								icon = GetItemIcon(CURRENCY_PRICE[v[2]].itemID)
 								extraText2 = extraText2..", |T"..icon..":15:15|t"..v[1]
 							end	
 						end

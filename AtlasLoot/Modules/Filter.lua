@@ -106,7 +106,7 @@ local FilterTable = {
 		"HASTE_RATING",
 		"PARRY_RATING",
 		"SPELL_POWER",
-		"ARMOR_PEN_RATING",
+		"ARMOR_PENETRATION_RATING",
 		"RESILIENCE_RATING",
 	},
 }
@@ -124,7 +124,7 @@ local FilterTableNamesSlots = {
 	["PARRY_RATING"] = AL["Parry Rating"],
 	["SPELL_POWER"] = AL["Spell Power"],
 	["RESILIENCE_RATING"] = AL["Resilience Rating"],
-	["ARMOR_PEN_RATING"] = AL["Armor Pen Rating"],
+	["ARMOR_PENETRATION_RATING"] = AL["Armor Pen Rating"],
 }
 
 local ClassHides = {
@@ -142,7 +142,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {true,false,false,false,false},
 		["Other"] = {true,true,true,true,false},
-		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,true,true}
+		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false,true}
 	},
 	["PALADIN"] = {
 		["Armor"] = {false,false,false,true},
@@ -158,7 +158,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {true,false,false,false,false},
 		["Other"] = {true,true,true,true,false},
-		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,true,true}
+		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false,true}
 	},
 	["ROGUE"] = {
 		["Armor"] = {false,true,false,false},
@@ -182,7 +182,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {true,true,false},
 		["WeaponsRanged"] = {false,false,false,false,false},
 		["Other"] = {true,true,true,true,true},
-		["Stats"] = {true,true,false,true,true,true,false,true,true,true,false,true,true,true}
+		["Stats"] = {true,true,false,true,true,true,false,true,true,true,false,true,false,true}
 	},
 	["WARLOCK"] = {
 		["Armor"] = {true,false,false,false},
@@ -190,7 +190,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {true,false,false,false,false},
 		["Other"] = {true,true,true,true,false},
-		["Stats"] = {true,false,false,true,false,true,false,false,true,true,false,true,true,true}
+		["Stats"] = {true,false,false,true,false,true,false,false,true,true,false,true,false,true}
 	},
 	["WARRIOR"] = {
 		["Armor"] = {false,false,false,true},
@@ -215,6 +215,7 @@ do
 	local locClass,englishClass = UnitClass("player")
 	
 	local function SortTable(t, slot)
+		print(slot)
 		if slot == "WeaponsMeele" or slot == "WeaponsRanged" or slot == "WeaponsMeeleTwoHand" then
 			local a,b = {}, {}
 			for m,n in ipairs(t) do a[#a + 1] = FilterTableNamesSlots[n] b[FilterTableNamesSlots[n]] = m end
