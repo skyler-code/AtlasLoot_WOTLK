@@ -45,7 +45,6 @@ AtlasLoot_TextParsing = {
 	{ "#p22#", GetSpellInfo(17040) },	-- Master Hammersmith
 	{ "#p23#", GetSpellInfo(2575) },	-- Mining
 	{ "#p24#", GetSpellInfo(63275) },	-- Fishing
-	{ "#p25#", GetSpellInfo(78670) },	-- Archaeology
 	{ "#p26#", GetSpellInfo(45357) },	-- Inscription
 	
 	-- Reputation

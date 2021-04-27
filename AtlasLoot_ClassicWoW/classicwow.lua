@@ -3869,7 +3869,6 @@ local moduleName = "AtlasLootClassicWoW"
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
-
 	AtlasLoot_Data["STRATRisenHammersmith"] = {
 		["Normal"] = {
 			{
@@ -3879,12 +3878,11 @@ local moduleName = "AtlasLootClassicWoW"
 			}
 		};
 		info = {
-			name = BabbleBoss["Risen Hammersmith"].." ("..AL["Summon"]..")",
+			name = "Risen Hammersmith ("..AL["Summon"]..")",
 			module = moduleName, instance = "StratholmeCrusader",
 		};
 	};
 
-	print(AL['Summon'])
 
 	AtlasLoot_Data["STRATTrash"] = {
 		["Normal"] = {
@@ -4223,15 +4221,15 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Stockade"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "INV_Box_01", "=q6="..BabbleBoss["Randolph Moloch"], ""};
+				{ 1, 0, "INV_Box_01", "=q6=Randolph Moloch", ""};
 				{ 2, 63345, "", "=q3=Noble's Robe", "=ds=#s5#, #a1#", ""};
 				{ 3, 63344, "", "=q3=Standard Issue Prisoner Shoes", "=ds=#s12#, #a2#", ""};
 				{ 4, 63346, "", "=q3=Wicked Dagger", "=ds=#h1#, #w4#", ""};
-				{ 6, 0, "INV_Box_01", "=q6="..BabbleBoss["Hogger"], ""};
+				{ 6, 0, "INV_Box_01", "=q6=Hogger", ""};
 				{ 7, 2168, "", "=q3=Corpse Rompers", "=ds=#s12#, #a1#", ""};
 				{ 8, 1934, "", "=q3=Hogger's Trousers", "=ds=#s11#, #a2#", ""};
 				{ 9, 1959, "", "=q3=Cold Iron Pick", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "INV_Box_01", "=q6="..BabbleBoss["Lord Overheat"], ""};
+				{ 16, 0, "INV_Box_01", "=q6=Lord Overheat", ""};
 				{ 17, 1929, "", "=q3=Silk-Threaded Trousers", "=ds=#s11#, #a1#", ""};
 				{ 18, 5967, "", "=q3=Girdle of Nobility", "=ds=#s10#, #a1#", ""};
 				{ 19, 4676, "", "=q3=Skeletal Gauntlets", "=ds=#s9#, #a3#", ""};
@@ -6729,11 +6727,11 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["PVP60Accessories"] = {
 		["Normal_A"] = {
 			{
-				{ 1, 29465, "", "=q4=Black Battlestrider", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 2, 29467, "", "=q4=Black War Ram", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 3, 29468, "", "=q4=Black War Steed Bridle", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 4, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 5, 35906, "", "=q4=Reins of the Black War Elekk", "=ds=#e26#", "#HONOR:2000#", ""};
+				{ 1, 29465, "", "=q4=Black Battlestrider", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 2, 29467, "", "=q4=Black War Ram", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 3, 29468, "", "=q4=Black War Steed Bridle", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 4, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 5, 35906, "", "=q4=Reins of the Black War Elekk", "=ds=#e26#", "#HONOR:50000#", ""};
 				{ 7, 18863, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "#HONOR:55#", ""};
 				{ 8, 18856, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "#HONOR:55#", ""};
 				{ 9, 18859, "", "=q3=Insignia of the Alliance", "=ds=#s14#", "#HONOR:55#", ""};
@@ -6771,11 +6769,11 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 		["Normal_H"] = {
 			{
-				{ 1, 29466, "", "=q4=Black War Kodo", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 2, 29469, "", "=q4=Horn of the Black War Wolf", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 3, 29470, "", "=q4=Red Skeletal Warhorse", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 4, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e26#", "#HONOR:2000#", ""};
-				{ 5, 34129, "", "=q4=Swift Warstrider", "=ds=#e26#", "#HONOR:2000#", ""};
+				{ 1, 29466, "", "=q4=Black War Kodo", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 2, 29469, "", "=q4=Horn of the Black War Wolf", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 3, 29470, "", "=q4=Red Skeletal Warhorse", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 4, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e26#", "#HONOR:50000#", ""};
+				{ 5, 34129, "", "=q4=Swift Warstrider", "=ds=#e26#", "#HONOR:50000#", ""};
 				{ 7, 18853, "", "=q3=Insignia of the Horde", "=ds=#s14#", "#HONOR:55#", ""};
 				{ 8, 18846, "", "=q3=Insignia of the Horde", "=ds=#s14#", "#HONOR:55#", ""};
 				{ 9, 18850, "", "=q3=Insignia of the Horde", "=ds=#s14#", "#HONOR:55#", ""};

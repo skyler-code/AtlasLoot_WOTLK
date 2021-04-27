@@ -18,7 +18,6 @@ local ARTISAN = select(2, GetSpellInfo(11611));
 local MASTER = select(2, GetSpellInfo(28596));
 
 local ALCHEMY, APPRENTICE = GetSpellInfo(2259);
-local ARCHAEOLOGY = GetSpellInfo(78670)
 local BLACKSMITHING = GetSpellInfo(2018);
 local ARMORSMITH = GetSpellInfo(9788);
 local WEAPONSMITH = GetSpellInfo(9787);
@@ -56,7 +55,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 8, "LEATHERWORKINGMENU", "INV_Misc_ArmorKit_17", "=ds="..GetSpellInfo(2108), ""};
 				{ 9, "Mining", "Trade_Mining", "=ds="..GetSpellInfo(2575), ""};
 				{ 10, "TAILORINGMENU", "Trade_Tailoring", "=ds="..GetSpellInfo(3908), ""};
-				{ 12, "ARCHAEOLOGYMENU", "trade_archaeology", "=ds="..GetSpellInfo(78670), ""};
 				{ 13, "COOKINGMENU", "INV_Misc_Food_15", "=ds="..GetSpellInfo(2550), ""};
 				{ 14, "FirstAid", "Spell_Holy_SealOfSacrifice", "=ds="..GetSpellInfo(3273), ""};
 				{ 17, "CRAFTSET", "INV_Box_01", AL["Crafted Sets"], ""};
@@ -261,36 +259,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 		};
 	}
 
-	AtlasLoot_Data["ARCHAEOLOGYMENU"] = {
-		["Normal"] = {
-			{
-				{ 2, "ArchaeologyDwarf", "trade_archaeology_dwarf_runestone", "=ds="..AL["Dwarf"], "" };
-				{ 3, "ArchaeologyDraenei", "trade_archaeology_draenei_tome", "=ds="..AL["Draenei"], "" };
-				{ 4, "ArchaeologyFossil", "trade_archaeology_dwarf_runestone", "=ds="..AL["Fossil"], "" };
-				{ 5, "ArchaeologyNightElf", "trade_archaeology_highborne_scroll", "=ds="..AL["Night Elf"], "" };
-				{ 6, "ArchaeologyNerubian", "trade_archaeology_nerubian_obelisk", "=ds="..AL["Nerubian"], "" };
-				{ 17, "ArchaeologyOrc", "trade_archaeology_orc_bloodtext", "=ds="..AL["Orc"], "" };
-				{ 18, "ArchaeologyTolvir", "trade_archaeology_aqir_artifactfragment", "=ds="..AL["Tol'vir"], "" };
-				{ 19, "ArchaeologyTroll", "trade_archaeology_troll_tablet", "=ds="..AL["Troll"], "" };
-				{ 20, "ArchaeologyVrykul", "trade_archaeology_vrykul_runestick", "=ds="..AL["Vrykul"], "" };
-				{ 8, "ArchaeologyArmorAndWeapons", "trade_archaeology_ancientorcshamanheaddress", "=ds="..BabbleInventory["Armor"].." & "..AL["Weapons"], "" };
-				{ 23, "ArchaeologyMisc", "trade_archaeology_theinnkeepersdaughter", "=ds="..BabbleInventory["Miscellaneous"], "" };
-				{ 10, "s92137", "60847", "=q4=Crawling Claw", "=ds="..AL["Tol'vir"], "=ds=#e13#"};
-				{ 11, "s90521", "64372", "=q3=Clockwork Gnome", "=ds="..AL["Dwarf"], "=ds=#e13#"};
-				{ 12, "s89693", "60955", "=q3=Fossilized Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
-				{ 13, "s98582", "69821", "=q3=Pterrordax Hatchling", "=ds="..AL["Fossil"], "=ds=#e13#"};
-				{ 14, "s98588", "69824", "=q3=Voodoo Figurine", "=ds="..AL["Troll"], "=ds=#e13#"};
-				{ 25, "s90619", "60954", "=q4=Fossilized Raptor", "=ds="..AL["Fossil"], "=ds=#e12#"};
-				{ 26, "s92148", "64883", "=q4=Scepter of Azj'Aqir", "=ds="..AL["Tol'vir"], "=ds=#e12#"};
-			};
-		};
-		info = {
-			name = ARCHAEOLOGY,
-			switchText = {AL["Culture"], AL["Slot"]},
-			menu = "CRAFTINGMENU",
-		};
-	}
-
 	AtlasLoot_Data["COOKINGMENU"] = {
 		["Normal"] = {
 			{
@@ -400,8 +368,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["COOKINGDAILYMENU"] = {
 		["Normal"] = {
 			{
-				{ 4, 62786, "", "=q1=Cocoa Beans", "=ds=#e8#", "10 #silver#"};
-				{ 5, 65513, "", "=q1=Crate of Tasty Meat", "=ds=#m20#", "#CHEFAWARD:2#"};
 				{ 8, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
 				{ 17, "CookingDaily#2", "inv_misc_food_12", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
 				{ 19, 46349, "", "=q3=Chef's Hat", "=ds=#s1#", "#DALARANCK:100#"};
@@ -424,7 +390,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 7, 44983, "", "=q3=Strand Crawler", "=ds=#e13#", "", ""};
 				{ 17, "FishingDaily#2", "achievement_profession_fishing_oldmanbarlowned", "=ds="..BabbleZone["Terokkar Forest"], "=q5="..AL["Burning Crusade"] };
 				{ 19, 34834, "", "=q2=Recipe: Captain Rumsey's Lager", "=ds=#sr# (100)", "", ""};
-				{ 21, 67404, "", "=q1=Glass Fishing Bobber", "=ds=#e24#", "", ""};
 				{ 22, 34109, "", "=q1=Weather-Beaten Journal", "=ds=#e10#", "", ""};
 			};
 		};

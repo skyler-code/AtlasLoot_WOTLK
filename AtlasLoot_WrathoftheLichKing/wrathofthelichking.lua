@@ -11295,7 +11295,7 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["EmblemofHeroism"] = {
 		["Normal"] = {
 			{
-				{ 1, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "#JUSTICE:348#"};
+				{ 1, 40697, "", "=q4=Elegant Temple Gardens' Girdle", "=ds=#s10#, #a1#", "#HEROISM:40#"};
 				{ 2, 40696, "", "=q4=Plush Sash of Guzbah", "=ds=#s10#, #a1#", "#JUSTICE:348#"};
 				{ 4, 40694, "", "=q4=Jorach's Crocolisk Skin Belt", "=ds=#s10#, #a2#", "#JUSTICE:348#"};
 				{ 5, 40695, "", "=q4=Vine Belt of the Woodland Dryad", "=ds=#s10#, #a2#", "#JUSTICE:348#"};

@@ -15,19 +15,14 @@ local AltasLootItemButton = {}
 
 local CURRENCY_PRICE = {
 	-- http://www.wowhead.com/currencies
-	["DALARANJW"] = 61,		-- Dalaran Jewelcrafter's Token
-	["DALARANCK"] = 81,		-- Dalaran Cooking Award
-	["CHAMPSEAL"] = 241,	-- Champion's Seal
-	["ILLLJW"] = 361,		-- Illustrious Jewelcrafter's Token
-	["CONQUEST"] = 390, 	-- Conquest Points
-	["TOLBARAD"] = 391,		-- Tol Barad Commendation
-	["HONOR"] = 392,		-- Honor Points	
-	["JUSTICE"] = 395,		-- Justice Points
-	["VALOR"] = 396,		-- Valor Points
-	["CHEFAWARD"] = 402,	-- Chef's Award
-	["WORLDTREE"] = 416,	-- Mark of the World Tree
-	["CATAJW"] = 361,		-- Illustrious Jewelcrafter's Token
-	["DARKMOON"] = 515,		-- Darkmoon Prize Ticket
+	["DALARANJW"] = { itemID = 41596 },		-- Dalaran Jewelcrafter's Token
+	["DALARANCK"] = { itemID = 43016 },		-- Dalaran Cooking Award
+	["CHAMPSEAL"] = { itemID = 44990 },	-- Champion's Seal
+	["ARENA"] = { func = GetHonorCurrency, text=[[Interface\PVPFrame\PVP-ArenaPoints-Icon]], name=ARENA }, 	-- Conquest Points
+	["HONOR"] = { func = GetHonorCurrency, text="Interface\\PVPFrame\\PVP-Currency-"..UnitFactionGroup("player"), name=HONOR },		-- Honor Points	
+	["JUSTICE"] = { itemID = 43016 },		-- Justice Points
+	["VALOR"] = { itemID = 43016 },		-- Valor Points
+	["HEROISM"] = { itemID = 40752 }, -- Emblem of Heroism
 	
 	-- Custom currencys
 	["MIDSUMMER"] = { itemID = 23247 },
@@ -486,6 +481,8 @@ do
 					newPrice = gsub(newPrice, "#"..k..":%d+#", "")
 					if type(v) == "number" then
 						isPrice = v
+					elseif v["func"] then
+						isPrice = k
 					elseif v["itemID"] then
 						isPrice = k
 					end
@@ -594,9 +591,8 @@ do
 							if k == 1 then
 								extraText2 = extraText2..v[1]
 							else
-								if type(v[2]) == "number" then
-									icon = select(3, GetCurrencyInfo(v[2]))
-									icon = "Interface\\Icons\\"..icon
+								if type(v[2]) == "function" then
+									print(v[2]())
 								else
 									icon = GetItemIcon(CURRENCY_PRICE[v[2]].itemID)
 								end
@@ -681,15 +677,9 @@ do
 			self.Frame.QA.ExtraText:SetText(tempText)
 		elseif priceTab then
 			local icon
-			--if type(isPrice[2]) == "number" then
-			--	icon = select(3, GetCurrencyInfo(isPrice[2]))
-			--	icon = "Interface\\Icons\\"..icon
-			--else
-			--	icon = GetItemIcon(CURRENCY_PRICE[isPrice[2]].itemID)
-			--end
-			if type(priceTab[1][2]) == "number" then
-				icon = select(3, GetCurrencyInfo(priceTab[1][2]))
-				icon = "Interface\\Icons\\"..icon
+				PRICE_TAB = priceTab
+			if CURRENCY_PRICE[priceTab[1][2]].text then
+				icon = CURRENCY_PRICE[priceTab[1][2]].text
 			else
 				icon = GetItemIcon(CURRENCY_PRICE[priceTab[1][2]].itemID)
 			end
@@ -755,7 +745,7 @@ do
 			_, _, _, itemQuality = GetItemQualityColor(itemQuality)
 			tempText = itemQuality..string.gsub(itemNameNew, 1, 4)
 			--if select(4, GetBuildInfo()) == 40200 then
-				tempText = "|c"..tempText
+				--tempText = "|c"..tempText
 			--end
 		elseif itemName then
 			tempText = AtlasLoot:FixText(itemName)
@@ -1243,28 +1233,31 @@ function AtlasLoot:QAItemOnEnter()
 	elseif self.price then
 		AtlasLootTooltip:SetOwner(self, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
 		for k,price in ipairs(self.price) do
-			if type(price[2]) == "number" then
-				local name, currentAmount = GetCurrencyInfo(price[2])
-				AtlasLootTooltip:AddLine(name);
-				if currentAmount and tonumber(price[1]) and currentAmount >= tonumber(price[1]) then
-					AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[1]);
+			local currencyInfo = CURRENCY_PRICE[price[2]]
+			if currencyInfo then
+				if currencyInfo['func'] then
+					AtlasLootTooltip:AddLine(currencyInfo.name)
+					local currentAmount = currencyInfo.func()
+					if currentAmount and tonumber(price[1]) and currentAmount >= tonumber(price[1]) then
+						AtlasLootTooltip:AddLine(GREEN..currentAmount.." / "..price[1]);
+					else
+						AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[1]);
+					end
 				else
-				AtlasLootTooltip:AddLine(RED..currentAmount.." / "..price[1]);
-				end
-			elseif CURRENCY_PRICE[price[2]] then
-				local count = GetItemCount(CURRENCY_PRICE[price[2]].itemID)
-				local countAll = GetItemCount(CURRENCY_PRICE[price[2]].itemID, true)
-				local color = "\n"
-				if countAll and tonumber(price[1]) and countAll >= tonumber(price[1]) then
-					color = color..GREEN
-				else
-					color = color..RED
-				end
-				AtlasLootTooltip:SetHyperlink("item:"..CURRENCY_PRICE[price[2]].itemID..":0:0:0")
-				if countAll == count then
-					AtlasLootTooltip:AddLine(color..count.." / "..price[1])
-				else
-					AtlasLootTooltip:AddLine(color..string.format(AL["%d / %d ( Bank: %d )"], countAll, price[1], countAll - count))
+					local count = GetItemCount(currencyInfo.itemID)
+					local countAll = GetItemCount(currencyInfo.itemID, true)
+					local color = "\n"
+					if countAll and tonumber(price[1]) and countAll >= tonumber(price[1]) then
+						color = color..GREEN
+					else
+						color = color..RED
+					end
+					AtlasLootTooltip:SetHyperlink("item:"..currencyInfo.itemID..":0:0:0")
+					if countAll == count then
+						AtlasLootTooltip:AddLine(color..count.." / "..price[1])
+					else
+						AtlasLootTooltip:AddLine(color..string.format(AL["%d / %d ( Bank: %d )"], countAll, price[1], countAll - count))
+					end
 				end
 			end
 		end
@@ -1295,11 +1288,6 @@ function AtlasLoot:QAItemOnClick(arg1)
 			for k,v in ipairs(self.price) do
 				if CURRENCY_PRICE[v[2]] then
 					_, linkTmp = GetItemInfo(CURRENCY_PRICE[v[2]].itemID)
-					linkTmp = v[1].." x "..linkTmp
-				elseif type(v[2]) == "number" then
-					linkTmp = GetCurrencyInfo(v[2])
-					--SendChatMessage("\124cff00aa00\124Hcurrency:396\124h[Valor Points]\124h\124r")
-					linkTmp = string.format("|cff00aa00|Hcurrency:%d|h[%s]|h|r", v[2], linkTmp)
 					linkTmp = v[1].." x "..linkTmp
 				end
 				if k == 1 then

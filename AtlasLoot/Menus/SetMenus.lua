@@ -55,31 +55,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["JUSTICEPOINTSMENU"] = {
-		["Normal"] = {
-			{
-				{ 2, "JusticePoints", "inv_chest_robe_dungeonrobe_c_04", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "JusticePoints#3", "inv_chest_mail_dungeonmail_c_04", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "JusticePoints#5", "inv_misc_forestnecklace", "=ds="..AL["Accessories"], ""};
-				{ 7, 52722, "", "=q4=Maelstrom Crystal", "", "#JUSTICE:3750#" },
-				{ 8, 68813, "", "=q3=Satchel of Freshly-Picked Herbs", "", "#JUSTICE:1500#" },
-				{ 9, 53010, "", "=q1=Embersilk Cloth", "", "#JUSTICE:1250#" },
-				{ 10, 52185, "", "=q1=Elementium Ore", "", "#JUSTICE:1000#" },
-				{ 17, "JusticePoints#2", "inv_helmet_193", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "JusticePoints#4", "inv_gauntlets_plate_dungeonplate_c_04", "=ds="..BabbleInventory["Plate"], ""};
-				{ 20, "JusticePoints#7", "inv_misc_greateressence", "=ds="..AL["Weapons"], ""};
-				{ 22, 52721, "", "=q3=Heavenly Shard", "", "#JUSTICE:600#" },
-				{ 23, 52719, "", "=q2=Greater Celestial Essence", "", "#JUSTICE:400#" },
-				{ 24, 52976, "", "=q1=Savage Leather", "", "#JUSTICE:375#" },
-				{ 25, 52555, "", "=q1=Hypnotic Dust", "", "#JUSTICE:100#" },
-			};
-		};
-		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
-			menu = "SETMENU",
-		};
-	}
-
 	AtlasLoot_Data["WOTLKEMBLEMMENU"] = {
 		["Normal"] = {
 			{
