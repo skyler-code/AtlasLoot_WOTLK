@@ -4074,12 +4074,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 5444, "", "=q3=Miner's Cape", "=ds=#s4#", ""};
 				{ 3, 5195, "", "=q3=Gold-Flecked Gloves", "=ds=#s9#, #a1#", "" };
 				{ 4, 2169, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63467, "", "=q3=Shadow of the Past", "=ds=#s4#", ""};
-				{ 18, 63468, "", "=q3=Defias Brotherhood Vest", "=ds=#s5#, #a2#", ""};
-				{ 19, 63471, "", "=q3=Vest of the Curious Visitor", "=ds=#s5#, #a2#", ""};
-				{ 20, 63470, "", "=q3=Missing Diplomat's Pauldrons", "=ds=#s3#, #a4#", ""};
-				{ 21, 65163, "", "=q3=Buzzer Blade", "=ds=#h1#, #w4#", ""};
 			};
 		};
 		info = {
@@ -4096,12 +4090,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 5191, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", "" };
 				{ 4, 5200, "", "=q3=Impaling Harpoon", "=ds=#w7#", "" };
 				{ 5, 5443, "", "=q3=Gold-plated Buckler", "=ds=#w8#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63473, "", "=q3=Cloak of Thredd", "=ds=#s4#", ""};
-				{ 18, 63475, "", "=q3=Old Friend's Gloves", "=ds=#s9#, #a3#", ""};
-				{ 19, 63476, "", "=q3=Gearbreaker's Bindings", "=ds=#s8#, #a4#", ""};
-				{ 20, 63474, "", "=q3=Gear-Marked Gauntlets", "=ds=#s9#, #a4#", ""};
-				{ 21, 65164, "", "=q3=Cruel Barb", "=ds=#h1#, #w10#", ""};
 			};
 		};
 		info = {
@@ -4117,10 +4105,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 1937, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", "", };
 				{ 3, 5187, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
 				{ 4, 5201, "", "=q3=Emberstone Staff", "=ds=#w9#", "" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65166, "", "=q3=Buzz Saw", "=ds=#h1#, #w10#", ""};
-				{ 18, 65165, "", "=q3=Foe Reaper", "=ds=#h2#, #w6#", ""};
-				{ 19, 65167, "", "=q3=Emberstone Staff", "=ds=#w9#", ""};
 			};
 		};
 		info = {
@@ -4136,10 +4120,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 1156, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", "", };
 				{ 3, 5196, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
 				{ 4, 872, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65169, "", "=q3=Lavishly Jeweled Ring", "=ds=#s13#", ""};
-				{ 18, 65170, "", "=q3=Smite's Reaver", "=ds=#h1#, #w1#", ""};
-				{ 19, 65168, "", "=q3=Rockslicer", "=ds=#h2#, #w1#", ""};
 			};
 		};
 		info = {
@@ -4157,12 +4137,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 4, 5192, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
 				{ 5, 5197, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", "", };
 				{ 6, 5198, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", "", };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 65177, "", "=q3=Cape of the Brotherhood", "=ds=#s4#", ""};
-				{ 18, 65174, "", "=q3=Corsair's Overshirt", "=ds=#s5#, #a1#", ""};
-				{ 19, 65173, "", "=q3=Thief's Blade", "=ds=#h1#, #w10#", ""};
-				{ 20, 65171, "", "=q3=Cookie's Tenderizer", "=ds=#h1#, #w6#", ""};
-				{ 21, 65172, "", "=q3=Cookie's Stirring Rod", "=ds=#w12#", ""};
 			};
 		};
 		info = {
@@ -4171,7 +4145,7 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
-	AtlasLoot_Data["DeadminesVanessa"] = {
+	AtlasLoot_Data["DeadminesVanCleef"] = {
 		["Normal"] = {
 			{
 				{ 1, 63484, "", "=q3=Armbands of Exiled Architects", "=ds=#s8#, #a1#", "" };
@@ -4188,7 +4162,7 @@ local moduleName = "AtlasLootClassicWoW"
 			};
 		};
 		info = {
-			name = AtlasLoot:EJ_GetBossName("Vanessa VanCleef", 95),
+			name = BabbleBoss["Edwin VanCleef"],
 			module = moduleName, instance = "TheDeadminesEaI",
 		};
 	};

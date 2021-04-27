@@ -30,22 +30,6 @@ function AtlasLoot_hook(tooltip)
 							local ALinstanceDifficulty = "Normal"
 							if (ALmaxPlayers == 5 and ALdifficultyIndex == 2) or (ALmaxPlayers == 10 and ALdifficultyIndex == 3) or (ALmaxPlayers == 25 and ALdifficultyIndex == 4) then
 								ALinstanceDifficulty = "Heroic"
-							----------------------------------------------------------------------------
-							-- Fix to detect LFR till Blizzard adds that difficulty to GetInstanceInfo()
-							----------------------------------------------------------------------------
-							else
-								if ALmaxPlayers == 25 then
-									for i=1,25 do
-										local _, ALrealm = UnitName("raid"..i)
-										if ALrealm then
-											ALinstanceDifficulty = "RaidFinder"
-											break
-										end
-									end
-								end
-							----------------------------------------------------------------------------
-							-- End fix
-							----------------------------------------------------------------------------
 							end
 							if ALindexBoss == ALbossHandle and ALinstanceDifficulty == ALitemDifficulty then
 								local ALitemName, _, ALitemQuality, _, _, _, _, _, ALequipSlot = GetItemInfo(ALvalueWishlistItem[2])

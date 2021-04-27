@@ -164,7 +164,7 @@ StaticPopupDialogs["ATLASLOOT_SAVED_VARIABLES"] = {
 	hideOnEscape = 1
 };
 
-AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic", "RaidFinder"}
+AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
 
 local function CopyTable(t)
 	local new = {}
@@ -528,8 +528,6 @@ function AtlasLoot:GetLocInstanceType(instanceType)
 			instanceType = AL["25 Man"]
 		elseif instanceType == "25ManHeroic" then
 			instanceType = AL["25 Man Heroic"]
-		elseif instanceType == "RaidFinder" then
-			instanceType = AL["Raid Finder"]
 		else
 			instanceType = nil
 		end
@@ -651,11 +649,10 @@ end
 do
 	local lootTableTypes = AtlasLoot.lootTableTypes
 	local lootTableTypesCheck = {
-		["Normal"] = { "Heroic", "25Man", "25ManHeroic", "RaidFinder" },
-		["Heroic"] = { "Normal", "25ManHeroic", "25Man", "RaidFinder" },
-		["25Man"] = { "25ManHeroic", "Normal", "Heroic", "RaidFinder" },
-		["25ManHeroic"] = { "25Man", "Heroic", "Normal", "RaidFinder" },
-		["RaidFinder"] = { "Normal", "Heroic", "25Man", "25ManHeroic" },
+		["Normal"] = { "Heroic", "25Man", "25ManHeroic" },
+		["Heroic"] = { "Normal", "25ManHeroic", "25Man" },
+		["25Man"] = { "25ManHeroic", "Normal", "Heroic" },
+		["25ManHeroic"] = { "25Man", "Heroic", "Normal" },
 	}
 	
 	function AtlasLoot:GetLootTableTypeFromDataID(dataID)
@@ -1007,23 +1004,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		self.ItemFrame.Back:Show()
 	end
 	
-	if AtlasLoot_Data[dataID]["RaidFinder"] and lootTableType ~= "RaidFinder" then
-		--print"this"
-		self.ItemFrame.RaidFinder:Show()
-		self.ItemFrame.RaidFinder:SetChecked(false)
-		self.ItemFrame.RaidFinder:Enable()
-	end
-	
-	if lootTableType == "RaidFinder" and AtlasLoot_Data[dataID] and AtlasLoot_Data[dataID]["RaidFinder"] then
-		self.ItemFrame.RaidFinder:Show()
-		self.ItemFrame.RaidFinder:SetChecked(true)
-		self.ItemFrame.RaidFinder:Enable()
-		if AtlasLoot_Data[dataID]["Heroic"] then
-			self.ItemFrame.Heroic:Show()
-			self.ItemFrame.Heroic:SetChecked(false)
-			self.ItemFrame.Heroic:Enable()
-		end
-	elseif lootTableType == "Heroic" and AtlasLoot_Data[dataID]["Heroic"] then
+	if lootTableType == "Heroic" and AtlasLoot_Data[dataID]["Heroic"] then
 		self.ItemFrame.Heroic:Show()
 		self.ItemFrame.Heroic:SetChecked(true)
 		if AtlasLoot_Data[dataID]["Normal"] then
@@ -1053,9 +1034,7 @@ function AtlasLoot:ShowLootPage(dataID, pFrame)
 		end
 	end
 	
-	if lootTableType == "RaidFinder" then
-		-- do nothing
-	elseif ( lootTableType == "Normal" or lootTableType == "Heroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"] ) then
+	if ( lootTableType == "Normal" or lootTableType == "Heroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["25Man"] or AtlasLoot_Data[dataID]["25ManHeroic"] ) then
 		self.ItemFrame.Switch:SetText(AL["Show 25 Man Loot"])
 		self.ItemFrame.Switch:Show()
 	elseif ( lootTableType == "25Man" or lootTableType == "25ManHeroic" ) and AtlasLoot_Data[dataID] and ( AtlasLoot_Data[dataID]["Normal"] or AtlasLoot_Data[dataID]["Heroic"] ) then
