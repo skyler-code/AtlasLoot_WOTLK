@@ -1,4 +1,4 @@
-﻿## Interface: 40300
+﻿## Interface: 30300
 ## Title: AtlasLoot_Loader
 ## Title-deDE: AtlasLoot Loader
 ## Title-zhTW: AtlasLoot Loader
