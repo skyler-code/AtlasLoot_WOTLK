@@ -1132,18 +1132,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 				extraText = ": "..AL["Darkmoon Faire Rewards"];
 			};]]--
 			{
-				{ 2, 62046, "", "=q4=Earthquake Deck", "=ds=#m2#"};
-				{ 3, 62048, "", "=q4=Darkmoon Card: Earthquake", "=q1=#m4#: =ds=#s14#"};
-				{ 5, 62045, "", "=q4=Hurricane Deck", "=ds=#m2#"};
-				{ 6, 62049, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 7, 62051, "", "=q4=Darkmoon Card: Hurricane", "=q1=#m4#: =ds=#s14#"};
-				{ 17, 62044, "", "=q4=Tsunami Deck", "=ds=#m2#"};
-				{ 18, 62050, "", "=q4=Darkmoon Card: Tsunami", "=q1=#m4#: =ds=#s14#"};
-				{ 20, 62021, "", "=q4=Volcanic Deck", "=ds=#m2#"};
-				{ 21, 62047, "", "=q4=Darkmoon Card: Volcano", "=q1=#m4#: =ds=#s14#"};
-				extraText = ": "..AL["Level 85 Trinkets"];
-			};
-			{
 				{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
 				{ 2, 42989, "", "=q4=Darkmoon Card: Berserker!", "=q1=#m4#: =ds=#s14#"};
 				{ 4, 44259, "", "=q4=Prisms Deck", "=ds=#m2#"};

@@ -60,7 +60,7 @@ if AL then
 	AL["Parry"] = "招架";	-- Parry Rating
 	AL["Spell"] = "法能";	-- Spell Power
 	AL["Resi"] = "韧性";	-- Resilience Rating
-	AL["Mast"] = "精通";	-- Mastery
+	AL["Arp"] = "精通";	-- Mastery
 
 	-- Stats
 	AL["Resilience Rating"] = "韧性等级";
@@ -617,7 +617,7 @@ if AL then
 	AL["Haste Rating"] = "急速等级";
 	AL["Dodge Rating"] = "闪躲等级";
 	AL["Expertise Rating"] = "专精等级";
-	AL["Mastery Rating"] = "精通等级";
+	AL["Armor Pen Rating"] = "精通等级";
 	AL["Parry Rating"] = "招架等级";
 	AL["Other Ratings"] = "其它等级";
 	AL["Ratings"] = "等级";

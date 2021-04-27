@@ -514,7 +514,7 @@ if AL then
 	AL["Haste Rating"] = "Taxa de Aceleração";
 	AL["Dodge Rating"] = "Taxa de Esquiva";
 	AL["Expertise Rating"] = "Taxa de Aptidão";
-	AL["Mastery Rating"] = "Taxa de Maestria";
+	AL["Armor Pen Rating"] = "Taxa de Maestria";
 	AL["Parry Rating"] = "Taxa de Aparo";
 	AL["Other Ratings"] = "Outras Taxas";
 	AL["Resistance"] = "Resistência";

@@ -108,7 +108,7 @@ end
 -- @param 	babbleBossName	<string>	LibBabbelBoss name
 -- @param	encounterID		<number>	EncounterJournal Boss ID
 function AtlasLoot:EJ_GetBossName(babbleBossName, encounterID)
-	if encounterID and EJ_GetEncounterInfo(encounterID) then
+	if encounterID and EJ_GetEncounterInfo and EJ_GetEncounterInfo(encounterID) then
 		babbleBossName = EJ_GetEncounterInfo(encounterID)
 	elseif babbleBossName and BabbleBoss[babbleBossName] then
 		babbleBossName = BabbleBoss[babbleBossName]

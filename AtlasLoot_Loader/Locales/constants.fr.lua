@@ -61,7 +61,7 @@ if AL then
 	AL["Parry"] = "Parade";	-- Parry Rating
 	AL["Spell"] = "Sort";	-- Spell Power
 	AL["Resi"] = "Rési";	-- Resilience Rating
-	AL["Mast"] = "Maîtrise";	-- Mastery
+	AL["Arp"] = "Maîtrise";	-- Mastery
 
 	-- Stats
 	AL["Resilience Rating"] = "Score de résilience";
@@ -618,7 +618,7 @@ if AL then
 	AL["Haste Rating"] = "Score de hâte";
 	AL["Dodge Rating"] = "Score d'esquive";
 	AL["Expertise Rating"] = "Score d'expertise";
-	AL["Mastery Rating"] = "Score de maîtrise";
+	AL["Armor Pen Rating"] = "Score de maîtrise";
 	AL["Parry Rating"] = "Score de parade";
 	AL["Other Ratings"] = "Autres scores";
 	AL["Ratings"] = "Scores";

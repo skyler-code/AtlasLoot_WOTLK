@@ -61,7 +61,7 @@ if AL then
 	AL["Parry"] = true;	-- Parry Rating
 	AL["Spell"] = true;	-- Spell Power
 	AL["Resi"] = true;	-- Resilience Rating
-	AL["Mast"] = true;	-- Mastery
+	AL["Arp"] = true;	-- Mastery
 
 	-- Stats
 	AL["Resilience Rating"] = true;
@@ -618,7 +618,7 @@ if AL then
 	AL["Haste Rating"] = true;
 	AL["Dodge Rating"] = true;
 	AL["Expertise Rating"] = true;
-	AL["Mastery Rating"] = true;
+	AL["Armor Pen Rating"] = true;
 	AL["Parry Rating"] = true;
 	AL["Other Ratings"] = true;
 	AL["Ratings"] = true;

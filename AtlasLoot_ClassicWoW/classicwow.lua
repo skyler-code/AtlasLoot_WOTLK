@@ -3884,6 +3884,8 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	};
 
+	print(AL['Summon'])
+
 	AtlasLoot_Data["STRATTrash"] = {
 		["Normal"] = {
 			{

@@ -47,243 +47,6 @@ local SPELLFIRE = GetSpellInfo(26797);
 
 AtlasLoot_LootTableRegister = {
 	["Instances"] = {
-
----------------------------
---- Cataclysm Instances ---
----------------------------
-
-	---- Dungeons
-		["BlackrockCaverns"] = {
-			["Bosses"] = {
-				{ "BlackrockCavernsRomogg", 2, EncounterJournalID = 105 },
-				{ "BlackrockCavernsCorla", 3, EncounterJournalID = 106 },
-				{ "BlackrockCavernsSteelbender", 4, EncounterJournalID = 107 },
-				{ "BlackrockCavernsBeauty", 5, EncounterJournalID = 108 },
-				{ "BlackrockCavernsLordObsidius", 6, EncounterJournalID = 109 },
-				{ "BlackrockCavernsTrash", 11 },
-			},
-			["Info"] = { BabbleZone["Blackrock Caverns"], "AtlasLootCataclysm", mapname = "BlackrockCaverns", EncounterJournalID = 66 },
-		},
-
-		["CoTEndTime"] = {
-			["Bosses"] = {
-				{ "EndtimeEchoes", {3,4,5,6}, EncounterJournalID = 340 },
-				{ "EndtimeMurozond", 7, EncounterJournalID = 289 },
-				{ "EndtimeTrash", 10 },
-			},
-			["Info"] = { BabbleZone["End Time"], "AtlasLootCataclysm", mapname = "EndTime", EncounterJournalID = 184 },
-		},
-
-		["CoTHourOfTwilight"] = {
-			["Bosses"] = {
-				{ "HoTArcurion", 3, EncounterJournalID = 322 },
-				{ "HoTDawnslayer", 4, EncounterJournalID = 342 },
-				{ "HoTBenedictus", 5, EncounterJournalID = 341 },
-				{ "HoTTrash", 8 },
-			},
-			["Info"] = { BabbleZone["Hour of Twilight"], "AtlasLootCataclysm", mapname = "HourofTwilight", EncounterJournalID = 186 },
-		},
-
-		["CoTWellOfEternity"] = {
-			["Bosses"] = {
-				{ "WoEPerotharn", 3, EncounterJournalID = 290 },
-				{ "WoEAzshara", 4, EncounterJournalID = 291 },
-				{ "WoEMannoroth", 5, EncounterJournalID = 292 },
-				{ "WoETrash", 8 },
-			},
-			["Info"] = { BabbleZone["Well of Eternity"], "AtlasLootCataclysm", mapname = "WellOfEternity", EncounterJournalID = 185 },
-		},
-
-		["GrimBatol"] = {
-			["Bosses"] = {
-				{ "GBUmbriss", 2, EncounterJournalID = 131 },
-				{ "GBThrongus", 3, EncounterJournalID = 132 },
-				{ "GBDrahga", 4, EncounterJournalID = 133 },
-				{ "GBErudax", 5, EncounterJournalID = 134 },
-				{ "GBTrash", 10 },
-			},
-			["Info"] = { BabbleZone["Grim Batol"], "AtlasLootCataclysm", mapname = "GrimBatol", EncounterJournalID = 71 },
-		},
-
-		["HallsOfOrigination"] = {
-			["Bosses"] = {
-				{ "HoOAnhuur", 2, EncounterJournalID = 124 },
-				{ "HoOPtah", 3, EncounterJournalID = 125 },
-				{ "HoOAnraphet", 4, EncounterJournalID = 126 },
-				{ "HoOIsiset", 5, EncounterJournalID = 127 },
-				{ "HoOAmmunae", 6, EncounterJournalID = 128 },
-				{ "HoOSetesh", 7, EncounterJournalID = 129 },
-				{ "HoORajh", 8, EncounterJournalID = 130 },
-				{ "HoOTrash", 13 },
-			},
-			["Info"] = { BabbleZone["Halls of Origination"], "AtlasLootCataclysm", mapname = "HallsOfOrigination", EncounterJournalID = 70 },
-		},
-
-		["LostCityOfTolvir"] = {
-			["Bosses"] = {
-				{ "LostCityHusam", 3, EncounterJournalID = 117 },
-				{ "LostCityLockmaw", {4,5}, EncounterJournalID = 118 },
-				{ "LostCityBarim", 6, EncounterJournalID = 119 },
-				{ "LostCitySiamat", 7, EncounterJournalID = 122 },
-				{ "LostCityTrash", 10 },
-			},
-			["Info"] = { BabbleZone["Lost City of the Tol'vir"], "AtlasLootCataclysm", mapname = "LostCityofTolvir", EncounterJournalID = 69 },
-		},
-
-		["TheStonecore"] = {
-			["Bosses"] = {
-				{ "StonecoreCorborus", 4, EncounterJournalID = 110 },
-				{ "StonecoreSlabhide", 5, EncounterJournalID = 111 },
-				{ "StonecoreOzruk", 6, EncounterJournalID = 112 },
-				{ "StonecoreAzil", 7, EncounterJournalID = 113 },
-				{ "StonecoreTrash", 10 },
-			},
-			["Info"] = { BabbleZone["The Stonecore"], "AtlasLootCataclysm", mapname = "TheStonecore", EncounterJournalID = 67 },
-		},
-
-		["TheVortexPinnacle"] = {
-			["Bosses"] = {
-				{ "VPErtan", 3, EncounterJournalID = 114 },
-				{ "VPAltairus", 4 , EncounterJournalID = 115},
-				{ "VPAsaad", 5, EncounterJournalID = 116 },
-				{ "VPTrash", 9 },
-			},
-			["Info"] = { BabbleZone["The Vortex Pinnacle"], "AtlasLootCataclysm", mapname = "SkywallDungeon", EncounterJournalID = 68 },
-		},
-
-		["ThroneOfTheTides"] = {
-			["Bosses"] = {
-				{ "ToTNazjar", 5, EncounterJournalID = 101 },
-				{ "ToTUlthok",  6, EncounterJournalID = 102 },
-				{ "ToTMindbender", 7, EncounterJournalID = 103 },
-				{ "ToTOzumat", 8, EncounterJournalID = 104 },
-				{ "ToTTrash", 12 },
-			},
-			["Info"] = { BabbleZone["Throne of the Tides"], "AtlasLootCataclysm", mapname = "ThroneOfTheTides", EncounterJournalID = 65 },
-		},
-
-		["ZulAman"] = {
-			["Bosses"] = {
-				{ "ZAAkilZon", 6, EncounterJournalID = 186 },
-				{ "ZANalorakk", 8, EncounterJournalID = 187 },
-				{ "ZAJanAlai", 11, EncounterJournalID = 188 },
-				{ "ZAHalazzi", 13, EncounterJournalID = 189 },
-				{ "ZAMalacrass", 15, EncounterJournalID = 190 },
-				{ "ZADaakara", 24, EncounterJournalID = 191 },
-				{ "ZATimedChest", 40 },
-				{ "ZATrash", 41 },
-			},
-			["Info"] = { BabbleZone["Zul'Aman"].." ", "AtlasLootCataclysm", mapname = "ZulAman", EncounterJournalID = 77 },
-		},
-
-		["ZulGurub"] = {
-			["Bosses"] = {
-				{ "ZGVenoxis", 17, EncounterJournalID = 175 },
-				{ "ZGMandokir", 22, EncounterJournalID = 176 },
-				{ "ZGMadness", 26, EncounterJournalID = { 177, 178, 179, 180 } },
-				{ "ZGKilnara", 34, EncounterJournalID = 181 },
-				{ "ZGZanzil", 36, EncounterJournalID = 184 },
-				{ "ZGJindo", 40, EncounterJournalID = 185 },
-				{ "ZGTrash", 42 },
-			},
-			["Info"] = { BabbleZone["Zul'Gurub"], "AtlasLootCataclysm", mapname = "ZulGurub", EncounterJournalID = 76 },
-		},
-
-	---- Raids
-
-		["BlackwingDescent"] = {
-			["Bosses"] = {
-				{ "BDMagmaw", 2, EncounterJournalID = 170 },
-				{ "BDOmnotron", 3, EncounterJournalID = 169 },
-				{ "BDChimaeron", 4, EncounterJournalID = 172 },
-				{ "BDMaloriak", 5, EncounterJournalID = 173 },
-				{ "BDAtramedes", 6, EncounterJournalID = 171 },
-				{ "BDNefarian", 7, EncounterJournalID = 174 },
-				{ "BDTrash", 9 },
-			},
-			["Info"] = { BabbleZone["Blackwing Descent"], "AtlasLootCataclysm", mapname = "BlackwingDescent", raid = true, EncounterJournalID = 73 },
-		},
-
-		["BaradinHold"] = {
-			["Bosses"] = {
-				{ "BaradinsWardens", 1, hide = true },
-				{ "HellscreamsReach", 2, hide = true },
-				{ "ARGALOTH", 4, EncounterJournalID = 139 },
-				{ "OCCUTHAR", 5, EncounterJournalID = 140 },
-				{ "ALIZABAL", 6, EncounterJournalID = 339 },
-			},
-			["Info"] = { BabbleZone["Baradin Hold"], "AtlasLootCataclysm", mapname = "Baradinhold", raid = true, disableCompare = true, EncounterJournalID = 75 },
-		},
-
-		["CoTDragonSoulA"] = "CoTDragonSoul",
-		["CoTDragonSoulB"] = "CoTDragonSoul",
-		["CoTDragonSoulC"] = "CoTDragonSoul",
-		["CoTDragonSoul"] = {
-			["CoTDragonSoulA"] = {
-				{ "DragonSoulMorchok", 3, EncounterJournalID = 311 },
-				{ "DragonSoulUltraxion", 4, EncounterJournalID = 331, hide = true },
-				{ "DragonSoulShared", 6, hide = true },
-				{ "DragonSoulTrash", 7, hide = true },
-				{ "DragonSoulPatterns", 8, hide = true },
-			},
-			["CoTDragonSoulB"] = {
-				{ "DragonSoulZonozz", 2, EncounterJournalID = 324 },
-				{ "DragonSoulYorsahj", 3, EncounterJournalID = 325 },
-				{ "DragonSoulHagara", 4, EncounterJournalID = 317 },
-				{ "DragonSoulUltraxion", EncounterJournalID = 331 },
-				{ "DragonSoulShared", 6, hide = true },
-				{ "DragonSoulTrash", 7, hide = true },
-				{ "DragonSoulPatterns", 8, hide = true },
-			},
-			["CoTDragonSoulC"] = {
-				{ "DragonSoulBlackhorn", 1, EncounterJournalID = 332 },
-				{ "DragonSoulDeathwingSpine", 2, EncounterJournalID = 318 },
-				{ "DragonSoulDeathwingMadness", 3, EncounterJournalID = 333 },
-				{ "DragonSoulShared", 5 },
-				{ "DragonSoulTrash", 6 },
-				{ "DragonSoulPatterns", 7 },
-			},
-			["Info"] = { BabbleZone["Dragon Soul"], "AtlasLootCataclysm", mapname = "DragonSoul", sortOrder = { "CoTDragonSoulA", "CoTDragonSoulB", "CoTDragonSoulC" }, raid = true, EncounterJournalID = 187 },
-		},
-
-		["Firelands"] = {
-			["Bosses"] = {
-				{ "AvengersHyjal", {1,4}, hide = true },
-				{ "FirelandsBethtilac", 6, EncounterJournalID = 192 },
-				{ "FirelandsRhyolith", 7, EncounterJournalID = 193 },
-				{ "FirelandsAlysrazor", 8, EncounterJournalID = 194 },
-				{ "FirelandsShannox", 9, EncounterJournalID = 195 },
-				{ "FirelandsBaleroc", 10, EncounterJournalID = 196 },
-				{ "FirelandsStaghelm", 11, EncounterJournalID = 197 },
-				{ "FirelandsRagnaros", 12, EncounterJournalID = 198 },
-				{ "FirelandsShared", 15 },
-				{ "FirelandsTrash", 16 },
-				{ "FirelandsPatterns", 17 },
-				{ "FirelandsFirestone", 3 },
-			},
-			["Info"] = { BabbleZone["Firelands"], "AtlasLootCataclysm", mapname = "Firelands", raid = true, EncounterJournalID = 78 },
-		},
-
-		["TheBastionOfTwilight"] = {
-			["Bosses"] = {
-				{ "BoTWyrmbreaker", 3, EncounterJournalID = 156 },
-				{ "BoTValionaTheralion", 4, EncounterJournalID = 157 },
-				{ "BoTCouncil", 6, EncounterJournalID = 158 },
-				{ "BoTChogall", 8, EncounterJournalID = 167 },
-				{ "BoTSinestra", 9, EncounterJournalID = 168 },
-				{ "BoTTrash", 12 },
-			},
-			["Info"] = { BabbleZone["The Bastion of Twilight"], "AtlasLootCataclysm", mapname = "TheBastionofTwilight", raid = true, EncounterJournalID = 72 },
-		},
-
-		["ThroneOfTheFourWinds"] = {
-			["Bosses"] = {
-				{ "TFWConclave", 2, EncounterJournalID = 154 },
-				{ "TFWAlAkir", 6, EncounterJournalID = 155 },
-			},
-			["Info"] = { BabbleZone["Throne of the Four Winds"], "AtlasLootCataclysm", mapname = "Throneofthefourwinds", raid = true, EncounterJournalID = 74 },
-		},
-
 -----------------------
 --- WotLK Instances ---
 -----------------------
@@ -1262,15 +1025,15 @@ AtlasLoot_LootTableRegister = {
 
 		["ShadowfangKeep"] = {
 			["Bosses"] = {
-				{ "ShadowfangAshbury", 3, EncounterJournalID = 96 },
-				{ "ShadowfangSilverlaine", 4, EncounterJournalID = 97 },
-				{ "ShadowfangSpringvale", 9, EncounterJournalID = 98 },
-				{ "ShadowfangWalden", 10, EncounterJournalID = 99 },
-				{ "ShadowfangGodfrey", 11, EncounterJournalID = 100 },
+				{ "ShadowfangAshbury", 3 },
+				{ "ShadowfangSilverlaine", 4 },
+				{ "ShadowfangSpringvale", 9 },
+				{ "ShadowfangWalden", 10 },
+				{ "ShadowfangGodfrey", 11 },
 				{ "Valentineday#3", 12, hide = true },
 				{ "ShadowfangTrash", 21 },
 			},
-			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, mapname = "ShadowfangKeep", EncounterJournalID = 64 },
+			["Info"] = { BabbleZone["Shadowfang Keep"], {"AtlasLootClassicWoW"}, mapname = "ShadowfangKeep", EncounterJournalID = 64 },
 		},
 
 		["Gnomeregan"] = {
@@ -1349,15 +1112,15 @@ AtlasLoot_LootTableRegister = {
 				{ "DeadminesTrash", {4,5}, hide = true },
 			},
 			["TheDeadmines"] = {
-				{ "DeadminesGlubtok", 3, EncounterJournalID = 89 },
-				{ "DeadminesGearbreaker", 5, EncounterJournalID = 90 },
-				{ "DeadminesFoeReaper", 6, EncounterJournalID = 91 },
-				{ "DeadminesRipsnarl", 7, EncounterJournalID = 92 },
-				{ "DeadminesCookie", 8, EncounterJournalID = 93 },
-				{ "DeadminesVanessa", 9, EncounterJournalID = 95 },
+				{ "DeadminesGlubtok", 3 },
+				{ "DeadminesGearbreaker", 5 },
+				{ "DeadminesFoeReaper", 6 },
+				{ "DeadminesRipsnarl", 7 },
+				{ "DeadminesCookie", 8 },
+				{ "DeadminesVanessa", 9 },
 				{ "DeadminesTrash", 18 },
 			},
-			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW", "AtlasLootCataclysm"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },
+			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },
 		},
 
 		["WailingCavernsEnt"] = "WailingCavernsEaI",
@@ -1482,22 +1245,6 @@ AtlasLoot_LootTableRegister = {
 				{ "LakeWintergrasp", 1 },
 			},
 			["Info"] = { BabbleZone["Wintergrasp"], "AtlasLootWotLK" },
-		},
-
-		["TolBarad"] = {
-			["Bosses"] = {
-				{ "BaradinsWardens", 1 },
-				{ "HellscreamsReach", 2 },
-			},
-			["Info"] = { BabbleZone["Tol Barad"], "AtlasLootCataclysm" },
-		},
-
-		["TwinPeaks"] = {
-			["Bosses"] = {
-				{ "WildhammerClan", 1 },
-				{ "DragonmawClan", 2 },
-			},
-			["Info"] = { BabbleZone["Twin Peaks"], "AtlasLootCataclysm" },
 		},
 	},
 

@@ -181,7 +181,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 17, "Darkmoon", "ability_hunter_pet_bear", "=ds="..BabbleInventory["Mounts"].." / "..BabbleInventory["Companions"], ""};
 				{ 18, "Darkmoon#2", "inv_misc_food_164_fish_seadog", "=ds="..AL["Food and Drinks"], ""};
 				{ 19, "Darkmoon#3", "inv_misc_bone_taurenskull_01", "=ds="..AL["Heirloom"], ""};
-				{ 21, "DarkmoonDeck", "inv_inscription_tarot_hurricanecard", "=ds="..AL["Level 85 Trinkets"], ""};
 				{ 22, "DarkmoonDeck#2", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 80 Trinkets"], ""};
 				{ 23, "DarkmoonDeck#3", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Level 60 & 70 Trinkets"], ""};
 				{ 24, "DarkmoonDeck#4", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};

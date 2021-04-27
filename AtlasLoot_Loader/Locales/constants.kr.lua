@@ -520,7 +520,7 @@ if AL then
 	AL["Haste Rating"] = true;
 	AL["Dodge Rating"] = true;
 	AL["Expertise Rating"] = true;
-	AL["Mastery Rating"] = true;
+	AL["Armor Pen Rating"] = true;
 	AL["Parry Rating"] = true;
 	AL["Other Ratings"] = true;
 	AL["Resistance"] = true;

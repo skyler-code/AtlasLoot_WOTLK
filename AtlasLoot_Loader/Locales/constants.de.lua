@@ -618,7 +618,7 @@ if AL then
 	AL["Haste Rating"] = "Tempowertung";
 	AL["Dodge Rating"] = "Ausweichwertung";
 	AL["Expertise Rating"] = "Waffenkundewertung";
-	AL["Mastery Rating"] = "Meisterschaftswertung";
+	AL["Armor Pen Rating"] = "Meisterschaftswertung";
 	AL["Parry Rating"] = "Parierwertung";
 	AL["Other Ratings"] = "Andere Wertungen";
 	AL["Ratings"] = "Wertungen";

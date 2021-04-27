@@ -548,7 +548,7 @@ if AL then
 	AL["Haste Rating"] = "Скорость";
 	AL["Dodge Rating"] = "Уклонение";
 	AL["Expertise Rating"] = "Мастерство";
-	AL["Mastery Rating"] = "Искусность";
+	AL["Armor Pen Rating"] = "Искусность";
 	AL["Parry Rating"] = "Парирование";
 	AL["Other Ratings"] = "Другое";
 	AL["Ratings"] = "Рейтинги";

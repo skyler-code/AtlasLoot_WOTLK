@@ -513,7 +513,7 @@ if AL then
 	AL["Haste Rating"] = "Índice de celeridad";
 	AL["Dodge Rating"] = "Índice de esquivar";
 	AL["Expertise Rating"] = "Índice de pericia";
-	AL["Mastery Rating"] = "Índice de maestría";
+	AL["Armor Pen Rating"] = "Índice de maestría";
 	AL["Parry Rating"] = "Índice de parada";
 	AL["Other Ratings"] = "Otros índices";
 	AL["Resistance"] = "Resistencia";

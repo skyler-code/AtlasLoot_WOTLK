@@ -106,7 +106,7 @@ local FilterTable = {
 		"HASTE_RATING",
 		"PARRY_RATING",
 		"SPELL_POWER",
-		"MASTERY_RATING",
+		"ARMOR_PEN_RATING",
 		"RESILIENCE_RATING",
 	},
 }
@@ -124,7 +124,7 @@ local FilterTableNamesSlots = {
 	["PARRY_RATING"] = AL["Parry Rating"],
 	["SPELL_POWER"] = AL["Spell Power"],
 	["RESILIENCE_RATING"] = AL["Resilience Rating"],
-	["MASTERY_RATING"] = AL["Mastery Rating"],
+	["ARMOR_PEN_RATING"] = AL["Armor Pen Rating"],
 }
 
 local ClassHides = {
