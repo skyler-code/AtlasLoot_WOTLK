@@ -1117,7 +1117,7 @@ AtlasLoot_LootTableRegister = {
 				{ "DeadminesFoeReaper", 6 },
 				{ "DeadminesRipsnarl", 7 },
 				{ "DeadminesCookie", 8 },
-				{ "DeadminesVanessa", 9 },
+				{ "DeadminesVanCleef", 9 },
 				{ "DeadminesTrash", 18 },
 			},
 			["Info"] = { BabbleZone["The Deadmines"], {"AtlasLootClassicWoW"}, sortOrder = { "TheDeadminesEnt", "TheDeadmines" }, mapname = "TheDeadmines", EncounterJournalID = 63 },

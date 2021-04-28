@@ -184,14 +184,13 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#CHAMPSEAL:75#"};
 				{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#CHAMPSEAL:75#"};
 				{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#CHAMPSEAL:60#"};
-				{ 20, 69893, "", "=q7=Bloodsoaked Skullforge Reaver", "=ds=#h3#, #w10#", "#CHAMPSEAL:60#"};
-				{ 21, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#CHAMPSEAL:60#"};
-				{ 22, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#CHAMPSEAL:95#"};
-				{ 23, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#CHAMPSEAL:75#"};
-				{ 24, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#CHAMPSEAL:75#"};
-				{ 25, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#CHAMPSEAL:95#"};
-				{ 26, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#CHAMPSEAL:95#"};
-				{ 27, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#CHAMPSEAL:95#"};
+				{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#CHAMPSEAL:60#"};
+				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#CHAMPSEAL:95#"};
+				{ 22, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#CHAMPSEAL:75#"};
+				{ 23, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#CHAMPSEAL:75#"};
+				{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#CHAMPSEAL:95#"};
+				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#CHAMPSEAL:95#"};
+				{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#CHAMPSEAL:95#"};
 			};
 		};
 		info = {
@@ -264,16 +263,16 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["CorenDirebrew"] = {
 		["Normal"] = {
 			{
-				{ 1, 71336, "", "=q4=Petrified Pickled Egg", "=ds=#s14#"};
-				{ 2, 71334, "", "=q4=Bubblier Brightbrew Charm", "=ds=#s14#"};
-				{ 3, 71333, "", "=q4=Bitterer Balebrew Charm", "=ds=#s14#"};
-				{ 4, 71338, "", "=q4=Brawler's Trophy", "=ds=#s14#"};
-				{ 5, 71335, "", "=q4=Coren's Chilled Chromium Coaster", "=ds=#s14#"};
-				{ 6, 71337, "", "=q4=Mithril Stopwatch", "=ds=#s14#"};
+				{ 1, 49078, "", "=q4=Ancient Pickled Egg", "=ds=#s14#"};
+				{ 2, 49118, "", "=q4=Bubbling Brightbrew Charm", "=ds=#s14#"};
+				{ 3, 49116, "", "=q4=Bitter Balebrew Charm", "=ds=#s14#"};
+				{ 4, 49080, "", "=q4=Brawler's Souvenir", "=ds=#s14#"};
+				{ 5, 49074, "", "=q4=Coren's Chromium Coaster", "=ds=#s14#"};
+				{ 6, 49076, "", "=q4=Mithril Pocketwatch", "=ds=#s14#"};
 				{ 8, 38281, "", "=q1=Direbrew's Dire Brew", "=ds=#m2#"};
 				{ 16, 54535, "", "=q3=Keg-Shaped Treasure Chest", "=q5="..AL["Daily Reward"]};
-				{ 17, 71331, "", "=q4=Direbrew's Bloodied Shanker", "=ds=#h1#, #w4#"};
-				{ 18, 71332, "", "=q4=Tremendous Tankard O' Terror", "=ds=#h1#, #w6#"};
+				{ 17, 49120, "", "=q4=Direbrew's Bloody Shanker", "=ds=#h1#, #w4#"};
+				{ 18, 48663, "", "=q4=Tankard O' Terror", "=ds=#h1#, #w6#"};
 				{ 19, 37828, "", "=q4=Great Brewfest Kodo", "=ds=#e26#"};
 				{ 20, 33977, "", "=q4=Swift Brewfest Ram", "=ds=#e26#"};
 				{ 22, 37863, "", "=q3=Direbrew's Remote", "=ds="};
@@ -295,14 +294,12 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 1, 0, "INV_Box_01", "=q6="..BabbleZone["Azeroth"], "=q5="..BabbleZone["Stormwind"].." / "..BabbleZone["Orgrimmar"]};
 				{ 2, 23007, "", "=q1=Piglet's Collar", "=ds=#e13#"};
 				{ 3, 23015, "", "=q1=Rat Cage", "=ds=#e13#"};
-				{ 4, 66073, "", "=q1=Snail Shell", "=ds=#e13#"};
-				{ 5, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
-				{ 6, 23022, "", "=q1=Curmudgeon's Payoff", "=ds="};
-				{ 8, 0, "INV_Box_01", "=q6="..BabbleZone["Outland"], "=q5="..BabbleZone["Shattrath"]};
-				{ 9, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
-				{ 10, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
-				{ 11, 69648, "", "=q3=Legs", "=ds=#e13#"};
-				{ 12, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
+				{ 4, 23002, "", "=q1=Turtle Box", "=ds=#e13#"};
+				{ 5, 23022, "", "=q1=Curmudgeon's Payoff", "=ds="};
+				{ 7, 0, "INV_Box_01", "=q6="..BabbleZone["Outland"], "=q5="..BabbleZone["Shattrath"]};
+				{ 8, 32616, "", "=q3=Egbert's Egg", "=ds=#e13#"};
+				{ 9, 32622, "", "=q3=Elekk Training Collar", "=ds=#e13#"};
+				{ 10, 32617, "", "=q3=Sleepy Willy", "=ds=#e13#"};
 				{ 16, 0, "INV_Box_01", "=q6="..BabbleZone["Northrend"], "=q5="..BabbleZone["Dalaran"]};
 				{ 17, 46545, "", "=q3=Curious Oracle Hatchling", "=ds=#e13#"};
 				{ 18, 46544, "", "=q3=Curious Wolvar Pup", "=ds=#e13#"};
@@ -376,18 +373,13 @@ local moduleName = "AtlasLoot_WorldEvents"
 			};
 			{
 				{ 1, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Stolen Present"], "#QUESTID:7043#"};
-				{ 2, 66450, "", "=q4=Miniature Winter Veil Tree", "=ds=#h1#, #w4#"};
-				{ 3, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
-				{ 4, 73797, "", "=q3=Lump of Coal", "=ds=#e13#"};
-				{ 5, 46709, "", "=q3=MiniZep Controller", ""};
-				{ 6, 46725, "", "=q2=Red Rider Air Rifle", ""};
-				{ 7, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", ""};
-				{ 9, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], ""};
-				{ 10, 70923, "", "=q2=Gaudy Winter Veil Sweater", "#ACHIEVEMENTID:6061#"};
-				{ 11, 46709, "", "=q3=MiniZep Controller", "#ACHIEVEMENTID:6060#"};
-				{ 12, 46725, "", "=q2=Red Rider Air Rifle", "#ACHIEVEMENTID:6059#"};
-				{ 13, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
-				{ 14, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
+				{ 2, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
+				{ 3, 46709, "", "=q3=MiniZep Controller", ""};
+				{ 4, 46725, "", "=q2=Red Rider Air Rifle", ""};
+				{ 5, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", ""};
+				{ 7, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Winter Veil Gift"], ""};
+				{ 8, 37710, "", "=q3=Crashin' Thrashin' Racer Controller", "#ACHIEVEMENTID:1706#"};
+				{ 9, 34425, "", "=q3=Clockwork Rocket Bot", "#ACHIEVEMENTID:1705#"};
 				{ 16, 0, "INV_Holiday_Christmas_Present_01", "=q6="..AL["Gaily Wrapped Present"], ""};
 				{ 17, 21301, "", "=q1=Green Helper Box", "=ds=#e13#"};
 				{ 18, 21308, "", "=q1=Jingling Bell", "=ds=#e13#"};
@@ -428,48 +420,36 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Halloween"] = {
 		["Normal"] = {
 			{
-				{ 2, 69188, "", "=q1=Murloc Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 3, 69190, "", "=q1=Naga Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 4, 69193, "", "=q1=Ogre Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 5, 69195, "", "=q1=Vrykul Male Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 7, 20410, "", "=q1=Hallowed Wand - Bat", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 8, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 9, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 10, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 17, 69187, "", "=q1=Murloc Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 18, 69189, "", "=q1=Naga Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 19, 69192, "", "=q1=Ogre Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 20, 69194, "", "=q1=Vrykul Female Mask", "=ds=#m20#", "#HALLOWSEND:5#"};
-				{ 22, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 23, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 24, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 25, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 2, 20410, "", "=q1=Hallowed Wand - Bat", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 3, 20409, "", "=q1=Hallowed Wand - Ghost", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 4, 20399, "", "=q1=Hallowed Wand - Leper Gnome", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 5, 20398, "", "=q1=Hallowed Wand - Ninja", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 17, 20397, "", "=q1=Hallowed Wand - Pirate", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 18, 20413, "", "=q1=Hallowed Wand - Random", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 19, 20411, "", "=q1=Hallowed Wand - Skeleton", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 20, 20414, "", "=q1=Hallowed Wand - Wisp", "=ds=#m20#", "#HALLOWSEND:2#"};
 			};
 			{
 				{ 2, 34003, "", "=q1=Draenei Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 3, 20561, "", "=q1=Dwarf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 4, 20391, "", "=q1=Gnome Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 5, 49210, "", "=q1=Goblin Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 6, 20566, "", "=q1=Human Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 7, 20564, "", "=q1=Night Elf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 8, 34002, "", "=q1=Blood Elf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 9, 20570, "", "=q1=Orc Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 10, 20572, "", "=q1=Tauren Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 11, 20568, "", "=q1=Troll Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 12, 20573, "", "=q1=Undead Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 13, 49216, "", "=q1=Worgen Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 5, 20566, "", "=q1=Human Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 6, 20564, "", "=q1=Night Elf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 7, 34002, "", "=q1=Blood Elf Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 8, 20570, "", "=q1=Orc Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 9, 20572, "", "=q1=Tauren Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 10, 20568, "", "=q1=Troll Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 11, 20573, "", "=q1=Undead Male Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 17, 34001, "", "=q1=Draenei Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 18, 20562, "", "=q1=Dwarf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 				{ 19, 20392, "", "=q1=Gnome Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 20, 49212, "", "=q1=Goblin Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 21, 20565, "", "=q1=Human Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 22, 20563, "", "=q1=Night Elf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 23, 34000, "", "=q1=Blood Elf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 24, 20569, "", "=q1=Orc Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 25, 20571, "", "=q1=Tauren Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 26, 20567, "", "=q1=Troll Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 27, 20574, "", "=q1=Undead Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
-				{ 28, 49215, "", "=q1=Worgen Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 20, 20565, "", "=q1=Human Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 21, 20563, "", "=q1=Night Elf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 22, 34000, "", "=q1=Blood Elf Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 23, 20569, "", "=q1=Orc Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 24, 20571, "", "=q1=Tauren Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 25, 20567, "", "=q1=Troll Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
+				{ 26, 20574, "", "=q1=Undead Female Mask", "=ds=#s1#", "#HALLOWSEND:2#"};
 			};
 		};
 		info = {
@@ -481,15 +461,14 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["HeadlessHorseman"] = {
 		["Normal"] = {
 			{
-				{ 1, 71327, "", "=q4=Band of Ghoulish Glee", "=ds=#s13#"};
-				{ 2, 71330, "", "=q4=Seal of the Petrified Pumpkin", "=ds=#s13#"};
-				{ 3, 71328, "", "=q4=The Horseman's Signet", "=ds=#s13#"};
-				{ 4, 71329, "", "=q4=Wicked Witch's Ring", "=ds=#s13#"};
-				{ 6, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#", "", "100%"};
-				{ 7, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
+				{ 1, 49121, "", "=q4=Ring of Ghoulish Glee", "=ds=#s13#"};
+				{ 2, 49123, "", "=q4=The Horseman's Seal", "=ds=#s13#"};
+				{ 3, 49124, "", "=q4=Wicked Witch's Band", "=ds=#s13#"};
+				{ 5, 34068, "", "=q1=Weighted Jack-o'-Lantern", "=ds=#m20#", "", "100%"};
+				{ 6, 33226, "", "=q1=Tricky Treat", "=ds=#m20#"};
 				{ 16, 54516, "", "=q3=Loot-Filled Pumpkin", "=q5="..AL["Daily Reward"]};
-				{ 17, 71326, "", "=q4=The Horseman's Horrific Helmet", "=ds=#s1#, #a4#"};
-				{ 18, 71325, "", "=q4=The Horseman's Sinister Saber", "=ds=#h3#, #w10#"};
+				{ 17, 49126, "", "=q4=The Horseman's Horrific Helm", "=ds=#s1#, #a4#"};
+				{ 18, 49128, "", "=q4=The Horseman's Baleful Blade", "=ds=#h3#, #w10#"};
 				{ 19, 37012, "", "=q4=The Horseman's Reins", "=ds=#e12#"};
 				{ 20, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#"};
 				{ 21, 37011, "", "=q3=Magic Broom", "=ds=#e12#"};
@@ -531,19 +510,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Valentineday"] = {
 		["Normal"] = {
 			{
-				{ 1, 72146, "", "=q4=Swift Lovebird", "=ds=#e26#", "#VALENTINEDAY:270#"};
-				{ 2, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "#VALENTINEDAY:10#"};
-				{ 3, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
-				{ 4, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
-				{ 5, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "#VALENTINEDAY:2#"};
-				{ 6, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:5#"};
-				{ 7, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
-				{ 8, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "#VALENTINEDAY:2#"};
-				{ 9, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "#VALENTINEDAY:10#"};
-				{ 10, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
-				{ 11, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
-				{ 12, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "#VALENTINEDAY:5#"};
-				{ 13, 22261, "", "=q1=Love Fool", "=ds=#e22#", "#VALENTINEDAY:10#"};
+				{ 1, 34480, "", "=q3=Romantic Picnic Basket", "=ds=#m20#", "#VALENTINEDAY:10#"};
+				{ 2, 21815, "", "=q1=Love Token", "=ds=#m20#", "1 #valentineday2#"};
+				{ 3, 50163, "", "=q1=Lovely Rose", "=ds=#m20#", "#VALENTINEDAY:5#"};
+				{ 4, 22218, "", "=q1=Handful of Rose Petals", "=ds=#m20#", "#VALENTINEDAY:2#"};
+				{ 5, 22200, "", "=q1=Silver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:5#"};
+				{ 6, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds=#e13#", "#VALENTINEDAY:40#"};
+				{ 7, 21813, "", "=q1=Bag of Heart Candies", "=ds=#m20#", "#VALENTINEDAY:2#"};
+				{ 8, 21812, "", "=q1=Box of Chocolates", "=ds=#m20#", "#VALENTINEDAY:10#"};
+				{ 9, 50160, "", "=q1=Lovely Dress Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
+				{ 10, 50161, "", "=q1=Dinner Suit Box", "=ds=#m20#", "#VALENTINEDAY:20#"};
+				{ 11, 34258, "", "=q1=Love Rocket", "=ds=#e23#", "#VALENTINEDAY:5#"};
+				{ 12, 22261, "", "=q1=Love Fool", "=ds=#e22#", "#VALENTINEDAY:10#"};
 				{ 16, 49859, "", "=q1=\"Bravado\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
 				{ 17, 49861, "", "=q1=\"STALWART\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
 				{ 18, 49860, "", "=q1=\"Wizardry\" Cologne", "=ds=#m20#", "#VALENTINEDAY:1#"};
@@ -578,11 +556,11 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 30, 21823, "", "=q1=Heart Candy", "=ds=#m20#"};
 			};
 			{
-				{ 1, 68175, "", "=q3=Winking Eye of Love", "=ds=#s2#"};
-				{ 2, 68176, "", "=q3=Heartbreak Charm", "=ds=#s2#"};
-				{ 3, 68172, "", "=q3=Shard of Pirouetting Happiness", "=ds=#s2#"};
-				{ 4, 68174, "", "=q3=Sweet Perfume Broach", "=ds=#s2#"};
-				{ 5, 68173, "", "=q3=Choker of the Pure Heart", "=ds=#s2#"};
+				{ 1, 51804, "", "=q4=Winking Eye of Love", "=ds=#s2#"};
+				{ 2, 51805, "", "=q4=Heartbreak Charm", "=ds=#s2#"};
+				{ 3, 51806, "", "=q4=Shard of Pirouetting Happiness", "=ds=#s2#"};
+				{ 4, 51807, "", "=q4=Sweet Perfume Broach", "=ds=#s2#"};
+				{ 5, 51808, "", "=q4=Choker of the Pure Heart", "=ds=#s2#"};
 				{ 16, 54537, "", "=q3=Heart-Shaped Box", "=q5="..AL["Daily Reward"]};
 				{ 17, 50250, "", "=q4=Big Love Rocket", "=ds=#e12#"};
 				{ 18, 50446, "", "=q3=Toxic Wasteling", "=ds=#e13#"};
@@ -678,10 +656,9 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 13, 34599, "", "=q1=Juggling Torch", "", "#MIDSUMMER:5#"};
 				{ 15, 23247, "", "=q1=Burning Blossom", "=ds=#m17#"};
 				{ 16, 23323, "", "=q1=Crown of the Fire Festival", "=ds=#s1#, #a1#, #m4#"};
-				{ 17, 74278, "", "=q1=Helm of the Fire Festival", "=ds=#s1#"};
-				{ 18, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#", "#MIDSUMMER:100#"};
-				{ 19, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#", "#MIDSUMMER:100#"};
-				{ 20, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#", "#MIDSUMMER:200#"};
+				{ 17, 23324, "", "=q1=Mantle of the Fire Festival", "=ds=#s3#", "#MIDSUMMER:100#"};
+				{ 18, 34685, "", "=q1=Vestment of Summer", "=ds=#s5#", "#MIDSUMMER:100#"};
+				{ 19, 34683, "", "=q1=Sandals of Summer", "=ds=#s11#", "#MIDSUMMER:200#"};
 			};
 		};
 		info = {
@@ -693,17 +670,17 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["LordAhune"] = {
 		["Normal"] = {
 			{
-				{ 1, 69769, "", "=q4=Cloak of the Frigid Winds", "=ds=#s4#"};
-				{ 2, 69770, "", "=q4=Icebound Cloak", "=ds=#s4#"};
-				{ 3, 69768, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
-				{ 4, 69767, "", "=q4=The Frost Lord's Battle Shroud", "=ds=#s4#"};
-				{ 5, 69766, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
+				{ 1, 54805, "", "=q4=Cloak of the Frigid Winds", "=ds=#s4#"};
+				{ 2, 54801, "", "=q4=Icebound Cloak", "=ds=#s4#"};
+				{ 3, 54804, "", "=q4=Shroud of Winter's Chill", "=ds=#s4#"};
+				{ 4, 54803, "", "=q4=The Frost Lord's Battle Shroud", "=ds=#s4#"};
+				{ 5, 54802, "", "=q4=The Frost Lord's War Cloak", "=ds=#s4#"};
 				{ 7, 35498, "", "=q3=Formula: Enchant Weapon - Deathfrost", "=ds=#p4# (350)"};
 				{ 9, 35723, "", "=q1=Shards of Ahune", "=ds=#m2#"};
 				{ 10, 35279, "", "=q3=Tabard of Summer Skies", "=q1=#m4#: =ds=#s7#"};
 				{ 11, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: =ds=#s7#"};
 				{ 16, 54536, "", "=q3=Satchel of Chilled Goods", "=q5="..AL["Daily Reward"]};
-				{ 17, 69771, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
+				{ 17, 54806, "", "=q4=Frostscythe of Lord Ahune", "=ds=#w9#"};
 				{ 18, 53641, "", "=q3=Ice Chip", "=ds=#e13#"};
 			};
 		};
@@ -720,21 +697,18 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Noblegarden"] = {
 		["Normal"] = {
 			{
-				{ 2, 72145, "", "=q4=Swift Springstrider", "=ds=#e26#", "#NOBLEGARDEN:500#"},
-				{ 3, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "#NOBLEGARDEN:100#"};
-				{ 4, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "#NOBLEGARDEN:100#"};
-				{ 5, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "#NOBLEGARDEN:50#"};
-				{ 6, 44792, "", "=q1=Blossoming Branch", "=ds=", "#NOBLEGARDEN:10#"};
-				{ 7, 44818, "", "=q1=Noblegarden Egg", "=ds=", "#NOBLEGARDEN:5#"};
-				{ 9, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
-				{ 10, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
+				{ 2, 44793, "", "=q3=Tome of Polymorph: Rabbit", "=ds=#e10#", "#NOBLEGARDEN:100#"};
+				{ 3, 44794, "", "=q3=Spring Rabbit's Foot", "=ds=#e13#", "#NOBLEGARDEN:100#"};
+				{ 4, 45073, "", "=q1=Spring Flowers", "=ds=#h1#", "#NOBLEGARDEN:50#"};
+				{ 5, 44792, "", "=q1=Blossoming Branch", "=ds=", "#NOBLEGARDEN:10#"};
+				{ 6, 44818, "", "=q1=Noblegarden Egg", "=ds=", "#NOBLEGARDEN:5#"};
+				{ 8, 45067, "", "=q1=Egg Basket", "=q1=#m4#: =ds=#s15#"};
+				{ 9, 44791, "", "=q1=Noblegarden Chocolate", "=ds=#e3#"};
 				{ 17, 44803, "", "=q1=Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
-				{ 18, 74282, "", "=q1=Black Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
-				{ 19, 74283, "", "=q1=Pink Spring Circlet", "=ds=#s1#", "#NOBLEGARDEN:50#"};
-				{ 20, 19028, "", "=q1=Elegant Dress", "=ds=#s5#", "#NOBLEGARDEN:50#"};
-				{ 21, 44800, "", "=q1=Spring Robes", "=ds=#s5#", "#NOBLEGARDEN:50#"};
-				{ 22, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#", "#NOBLEGARDEN:25#"};
-				{ 23, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#", "#NOBLEGARDEN:25#"};
+				{ 18, 19028, "", "=q1=Elegant Dress", "=ds=#s5#", "#NOBLEGARDEN:50#"};
+				{ 19, 44800, "", "=q1=Spring Robes", "=ds=#s5#", "#NOBLEGARDEN:50#"};
+				{ 20, 6833, "", "=q1=White Tuxedo Shirt", "=ds=#s6#", "#NOBLEGARDEN:25#"};
+				{ 21, 6835, "", "=q1=Black Tuxedo Pants", "=ds=#s11#", "#NOBLEGARDEN:25#"};
 			};
 		};
 		info = {
@@ -852,23 +826,11 @@ local moduleName = "AtlasLoot_WorldEvents"
 	AtlasLoot_Data["Darkmoon"] = {
 		["Normal"] = {
 			{
-				{ 2, 73766, "", "=q4=Darkmoon Dancing Bear", "=ds=#e26#", "#DARKMOON:180#"},
-				{ 3, 72140, "", "=q4=Swift Forest Strider", "=ds=#e26#", "#DARKMOON:180#"},
-				{ 5, 74981, "", "=q3=Darkmoon Cub", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 6, 73764, "", "=q3=Darkmoon Monkey", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 7, 73765, "", "=q3=Darkmoon Turtle", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 8, 73762, "", "=q3=Darkmoon Balloon", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 9, 73903, "", "=q3=Darkmoon Tonk", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 10, 73905, "", "=q3=Darkmoon Zeppelin", "=ds=#e13#", "#DARKMOON:90#"};
-				{ 11, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
-				{ 12, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
-				{ 13, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
-    			{ 17, 77158, "", "=q2=Darkmoon 'Tiger'", "=ds=#m20#" },
-				{ 18, 78340, "", "=q1=Cloak of the Darkmoon Faire", "=ds=#s4#, #a1#" },
-				{ 19, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#" },
-				{ 20, 77256, "", "=q1=Darkmoon 'Sword'", "=ds=#h2#, #w10#" },
-				{ 21, 78341, "", "=q1=Darkmoon Hammer", "=ds=#h2#, #w6#" },
-    			{ 22, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#" },
+				{ 2, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
+				{ 3, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
+				{ 4, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
+				{ 17, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#" },
+    			{ 18, 19291, "", "=q1=Darkmoon Storage Box", "=ds=#e1#" },
 			};
 			{
 				{ 2, 19223, "", "=q1=Darkmoon Dog", "=ds=#e3#"};
@@ -880,7 +842,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 8, 33246, "", "=q1=Funnel Cake", "=ds=#e3#"};
 				{ 9, 33254, "", "=q1=Forest Strider Drumstick", "=ds=#e3#"};
 				{ 10, 44940, "", "=q1=Corn-Breaded Sausage", "=ds=#e3#"};
-				{ 11, 73260, "", "=q1=Salty Sea Dog", "=ds=#e3#"};
 				{ 17, 19222, "", "=q1=Cheap Beer", "=ds=#e4#"};
 				{ 18, 19221, "", "=q1=Darkmoon Special Reserve", "=ds=#e4#"};
 				{ 19, 19299, "", "=q1=Fizzy Faire Drink", "=ds=#e4#"};
@@ -888,220 +849,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 				{ 21, 33234, "", "=q1=Iced Berry Slush", "=ds=#e4#"};
 				{ 22, 33236, "", "=q1=Fizzy Faire Drink 'Classic'", "=ds=#e4#"};
 				{ 23, 44941, "", "=q1=Fresh-Squeezed Limeade", "=ds=#e4#"};
-				{ 24, 74822, "", "=q1=Sasparilla Sinker", "=ds=#e4#"};
-			};
-			{
-				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#",  "#DARKMOON:110#"};
-				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#DARKMOON:110#"};
-				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#DARKMOON:110#"};
-				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#DARKMOON:110#"};
-				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#DARKMOON:110#"};
-				{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#DARKMOON:110#"};
-				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#DARKMOON:110#"};
-				{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#DARKMOON:110#"};
-				{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#DARKMOON:110#"};
-				{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#DARKMOON:110#"};
-				{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#DARKMOON:110#"};
-				{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#DARKMOON:110#"};
-				{ 16, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#DARKMOON:130#"};
-				{ 17, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#DARKMOON:130#"};
-				{ 19, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#DARKMOON:110#"};
-				{ 20, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#DARKMOON:110#"};
-				{ 21, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#DARKMOON:160#"};
-				{ 22, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#DARKMOON:130#"};
-				{ 23, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#DARKMOON:130#"};
-				{ 24, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#DARKMOON:160#"};
-				{ 25, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#DARKMOON:160#"};
-				{ 26, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#DARKMOON:160#"};
-			};
-		};
-		info = {
-			name = BabbleFaction["Darkmoon Faire"],
-			module = moduleName, menu = "DARKMOONMENU"
-		};
-	};
-
-	AtlasLoot_Data["DarkmoonD1D2"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "ability_druid_maul", "=q6=#t0s1#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78238, "", "=q3=Replica Wildheart Cowl", "=ds=#s1#, #a2#" },
-    			{ 3, 78239, "", "=q3=Replica Wildheart Spaulders", "=ds=#s3#, #a2#" },
-    			{ 4, 78242, "", "=q3=Replica Wildheart Vest", "=ds=#s5#, #a2#" },
-    			{ 5, 78240, "", "=q3=Replica Wildheart Bracers", "=ds=#s8#, #a2#" },
-    			{ 6, 78241, "", "=q3=Replica Wildheart Gloves", "=ds=#s9#, #a2#" },
-    			{ 7, 78244, "", "=q3=Replica Wildheart Belt", "=ds=#s10#, #a2#" },
-    			{ 8, 78245, "", "=q3=Replica Wildheart Kilt", "=ds=#s11#, #a2#" },
-    			{ 9, 78243, "", "=q3=Replica Wildheart Boots", "=ds=#s12#, #a2#" },
-				{ 16, 0, "ability_druid_maul", "=q6=#t05s1#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78249, "", "=q4=Replica Feralheart Cowl", "=ds=#s1#, #a2#" },
-    			{ 18, 78247, "", "=q3=Replica Feralheart Spaulders", "=ds=#s3#, #a2#" },
-    			{ 19, 78252, "", "=q4=Replica Feralheart Vest", "=ds=#s5#, #a2#" },
-    			{ 20, 78253, "", "=q3=Replica Feralheart Bracers", "=ds=#s8#, #a2#" },
-    			{ 21, 78248, "", "=q4=Replica Feralheart Gloves", "=ds=#s9#, #a2#" },
-    			{ 22, 78246, "", "=q3=Replica Feralheart Belt", "=ds=#s10#, #a2#" },
-    			{ 23, 78250, "", "=q3=Replica Feralheart Kilt", "=ds=#s11#, #a2#" },
-    			{ 24, 78251, "", "=q4=Replica Feralheart Boots", "=ds=#s12#, #a2#" },
-			};
-			{
-				{ 1, 0, "inv_weapon_bow_07", "=q6=#t0s2#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78275, "", "=q3=Replica Beaststalker's Cap", "=ds=#s1#, #a3#" },
-    			{ 3, 78273, "", "=q3=Replica Beaststalker's Mantle", "=ds=#s3#, #a3#" },
-    			{ 4, 78270, "", "=q3=Replica Beaststalker's Tunic", "=ds=#s5#, #a3#" },
-    			{ 5, 78277, "", "=q3=Replica Beaststalker's Bindings", "=ds=#s8#, #a3#" },
-    			{ 6, 78271, "", "=q3=Replica Beaststalker's Gloves", "=ds=#s9#, #a3#" },
-    			{ 7, 78274, "", "=q3=Replica Beaststalker's Belt", "=ds=#s10#, #a3#" },
-    			{ 8, 78276, "", "=q3=Replica Beaststalker's Pants", "=ds=#s11#, #a3#" },
-    			{ 9, 78272, "", "=q3=Replica Beaststalker's Boots", "=ds=#s12#, #a3#" },
-				{ 16, 0, "inv_weapon_bow_07", "=q6=#t05s2#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78284, "", "=q4=Replica Beastmaster's Cap", "=ds=#s1#, #a3#" },
-    			{ 18, 78281, "", "=q3=Replica Beastmaster's Mantle", "=ds=#s3#, #a3#" },
-    			{ 19, 78282, "", "=q4=Replica Beastmaster's Tunic", "=ds=#s5#, #a3#" },
-    			{ 20, 78283, "", "=q3=Replica Beastmaster's Bindings", "=ds=#s8#, #a3#" },
-    			{ 21, 78278, "", "=q4=Replica Beastmaster's Gloves", "=ds=#s9#, #a3#" },
-    			{ 22, 78285, "", "=q3=Replica Beastmaster's Belt", "=ds=#s10#, #a3#" },
-    			{ 23, 78280, "", "=q3=Replica Beastmaster's Pants", "=ds=#s11#, #a3#" },
-    			{ 24, 78279, "", "=q4=Replica Beastmaster's Boots", "=ds=#s12#, #a3#" },
-			};
-			{
-				{ 1, 0, "inv_staff_13", "=q6=#t0s3#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78188, "", "=q3=Replica Magister's Crown", "=ds=#s1#, #a1#" },
-    			{ 3, 78191, "", "=q3=Replica Magister's Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 78190, "", "=q3=Replica Magister's Robes", "=ds=#s5#, #a1#" },
-    			{ 5, 78193, "", "=q3=Replica Magister's Bindings", "=ds=#s8#, #a1#" },
-    			{ 6, 78187, "", "=q3=Replica Magister's Gloves", "=ds=#s9#, #a1#" },
-    			{ 7, 78192, "", "=q3=Replica Magister's Belt", "=ds=#s10#, #a1#" },
-    			{ 8, 78189, "", "=q3=Replica Magister's Leggings", "=ds=#s11#, #a1#" },
-    			{ 9, 78186, "", "=q3=Replica Magister's Boots", "=ds=#s12#, #a1#" },
-				{ 16, 0, "inv_staff_13", "=q6=#t05s3#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78198, "", "=q4=Replica Sorcerer's Crown", "=ds=#s1#, #a1#" },
-    			{ 18, 78201, "", "=q3=Replica Sorcerer's Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 78200, "", "=q4=Replica Sorcerer's Robes", "=ds=#s5#, #a1#" },
-    			{ 20, 78203, "", "=q3=Replica Sorcerer's Bindings", "=ds=#s8#, #a1#" },
-    			{ 21, 78197, "", "=q4=Replica Sorcerer's Gloves", "=ds=#s9#, #a1#" },
-    			{ 22, 78202, "", "=q3=Replica Sorcerer's Belt", "=ds=#s10#, #a1#" },
-    			{ 23, 78199, "", "=q3=Replica Sorcerer's Leggings", "=ds=#s11#, #a1#" },
-    			{ 24, 78196, "", "=q4=Replica Sorcerer's Boots", "=ds=#s12#, #a1#" },
-			};
-			{
-				{ 1, 0, "ability_thunderbolt", "=q6=#t0s4#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78307, "", "=q3=Replica Lightforge Helm", "=ds=#s1#, #a4#" },
-    			{ 3, 78308, "", "=q3=Replica Lightforge Spaulders", "=ds=#s3#, #a4#" },
-    			{ 4, 78306, "", "=q3=Replica Lightforge Breastplate", "=ds=#s5#, #a4#" },
-    			{ 5, 78304, "", "=q3=Replica Lightforge Bracers", "=ds=#s8#, #a4#" },
-    			{ 6, 78303, "", "=q3=Replica Lightforge Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 7, 78302, "", "=q3=Replica Lightforge Belt", "=ds=#s10#, #a4#" },
-    			{ 8, 78305, "", "=q3=Replica Lightforge Legplates", "=ds=#s11#, #a4#" },
-    			{ 9, 78309, "", "=q3=Replica Lightforge Boots", "=ds=#s12#, #a4#" },
-				{ 16, 0, "ability_thunderbolt", "=q6=#t05s4#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78312, "", "=q4=Replica Soulforge Helm", "=ds=#s1#, #a4#" },
-    			{ 18, 78316, "", "=q3=Replica Soulforge Spaulders", "=ds=#s3#, #a4#" },
-    			{ 19, 78313, "", "=q4=Replica Soulforge Breastplate", "=ds=#s5#, #a4#" },
-    			{ 20, 78317, "", "=q3=Replica Soulforge Bracers", "=ds=#s8#, #a4#" },
-    			{ 21, 78314, "", "=q4=Replica Soulforge Gauntlets", "=ds=#s9#, #a4#" },
-    			{ 22, 78311, "", "=q3=Replica Soulforge Belt", "=ds=#s10#, #a4#" },
-    			{ 23, 78315, "", "=q3=Replica Soulforge Legplates", "=ds=#s11#, #a4#" },
-    			{ 24, 78310, "", "=q4=Replica Soulforge Boots", "=ds=#s12#, #a4#" },
-			};
-			{
-				{ 1, 0, "inv_staff_30", "=q6=#t0s5#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78205, "", "=q3=Replica Devout Crown", "=ds=#s1#, #a1#" },
-    			{ 3, 78204, "", "=q3=Replica Devout Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 78209, "", "=q3=Replica Devout Robe", "=ds=#s5#, #a1#" },
-    			{ 5, 78211, "", "=q3=Replica Devout Bracers", "=ds=#s8#, #a1#" },
-    			{ 6, 78208, "", "=q3=Replica Devout Gloves", "=ds=#s9#, #a1#" },
-    			{ 7, 78207, "", "=q3=Replica Devout Belt", "=ds=#s10#, #a1#" },
-    			{ 8, 78206, "", "=q3=Replica Devout Skirt", "=ds=#s11#, #a1#" },
-    			{ 9, 78210, "", "=q3=Replica Devout Sandals", "=ds=#s12#, #a1#" },
-				{ 16, 0, "inv_staff_30", "=q6=#t05s5#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78216, "", "=q4=Replica Virtuous Crown", "=ds=#s1#, #a1#" },
-    			{ 18, 78213, "", "=q3=Replica Virtuous Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 78212, "", "=q4=Replica Virtuous Robe", "=ds=#s5#, #a1#" },
-    			{ 20, 78215, "", "=q3=Replica Virtuous Bracers", "=ds=#s8#, #a1#" },
-    			{ 21, 78217, "", "=q4=Replica Virtuous Gloves", "=ds=#s9#, #a1#" },
-    			{ 22, 78218, "", "=q3=Replica Virtuous Belt", "=ds=#s10#, #a1#" },
-    			{ 23, 78214, "", "=q3=Replica Virtuous Skirt", "=ds=#s11#, #a1#" },
-    			{ 24, 78219, "", "=q4=Replica Virtuous Sandals", "=ds=#s12#, #a1#" },
-			};
-			{
-				{ 1, 0, "inv_throwingknife_04", "=q6=#t0s6#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78260, "", "=q3=Replica Shadowcraft Cap", "=ds=#s1#, #a2#" },
-    			{ 3, 78261, "", "=q3=Replica Shadowcraft Spaulders", "=ds=#s3#, #a2#" },
-    			{ 4, 78254, "", "=q3=Replica Shadowcraft Tunic", "=ds=#s5#, #a2#" },
-    			{ 5, 78255, "", "=q3=Replica Shadowcraft Bracers", "=ds=#s8#, #a2#" },
-    			{ 6, 78257, "", "=q3=Replica Shadowcraft Gloves", "=ds=#s9#, #a2#" },
-    			{ 7, 78259, "", "=q3=Replica Shadowcraft Belt", "=ds=#s10#, #a2#" },
-    			{ 8, 78258, "", "=q3=Replica Shadowcraft Pants", "=ds=#s11#, #a2#" },
-    			{ 9, 78256, "", "=q3=Replica Shadowcraft Boots", "=ds=#s12#, #a2#" },
-				{ 16, 0, "inv_throwingknife_04", "=q6=#t05s6#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78263, "", "=q4=Replica Darkmantle Cap", "=ds=#s1#, #a2#" },
-    			{ 18, 78267, "", "=q3=Replica Darkmantle Spaulders", "=ds=#s3#, #a2#" },
-    			{ 19, 78269, "", "=q4=Replica Darkmantle Tunic", "=ds=#s5#, #a2#" },
-    			{ 20, 78264, "", "=q3=Replica Darkmantle Bracers", "=ds=#s8#, #a2#" },
-    			{ 21, 78266, "", "=q4=Replica Darkmantle Gloves", "=ds=#s9#, #a2#" },
-    			{ 22, 78265, "", "=q3=Replica Darkmantle Belt", "=ds=#s10#, #a2#" },
-    			{ 23, 78268, "", "=q3=Replica Darkmantle Pants", "=ds=#s11#, #a2#" },
-    			{ 24, 78262, "", "=q4=Replica Darkmantle Boots", "=ds=#s12#, #a2#" },
-			};
-			{
-				{ 1, 0, "spell_nature_bloodlust", "=q6=#t0s7#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78286, "", "=q3=Replica Coif of Elements", "=ds=#s1#, #a3#" },
-    			{ 3, 78288, "", "=q3=Replica Pauldrons of Elements", "=ds=#s3#, #a3#" },
-    			{ 4, 78290, "", "=q3=Replica Vest of Elements", "=ds=#s5#, #a3#" },
-    			{ 5, 78289, "", "=q3=Replica Bindings of Elements", "=ds=#s8#, #a3#" },
-    			{ 6, 78291, "", "=q3=Replica Gauntlets of Elements", "=ds=#s9#, #a3#" },
-    			{ 7, 78293, "", "=q3=Replica Cord of Elements", "=ds=#s10#, #a3#" },
-    			{ 8, 78287, "", "=q3=Replica Kilt of Elements", "=ds=#s11#, #a3#" },
-    			{ 9, 78292, "", "=q3=Replica Boots of Elements", "=ds=#s12#, #a3#" },
-				{ 16, 0, "spell_nature_bloodlust", "=q6=#t05s7#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78294, "", "=q4=Replica Coif of The Five Thunders", "=ds=#s1#, #a3#" },
-    			{ 18, 78299, "", "=q3=Replica Pauldrons of The Five Thunders", "=ds=#s3#, #a3#" },
-    			{ 19, 78300, "", "=q4=Replica Vest of The Five Thunders", "=ds=#s5#, #a3#" },
-    			{ 20, 78296, "", "=q3=Replica Bindings of The Five Thunders", "=ds=#s8#, #a3#" },
-    			{ 21, 78295, "", "=q4=Replica Gauntlets of The Five Thunders", "=ds=#s9#, #a3#" },
-    			{ 22, 78297, "", "=q3=Replica Cord of The Five Thunders", "=ds=#s10#, #a3#" },
-    			{ 23, 78301, "", "=q3=Replica Kilt of The Five Thunders", "=ds=#s11#, #a3#" },
-    			{ 24, 78298, "", "=q4=Replica Boots of The Five Thunders", "=ds=#s12#, #a3#" },
-			};
-			{
-				{ 1, 0, "spell_nature_drowsy", "=q6=#t0s8#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78227, "", "=q3=Replica Dreadmist Mask", "=ds=#s1#, #a1#" },
-    			{ 3, 78226, "", "=q3=Replica Dreadmist Mantle", "=ds=#s3#, #a1#" },
-    			{ 4, 78225, "", "=q3=Replica Dreadmist Robe", "=ds=#s5#, #a1#" },
-    			{ 5, 78229, "", "=q3=Replica Dreadmist Bracers", "=ds=#s8#, #a1#" },
-    			{ 6, 78223, "", "=q3=Replica Dreadmist Wraps", "=ds=#s9#, #a1#" },
-    			{ 7, 78222, "", "=q3=Replica Dreadmist Belt", "=ds=#s10#, #a1#" },
-    			{ 8, 78228, "", "=q3=Replica Dreadmist Leggings", "=ds=#s11#, #a1#" },
-    			{ 9, 78224, "", "=q3=Replica Dreadmist Sandals", "=ds=#s12#, #a1#" },
-				{ 16, 0, "spell_nature_drowsy", "=q6=#t05s8#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78230, "", "=q4=Replica Deathmist Mask", "=ds=#s1#, #a1#" },
-    			{ 18, 78234, "", "=q3=Replica Deathmist Mantle", "=ds=#s3#, #a1#" },
-    			{ 19, 78237, "", "=q4=Replica Deathmist Robe", "=ds=#s5#, #a1#" },
-    			{ 20, 78232, "", "=q3=Replica Deathmist Bracers", "=ds=#s8#, #a1#" },
-    			{ 21, 78236, "", "=q4=Replica Deathmist Wraps", "=ds=#s9#, #a1#" },
-    			{ 22, 78233, "", "=q3=Replica Deathmist Belt", "=ds=#s10#, #a1#" },
-    			{ 23, 78231, "", "=q3=Replica Deathmist Leggings", "=ds=#s11#, #a1#" },
-    			{ 24, 78235, "", "=q4=Replica Deathmist Sandals", "=ds=#s12#, #a1#" },
-			};
-			{
-				{ 1, 0, "inv_sword_27", "=q6=#t0s9#", "=ec1=#j6# - #j9#"};
-    			{ 2, 78322, "", "=q3=Replica Helm of Valor", "=ds=#s1#, #a4#" },
-    			{ 3, 78325, "", "=q3=Replica Spaulders of Valor", "=ds=#s3#, #a4#" },
-    			{ 4, 78323, "", "=q3=Replica Breastplate of Valor", "=ds=#s5#, #a4#" },
-    			{ 5, 78321, "", "=q3=Replica Bracers of Valor", "=ds=#s8#, #a4#" },
-    			{ 6, 78320, "", "=q3=Replica Gauntlets of Valor", "=ds=#s9#, #a4#" },
-    			{ 7, 78319, "", "=q3=Replica Belt of Valor", "=ds=#s10#, #a4#" },
-    			{ 8, 78324, "", "=q3=Replica Legplates of Valor", "=ds=#s11#, #a4#" },
-    			{ 9, 78318, "", "=q3=Replica Boots of Valor", "=ds=#s12#, #a4#" },
-				{ 16, 0, "inv_sword_27", "=q6=#t05s9#", "=ec1=#j7# - #j9#"};
-    			{ 17, 78330, "", "=q4=Replica Helm of Heroism", "=ds=#s1#, #a4#" },
-    			{ 18, 78332, "", "=q3=Replica Spaulders of Heroism", "=ds=#s3#, #a4#" },
-    			{ 19, 78328, "", "=q4=Replica Breastplate of Heroism", "=ds=#s5#, #a4#" },
-    			{ 20, 78327, "", "=q3=Replica Bracers of Heroism", "=ds=#s8#, #a4#" },
-    			{ 21, 78329, "", "=q4=Replica Gauntlets of Heroism", "=ds=#s9#, #a4#" },
-    			{ 22, 78333, "", "=q3=Replica Belt of Heroism", "=ds=#s10#, #a4#" },
-    			{ 23, 78331, "", "=q3=Replica Legplates of Heroism", "=ds=#s11#, #a4#" },
-    			{ 24, 78326, "", "=q4=Replica Boots of Heroism", "=ds=#s12#, #a4#" },
 			};
 		};
 		info = {
@@ -1112,25 +859,6 @@ local moduleName = "AtlasLoot_WorldEvents"
 
 	AtlasLoot_Data["DarkmoonDeck"] = {
 		["Normal"] = {
-			--[[{
-				{ 1, 19491, "", "=q4=Amulet of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
-				{ 2, 19426, "", "=q4=Orb of the Darkmoon", "=ds=#s2#", "1200 #darkmoon#", ""};
-				{ 3, 19296, "", "=q2=Greater Darkmoon Prize", "40 #darkmoon#"};
-				{ 4, 19297, "", "=q2=Lesser Darkmoon Prize", "12 #darkmoon#"};
-				{ 5, 19298, "", "=q2=Minor Darkmoon Prize", "5 #darkmoon#"};
-				{ 6, 19291, "", "=q1=Darkmoon Storage Box", "50 #darkmoon#"};
-				{ 7, 19293, "", "=q1=Last Year's Mutton", "=ds=#h1#, #w6#", "50 #darkmoon#", ""};
-				{ 8, 22729, "", "=q1=Schematic: Steam Tonk Controller", "=ds=#p5# (275)", "40 #darkmoon#", ""};
-				{ 9, 19292, "", "=q1=Last Month's Mutton", "=ds=#h1#, #w6#", "10 #darkmoon#", ""};
-				{ 10, 19295, "", "=q1=Darkmoon Flower", "=ds=#s15#", "5 #darkmoon#", ""};
-				{ 12, 19182, "", "=q1=Darkmoon Faire Prize Ticket", "=ds=#m17#"};
-				{ 16, 19302, "", "=q3=Darkmoon Ring", "=ds=#s13#"};
-				{ 17, 19303, "", "=q2=Darkmoon Necklace", "=ds=#s2#"};
-				{ 19, 11026, "", "=q1=Tree Frog Box", "=ds=#e13#"};
-				{ 20, 11027, "", "=q1=Wood Frog Box", "=ds=#e13#"};
-				{ 21, 19450, "", "=q1=A Jubling's Tiny Home", "=q1=#m4#: =ds=#e13#"};
-				extraText = ": "..AL["Darkmoon Faire Rewards"];
-			};]]--
 			{
 				{ 1, 44276, "", "=q4=Chaos Deck", "=ds=#m2#"};
 				{ 2, 42989, "", "=q4=Darkmoon Card: Berserker!", "=q1=#m4#: =ds=#s14#"};

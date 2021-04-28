@@ -100,16 +100,15 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 1, "Brewfest", "inv_holiday_beerfestpretzel01", "=ds="..AL["Food and Drinks"], ""};
 				{ 2, "Brewfest#2", "inv_holiday_brewfestbuff_01", "=ds="..AL["Brew of the Month Club"], ""};
 				{ 16, "CorenDirebrew", "inv_misc_head_dwarf_01", "=ds="..BabbleBoss["Coren Direbrew"], ""};
-			    { 4, 56836, "", "=q3=Overflowing Purple Brewfest Stein", "=ec1=2011 =q1=#m4#: =ds=#h1#"};
-				{ 5, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
-				{ 6, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
-				{ 7, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
-				{ 8, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
-				{ 9, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
-				{ 11, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "#BREWFEST:100#"};
-				{ 12, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
-				{ 13, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
-				{ 14, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "#BREWFEST:20#"};
+				{ 4, 37892, "", "=q3=Green Brewfest Stein", "#ACHIEVEMENTID:4782#"};
+				{ 5, 33016, "", "=q3=Blue Brewfest Stein", "#ACHIEVEMENTID:1293#"};
+				{ 6, 32912, "", "=q3=Yellow Brewfest Stein", "#ACHIEVEMENTID:1292#"};
+				{ 7, 34140, "", "=q3=Dark Iron Tankard", "=ec1=2007 =q1=#m4#: =ds=#s15#"};
+				{ 8, 33976, "", "=q3=Brewfest Ram", "=ec1=2007 =q1=#m4#: =ds=#e26#"};
+				{ 10, 33927, "", "=q3=Brewfest Pony Keg", "=ds=#m20#", "#BREWFEST:100#"};
+				{ 11, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds=#e13#", "#BREWFEST:100#"};
+				{ 12, 32233, "", "=q3=Wolpertinger's Tankard", "=ds=#e13#", "40 #silver#"};
+				{ 13, 37816, "", "=q2=Preserved Brewfest Hops", "=ds=#m20#", "#BREWFEST:20#"};
 				{
 					{ 19, 34008, "", "=q1=Blix's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
 					{ 19, 33047, "", "=q1=Belbi's Eyesight Enhancing Romance Goggles", "=ds=#s1#", "#BREWFEST:100#"};
@@ -147,9 +146,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 8, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "#HALLOWSEND:150#"};
 				{ 9, 70722, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
 				{ 10, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
-				{ 11, 70908, "", "=q1=Feline Familiar", "=ds=#e13#", "#HALLOWSEND:150#"};
-				{ 12, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
-				{ 14, 71076, "", "=q1=Creepy Crate", "=ds=#m4#, #e13#"};
+				{ 11, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
 				{ 19, 33189, "", "=q2=Rickety Magic Broom", "=ds=#e12#"};
 				{ 20, 20516, "", "=q1=Bobbing Apple", "=ds=#e3#"};
 				{ 22, 0, "inv_gauntlets_06", "=q6="..AL["Handful of Treats"], ""};
@@ -169,21 +166,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["DARKMOONMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "DarkmoonD1D2", "ability_druid_maul", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DRUID"], "=ec1=#j8# - #j9#"};
-				{ 3, "DarkmoonD1D2#2", "inv_weapon_bow_07", "=ds="..LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "=ec1=#j8# - #j9#"};
-				{ 4, "DarkmoonD1D2#3", "inv_staff_13", "=ds="..LOCALIZED_CLASS_NAMES_MALE["MAGE"], "=ec1=#j8# - #j9#"};
-				{ 5, "DarkmoonD1D2#4", "ability_thunderbolt", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PALADIN"], "=ec1=#j8# - #j9#"};
-				{ 6, "DarkmoonD1D2#5", "inv_staff_30", "=ds="..LOCALIZED_CLASS_NAMES_MALE["PRIEST"], "=ec1=#j8# - #j9#"};
-				{ 7, "DarkmoonD1D2#6", "inv_throwingknife_04", "=ds="..LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "=ec1=#j8# - #j9#"};
-				{ 8, "DarkmoonD1D2#7", "spell_nature_bloodlust", "=ds="..LOCALIZED_CLASS_NAMES_MALE["SHAMAN"], "=ec1=#j8# - #j9#"};
-				{ 9, "DarkmoonD1D2#8", "spell_nature_drowsy", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "=ec1=#j8# - #j9#"};
-				{ 10, "DarkmoonD1D2#9", "inv_sword_27", "=ds="..LOCALIZED_CLASS_NAMES_MALE["WARRIOR"], "=ec1=#j8# - #j9#"};
-				{ 17, "Darkmoon", "ability_hunter_pet_bear", "=ds="..BabbleInventory["Mounts"].." / "..BabbleInventory["Companions"], ""};
-				{ 18, "Darkmoon#2", "inv_misc_food_164_fish_seadog", "=ds="..AL["Food and Drinks"], ""};
-				{ 19, "Darkmoon#3", "inv_misc_bone_taurenskull_01", "=ds="..AL["Heirloom"], ""};
-				{ 22, "DarkmoonDeck#2", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 80 Trinkets"], ""};
-				{ 23, "DarkmoonDeck#3", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Level 60 & 70 Trinkets"], ""};
-				{ 24, "DarkmoonDeck#4", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};
+				{ 2, "Darkmoon", "ability_hunter_pet_bear", "=ds="..BabbleInventory["Companions"], ""};
+				{ 3, "Darkmoon#2", "inv_misc_food_66", "=ds="..AL["Food and Drinks"], ""};
+				{ 17, "DarkmoonDeck#1", "INV_Inscription_TarotGreatness", "=ds="..AL["Level 80 Trinkets"], ""};
+				{ 18, "DarkmoonDeck#2", "INV_Misc_Ticket_Tarot_Madness", "=ds="..AL["Level 60 & 70 Trinkets"], ""};
+				{ 19, "DarkmoonDeck#3", "INV_Misc_Ticket_Tarot_Furies", "=ds="..AL["Low Level Decks"], ""};
 			};
 		};
 		info = {
