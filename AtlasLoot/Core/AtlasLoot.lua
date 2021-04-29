@@ -152,18 +152,6 @@ StaticPopupDialogs["ATLASLOOT_OLD_ATLAS"] = {
 	hideOnEscape = 1
 };
 
---Popup Box for the bug with saved variables >.<
-StaticPopupDialogs["ATLASLOOT_SAVED_VARIABLES"] = {
-	text = "AtlasLoot should now work fine with Patch 4.2. If you still got problems please delete the file AtlasLoot.lua in your WoW folder: WTF/Account/AccountName/SavedVariables while logged out of the game.",
-	button1 = AL["OK"],
-	OnAccept = function()
-
-	end,
-	timeout = 0,
-	whileDead = 1,
-	hideOnEscape = 1
-};
-
 AtlasLoot.lootTableTypes = {"Normal", "Heroic", "25Man", "25ManHeroic"}
 
 local function CopyTable(t)
@@ -194,10 +182,6 @@ function AtlasLoot:OnLoaderLoad()
 				v["point"] = nil
 			end
 		end
-	end
-	if AtlasLootDB and not AtlasLootDB.showWarning then
-		StaticPopup_Show("ATLASLOOT_SAVED_VARIABLES")
-		AtlasLootDB.showWarning = true
 	end
 	
     self.db = LibStub("AceDB-3.0"):New("AtlasLootDB")
