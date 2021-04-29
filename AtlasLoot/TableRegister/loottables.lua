@@ -85,7 +85,7 @@ AtlasLoot_LootTableRegister = {
 				{ "CoTStratholmeMalGanis", 10 },
 				{ "CoTStratholmeTrash", 14 },
 			},
-			["Info"] = { BabbleZone["Old Stratholme"], "AtlasLootWotLK", mapname = "CoTStratholme" },
+			["Info"] = { BabbleZone["The Culling of Stratholme"], "AtlasLootWotLK", mapname = "CoTStratholme" },
 		},
 
 		["DrakTharonKeep"] = {
