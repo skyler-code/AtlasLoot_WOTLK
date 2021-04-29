@@ -7405,7 +7405,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Alliance Vanguard"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7441,7 +7441,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Argent Crusade"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7466,7 +7466,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = AL["Argent Tournament"].." - "..BabbleZone["Icecrown"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7503,7 +7503,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Frenzyheart Tribe"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7530,7 +7530,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Horde Expedition"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7566,7 +7566,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Kirin Tor"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7604,7 +7604,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Knights of the Ebon Blade"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7661,7 +7661,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["The Ashen Verdict"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7699,7 +7699,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["The Kalu'ak"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7738,7 +7738,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["The Oracles"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7782,7 +7782,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["The Sons of Hodir"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7819,7 +7819,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["The Wyrmrest Accord"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -7844,7 +7844,7 @@ local moduleName = "AtlasLootWotLK"
 		};
 		info = {
 			name = BabbleFaction["Winterfin Retreat"],
-			module = moduleName, menu = "REPMENU_WOTLK",
+			module = moduleName, menu = "REPMENU",
 		};
 	}
 
@@ -11634,5 +11634,1079 @@ local moduleName = "AtlasLootWotLK"
 		info = {
 			name = AL["ilvl 264"].." - "..AL["Rewards"],
 			module = moduleName, menu = "WOTLKEMBLEMMENU",
+		};
+	}
+
+	----------------------
+	--- Heirloom Items ---
+	----------------------
+
+	AtlasLoot_Data["Heirloom"] = {
+		["Normal"] = {
+			{
+				{ 1, 42985, "", "=q7=Tattered Dreadmist Mantle", "=ds=#s3#, #a1#", "#CHAMPSEAL:60# #HEROISM:40#"};
+				{ 2, 42984, "", "=q7=Preened Ironfeather Shoulders", "=ds=#s3#, #a2#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 3, 42952, "", "=q7=Stained Shadowcraft Spaulders", "=ds=#s3#, #a2#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 4, 42950, "", "=q7=Champion Herod's Shoulder", "=ds=#s3#, #a3#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 5, 42951, "", "=q7=Mystical Pauldrons of Elements", "=ds=#s3#, #a3#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 6, 42949, "", "=q7=Polished Spaulders of Valor", "=ds=#s3#, #a4#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 8, 48691, "", "=q7=Tattered Dreadmist Robe", "=ds=#s5#, #a1#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 9, 48687, "", "=q7=Preened Ironfeather Breastplate", "=ds=#s5#, #a2#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 10, 48689, "", "=q7=Stained Shadowcraft Tunic", "=ds=#s5#, #a2#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 11, 48677, "", "=q7=Champion's Deathdealer Breastplate", "=ds=#s5#, #a3#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 12, 48683, "", "=q7=Mystical Vest of Elements", "=ds=#s5#, #a3#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 13, 48685, "", "=q7=Polished Breastplate of Valor", "=ds=#s5#, #a4#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 16, 50255, "", "=q7=Dread Pirate Ring", "=ds=#s13#", "=ds="..AL["Kalu'ak Fishing Derby"]};
+				{ 18, 42992, "", "=q7=Discerning Eye of the Beast", "=ds=#s14#", "#HEROISM:50# #CHAMPSEAL:75#"};
+				{ 19, 42991, "", "=q7=Swift Hand of Justice", "=ds=#s14#", "#HEROISM:50# #CHAMPSEAL:75#"};
+				{ 21, 42944, "", "=q7=Balanced Heartseeker", "=ds=#h1#, #w4#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 22, 42945, "", "=q7=Venerable Dal'Rend's Sacred Charge", "=ds=#h3#, #w10#", "#HEROISM:40# #CHAMPSEAL:60#"};
+				{ 23, 42943, "", "=q7=Bloodied Arcanite Reaper", "=ds=#h2#, #w1#", "#HEROISM:65# #CHAMPSEAL:95#"};
+				{ 24, 42948, "", "=q7=Devout Aurastone Hammer", "=ds=#h3#, #w6#", "#HEROISM:50# #CHAMPSEAL:75#"};
+				{ 25, 48716, "", "=q7=Venerable Mass of McGowan", "=ds=#h1#, #w6#", "#HEROISM:40# #CHAMPSEAL:75#"};
+				{ 26, 48718, "", "=q7=Repurposed Lava Dredger", "=ds=#h2#, #w6#", "#HEROISM:65# #CHAMPSEAL:95#"};
+				{ 27, 42947, "", "=q7=Dignified Headmaster's Charge", "=ds=#w9#", "#HEROISM:65# #CHAMPSEAL:95#"};
+				{ 28, 42946, "", "=q7=Charmed Ancient Bone Bow", "=ds=#w2#", "#HEROISM:65# #CHAMPSEAL:95#"};
+			};
+			{
+				{ 1, 44107, "", "=q7=Exquisite Sunderseer Mantle", "=ds=#s3#, #a1#", "#HONOR:2175#"};
+				{ 2, 44103, "", "=q7=Exceptional Stormshroud Shoulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
+				{ 3, 44105, "", "=q7=Lasting Feralheart Spaulders", "=ds=#s3#, #a2#", "#HONOR:2175#"};
+				{ 4, 44102, "", "=q7=Aged Pauldrons of The Five Thunders", "=ds=#s3#, #a3#", "#HONOR:2175#"};
+				{ 5, 44101, "", "=q7=Prized Beastmaster's Mantle", "=ds=#s3#, #a3#", "#HONOR:2175#"};
+				{ 6, 44100, "", "=q7=Pristine Lightforge Spaulders", "=ds=#s3#, #a4#", "#HONOR:2175#"};
+				{ 7, 44099, "", "=q7=Strengthened Stockade Pauldrons", "=ds=#s3#, #a4#", "#HONOR:2175#"};
+				{ 9, 44098, "", "=q7=Inherited Insignia of the Alliance", "=ds=#s14#", "#HONOR:2725#"};
+				{ 10, 44097, "", "=q7=Inherited Insignia of the Horde", "=ds=#s14#", "#HONOR:2725#"};
+				{ 16, 44091, "", "=q7=Sharpened Scarlet Kris", "=ds=#h1#, #w4#", "#HONOR:2175#"};
+				{ 17, 44096, "", "=q7=Battleworn Thrash Blade", "=ds=#h1#, #w10#", "#HONOR:2175#"};
+				{ 18, 44092, "", "=q7=Reforged Truesilver Champion", "=ds=#h2#, #w10#", "#HONOR:3500#"};
+				{ 19, 44094, "", "=q7=The Blessed Hammer of Grace", "=ds=#h3#, #w6#", "#HONOR:2725#"};
+				{ 20, 44095, "", "=q7=Grand Staff of Jordan", "=ds=#w9#", "#HONOR:3500#"};
+				{ 21, 44093, "", "=q7=Upgraded Dwarven Hand Cannon", "=ds=#w5#", "#HONOR:3500#"};
+			};
+		};
+		info = {
+			name = AL["Heirloom"],
+			module = moduleName, menu = "SETMENU",
+		};
+	}
+
+	-------------------
+	--- Legendaries ---
+	-------------------
+
+	AtlasLoot_Data["Legendaries"] = {
+		["Normal"] = {
+			{
+				{ 1, 49623, "", "=q5=Shadowmourne", "=ds=#h2#, #w1#", "" };
+				{ 2, 46017, "", "=q5=Val'anyr, Hammer of Ancient Kings", "=ds=#h3#, #w6#", "" };
+				{ 16, 34334, "", "=q5=Thori'dal, the Stars' Fury", "=ds=#w2#"};
+				{ 17, 32837, "", "=q5=Warglaive of Azzinoth", "=ds=#h3#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
+				{ 18, 32838, "", "=q5=Warglaive of Azzinoth", "=ds=#h4#, #w10#, =q1=#m1# =ds=#c9#, #c6#"};
+				{ 20, 19019, "", "=q5=Thunderfury, Blessed Blade of the Windseeker", "=ds=#h1#, #w10#"};
+				{ 21, 17182, "", "=q5=Sulfuras, Hand of Ragnaros", "=ds=#h2#, #w6#"};
+				{ 22, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=ds=#e26#"};
+				{ 24, 22632, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c1#"};
+				{ 25, 22589, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c3#"};
+				{ 26, 22631, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c5#"};
+				{ 27, 22630, "", "=q5=Atiesh, Greatstaff of the Guardian", "=ds=#w9#, =q1=#m1# =ds=#c8#"};
+			};
+		};
+		info = {
+			name = AL["Legendary Items"],
+			module = moduleName, menu = "SETMENU",
+		};
+	}
+	---------------
+		--- Tabards ---
+		---------------
+
+	AtlasLoot_Data["TabardsAlliance"] = {
+		["Normal"] = {
+			{
+				{ 1, 63379, "", "=q3=Baradin's Wardens Tabard", "=ds=#s7#"};
+				{ 2, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
+				{ 3, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
+				{ 4, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
+				{ 5, 23999, "", "=q1=Honor Hold Tabard", "=ds=#s7#"};
+				{ 6, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
+				{ 7, 31774, "", "=q1=Kurenai Tabard", "=ds=#s7#"};
+				{ 8, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
+				{ 9, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["PvP Tabards"], ""};
+				{ 17, 15196, "", "=q1=Private's Tabard", "=ds=#s7#"};
+				{ 18, 15198, "", "=q1=Knight's Colors", "=ds=#s7#"};
+				{ 19, 20132, "", "=q1=Arathor Battle Tabard", "=ds=#s7#, =q1=#m4#"};
+				{ 20, 19506, "", "=q1=Silverwing Battle Tabard", "=ds=#s7#"};
+				{ 21, 19032, "", "=q1=Stormpike Battle Tabard", "=ds=#s7#"};
+			};
+		};
+		info = {
+			name = AL["Alliance Tabards"],
+			module = moduleName, menu = "TABARDMENU",
+		};
+	}
+
+	AtlasLoot_Data["TabardsHorde"] = {
+		["Normal"] = {
+			{
+				{ 1, 63378, "", "=q3=Hellscream's Reach Tabard", "=ds=#s7#"};
+				{ 2, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#"};
+				{ 3, 31773, "", "=q1=Mag'har Tabard", "=ds=#s7#"};
+				{ 4, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
+				{ 5, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#"};
+				{ 6, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#"};
+				{ 7, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#"};
+				{ 8, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
+				{ 9, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["PvP Tabards"], ""};
+				{ 17, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#"};
+				{ 18, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#"};
+				{ 19, 20131, "", "=q1=Battle Tabard of the Defilers", "=ds=#s7#, =q1=#m4#"};
+				{ 20, 19031, "", "=q1=Frostwolf Battle Tabard", "=ds=#s7#"};
+				{ 21, 19505, "", "=q1=Warsong Battle Tabard", "=ds=#s7#"};
+			};
+		};
+		info = {
+			name = AL["Horde Tabards"],
+			module = moduleName, menu = "TABARDMENU",
+		};
+	}
+
+	AtlasLoot_Data["TabardsAchievementQuestRareMisc"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "achievement_guildperk_honorablemention_rank2", "=q6="..AL["Achievement Reward"], ""};
+				{ 2, 43349, "", "=q4=Tabard of Brute Force", "#ACHIEVEMENTID:876#"};
+				{ 3, 40643, "", "=q4=Tabard of the Achiever", "#ACHIEVEMENTID:1021#"};
+				{ 4, 43348, "", "=q4=Tabard of the Explorer", "#ACHIEVEMENTID:45#"};
+				{
+					{ 5, 43300, "", "=q4=Loremaster's Colors", "#ACHIEVEMENTID:1682#, =ec1=#m6#"};
+					{ 5, 43300, "", "=q4=Loremaster's Colors", "#ACHIEVEMENTID:1681#, =ec1=#m7#"};
+				};
+				{ 6, 49052, "", "=q3=Tabard of Conquest", "#ACHIEVEMENTID:3857#, =ec1=#m7#"};
+				{ 7, 49054, "", "=q3=Tabard of Conquest", "#ACHIEVEMENTID:3957#, =ec1=#m6#"};
+				{ 9, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
+				{ 10, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.48%"};
+				{ 11, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
+				{ 12, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
+				{ 13, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
+				{ 16, 0, "achievement_guildperk_honorablemention", "=q6="..AL["Quest Reward"], ""};
+				{ 17, 52252, "", "=q4=Tabard of the Lightbringer", "=q1=#m4#: #QUESTID:24919#"};
+				{ 18, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: #QUESTID:11972#"};
+				{ 19, 35279, "", "=q3=Tabard of Summer Skies", "=q1=#m4#: #QUESTID:11972#"};
+				{ 20, 31404, "", "=q2=Green Trophy Tabard of the Illidari", "=q1=#m4#: #QUESTID:10781#"};
+				{ 21, 31405, "", "=q2=Purple Trophy Tabard of the Illidari", "=q1=#m4#: #QUESTID:10781#"};
+				{ 22, 25549, "", "=q1=Blood Knight Tabard", "=q1=#m4#: #QUESTID:9737#, =ec1=#m6#"};
+				{ 23, 24344, "", "=q1=Tabard of the Hand", "=q1=#m4#: #QUESTID:9762#, =ec1=#m7#"};
+			};
+		};
+		info = {
+			name = AL["Achievement & Quest Reward Tabards"],
+			module = moduleName, menu = "TABARDMENU",
+		};
+	}
+
+	AtlasLoot_Data["TabardsRemoved"] = {
+		["Normal"] = {
+			{
+				{ 1, 36941, "", "=q3=Competitor's Tabard", "#ACHIEVEMENTID:1636#"};
+				{ 2, 22999, "", "=q1=Tabard of the Argent Dawn", "=ds=#s7#, =q1=#m4#"};
+				{ 3, 28788, "", "=q1=Tabard of the Protector", "=ds=#s7#, =q1=#m4#"};
+				{ 4, 19160, "", "=q1=Contest Winner's Tabard", "=ds=#s7#"};
+				{ 6, 0, "achievement_featsofstrength_gladiator_10", "=q6="..AL["Arena Reward"], ""};
+				{ 7, 45983, "", "=q4=Furious Gladiator's Tabard", "=ds="};
+				{ 8, 49086, "", "=q4=Relentless Gladiator's Tabard", "=ds="};
+				{ 9, 51534, "", "=q4=Wrathful Gladiator's Tabard", "=ds="};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Card Game Tabards"], ""};
+				{ 17, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#, =q1=#m24#"};
+				{ 18, 23705, "", "=q4=Tabard of Flame", "=ds=#s7#, =q1=#m24#"};
+				{ 19, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#, =q1=#m24#"};
+				{ 20, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#, =q1=#m24#"};
+				{ 21, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#, =q1=#m24#"};
+				{ 22, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#, =q1=#m24#"};
+				{ 23, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#, =q1=#m24#"};
+				{ 24, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#, =q1=#m24#"};
+			};
+		};
+		info = {
+			name = AL["Unobtainable Tabards"],
+			module = moduleName, menu = "TABARDMENU",
+		};
+	}
+
+		-------------------------------
+		--- Trading Card Game Items ---
+		-------------------------------
+
+	AtlasLoot_Data["CardGame"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Icecrown"]};
+				{ 2, 54068, "", "=q4=Wooly White Rhino", "=ds="..AL["Wooly White Rhino"]};
+				{ 3, 54452, "", "=q3=Ethereal Portal", "=ds="..AL["Ethereal Portal"]};
+				{ 4, 54455, "", "=q1=Paint Bomb", "=ds="..AL["Paint Bomb"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Wrathgate"]};
+				{ 7, 54069, "", "=q4=Blazing Hippogryph", "=ds="..AL["Blazing Hippogryph"]};
+				{ 8, 54212, "", "=q3=Instant Statue Pedestal", "=ds="..AL["Statue Generator"]};
+				{ 9, 54218, "", "=q1=Landro's Gift Box", "=ds="..AL["Landro's Gift"]};
+				{ 11, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Scourgewar"]};
+				{ 12, 49287, "", "=q4=Tuskarr Kite", "=ds="..AL["Tuskarr Kite"]};
+				{ 13, 49343, "", "=q3=Spectral Tiger Cub", "=ds="..AL["Spectral Kitten"]};
+				{ 14, 49289, "", "=q2=Little White Stallion Bridle", "=ds="..AL["Tiny"]};
+				{ 15, 49288, "", "=q2=Little Ivory Raptor Whistle", "=ds="..AL["Tiny"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fields of Honor"]};
+				{ 17, 49290, "", "=q4=Magic Rooster Egg", "=ds="..AL["El Pollo Grande"]};
+				{ 18, 46780, "", "=q3=Ogre Pinata", "=ds="..AL["Pinata"]};
+				{ 19, 46779, "", "=q1=Path of Cenarius", "=ds="..AL["Path of Cenarius"]};
+				{ 21, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Blood of Gladiators"]};
+				{ 22, 45037, "", "=q4=Epic Purple Shirt", "=ds="..AL["Center of Attention"]};
+				{ 23, 45063, "", "=q3=Foam Sword Rack", "=ds="..AL["Foam Sword Rack"]};
+				{ 24, 45047, "", "=q3=Sandbox Tiger", "=ds="..AL["Sandbox Tiger"]};
+				{ 26, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Drums of War"]};
+				{ 27, 49282, "", "=q4=Big Battle Bear", "=ds="..AL["The Red Bearon"]};
+				{ 28, 38578, "", "=q3=The Flag of Ownership", "=ds="..AL["Owned!"]};
+				{ 29, 38577, "", "=q1=Party G.R.E.N.A.D.E.", "=ds="..AL["Slashdance"]};
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Hunt for Illidan"]};
+				{ 2, 38050, "", "=q3=Soul-Trader Beacon", "=ds="..AL["Ethereal Plunderer"]};
+				{ 3, 38301, "", "=q3=D.I.S.C.O", "=ds="..AL["Disco Inferno!"]};
+				{ 4, 38233, "", "=q1=Path of Illidan", "=ds="..AL["The Footsteps of Illidan"]};
+				{ 6, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Servants of the Betrayer"]};
+				{ 7, 35227, "", "=q4=Goblin Weather Machine - Prototype 01-B", "=ds="..AL["Personal Weather Machine"]};
+				{ 8, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 9, 49285, "", "=q3=X-51 Nether-Rocket", "=ds="..AL["X-51 Nether-Rocket"]};
+				{ 10, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="..AL["Papa Hummel's Old-fashioned Pet Biscuit"]};
+				{ 12, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["March of the Legion"]};
+				{ 13, 34493, "", "=q4=Dragon Kite", "=ds="..AL["Kiting"]};
+				{ 14, 34492, "", "=q3=Rocket Chicken", "=ds="..AL["Robotic Homing Chicken"]};
+				{ 15, 34499, "", "=q3=Paper Flying Machine Kit", "=ds="..AL["Paper Airplane"]};
+				{ 16, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Fires of Outland"]};
+				{ 17, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
+				{ 18, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds="..AL["Spectral Tiger"]};
+				{ 19, 33223, "", "=q3=Fishing Chair", "=ds="..AL["Gone Fishin'"]};
+				{ 20, 33219, "", "=q3=Goblin Gumbo Kettle", "=ds="..AL["Goblin Gumbo"]};
+				{ 22, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Through The Dark Portal"]};
+				{ 23, 32588, "", "=q3=Banana Charm", "=ds="..AL["King Mukla"]};
+				{ 24, 32566, "", "=q3=Picnic Basket", "=ds="..AL["Rest and Relaxation"]};
+				{ 25, 32542, "", "=q3=Imp in a Ball", "=ds="..AL["Fortune Telling"]};
+				{ 27, 0, "INV_Box_01", "=q6=#ud1#", "=q1="..AL["Heroes of Azeroth"]};
+				{ 28, 23705, "", "=q4=Tabard of Flame", "=ds="..AL["Landro Longshot"]};
+				{ 29, 23713, "", "=q4=Hippogryph Hatchling", "=ds="..AL["Thunderhead Hippogryph"]};
+				{ 30, 23720, "", "=q4=Riding Turtle", "=ds="..AL["Saltwater Snapjaw"]};	
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["UDE Items"], "=ds="..AL["No Longer Available"]};
+				{ 2, 38312, "", "=q4=Tabard of Brilliance", "=ds=#s7#"};
+				{ 3, 23709, "", "=q4=Tabard of Frost", "=ds=#s7#"};
+				{ 4, 38313, "", "=q4=Tabard of Fury", "=ds=#s7#"};
+				{ 5, 38309, "", "=q4=Tabard of Nature", "=ds=#s7#"};
+				{ 6, 38310, "", "=q4=Tabard of the Arcane", "=ds=#s7#"};
+				{ 17, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
+				{ 18, 38314, "", "=q4=Tabard of the Defender", "=ds=#s7#"};
+				{ 19, 38311, "", "=q4=Tabard of the Void", "=ds=#s7#"};
+				{ 21, 49704, "", "=q4=Carved Ogre Idol", "=ds="};
+				{ 22, 49703, "", "=q4=Perpetual Purple Firework", "=ds="};
+			};
+		};
+		info = {
+			name = AL["TCG Items"],
+			module = moduleName, menu = "SETMENU",
+		};
+	}
+
+		------------------
+		--- Companions ---
+		------------------
+
+	AtlasLoot_Data["PetsMerchant"] = {
+		["Normal"] = {
+			{
+				{ 1, 54436, "", "=q3=Blue Clockwork Rocket Bot", "=ds="..BabbleZone["Dalaran"]};
+				{ 3, 39973, "", "=q3=Ghostly Skull", "=ds="..BabbleZone["Dalaran"]};
+				{ 6, 44822, "", "=q1=Albino Snake", "=ds="..BabbleZone["Dalaran"]};
+				{ 7, 11023, "", "=q1=Ancona Chicken", "=ds="..BabbleZone["Thousand Needles"]};
+				{ 8, 10360, "", "=q1=Black Kingsnake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 9, 29958, "", "=q1=Blue Dragonhawk Hatchling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 10, 29901, "", "=q1=Blue Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 11, 29364, "", "=q1=Brown Rabbit Crate", "=ds="..BabbleZone["Netherstorm"]};
+				{ 12, 10361, "", "=q1=Brown Snake", "=ds="..BabbleZone["Orgrimmar"]};
+				{ 13, 8485, "", "=q1=Cat Carrier (Bombay)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 14, 46398, "", "=q1=Cat Carrier (Calico Cat)", "=ds="..BabbleZone["Dalaran"]};
+				{ 15, 8486, "", "=q1=Cat Carrier (Cornish Rex)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 16, 8487, "", "=q1=Cat Carrier (Orange Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 17, 8490, "", "=q1=Cat Carrier (Siamese)", "=ds="..BabbleZone["Netherstorm"]};
+				{ 18, 8488, "", "=q1=Cat Carrier (Silver Tabby)", "=ds="..BabbleZone["Elwynn Forest"]};
+				{ 19, 8489, "", "=q1=Cat Carrier (White Kitten)", "=ds="..BabbleZone["Stormwind City"]};
+				{ 20, 10393, "", "=q1=Cockroach", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Undercity"]};
+				{ 21, 10392, "", "=q1=Crimson Snake", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Orgrimmar"]};
+				{ 22, 29953, "", "=q1=Golden Dragonhawk Hatchling", "=ds="..BabbleZone["Eversong Woods"]};
+				{ 23, 8500, "", "=q1=Great Horned Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 24, 8501, "", "=q1=Hawk Owl", "=ds="..BabbleZone["Darnassus"]};
+				{ 25, 29363, "", "=q1=Mana Wyrmling", "=ds="..BabbleZone["Netherstorm"]};
+				{ 26, 48120, "", "=q1=Obsidian Hatchling", "=ds="..BabbleZone["Dalaran"]};
+				{ 27, 8496, "", "=q1=Parrot Cage (Cockatiel)", "=ds="..BabbleZone["Booty Bay"]};
+				{ 28, 8492, "", "=q1=Parrot Cage (Green Wing Macaw)", "=ds="..BabbleZone["The Deadmines"]};
+				{ 29, 8495, "", "=q1=Parrot Cage (Senegal)", "=ds="..BabbleZone["Netherstorm"].." / "..BabbleZone["Booty Bay"]};
+				{ 30, 10394, "", "=q1=Prairie Dog Whistle", "=ds="..BabbleZone["Thunder Bluff"]};
+			};
+			{
+				{ 1, 8497, "", "=q1=Rabbit Crate (Snowshoe)", "=ds="..BabbleZone["Dun Morogh"]};
+				{ 2, 29956, "", "=q1=Red Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 3, 29902, "", "=q1=Red Moth Egg", "=ds="..BabbleZone["Netherstorm"]};
+				{ 4, 29957, "", "=q1=Silver Dragonhawk Hatchling", "=ds="..BabbleZone["Silvermoon City"]};
+				{ 5, 29904, "", "=q1=White Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+				{ 6, 29903, "", "=q1=Yellow Moth Egg", "=ds="..BabbleZone["The Exodar"]};
+			};
+		};
+		info = {
+			name = AL["Merchant Sold Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsQuest"] = {
+		["Normal"] = {
+			{
+				{
+					{ 1, 45022, "", "=q3=Argent Gruntling", "=ds="..AL["Argent Tournament"]};
+					{ 1, 44998, "", "=q3=Argent Squire", "=ds="..AL["Argent Tournament"]};
+				};
+				{ 2, 35350, "", "=q3=Chuck's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 3, 33818, "", "=q3=Muckbreath's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 4, 35349, "", "=q3=Snarly's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 5, 44983, "", "=q3=Strand Crawler", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Dalaran"]};
+				{ 6, 33816, "", "=q3=Toothy's Bucket", "=q1="..AL["Fishing Daily Reward"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 7, 11110, "", "=q1=Chicken Egg", "=q1=#m4#: #QUESTID:3861#"};
+				{ 8, 10398, "", "=q1=Mechanical Chicken", "=q1=#m4#: #QUESTID:3721#"};
+				{ 9, 31760, "", "=q1=Miniwing", "=q1=#m4#: #QUESTID:10898#"};
+			};
+		};
+		info = {
+			name = AL["Quest Reward Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsCrafted"] = {
+		["Normal"] = {
+			{
+				{ 2, 15996, "", "=q1=Lifelike Mechanical Toad", "=q2=#p5#"};
+				{ 3, 11826, "", "=q1=Lil' Smoky", "=q2=#p5#"};
+				{ 4, 4401, "", "=q1=Mechanical Squirrel Box", "=q2=#p5#"};
+				{ 5, 11825, "", "=q1=Pet Bombling", "=q2=#p5#"};
+				{ 6, 21277, "", "=q1=Tranquil Mechanical Yeti", "=q2=#p5#"};
+			};
+		};
+		info = {
+			name = AL["Crafted Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsAchievementFaction"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Achievement Reward"], ""};
+				{ 2, 54810, "", "=q3=Celestial Dragon", "#ACHIEVEMENTID:5875#" },
+				{ 3, 44738, "", "=q3=Kirin Tor Familiar", "#ACHIEVEMENTID:1956#"};
+				{ 4, 44841, "", "=q3=Little Fawn's Salt Lick", "#ACHIEVEMENTID:2516#"};
+				{ 5, 49912, "", "=q3=Perky Pug", "#ACHIEVEMENTID:4478#"};
+				{ 6, 40653, "", "=q3=Reeking Pet Carrier", "#ACHIEVEMENTID:1250#"};
+				{
+					{ 7, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3656#, =ec1=#m6#"};
+					{ 7, 44810, "", "=q3=Turkey Cage", "#ACHIEVEMENTID:3478#, =ec1=#m7#"};
+				};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Faction"], ""};
+				{ 17, 38628, "", "=q3=Nether Ray Fry", "=ds="..BabbleFaction["Sha'tari Skyguard"]};
+				{ 18, 44723, "", "=q3=Nurtured Penguin Egg", "=ds="..BabbleFaction["The Kalu'ak"]};
+				{
+					{ 19, 46821, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Sunreavers"].."  =ec1=#m6#"};
+					{ 19, 46820, "", "=q3=Shimmering Wyrmling", "=ds="..BabbleFaction["The Silver Covenant"].."  =ec1=#m7#"};
+				};
+				{ 20, 34478, "", "=q3=Tiny Sporebat", "=ds="..BabbleFaction["Sporeggar"]};
+				{ 21, 39898, "", "=q1=Cobra Hatchling", "=ds="..BabbleFaction["The Oracles"]};
+				{ 22, 44721, "", "=q1=Proto-Drake Whelp", "=ds="..BabbleFaction["The Oracles"]};
+				{ 23, 39896, "", "=q1=Tickbird Hatchling", "=ds="..BabbleFaction["The Oracles"]};
+				{ 24, 39899, "", "=q1=White Tickbird Hatchling", "=ds="..BabbleFaction["The Oracles"]};
+			};
+		};
+		info = {
+			name = AL["Achievement & Faction Reward Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsRare"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["World Drop"], ""};
+				{ 2, 8494, "", "=q4=Parrot Cage (Hyacinth Macaw)", "=ds="..BabbleZone["Stranglethorn Vale"]};
+				{ 3, 43698, "", "=q3=Giant Sewer Rat", "#ACHIEVEMENTID:1958#, =q1="..BabbleZone["Dalaran"]};
+				{ 5, 34535, "", "=q1=Azure Whelpling", "=ds="..BabbleZone["Winterspring"]};
+				{ 6, 29960, "", "=q1=Captured Firefly", "=ds="..BabbleZone["Zangarmarsh"]};
+				{ 7, 8491, "", "=q1=Cat Carrier (Black Tabby)", "=ds="..BabbleZone["Silverpine Forest"]};
+				{ 8, 10822, "", "=q1=Dark Whelpling", "=ds="..BabbleZone["Wetlands"].." / "..BabbleZone["Badlands"].." / "..BabbleZone["Burning Steppes"]};
+				{ 9, 48112, "", "=q1=Darting Hatchling", "=ds="..BabbleZone["Dustwallow Marsh"]};
+				{ 10, 20769, "", "=q1=Disgusting Oozeling", "=ds=#e13#"};
+				{ 11, 48116, "", "=q1=Gundrak Hatchling", "=ds="..BabbleZone["Zul'Drak"]};
+				{ 12, 48118, "", "=q1=Leaping Hatchling", "=ds="..BabbleZone["Northern Barrens"]};
+				{ 13, 27445, "", "=q1=Magical Crawdad Box", "=ds="..BabbleZone["Terokkar Forest"]};
+				{ 14, 48122, "", "=q1=Ravasaur Hatchling", "=ds="..BabbleZone["Un'Goro Crater"]};
+				{ 15, 48124, "", "=q1=Razormaw Hatchling", "=ds="..BabbleZone["Wetlands"]};
+				{ 16, 48126, "", "=q1=Razzashi Hatchling", "=ds="..BabbleZone["Northern Stranglethorn"].." / "..BabbleZone["The Cape of Stranglethorn"]};
+				{ 17, 11474, "", "=q1=Sprite Darter Egg", "=ds="..BabbleZone["Feralas"]};
+				{ 18, 8499, "", "=q1=Tiny Crimson Whelpling", "=ds="..BabbleZone["Wetlands"]};
+				{ 19, 8498, "", "=q1=Tiny Emerald Whelpling", "=ds="..BabbleZone["Feralas"]};
+				{ 22, 0, "INV_Box_01", "=q6="..AL["Dungeon/Raid"], ""};
+				{ 23, 33993, "", "=q3=Mojo", "=q1="..BabbleZone["Zul'Aman"]};
+				{ 24, 35504, "", "=q3=Phoenix Hatchling", "=q2="..BabbleBoss["Kael'thas Sunstrider"]..", =q1="..BabbleZone["Magisters' Terrace"]};
+				{ 25, 12264, "", "=q3=Worg Carrier", "=q1="..BabbleZone["Lower Blackrock Spire"]};
+				{ 26, 48114, "", "=q1=Deviate Hatchling", "=q2="..AL["Deviate Ravager/Deviate Guardian"]..", =q1="..BabbleZone["Wailing Caverns"]};
+			};
+		};
+		info = {
+			name = AL["Rare Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsEvent"] = {
+		["Normal"] = {
+			{
+				{ 1, 46707, "", "=q3=Pint-Sized Pink Pachyderm", "=ds="..AL["Brewfest"]};
+				{ 2, 32233, "", "=q3=Wolpertinger's Tankard", "=ds="..AL["Brewfest"]};
+				{ 4, 46545, "", "=q3=Curious Oracle Hatchling", "=ds="..AL["Children's Week"]};
+				{ 5, 46544, "", "=q3=Curious Wolvar Pup", "=ds="..AL["Children's Week"]};
+				{ 6, 32616, "", "=q3=Egbert's Egg", "=ds="..AL["Children's Week"]};
+				{ 7, 32622, "", "=q3=Elekk Training Collar", "=ds="..AL["Children's Week"]};
+				{ 8, 23007, "", "=q1=Piglet's Collar", "=ds="..AL["Children's Week"]};
+				{ 9, 23015, "", "=q1=Rat Cage", "=ds="..AL["Children's Week"]};
+				{ 10, 32617, "", "=q3=Sleepy Willy", "=ds="..AL["Children's Week"]};
+				{ 11, 23002, "", "=q1=Turtle Box", "=ds="..AL["Children's Week"]};
+				{ 15, 44794, "", "=q3=Spring Rabbit's Foot", "=ds="..AL["Noblegarden"]};
+				{ 16, 21301, "", "=q1=Green Helper Box", "=ds="..AL["Feast of Winter Veil"]};
+				{ 17, 21308, "", "=q1=Jingling Bell", "=ds="..AL["Feast of Winter Veil"]};
+				{ 18, 21305, "", "=q1=Red Helper Box", "=ds="..AL["Feast of Winter Veil"]};
+				{ 19, 21309, "", "=q1=Snowman Kit", "=ds="..AL["Feast of Winter Veil"]};
+				{ 21, 50446, "", "=q3=Toxic Wasteling", "=ds="..AL["Love is in the Air"]};
+				{ 22, 22235, "", "=q1=Truesilver Shafted Arrow", "=ds="..AL["Love is in the Air"]};
+				{ 24, 23083, "", "=q3=Captured Flame", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 25, 53641, "", "=q3=Ice Chip", "=ds="..AL["Midsummer Fire Festival"]};
+				{ 27, 33154, "", "=q3=Sinister Squashling", "=ds="..AL["Hallow's End"]};
+			};
+			{
+				{ 1, 44984, "", "=q3=Ammen Vale Lashling", "=ds="..AL["Argent Tournament"]};
+				{ 2, 44970, "", "=q3=Dun Morogh Cub", "=ds="..AL["Argent Tournament"]};
+				{ 3, 44973, "", "=q3=Durotar Scorpion", "=ds="..AL["Argent Tournament"]};
+				{ 4, 44974, "", "=q3=Elwynn Lamb", "=ds="..AL["Argent Tournament"]};
+				{ 5, 44982, "", "=q3=Enchanted Broom", "=ds="..AL["Argent Tournament"]};
+				{ 6, 45002, "", "=q3=Mechanopeep", "=ds="..AL["Argent Tournament"]};
+				{ 7, 44980, "", "=q3=Mulgore Hatchling", "=ds="..AL["Argent Tournament"]};
+				{ 8, 45606, "", "=q3=Sen'jin Fetish", "=ds="..AL["Argent Tournament"]};
+				{ 9, 44965, "", "=q3=Teldrassil Sproutling", "=ds="..AL["Argent Tournament"]};
+				{ 10, 44971, "", "=q3=Tirisfal Batling", "=ds="..AL["Argent Tournament"]};
+				{ 16, 19450, "", "=q1=A Jubling's Tiny Home", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 17, 11026, "", "=q1=Tree Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
+				{ 18, 11027, "", "=q1=Wood Frog Box", "=ds="..BabbleFaction["Darkmoon Faire"]};
+			};
+		};
+		info = {
+			name = BabbleInventory["Companions"].." - "..AL["World Events"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsPromotional"] = {
+		["Normal"] = {
+			{
+				{ 2, 20371, "", "=q3=Blue Murloc Egg", "#ACHIEVEMENTID:411#"};
+				{ 3, 49646, "", "=q3=Core Hound Pup", "=ds=#e13#"};
+				{ 4, 13584, "", "=q3=Diablo Stone", "#ACHIEVEMENTID:662#"};
+				{ 5, 39286, "", "=q3=Frosty's Collar", "#ACHIEVEMENTID:683#"};
+				{ 6, 46802, "", "=q3=Heavy Murloc Egg", "#ACHIEVEMENTID:3536#"};
+				{ 7, 30360, "", "=q3=Lurky's Egg", "=q2="..AL["Collector's Edition"]};
+				{ 8, 56806, "", "=q3=Mini Thor", "#ACHIEVEMENTID:4824#"};
+				{ 17, 45180, "", "=q3=Murkimus' Little Spear", "#ACHIEVEMENTID:3618#"};
+				{ 18, 25535, "", "=q3=Netherwhelp's Collar", "#ACHIEVEMENTID:665#"};
+				{ 19, 13583, "", "=q3=Panda Collar", "#ACHIEVEMENTID:663#"};
+				{ 20, 22114, "", "=q3=Pink Murloc Egg", "=ds=#e13#"};
+				{ 21, 39656, "", "=q3=Tyrael's Hilt", "#ACHIEVEMENTID:414#"};
+				{ 22, 13582, "", "=q3=Zergling Leash", "#ACHIEVEMENTID:664#"};
+			};
+		};
+		info = {
+			name = AL["Promotional Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsCardGame"] = {
+		["Normal"] = {
+			{
+				{ 2, 34493, "", "=q4=Dragon Kite", "=q2="..AL["Card Game Item"]};
+				{ 3, 23713, "", "=q4=Hippogryph Hatchling", "=q2="..AL["Card Game Item"]};
+				{ 4, 49287, "", "=q4=Tuskarr Kite", "=q2="..AL["Card Game Item"]};
+				{ 5, 32588, "", "=q3=Banana Charm", "=q2="..AL["Card Game Item"]};
+				{ 17, 34492, "", "=q3=Rocket Chicken", "=q2="..AL["Card Game Item"]};
+				{ 18, 38050, "", "=q3=Soul-Trader Beacon", "=q2="..AL["Card Game Item"]};
+				{ 19, 49343, "", "=q3=Spectral Tiger Cub", "=q2="..AL["Card Game Item"]};
+			};
+		};
+		info = {
+			name = AL["Card Game Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsRemoved"] = {
+		["Normal"] = {
+			{
+				{ 2, 37297, "", "=q3=Gold Medallion", "=ds=#e13#"};
+				{ 3, 41133, "", "=q3=Unhatched Mr. Chilly", "=ds=#e13#"};
+				{ 4, 38658, "", "=q3=Vampiric Batling", "#ACHIEVEMENTID:2456#, =q1="..BabbleZone["Karazhan"]};
+				{ 17, 46767, "", "=q3=Warbot Ignition Key", "=ds=#e13#"};
+				{ 18, 44819, "", "=q1=Baby Blizzard Bear", "#ACHIEVEMENTID:2398#"};
+				{ 19, 49362, "", "=q1=Onyxian Whelpling", "#ACHIEVEMENTID:4400#"};
+			};
+		};
+		info = {
+			name = AL["Unobtainable Companions"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsPetStore"] = {
+		["Normal"] = {
+			{
+				{ 2, 49662, "", "=q3=Gryphon Hatchling", "=ds=#e13#"};
+				{ 3, 49693, "", "=q3=Lil' Phylactery", "=ds=#e13#"};
+				{ 4, 54847, "", "=q3=Lil' XT", "=ds=#e13#"};
+				{ 5, 49665, "", "=q3=Pandaren Monk", "=ds=#e13#"};
+				{ 6, 49663, "", "=q3=Wind Rider Cub", "=ds=#e13#"};
+			};
+		};
+		info = {
+			name = AL["Blizzard Store"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+	AtlasLoot_Data["PetsAccessories"] = {
+		["Normal"] = {
+			{
+				{ 2, 47541, "", "=q3=Argent Pony Bridle", "=ds="};
+				{ 3, 38291, "", "=q3=Ethereal Mutagen", "=ds="};
+				{ 4, 35223, "", "=q3=Papa Hummel's Old-Fashioned Pet Biscuit", "=ds="};
+				{ 5, 37431, "", "=q2=Fetch Ball", "=ds="};
+				{ 17, 43626, "", "=q2=Happy Pet Snack", "=ds="};
+				{ 18, 43352, "", "=q2=Pet Grooming Kit", "=ds="};
+				{ 19, 44820, "", "=q1=Red Ribbon Pet Leash", "=ds="};
+				{ 20, 37460, "", "=q1=Rope Pet Leash", "=ds="};
+			};
+		};
+		info = {
+			name = AL["Companion Accessories"],
+			module = moduleName, menu = "PETMENU", instance = "Pets",
+		};
+	}
+
+		--------------
+		--- Mounts ---
+		--------------
+
+	AtlasLoot_Data["MountsAlliance"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_misc_tournaments_symbol_nightelf", "=q6="..BabbleFaction["Darnassus"].." #j30#", "=ec1=#m7#"};
+				{ 2, 18766, "", "=q4=Reins of the Swift Frostsaber", "=ds=#e26#"};
+				{ 3, 18767, "", "=q4=Reins of the Swift Mistsaber", "=ds=#e26#"};
+				{ 4, 18902, "", "=q4=Reins of the Swift Stormsaber", "=ds=#e26#"};
+				{ 5, 8632, "", "=q3=Reins of the Spotted Frostsaber", "=ds=#e26#"};
+				{ 6, 47100, "", "=q3=Reins of the Striped Dawnsaber", "=ds=#e26#"};
+				{ 7, 8631, "", "=q3=Reins of the Striped Frostsaber", "=ds=#e26#"};
+				{ 8, 8629, "", "=q3=Reins of the Striped Nightsaber", "=ds=#e26#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_gnome", "=q6="..BabbleFaction["Gnomeregan"].." #j30#", "=ec1=#m7#"};
+				{ 17, 18772, "", "=q4=Swift Green Mechanostrider", "=ds=#e26#"};
+				{ 18, 18773, "", "=q4=Swift White Mechanostrider", "=ds=#e26#"};
+				{ 19, 18774, "", "=q4=Swift Yellow Mechanostrider", "=ds=#e26#"};
+				{ 20, 8595, "", "=q3=Blue Mechanostrider", "=ds=#e26#"};
+				{ 21, 13321, "", "=q3=Green Mechanostrider", "=ds=#e26#"};
+				{ 22, 8563, "", "=q3=Red Mechanostrider", "=ds=#e26#"};
+				{ 23, 13322, "", "=q3=Unpainted Mechanostrider", "=ds=#e26#"};
+			};
+			{
+				{ 1, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"].." #j30#", "=ec1=#m7#"};
+				{ 2, 18786, "", "=q4=Swift Brown Ram", "=ds=#e26#"};
+				{ 3, 18787, "", "=q4=Swift Gray Ram", "=ds=#e26#"};
+				{ 4, 18785, "", "=q4=Swift White Ram", "=ds=#e26#"};
+				{ 5, 5872, "", "=q3=Brown Ram", "=ds=#e26#"};
+				{ 6, 5864, "", "=q3=Gray Ram", "=ds=#e26#"};
+				{ 7, 5873, "", "=q3=White Ram", "=ds=#e26#"};
+				{ 9, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"].." #j30#", "=ec1=#m7#"};
+				{ 10, 29745, "", "=q4=Great Blue Elekk", "=ds=#e26#"};
+				{ 11, 29746, "", "=q4=Great Green Elekk", "=ds=#e26#"};
+				{ 12, 29747, "", "=q4=Great Purple Elekk", "=ds=#e26#"};
+				{ 13, 28481, "", "=q3=Brown Elekk", "=ds=#e26#"};
+				{ 14, 29744, "", "=q3=Gray Elekk", "=ds=#e26#"};
+				{ 15, 29743, "", "=q3=Purple Elekk", "=ds=#e26#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"].." #j30#", "=ec1=#m7#"};
+				{ 17, 18777, "", "=q4=Swift Brown Steed", "=ds=#e26#"};
+				{ 18, 18776, "", "=q4=Swift Palomino", "=ds=#e26#"};
+				{ 19, 18778, "", "=q4=Swift White Steed", "=ds=#e26#"};
+				{ 20, 2411, "", "=q3=Black Stallion Bridle", "=ds=#e26#"};
+				{ 21, 5656, "", "=q3=Brown Horse Bridle", "=ds=#e26#"};
+				{ 22, 5655, "", "=q3=Chestnut Mare Bridle", "=ds=#e26#"};
+				{ 23, 2414, "", "=q3=Pinto Bridle", "=ds=#e26#"};
+			};
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..AL["Alliance Flying Mounts"], "=ec1=#m7#"};
+				{ 2, 25473, "", "=q4=Swift Blue Gryphon", "=ds=#e27#"};
+				{ 3, 25528, "", "=q4=Swift Green Gryphon", "=ds=#e27#"};
+				{ 4, 25529, "", "=q4=Swift Purple Gryphon", "=ds=#e27#"};
+				{ 5, 25527, "", "=q4=Swift Red Gryphon", "=ds=#e27#"};
+				{ 6, 25471, "", "=q3=Ebon Gryphon", "=ds=#e27#"};
+				{ 7, 25470, "", "=q3=Golden Gryphon", "=ds=#e27#"};
+				{ 8, 25472, "", "=q3=Snowy Gryphon", "=ds=#e27#"};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Kurenai"].." #j30#", "=ec1=#m7#"};
+				{ 17, 29227, "", "=q4=Reins of the Cobalt War Talbuk", "=ds=#e26#"};
+				{ 18, 29229, "", "=q4=Reins of the Silver War Talbuk", "=ds=#e26#"};
+				{ 19, 29230, "", "=q4=Reins of the Tan War Talbuk", "=ds=#e26#"};
+				{ 20, 29231, "", "=q4=Reins of the White War Talbuk", "=ds=#e26#"};
+				{ 21, 31830, "", "=q4=Reins of the Cobalt Riding Talbuk", "=ds=#e26#"};
+				{ 22, 31832, "", "=q4=Reins of the Silver Riding Talbuk", "=ds=#e26#"};
+				{ 23, 31834, "", "=q4=Reins of the Tan Riding Talbuk", "=ds=#e26#"};
+				{ 24, 31836, "", "=q4=Reins of the White Riding Talbuk", "=ds=#e26#"};
+			};
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6="..BabbleZone["Dalaran"], "=ec1=#m7#"};
+				{ 2, 44225, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
+				{ 3, 44230, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
+				{ 4, 44235, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
+				{ 5, 44689, "", "=q4=Armored Snowy Gryphon", "=ds=#e27#"};
+				{ 16, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["Wintersaber Trainers"].." #j30#", "=ec1=#m7#"};
+				{ 17, 13086, "", "=q4=Reins of the Winterspring Frostsaber", "=ds=#e26#"};
+				{ 19, 0, "INV_BannerPVP_02", "=q6="..BabbleFaction["The Silver Covenant"].." #j30#", "=ec1=#m7#"};
+				{ 20, 46815, "", "=q4=Quel'dorei Steed", "=ds=#e26#"};
+				{ 21, 46813, "", "=q4=Silver Covenant Hippogryph", "=ds=#e27#"};
+			};
+		};
+		info = {
+			name = AL["Alliance Mounts"],
+			module = moduleName, menu = "MOUNTMENU",
+		};
+	}
+
+	AtlasLoot_Data["MountsHorde"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"].." #j30#", "=ec1=#m6#"};
+				{ 2, 18796, "", "=q4=Horn of the Swift Brown Wolf", "=ds=#e26#"};
+				{ 3, 18798, "", "=q4=Horn of the Swift Gray Wolf", "=ds=#e26#"};
+				{ 4, 18797, "", "=q4=Horn of the Swift Timber Wolf", "=ds=#e26#"};
+				{ 5, 46099, "", "=q3=Horn of the Black Wolf", "=ds=#e26#"};
+				{ 6, 5668, "", "=q3=Horn of the Brown Wolf", "=ds=#e26#"};
+				{ 7, 5665, "", "=q3=Horn of the Dire Wolf", "=ds=#e26#"};
+				{ 8, 1132, "", "=q3=Horn of the Timber Wolf", "=ds=#e26#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"].." #j30#", "=ec1=#m6#"};
+				{ 17, 29223, "", "=q4=Swift Green Hawkstrider", "=ds=#e26#"};
+				{ 18, 28936, "", "=q4=Swift Pink Hawkstrider", "=ds=#e26#"};
+				{ 19, 29224, "", "=q4=Swift Purple Hawkstrider", "=ds=#e26#"};
+				{ 20, 29221, "", "=q3=Black Hawkstrider", "=ds=#e26#"};
+				{ 21, 29220, "", "=q3=Blue Hawkstrider", "=ds=#e26#"};
+				{ 22, 29222, "", "=q3=Purple Hawkstrider", "=ds=#e26#"};
+				{ 23, 28927, "", "=q3=Red Hawkstrider", "=ds=#e26#"};
+			};
+			{
+				{ 1, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"].." #j30#", "=ec1=#m6#"};
+				{ 2, 18788, "", "=q4=Swift Blue Raptor", "=ds=#e26#"};
+				{ 3, 18789, "", "=q4=Swift Olive Raptor", "=ds=#e26#"};
+				{ 4, 18790, "", "=q4=Swift Orange Raptor", "=ds=#e26#"};
+				{ 5, 8588, "", "=q3=Whistle of the Emerald Raptor", "=ds=#e26#"};
+				{ 6, 8591, "", "=q3=Whistle of the Turquoise Raptor", "=ds=#e26#"};
+				{ 7, 8592, "", "=q3=Whistle of the Violet Raptor", "=ds=#e26#"};
+				{ 9, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"].." #j30#", "=ec1=#m6#"};
+				{ 10, 18794, "", "=q4=Great Brown Kodo", "=ds=#e26#"};
+				{ 11, 18795, "", "=q4=Great Gray Kodo", "=ds=#e26#"};
+				{ 12, 18793, "", "=q4=Great White Kodo", "=ds=#e26#"};
+				{ 13, 15290, "", "=q3=Brown Kodo", "=ds=#e26#"};
+				{ 14, 15277, "", "=q3=Gray Kodo", "=ds=#e26#"};
+				{ 15, 46100, "", "=q3=White Kodo", "=ds=#e26#"};
+				{ 16, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"].." #j30#", "=ec1=#m6#"};
+				{ 17, 13334, "", "=q4=Green Skeletal Warhorse", "=ds=#e26#"};
+				{ 18, 47101, "", "=q4=Ochre Skeletal Warhorse", "=ds=#e26#"};
+				{ 19, 18791, "", "=q4=Purple Skeletal Warhorse", "=ds=#e26#"};
+				{ 20, 46308, "", "=q3=Black Skeletal Horse", "=ds=#e26#"};
+				{ 21, 13332, "", "=q3=Blue Skeletal Horse", "=ds=#e26#"};
+				{ 22, 13333, "", "=q3=Brown Skeletal Horse", "=ds=#e26#"};
+				{ 23, 13331, "", "=q3=Red Skeletal Horse", "=ds=#e26#"};
+			};
+			{
+				{ 1, 0, "INV_BannerPVP_01", "=q6="..AL["Horde Flying Mounts"], "=ec1=#m6#"};
+				{ 2, 25531, "", "=q4=Swift Green Wind Rider", "=ds=#e27#"};
+				{ 3, 25533, "", "=q4=Swift Purple Wind Rider", "=ds=#e27#"};
+				{ 4, 25477, "", "=q4=Swift Red Wind Rider", "=ds=#e27#"};
+				{ 5, 25532, "", "=q4=Swift Yellow Wind Rider", "=ds=#e27#"};
+				{ 6, 25475, "", "=q3=Blue Wind Rider", "=ds=#e27#"};
+				{ 7, 25476, "", "=q3=Green Wind Rider", "=ds=#e27#"};
+				{ 8, 25474, "", "=q3=Tawny Wind Rider", "=ds=#e27#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["The Mag'har"].." #j30#", "=ec1=#m6#"};
+				{ 17, 29102, "", "=q4=Reins of the Cobalt War Talbuk", "=ds=#e26#"};
+				{ 18, 29104, "", "=q4=Reins of the Silver War Talbuk", "=ds=#e26#"};
+				{ 19, 29105, "", "=q4=Reins of the Tan War Talbuk", "=ds=#e26#"};
+				{ 20, 29103, "", "=q4=Reins of the White War Talbuk", "=ds=#e26#"};
+				{ 21, 31829, "", "=q4=Reins of the Cobalt Riding Talbuk", "=ds=#e26#"};
+				{ 22, 31831, "", "=q4=Reins of the Silver Riding Talbuk", "=ds=#e26#"};
+				{ 23, 31833, "", "=q4=Reins of the Tan Riding Talbuk", "=ds=#e26#"};
+				{ 24, 31835, "", "=q4=Reins of the White Riding Talbuk", "=ds=#e26#"};
+			};
+			{
+				{ 1, 0, "INV_BannerPVP_01", "=q6="..BabbleZone["Dalaran"], "=ec1=#m6#"};
+				{ 2, 44226, "", "=q4=Reins of the Armored Brown Bear", "=ds=#e26#"};
+				{ 3, 44231, "", "=q4=Reins of the Wooly Mammoth", "=ds=#e26#"};
+				{ 4, 44234, "", "=q4=Reins of the Traveler's Tundra Mammoth", "=ds=#e26#"};
+				{ 5, 44690, "", "=q4=Armored Blue Wind Rider", "=ds=#e27#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["Quest Reward"].." #j30#", "=ec1=#m6#"};
+				{ 17, 46102, "", "=q4=Whistle of the Venomhide Ravasaur", "=ds=#e26#"};
+				{ 19, 0, "INV_BannerPVP_01", "=q6="..BabbleFaction["The Sunreavers"].." #j30#", "=ec1=#m6#"};
+				{ 20, 46816, "", "=q4=Sunreaver Hawkstrider", "=ds=#e26#"};
+				{ 21, 46814, "", "=q4=Sunreaver Dragonhawk", "=ds=#e27#"};
+			};
+		};
+		info = {
+			name = AL["Horde Mounts"],
+			module = moduleName, menu = "MOUNTMENU",
+		};
+	}
+
+	AtlasLoot_Data["MountsFaction"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..BabbleFaction["Netherwing"].." #j30#", "=q1="..BabbleZone["Shadowmoon Valley"]};
+				{ 2, 32858, "", "=q4=Reins of the Azure Netherwing Drake", "=ds=#e27#"};
+				{ 3, 32859, "", "=q4=Reins of the Cobalt Netherwing Drake", "=ds=#e27#"};
+				{ 4, 32857, "", "=q4=Reins of the Onyx Netherwing Drake", "=ds=#e27#"};
+				{ 5, 32860, "", "=q4=Reins of the Purple Netherwing Drake", "=ds=#e27#"};
+				{ 6, 32861, "", "=q4=Reins of the Veridian Netherwing Drake", "=ds=#e27#"};
+				{ 7, 32862, "", "=q4=Reins of the Violet Netherwing Drake", "=ds=#e27#"};
+				{ 9, 0, "INV_Box_01", "=q6="..BabbleFaction["Sha'tari Skyguard"].." #j30#", "=q1="..BabbleZone["Terokkar Forest"]};
+				{ 10, 32319, "", "=q4=Blue Riding Nether Ray", "=ds=#e27#"};
+				{ 11, 32314, "", "=q4=Green Riding Nether Ray", "=ds=#e27#"};
+				{ 12, 32317, "", "=q4=Red Riding Nether Ray", "=ds=#e27#"};
+				{ 13, 32316, "", "=q4=Purple Riding Nether Ray", "=ds=#e27#"};
+				{ 14, 32318, "", "=q4=Silver Riding Nether Ray", "=ds=#e27#"};
+				{ 16, 0, "INV_Box_01", "=q6="..BabbleFaction["Cenarion Expedition"].." #j30#", "=q1="..BabbleZone["Zangarmarsh"]};
+				{ 17, 33999, "", "=q4=Cenarion War Hippogryph", "=ds=#e27#"};
+				{ 19, 0, "INV_Box_01", "=q6="..BabbleFaction["The Sons of Hodir"].." #j30#", "=q1="..BabbleZone["The Storm Peaks"]};
+				{
+					{ 20, 44080, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#"};
+					{ 20, 43958, "", "=q4=Reins of the Ice Mammoth", "=ds=#e26#"};
+				};
+				{
+					{ 21, 44086, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26#"};
+					{ 21, 43961, "", "=q4=Reins of the Grand Ice Mammoth", "=ds=#e26#"};
+				};
+				{ 23, 0, "INV_Box_01", "=q6="..BabbleFaction["The Wyrmrest Accord"].." #j30#", "=q1="..BabbleZone["Dragonblight"]};
+				{ 24, 43955, "", "=q4=Reins of the Red Drake", "=ds=#e27#"};
+				{ 26, 0, "INV_Box_01", "=q6="..BabbleFaction["The Oracles"].." #j30#", "=q1="..BabbleZone["Sholazar Basin"]};
+				{ 27, 44707, "", "=q4=Reins of the Green Proto-Drake", "=q2="..AL["Mysterious Egg"], ""};
+			};
+		};
+		info = {
+			name = AL["Neutral Faction Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsPvP"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Alliance PvP Mounts"], ""};
+				{ 2, 29465, "", "=q4=Black Battlestrider", "=ds=#e26# =ec1=#m7#"};
+				{ 3, 29467, "", "=q4=Black War Ram", "=ds=#e26# =ec1=#m7#"};
+				{ 4, 29468, "", "=q4=Black War Steed Bridle", "=ds=#e26# =ec1=#m7#"};
+				{ 5, 35906, "", "=q4=Reins of the Black War Elekk", "=ds=#e26# =ec1=#m7#"};
+				{ 6, 29471, "", "=q4=Reins of the Black War Tiger", "=ds=#e26# =ec1=#m7#"};
+				{ 7, 19030, "", "=q4=Stormpike Battle Charger", "=ds=#e26# =ec1=#m7#"};
+				{ 8, 43956, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m7#"};
+				{ 10, 0, "INV_Box_01", "=q6="..AL["Halaa PvP Mounts"], "=q1="..BabbleZone["Nagrand"]};
+				{ 11, 28915, "", "=q4=Reins of the Dark Riding Talbuk", "=ds=#e26#"};
+				{ 12, 29228, "", "=q4=Reins of the Dark War Talbuk", "=ds=#e26#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Horde PvP Mounts"], ""};
+				{ 17, 29466, "", "=q4=Black War Kodo", "=ds=#e26# =ec1=#m6#"};
+				{ 18, 29469, "", "=q4=Horn of the Black War Wolf", "=ds=#e26# =ec1=#m6#"};
+				{ 19, 29470, "", "=q4=Red Skeletal Warhorse", "=ds=#e26# =ec1=#m6#"};
+				{ 20, 34129, "", "=q4=Swift Warstrider", "=ds=#e26# =ec1=#m6#"};
+				{ 21, 29472, "", "=q4=Whistle of the Black War Raptor", "=ds=#e26# =ec1=#m6#"};
+				{ 22, 19029, "", "=q4=Horn of the Frostwolf Howler", "=ds=#e26# =ec1=#m6#"};
+				{ 23, 44077, "", "=q4=Reins of the Black War Mammoth", "=ds=#e26# =ec1=#m6#"};
+			};
+		};
+		info = {
+			name = AL["PvP Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsRareDungeon"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Dungeon"], ""};
+				{ 2, 13335, "", "=q4=Deathcharger's Reins", "#ACHIEVEMENTID:729#", "", "0.10%"};
+				{ 3, 44151, "", "=q4=Reins of the Blue Proto-Drake", "=q2="..BabbleBoss["Skadi the Ruthless"]..", =q1="..AL["Heroic"].." "..BabbleZone["Utgarde Pinnacle"], ""};
+				{ 4, 43951, "", "=q4=Reins of the Bronze Drake", "#ACHIEVEMENTID:1817#"};
+				{ 5, 32768, "", "=q4=Reins of the Raven Lord", "#ACHIEVEMENTID:883#"};
+				{ 6, 35513, "", "=q4=Swift White Hawkstrider", "#ACHIEVEMENTID:884#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Outdoor"], ""};
+				{ 17, 44168, "", "=q4=Reins of the Time-Lost Proto-Drake", "=q2="..AL["Time-Lost Proto Drake"]..", =q1="..BabbleZone["The Storm Peaks"]};
+				{ 18, 46109, "", "=q3=Sea Turtle", "#ACHIEVEMENTID:3218#", ""};
+			};
+		};
+		info = {
+			name = AL["Rare Mounts"]..": "..AL["Dungeon"].." / "..AL["Outdoor"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+	
+	AtlasLoot_Data["MountsRareRaid"] = {
+		["Normal"] = {
+			{
+				{ 1, 32458, "", "=q4=Ashes of Al'ar", "#ACHIEVEMENTID:885#"};
+				{ 2, 30480, "", "=q4=Fiery Warhorse's Reins", "#ACHIEVEMENTID:882#", "", "0.25%"};
+				{ 3, 50818, "", "=q4=Invincible's Reins", "#ACHIEVEMENTID:4584#"};
+				{ 4, 45693, "", "=q4=Mimiron's Head", "#ACHIEVEMENTID:4626#, =q1="..BabbleZone["Ulduar"], "", ""};
+				{ 5, 43986, "", "=q4=Reins of the Black Drake", "#ACHIEVEMENTID:2051#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 6, 43954, "", "=q4=Reins of the Twilight Drake", "#ACHIEVEMENTID:2054#, =q1="..BabbleZone["The Obsidian Sanctum"], ""};
+				{ 7, 43953, "", "=q4=Reins of the Blue Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
+				{ 8, 43952, "", "=q4=Reins of the Azure Drake", "=q2="..BabbleBoss["Malygos"]..", =q1="..BabbleZone["The Eye of Eternity"], ""};
+				{
+					{ 9, 44083, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m6#", "", ""};
+					{ 9, 43959, "", "=q4=Reins of the Grand Black War Mammoth", "=q1="..BabbleZone["Vault of Archavon"]..", =ec1=#m7#", "", ""};
+				};
+				{ 10, 49636, "", "=q4=Reins of the Onyxian Drake", "=q2="..BabbleBoss["Onyxia"]..", =q1="..BabbleZone["Onyxia's Lair"], ""};
+				{ 16, 21218, "", "=q3=Blue Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "10.91%"};
+				{ 17, 21323, "", "=q3=Green Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "11.77%"};
+				{ 18, 21321, "", "=q3=Red Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "1.32%"};
+				{ 19, 21324, "", "=q3=Yellow Qiraji Resonating Crystal", "=q2="..AL["Trash Mobs"]..", =q1="..BabbleZone["Temple of Ahn'Qiraj"], "", "12.64%"};
+			};
+		};
+		info = {
+			name = AL["Rare Mounts"]..": "..AL["Raid"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsAchievement"] = {
+		["Normal"] = {
+			{
+				{ 1, 44843, "", "=q4=Blue Dragonhawk Mount", "#ACHIEVEMENTID:2536#, =ec1=#m7#"};
+				{ 2, 44842, "", "=q4=Red Dragonhawk Mount", "#ACHIEVEMENTID:2537#, =ec1=#m6#"};
+				{ 3, 44178, "", "=q4=Reins of the Albino Drake", "#ACHIEVEMENTID:2143#"};
+				{ 4, 51954, "", "=q4=Reins of the Bloodbathed Frostbrood Vanquisher", "#ACHIEVEMENTID:4602#"};
+				{ 5, 51955, "", "=q4=Reins of the Icebound Frostbrood Vanquisher", "#ACHIEVEMENTID:4603#"};
+				{ 6, 45801, "", "=q4=Reins of the Ironbound Proto-Drake", "#ACHIEVEMENTID:2958#"};
+				{ 7, 44160, "", "=q4=Reins of the Red Proto-Drake", "#ACHIEVEMENTID:2136#"};
+				{ 8, 45802, "", "=q4=Reins of the Rusted Proto-Drake", "#ACHIEVEMENTID:2957#"};
+				{ 9, 44177, "", "=q4=Reins of the Violet Proto-Drake", "#ACHIEVEMENTID:2145#"};
+				{ 10, 44223, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:614#, =ec1=#m7#"};
+				{ 11, 44224, "", "=q4=Reins of the Black War Bear", "#ACHIEVEMENTID:619#, =ec1=#m6#"};
+			};
+		};
+		info = {
+			name = AL["Achievement Reward"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsCraftQuest"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Crafted Mounts"], ""};
+				{ 2, 44413, "", "=q4=Mekgineer's Chopper", "=ds=#e26# =q2=#p5# =ec1=#m7#"};
+				{ 3, 41508, "", "=q4=Mechano-Hog", "=ds=#e26# =q2=#p5# =ec1=#m6#"};
+				{ 5, 54797, "", "=q4=Frosty Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 6, 44558, "", "=q4=Magnificent Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 7, 34061, "", "=q4=Turbo-Charged Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 8, 44554, "", "=q3=Flying Carpet", "=ds=#e27# =q2=#p8#"};
+				{ 9, 34060, "", "=q3=Flying Machine", "=ds=#e27# =q2=#p5#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Quest Reward"], ""};
+				{ 17, 52200, "", "=q4=Reins of the Crimson Deathcharger", "=q1=#m4#: #QUESTID:24915#"};
+				{ 18, 43962, "", "=q4=Reins of the White Polar Bear", "=q1=#m4#: "..AL["Hyldnir Spoils"], ""};
+			};
+		};
+		info = {
+			name = AL["Quest Reward"].." / "..AL["Crafted Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+
+	AtlasLoot_Data["MountsCardGamePromotional"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Card Game Mounts"], ""};
+				{ 2, 49282, "", "=q4=Big Battle Bear", "=ds=#e26#"};
+				{ 3, 49290, "", "=q4=Magic Rooster Egg", "=ds=#e26#"};
+				{ 4, 49284, "", "=q4=Reins of the Swift Spectral Tiger", "=ds=#e26#"};
+				{ 5, 23720, "", "=q4=Riding Turtle", "=ds=#e26#"};
+				{ 6, 54068, "", "=q4=Wooly White Rhino ", "=ds=#e26#"};
+				{ 7, 49286, "", "=q4=X-51 Nether-Rocket X-TREME", "=ds=#e12#"};
+				{ 8, 49283, "", "=q3=Reins of the Spectral Tiger", "=ds=#e26#"};
+				{ 9, 49285, "", "=q3=X-51 Nether-Rocket", "=ds=#e12#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Promotional Mounts"], ""};
+				{ 17, 54860, "", "=q4=X-53 Touring Rocket", "=ds=#e12#"};
+				{ 18, 43599, "", "=q3=Big Blizzard Bear", "#ACHIEVEMENTID:415#"};
+				{ 20, 0, "INV_Box_01", "=q6="..AL["Blizzard Store"], ""};
+				{ 21, 54811, "", "=q4=Celestial Steed", "=ds=#e12#"};
+			};
+		};
+		info = {
+			name = AL["Promotional Mounts"].." / "..AL["Card Game Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsEvent"] = {
+		["Normal"] = {
+			{
+				{ 1, 0, "INV_BannerPVP_02", "=q6=#m7#", ""};
+				{ 2, 45591, "", "=q4=Darnassian Nightsaber", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 3, 45590, "", "=q4=Exodar Elekk", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 4, 45589, "", "=q4=Gnomeregan Mechanostrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 5, 45586, "", "=q4=Ironforge Ram", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 6, 45125, "", "=q4=Stormwind Steed", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 8, 46745, "", "=q4=Great Red Elekk", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 9, 46752, "", "=q4=Swift Gray Steed", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 10, 46744, "", "=q4=Swift Moonsaber", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 11, 46748, "", "=q4=Swift Violet Ram", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 12, 46747, "", "=q4=Turbostrider", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 14, 47179, "", "=q4=Argent Charger", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 15, 47180, "", "=q4=Argent Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 16, 0, "INV_BannerPVP_01", "=q6=#m6#", ""};
+				{ 17, 45593, "", "=q4=Darkspear Raptor", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 18, 45597, "", "=q4=Forsaken Warhorse", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 19, 45595, "", "=q4=Orgrimmar Wolf", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 20, 45596, "", "=q4=Silvermoon Hawkstrider", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 21, 45592, "", "=q4=Thunder Bluff Kodo", "=ds=#e26#", "#CHAMPSEAL:100#"};
+				{ 23, 46750, "", "=q4=Great Golden Kodo", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 24, 46749, "", "=q4=Swift Burgundy Wolf", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 25, 46743, "", "=q4=Swift Purple Raptor", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 26, 46751, "", "=q4=Swift Red Hawkstrider", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 27, 46746, "", "=q4=White Skeletal Warhorse", "=ds=#e26#", "500 #gold# #CHAMPSEAL:5#"};
+				{ 29, 45725, "", "=q4=Argent Hippogryph", "=ds=#e27#", "#CHAMPSEAL:150#"};
+				extraText = " - "..AL["Argent Tournament"]
+			};
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Brewfest"], ""};
+				{ 2, 37828, "", "=q4=Great Brewfest Kodo", "=q2="..BabbleBoss["Coren Direbrew"]};
+				{ 3, 33977, "", "=q4=Swift Brewfest Ram", "=q2="..BabbleBoss["Coren Direbrew"]};
+				{ 5, 0, "INV_Box_01", "=q6="..AL["Hallow's End"], ""};
+				{ 6, 37012, "", "=q4=The Horseman's Reins", "#ACHIEVEMENTID:980#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Love is in the Air"], ""};
+				{ 17, 50250, "", "=q4=Big Love Rocket", "#ACHIEVEMENTID:4627#"};
+			};
+		};
+		info = {
+			name = AL["World Events"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+	AtlasLoot_Data["MountsRemoved"] = {
+		["Normal"] = {
+			{
+				{ 1, 33809, "", "=q4=Amani War Bear", "=q1="..BabbleZone["Zul'Aman"], ""};
+				{ 2, 19872, "", "=q4=Swift Razzashi Raptor", "#ACHIEVEMENTID:881#"};
+				{ 3, 19902, "", "=q4=Swift Zulian Tiger", "#ACHIEVEMENTID:880#"};
+				{ 5, 49098, "", "=q4=Crusader's Black Warhorse", "#ACHIEVEMENTID:4079#, =ec1=#m6#"};
+				{ 6, 49096, "", "=q4=Crusader's White Warhorse", "#ACHIEVEMENTID:4156#, =ec1=#m7#"};
+				{ 7, 49044, "", "=q4=Swift Alliance Steed", "#ACHIEVEMENTID:3810#, =ec1=#m7#"};
+				{ 8, 49046, "", "=q4=Swift Horde Wolf", "#ACHIEVEMENTID:3810#, =ec1=#m6#"};
+				{ 9, 44164, "", "=q4=Reins of the Black Proto-Drake", "#ACHIEVEMENTID:2138#"};
+				{ 10, 44175, "", "=q4=Reins of the Plagued Proto-Drake", "#ACHIEVEMENTID:2137#"};
+				{ 12, 21176, "", "=q5=Black Qiraji Resonating Crystal", "=q1=#m4#: #QUESTID:8743#"};
+				{ 13, 37719, "", "=q4=Swift Zhevra", "#ACHIEVEMENTID:1436#"};
+				{ 14, 33976, "", "=q3=Brewfest Ram", "=ds=#e26#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Arena Reward"], ""};
+				{ 17, 30609, "", "=q4=Swift Nether Drake", "#ACHIEVEMENTID:886#"};
+				{ 18, 34092, "", "=q4=Merciless Nether Drake", "#ACHIEVEMENTID:887#"};
+				{ 19, 37676, "", "=q4=Vengeful Nether Drake", "#ACHIEVEMENTID:888#"};
+				{ 20, 43516, "", "=q4=Brutal Nether Drake", "#ACHIEVEMENTID:2316#"};
+				{ 21, 46708, "", "=q4=Deadly Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3096#"};
+				{ 22, 46171, "", "=q4=Furious Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3756#"};
+				{ 23, 47840, "", "=q4=Relentless Gladiator's Frost Wyrm", "#ACHIEVEMENTID:3757#"};
+				{ 24, 50435, "", "=q4=Wrathful Gladiator's Frost Wyrm", "#ACHIEVEMENTID:4600#"};
+			};
+		};
+		info = {
+			name = AL["Unobtainable Mounts"],
+			module = moduleName, menu = "MOUNTMENU", instance = "Mounts",
+		};
+	}
+
+		----------------------------
+		--- Transformation Items ---
+		----------------------------
+
+	AtlasLoot_Data["TransformationNonconsumedItems"] = {
+		["Normal"] = {
+			{
+				{ 1, 49704, "", "=q4=Carved Ogre Idol", "=ds=#m24#"};
+				{ 2, 52201, "", "=q4=Muradin's Favor", "=ds=#m4#: #QUESTID:24917#"};
+				{ 3, 37254, "", "=q4=Super Simian Sphere", "=ds="..AL["World Drop"]};
+				{ 4, 54653, "", "=q3=Darkspear Pride", "=ds=#m4#: #QUESTID:25480#"};
+				{ 5, 44719, "", "=q3=Frenzyheart Brew", "=ds="..BabbleFaction["Frenzyheart Tribe"]..": "..BabbleFaction["Revered"]};
+				{ 6, 54651, "", "=q3=Gnomeregan Pride", "=ds=#m4#: #QUESTID:25286#"};
+				{ 7, 19979, "", "=q3=Hook of the Master Angler", "=ds=#m4#: #QUESTID:8193#"};
+				{ 8, 33079, "", "=q3=Murloc Costume", "#ACHIEVEMENTID:412#"};
+				{ 9, 1973, "", "=q3=Orb of Deception", "=ds="..AL["World Drop"]};
+				{ 10, 35275, "", "=q3=Orb of the Sin'dorei", "=ds="..AL["Various Locations"]..": "..BabbleZone["Magisters' Terrace"]};
+				{ 11, 45850, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 12, 45851, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 13, 45852, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 14, 45853, "", "=q3=Rituals of the New Moon", "=ds=#p26#"};
+				{ 15, 32782, "", "=q3=Time-Lost Figurine", "=ds="..AL["Terokk"]..": "..BabbleZone["Terokkar Forest"]};
+				{ 16, 5462, "", "=q1=Dartol's Rod of Transformation", "=ds=#m4#: #QUESTID:1028#"};
+				{ 17, 43499, "", "=q1=Iron Boot Flask", "=ds="..AL["Vendor"]..": "..BabbleZone["The Storm Peaks"]};
+				{ 18, 17712, "", "=q1=Winter Veil Disguise Kit", "=ds="..AL["Feast of Winter Veil"]};
+			};
+		};
+		info = {
+			name = AL["Non-consumed Transformation Items"],
+			module = moduleName, menu = "TRANSFORMATIONMENU",
+		};
+	}
+
+	AtlasLoot_Data["TransformationConsumableItems"] = {
+		["Normal"] = {
+			{
+				{ 1, 38320, "", "=q1=Dire Brew", "=ds="..BabbleZone["Blackrock Depths"]};
+				{ 2, 43572, "", "=q1=Magic Eater", "=ds=#p24#: =ds="..BabbleZone["Dalaran"]};
+				{ 3, 8529, "", "=q1=Noggenfogger Elixir", "=ds="..AL["Vendor"]..": "..BabbleZone["Tanaris"]};
+				{ 4, 31337, "", "=q1=Orb of the Blackwhelp", "=ds="..AL["Vendor"]..": "..BabbleZone["Blade's Edge Mountains"]};
+				{ 5, 40195, "", "=q1=Pygmy Oil", "=ds=#p1#"};
+				{ 6, 6657, "", "=q1=Savory Deviate Delight", "=ds=#p3#"};
+				{ 7, 44012, "", "=q1=Underbelly Elixir", "=ds="..BabbleZone["Dalaran"]};
+			};
+		};
+		info = {
+			name = AL["Consumable Transformation Items"],
+			module = moduleName, menu = "TRANSFORMATIONMENU",
+		};
+	}
+	
+	AtlasLoot_Data["TransformationAdditionalEffects"] = {
+		["Normal"] = {
+			{
+				{ 1, 39769, "", "=q4=Arcanite Ripper", "=ds=#h2#, #w1#"};
+				{ 2, 50362, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
+				{ 3, 50363, "", "=q4=Deathbringer's Will", "=ds=#s14#"};
+			};
+		};
+		info = {
+			name = AL["Additional Effects Transformation Items"],
+			module = moduleName, menu = "TRANSFORMATIONMENU",
 		};
 	}

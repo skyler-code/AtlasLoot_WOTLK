@@ -104,7 +104,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 18, "SmithingWeaponWrath", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Wrath of the Lich King"] };
 				{ 19, "SmithingWeaponBC", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Burning Crusade"] };
 				{ 20, "SmithingWeaponOld", "Trade_BlackSmithing", "=ds="..AL["Weapons"], "=q5="..AL["Classic WoW"] };
-				{ 22, "SmithingWeaponEnhancement", "inv_misc_steelweaponchain", "=ds="..AL["Weapon Enhancements"], "" };
+				{ 22, "SmithingWeaponEnhancement", "inv_belt_18", "=ds="..AL["Weapon Enhancements"], "" };
 				{ 25, "Weaponsmith", "inv_hammer_21", "=ds="..GetSpellInfo(9787), "" };
 				{ 26, "Hammersmith", "inv_hammer_09", "=ds="..GetSpellInfo(17040), "" };
 				--{ 30, "SmithingWeaponRemoved", "Trade_BlackSmithing", "=ds=Removed (Temp Name)", "" };
@@ -141,11 +141,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["ENGINEERINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "EngineeringGem", "inv_gizmo_gnomishflameturret", "=ds="..BabbleInventory["Cogwheel"], "" };
-				{ 3, "EngineeringMisc", "inv_pet_lilsmoky", "=ds="..BabbleInventory["Miscellaneous"], "" };
-				{ 4, "EngineeringReagents", "inv_misc_enggizmos_27", "=ds="..AL["Reagents"], "" };
-				{ 5, "EngineeringScope", "inv_misc_spyglass_02", "=ds="..AL["Scope"], "" };				
-				{ 6, "EngineeringWeapon", "inv_weapon_rifle_08", "=ds="..BabbleInventory["Weapon"], "" };				
+				{ 2, "EngineeringMisc", "inv_pet_lilsmoky", "=ds="..BabbleInventory["Miscellaneous"], "" };
+				{ 3, "EngineeringReagents", "inv_misc_enggizmos_27", "=ds="..AL["Reagents"], "" };
+				{ 4, "EngineeringScope", "inv_misc_spyglass_02", "=ds="..AL["Scope"], "" };				
+				{ 5, "EngineeringWeapon", "inv_weapon_rifle_08", "=ds="..BabbleInventory["Weapon"], "" };				
 				{ 8, "Gnomish", "inv_helmet_49", "=ds="..GetSpellInfo(20220), "" };
 				{ 10, "EngineeringArmorCloth", "inv_gizmo_newgoggles", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleInventory["Cloth"] };
 				{ 11, "EngineeringArmorLeather", "inv_gizmo_newgoggles", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleInventory["Leather"] };
@@ -154,6 +153,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 18, "EngineeringPetMount", "inv_misc_key_06", "=ds="..BabbleInventory["Pet"].." & "..BabbleInventory["Mount"], "" };
 				{ 19, "EngineeringTinker", "Trade_Engineering", "=ds="..AL["Tinker"], "" };
 				{ 20, "EngineeringArmorTrinket", "inv_misc_head_dragon_bronze", "=ds="..BabbleInventory["Trinket"], "" };
+				{ 21, "EngineeringFirework", "inv_misc_missilesmall_green", "=ds="..AL["Fireworks"], "" };
 				{ 23, "Goblin", "inv_gizmo_supersappercharge", "=ds="..GetSpellInfo(20221), "" };
 				{ 25, "EngineeringArmorMail", "inv_gizmo_newgoggles", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleInventory["Mail"] };
 				{ 26, "EngineeringArmorPlate", "inv_gizmo_newgoggles", "=ds="..BabbleInventory["Armor"], "=q5="..BabbleInventory["Plate"] };
@@ -168,8 +168,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["INSCRIPTIONMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "Inscription_RelicsEnchants", "inv_misc_mastersinscription", "=ds="..AL["Relics/Shoulder Enchants"], "" };
-				{ 17, "Inscription_OffHand", "inv_misc_book_16", "=ds="..AL["Off-Hand Items"], "" };
+				{ 2, "Inscription_RelicsEnchants", "inv_axe_85", "=ds="..AL["Relics/Shoulder Enchants"], "" };
+				{ 17, "Inscription_OffHand", "inv_misc_book_09", "=ds="..AL["Off-Hand Items"], "" };
 				{ 3, "Inscription_Scrolls", "inv_scroll_15", "=ds="..AL["Scrolls"].."/"..AL["Darkmoon Faire Card"], "" };
 				{ 18, "Inscription_Misc", "INV_Inscription_Tradeskill01", "=ds="..BabbleInventory["Miscellaneous"], "" };
 				{ 5, "Inscription_DeathKnight", "spell_deathknight_classicon", "=ds="..LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"], "=q5="..AL["Glyph"] };
@@ -201,8 +201,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, "JewelPurple", "inv_jewelcrafting_gem_40", "=ds="..BabbleInventory["Purple"].." "..BabbleInventory["Gem"], "" };
 				{ 7, "JewelMeta", "inv_jewelcrafting_shadowspirit_02", "=ds="..BabbleInventory["Meta"].." "..BabbleInventory["Gem"], "" };
 				{ 8, "JewelPrismatic", "inv_misc_gem_pearl_12", "=ds="..BabbleInventory["Prismatic"].." "..BabbleInventory["Gem"], "" };
-				{ 9, "JewelChimerasEye", "inv_jewelcrafting_dragonseye05", "=ds="..AL["Chimera's Eye"], "" };
-				{ 10, "JewelDragonsEye", "inv_jewelcrafting_dragonseye05", "=ds="..AL["Dragon's Eye"], "" };
+				{ 9, "JewelDragonsEye", "inv_jewelcrafting_dragonseye05", "=ds="..AL["Dragon's Eye"], "" };
 				{ 16, "JewelNeck", "inv_jewelry_necklace_35", "=ds="..BabbleInventory["Neck"], "" };
 				{ 17, "JewelTrinket", "inv_jewelcrafting_crimsonhare", "=ds="..BabbleInventory["Trinket"], "" };
 				{ 18, "JewelRing", "inv_jewelry_ring_55", "=ds="..BabbleInventory["Ring"], "" };
@@ -240,10 +239,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["TAILORINGMENU"] = {
 		["Normal"] = {
 			{
-				{ 3, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 4, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
-				{ 5, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
-				{ 7, "TailoringItemEnhancement", "inv_misc_thread_01", "=ds="..AL["Item Enhancements"], "" };
+				{ 2, "TailoringArmorWotLK", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 3, "TailoringArmorBC", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Burning Crusade"] };
+				{ 4, "TailoringArmorOld", "Trade_Tailoring", "=ds="..AL["Cloth Armor"], "=q5="..AL["Classic WoW"] };
+				{ 5, "TailoringItemEnhancement", "inv_misc_thread_01", "=ds="..AL["Item Enhancements"], "" };
 				{ 9, "Mooncloth", "Trade_Tailoring", "=ds="..GetSpellInfo(26798), "" };
 				{ 10, "Shadoweave", "Trade_Tailoring", "=ds="..GetSpellInfo(26801), "" };
 				{ 17, "TailoringBags", "inv_misc_bag_enchantedrunecloth", "=ds="..AL["Bags"], "" };
@@ -270,13 +269,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 6, "CookingSpecial", "inv_valentineschocolate01", "=ds="..AL["Special"], ""};
 				{ 21, "CookingStandard", "inv_drink_15", "=ds="..AL["Food without Buffs"], ""};
 				{ 4, "CookingBuff", "inv_misc_food_68", "=ds="..AL["Standard Buffs"], "" };
-				{ 8, "s88036", "62290", "=q1=Seafood Magnifique Feast", "=ds=#sr# 525", "#ACHIEVEMENTID:5036#"};
-				{ 9, "s88011", "62289", "=q1=Broiled Dragon Feast", "=ds=#sr# 500", "#ACHIEVEMENTID:5467#"};
-				{ 10, "s57423", "43015", "=q1=Fish Feast", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 11, "s58527", "43478", "=q1=Gigantic Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 12, "s58528", "43480", "=q1=Small Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
-				{ 13, "s45554", "34753", "=q1=Great Feast", "=ds=#sr# 375", "=ds="..AL["Trainer"]};
-				{ 23, "s88019", "62649", "=q1=Fortune Cookie", "=ds=#sr# 525", "=ds="..AL["Cooking Daily"]};
+				{ 8, "s57423", "43015", "=q1=Fish Feast", "=ds=#sr# 450", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 9, "s58527", "43478", "=q1=Gigantic Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 10, "s58528", "43480", "=q1=Small Feast", "=ds=#sr# 425", "=ds="..AL["Vendor"]..": "..BabbleZone["Dalaran"]};
+				{ 11, "s45554", "34753", "=q1=Great Feast", "=ds=#sr# 375", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -368,7 +364,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["COOKINGDAILYMENU"] = {
 		["Normal"] = {
 			{
-				{ 8, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
+				{ 2, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
 				{ 17, "CookingDaily#2", "inv_misc_food_12", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
 				{ 19, 46349, "", "=q3=Chef's Hat", "=ds=#s1#", "#DALARANCK:100#"};
 				{ 20, 43007, "", "=q1=Northern Spices", "=ds=#e8#", "#DALARANCK:1#"};

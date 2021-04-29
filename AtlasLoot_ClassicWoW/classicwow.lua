@@ -6885,31 +6885,6 @@ local moduleName = "AtlasLootClassicWoW"
 		};
 	}
 
-		-------------------------
-		--- Bilgewater Cartel ---
-		-------------------------
-
-	AtlasLoot_Data["BilgewaterCartel"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r1#"};
-				{ 2, 64884, "", "=q1=Bilgewater Cartel Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r4#"};
-				{ 5, 67525, "", "=q2=Bilgewater Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Bilgewater Cartel"], "=q5=#r5#"};
-				{ 8, 64906, "", "=q3=Bilgewater Cape", "=ds=#s4#"};
-				{ 9, 64907, "", "=q3=Bilgewater Mantle", "=ds=#s4#"};
-				{ 10, 64905, "", "=q3=Bilgewater Shroud", "=ds=#s4#"};
-				{ 16, 62462, "", "=q4=Goblin Turbo-Trike Key", "=ds=#e26#"};
-				{ 17, 62461, "", "=q3=Goblin Trike Key", "=ds=#e26#"};
-			};
-		};
-		info = {
-			name = BabbleFaction["Bilgewater Cartel"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
-		};
-	}
-
 		---------------------------------------------------
 		--- Bloodsail Buccaneers & Hydraxian Waterlords ---
 		---------------------------------------------------
@@ -7039,21 +7014,13 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Darnassus"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r1#"};
-				{ 2, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r4#"};
-				{ 5, 67526, "", "=q2=Darnassian Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_banner_nightelf", "=q6="..BabbleFaction["Darnassus"], "=q5=#r5#"};
-				{ 8, 64887, "", "=q3=Cape of Darnassus", "=ds=#s4#"};
-				{ 9, 64888, "", "=q3=Mantle of Darnassus", "=ds=#s4#"};
-				{ 10, 64886, "", "=q3=Shroud of Darnassus", "=ds=#s4#"};
+				{ 1, 8632, "", "=q3=Reins of the Spotted Frostsaber", "=ds=#e26#"};
+				{ 2, 47100, "", "=q3=Reins of the Striped Dawnsaber", "=ds=#e26#"};
+				{ 3, 8631, "", "=q3=Reins of the Striped Frostsaber", "=ds=#e26#"};
+				{ 4, 8629, "", "=q3=Reins of the Striped Nightsaber", "=ds=#e26#"};
 				{ 16, 18766, "", "=q4=Reins of the Swift Frostsaber", "=ds=#e26#"};
 				{ 17, 18767, "", "=q4=Reins of the Swift Mistsaber", "=ds=#e26#"};
 				{ 18, 18902, "", "=q4=Reins of the Swift Stormsaber", "=ds=#e26#"};
-				{ 19, 8632, "", "=q3=Reins of the Spotted Frostsaber", "=ds=#e26#"};
-				{ 20, 47100, "", "=q3=Reins of the Striped Dawnsaber", "=ds=#e26#"};
-				{ 21, 8631, "", "=q3=Reins of the Striped Frostsaber", "=ds=#e26#"};
-				{ 22, 8629, "", "=q3=Reins of the Striped Nightsaber", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7069,20 +7036,12 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["DarkspearTrolls"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r1#"};
-				{ 2, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r4#"};
-				{ 5, 67536, "", "=q2=Darkspear Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_troll", "=q6="..BabbleFaction["Darkspear Trolls"], "=q5=#r5#"};
-				{ 8, 64912, "", "=q3=Darkspear Cape", "=ds=#s4#"};
-				{ 9, 64911, "", "=q3=Darkspear Mantle", "=ds=#s4#"};
-				{ 10, 64913, "", "=q3=Darkspear Shroud", "=ds=#s4#"};
+				{ 1, 8588, "", "=q3=Whistle of the Emerald Raptor", "=ds=#e26#"};
+				{ 2, 8591, "", "=q3=Whistle of the Turquoise Raptor", "=ds=#e26#"};
+				{ 3, 8592, "", "=q3=Whistle of the Violet Raptor", "=ds=#e26#"};
 				{ 16, 18788, "", "=q4=Swift Blue Raptor", "=ds=#e26#"};
 				{ 17, 18789, "", "=q4=Swift Olive Raptor", "=ds=#e26#"};
 				{ 18, 18790, "", "=q4=Swift Orange Raptor", "=ds=#e26#"};
-				{ 19, 8588, "", "=q3=Whistle of the Emerald Raptor", "=ds=#e26#"};
-				{ 20, 8591, "", "=q3=Whistle of the Turquoise Raptor", "=ds=#e26#"};
-				{ 21, 8592, "", "=q3=Whistle of the Violet Raptor", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7098,47 +7057,16 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Exodar"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r1#"};
-				{ 2, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r4#"};
-				{ 5, 67527, "", "=q2=Exodar Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_draenei", "=q6="..BabbleFaction["Exodar"], "=q5=#r5#"};
-				{ 8, 64890, "", "=q3=Cape of Exodar", "=ds=#s4#"};
-				{ 9, 64889, "", "=q3=Mantle of Exodar", "=ds=#s4#"};
-				{ 10, 64891, "", "=q3=Shroud of Exodar", "=ds=#s4#"};
+				{ 1, 28481, "", "=q3=Brown Elekk", "=ds=#e26#"};
+				{ 2, 29744, "", "=q3=Gray Elekk", "=ds=#e26#"};
+				{ 3, 29743, "", "=q3=Purple Elekk", "=ds=#e26#"};
 				{ 16, 29745, "", "=q4=Great Blue Elekk", "=ds=#e26#"};
 				{ 17, 29746, "", "=q4=Great Green Elekk", "=ds=#e26#"};
 				{ 18, 29747, "", "=q4=Great Purple Elekk", "=ds=#e26#"};
-				{ 19, 28481, "", "=q3=Brown Elekk", "=ds=#e26#"};
-				{ 20, 29744, "", "=q3=Gray Elekk", "=ds=#e26#"};
-				{ 21, 29743, "", "=q3=Purple Elekk", "=ds=#e26#"};
 			};
 		};
 		info = {
 			name = BabbleFaction["Exodar"],
-			module = moduleName, menu = "REPMENU_ORIGINALWOW",
-		};
-	}
-
-		---------------
-		--- Gilneas ---
-		---------------
-
-	AtlasLoot_Data["Gilneas"] = {
-		["Normal"] = {
-			{
-				{ 1, 0, "achievement_win_gilneas", "=q6=Gilneas", "=q5=#r1#"};
-				{ 2, 64882, "", "=q1=Gilneas Tabard", "=ds=#s7#"};
-				{ 4, 0, "achievement_win_gilneas", "=q6=Gilneas", "=q5=#r4#"};
-				{ 5, 67532, "", "=q2=Gilnean Satchel", "=ds=#e1#"};
-				{ 7, 0, "achievement_win_gilneas", "=q6=Gilneas", "=q5=#r5#"};
-				{ 8, 64893, "", "=q3=Cape of Gilneas", "=ds=#s4#"};
-				{ 9, 64892, "", "=q3=Mantle of Gilneas", "=ds=#s4#"};
-				{ 10, 64894, "", "=q3=Shroud of Gilneas", "=ds=#s4#"};
-			};
-		};
-		info = {
-			name = BabbleFaction["Gilneas"],
 			module = moduleName, menu = "REPMENU_ORIGINALWOW",
 		};
 	}
@@ -7150,21 +7078,13 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["GnomereganRep"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_gnome", "=q6=Gnomeregan", "=q5=#r1#"};
-				{ 2, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_gnome", "=q6=Gnomeregan", "=q5=#r4#"};
-				{ 5, 67530, "", "=q2=Gnomeregan Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_gnome", "=q6=Gnomeregan", "=q5=#r5#"};
-				{ 8, 64896, "", "=q3=Cape of Gnomeregan", "=ds=#s4#"};
-				{ 9, 64895, "", "=q3=Mantle of Gnomeregan", "=ds=#s4#"};
-				{ 10, 64897, "", "=q3=Shroud of Gnomeregan", "=ds=#s4#"};
+				{ 1, 8595, "", "=q3=Blue Mechanostrider", "=ds=#e26#"};
+				{ 2, 13321, "", "=q3=Green Mechanostrider", "=ds=#e26#"};
+				{ 3, 8563, "", "=q3=Red Mechanostrider", "=ds=#e26#"};
+				{ 4, 13322, "", "=q3=Unpainted Mechanostrider", "=ds=#e26#"};
 				{ 16, 18772, "", "=q4=Swift Green Mechanostrider", "=ds=#e26#"};
 				{ 17, 18773, "", "=q4=Swift White Mechanostrider", "=ds=#e26#"};
 				{ 18, 18774, "", "=q4=Swift Yellow Mechanostrider", "=ds=#e26#"};
-				{ 19, 8595, "", "=q3=Blue Mechanostrider", "=ds=#e26#"};
-				{ 20, 13321, "", "=q3=Green Mechanostrider", "=ds=#e26#"};
-				{ 21, 8563, "", "=q3=Red Mechanostrider", "=ds=#e26#"};
-				{ 22, 13322, "", "=q3=Unpainted Mechanostrider", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7180,20 +7100,12 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Ironforge"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r1#"};
-				{ 2, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r4#"};
-				{ 5, 67528, "", "=q2=Ironforge Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_dwarf", "=q6="..BabbleFaction["Ironforge"], "=q5=#r5#"};
-				{ 8, 64899, "", "=q3=Cape of Ironforge", "=ds=#s4#"};
-				{ 9, 64900, "", "=q3=Mantle of Ironforge", "=ds=#s4#"};
-				{ 10, 64898, "", "=q3=Shroud of Ironforge", "=ds=#s4#"};
+				{ 1, 5872, "", "=q3=Brown Ram", "=ds=#e26#"};
+				{ 2, 5864, "", "=q3=Gray Ram", "=ds=#e26#"};
+				{ 3, 5873, "", "=q3=White Ram", "=ds=#e26#"};
 				{ 16, 18786, "", "=q4=Swift Brown Ram", "=ds=#e26#"};
 				{ 17, 18787, "", "=q4=Swift Gray Ram", "=ds=#e26#"};
 				{ 18, 18785, "", "=q4=Swift White Ram", "=ds=#e26#"};
-				{ 19, 5872, "", "=q3=Brown Ram", "=ds=#e26#"};
-				{ 20, 5864, "", "=q3=Gray Ram", "=ds=#e26#"};
-				{ 21, 5873, "", "=q3=White Ram", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7209,21 +7121,13 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Orgrimmar"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r1#"};
-				{ 2, 45581, "", "=q1=Orgrimmar", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r4#"};
-				{ 5, 67533, "", "=q2=Orgrimmar Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_orc", "=q6="..BabbleFaction["Orgrimmar"], "=q5=#r5#"};
-				{ 8, 64909, "", "=q3=Cape of Orgimmar", "=ds=#s4#"};
-				{ 9, 64910, "", "=q3=Mantle of Orgimmar", "=ds=#s4#"};
-				{ 10, 64908, "", "=q3=Shroud of Orgimmar", "=ds=#s4#"};
+				{ 1, 46099, "", "=q3=Horn of the Black Wolf", "=ds=#e26#"};
+				{ 2, 5668, "", "=q3=Horn of the Brown Wolf", "=ds=#e26#"};
+				{ 3, 5665, "", "=q3=Horn of the Dire Wolf", "=ds=#e26#"};
+				{ 4, 1132, "", "=q3=Horn of the Timber Wolf", "=ds=#e26#"};
 				{ 16, 18796, "", "=q4=Horn of the Swift Brown Wolf", "=ds=#e26#"};
 				{ 17, 18798, "", "=q4=Horn of the Swift Gray Wolf", "=ds=#e26#"};
 				{ 18, 18797, "", "=q4=Horn of the Swift Timber Wolf", "=ds=#e26#"};
-				{ 19, 46099, "", "=q3=Horn of the Black Wolf", "=ds=#e26#"};
-				{ 20, 5668, "", "=q3=Horn of the Brown Wolf", "=ds=#e26#"};
-				{ 21, 5665, "", "=q3=Horn of the Dire Wolf", "=ds=#e26#"};
-				{ 22, 1132, "", "=q3=Horn of the Timber Wolf", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7239,21 +7143,13 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["SilvermoonCity"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r1#"};
-				{ 2, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r4#"};
-				{ 5, 67535, "", "=q2=Silvermoon Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_bloodelf", "=q6="..BabbleFaction["Silvermoon City"], "=q5=#r5#"};
-				{ 8, 64915, "", "=q3=Cape of Silvermoon", "=ds=#s4#"};
-				{ 9, 64916, "", "=q3=Mantle of Silvermoon", "=ds=#s4#"};
-				{ 10, 64914, "", "=q3=Shroud of Silvermoon", "=ds=#s4#"};
+				{ 1, 29221, "", "=q3=Black Hawkstrider", "=ds=#e26#"};
+				{ 2, 29220, "", "=q3=Blue Hawkstrider", "=ds=#e26#"};
+				{ 3, 29222, "", "=q3=Purple Hawkstrider", "=ds=#e26#"};
+				{ 4, 28927, "", "=q3=Red Hawkstrider", "=ds=#e26#"};
 				{ 16, 29223, "", "=q4=Swift Green Hawkstrider", "=ds=#e26#"};
 				{ 17, 28936, "", "=q4=Swift Pink Hawkstrider", "=ds=#e26#"};
 				{ 18, 29224, "", "=q4=Swift Purple Hawkstrider", "=ds=#e26#"};
-				{ 19, 29221, "", "=q3=Black Hawkstrider", "=ds=#e26#"};
-				{ 20, 29220, "", "=q3=Blue Hawkstrider", "=ds=#e26#"};
-				{ 21, 29222, "", "=q3=Purple Hawkstrider", "=ds=#e26#"};
-				{ 22, 28927, "", "=q3=Red Hawkstrider", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7269,21 +7165,13 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Stormwind"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r1#"};
-				{ 2, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r4#"};
-				{ 5, 67531, "", "=q2=Stormwind Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_human", "=q6="..BabbleFaction["Stormwind"], "=q5=#r5#"};
-				{ 8, 64902, "", "=q3=Cape of Stormwind", "=ds=#s4#"};
-				{ 9, 64901, "", "=q3=Mantle of Stormwind", "=ds=#s4#"};
-				{ 10, 64898, "", "=q3=Shroud of Stormwind", "=ds=#s4#"};
+				{ 1, 2411, "", "=q3=Black Stallion Bridle", "=ds=#e26#"};
+				{ 2, 5656, "", "=q3=Brown Horse Bridle", "=ds=#e26#"};
+				{ 3, 5655, "", "=q3=Chestnut Mare Bridle", "=ds=#e26#"};
+				{ 4, 2414, "", "=q3=Pinto Bridle", "=ds=#e26#"};
 				{ 16, 18777, "", "=q4=Swift Brown Steed", "=ds=#e26#"};
 				{ 17, 18776, "", "=q4=Swift Palomino", "=ds=#e26#"};
 				{ 18, 18778, "", "=q4=Swift White Steed", "=ds=#e26#"};
-				{ 19, 2411, "", "=q3=Black Stallion Bridle", "=ds=#e26#"};
-				{ 20, 5656, "", "=q3=Brown Horse Bridle", "=ds=#e26#"};
-				{ 21, 5655, "", "=q3=Chestnut Mare Bridle", "=ds=#e26#"};
-				{ 22, 2414, "", "=q3=Pinto Bridle", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7350,20 +7238,12 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["ThunderBluff"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r1#"};
-				{ 2, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r4#"};
-				{ 5, 67534, "", "=q2=Thunder Bluff Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_tauren", "=q6="..BabbleFaction["Thunder Bluff"], "=q5=#r5#"};
-				{ 8, 64918, "", "=q3=Cape of Thunder Bluff", "=ds=#s4#"};
-				{ 9, 64917, "", "=q3=Mantle of Thunder Bluff", "=ds=#s4#"};
-				{ 10, 64919, "", "=q3=Shroud of Thunder Bluff", "=ds=#s4#"};
+				{ 1, 15290, "", "=q3=Brown Kodo", "=ds=#e26#"};
+				{ 2, 15277, "", "=q3=Gray Kodo", "=ds=#e26#"};
+				{ 3, 46100, "", "=q3=White Kodo", "=ds=#e26#"};
 				{ 16, 18794, "", "=q4=Great Brown Kodo", "=ds=#e26#"};
 				{ 17, 18795, "", "=q4=Great Gray Kodo", "=ds=#e26#"};
 				{ 18, 18793, "", "=q4=Great White Kodo", "=ds=#e26#"};
-				{ 19, 15290, "", "=q3=Brown Kodo", "=ds=#e26#"};
-				{ 20, 15277, "", "=q3=Gray Kodo", "=ds=#e26#"};
-				{ 21, 46100, "", "=q3=White Kodo", "=ds=#e26#"};
 			};
 		};
 		info = {
@@ -7413,21 +7293,13 @@ local moduleName = "AtlasLootClassicWoW"
 	AtlasLoot_Data["Undercity"] = {
 		["Normal"] = {
 			{
-				{ 1, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r1#"};
-				{ 2, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
-				{ 4, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r4#"};
-				{ 5, 67529, "", "=q2=Undercity Satchel", "=ds=#e1#"};
-				{ 7, 0, "inv_misc_tournaments_symbol_scourge", "=q6="..BabbleFaction["Undercity"], "=q5=#r5#"};
-				{ 8, 64921, "", "=q3=Cape of Undercity", "=ds=#s4#"};
-				{ 9, 64922, "", "=q3=Mantle of Undercity", "=ds=#s4#"};
-				{ 10, 64920, "", "=q3=Shroud of Undercity", "=ds=#s4#"};
+				{ 1, 46308, "", "=q3=Black Skeletal Horse", "=ds=#e26#"};
+				{ 2, 13332, "", "=q3=Blue Skeletal Horse", "=ds=#e26#"};
+				{ 3, 13333, "", "=q3=Brown Skeletal Horse", "=ds=#e26#"};
+				{ 4, 13331, "", "=q3=Red Skeletal Horse", "=ds=#e26#"};
 				{ 16, 13334, "", "=q4=Green Skeletal Warhorse", "=ds=#e26#"};
 				{ 17, 47101, "", "=q4=Ochre Skeletal Warhorse", "=ds=#e26#"};
 				{ 18, 18791, "", "=q4=Purple Skeletal Warhorse", "=ds=#e26#"};
-				{ 19, 46308, "", "=q3=Black Skeletal Horse", "=ds=#e26#"};
-				{ 20, 13332, "", "=q3=Blue Skeletal Horse", "=ds=#e26#"};
-				{ 21, 13333, "", "=q3=Brown Skeletal Horse", "=ds=#e26#"};
-				{ 22, 13331, "", "=q3=Red Skeletal Horse", "=ds=#e26#"};
 			};
 		};
 		info = {
