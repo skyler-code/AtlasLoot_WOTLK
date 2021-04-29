@@ -144,9 +144,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 				{ 5, 20400, "", "=q2=Pumpkin Bag", "=ds=#e1# =q2="..AL["Various Locations"]};
 				{ 7, 37011, "", "=q3=Magic Broom", "=ds=#e12#", "#HALLOWSEND:150#"};
 				{ 8, 33292, "", "=q3=Hallowed Helm", "=ds=#s1#, #a1#", "#HALLOWSEND:150#"};
-				{ 9, 70722, "", "=q3=Little Wickerman", "=ds=#m20#", "#HALLOWSEND:150#"};
-				{ 10, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
-				{ 11, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
+				{ 9, 33154, "", "=q3=Sinister Squashling", "=ds=#e13#", "#HALLOWSEND:150#"};
+				{ 10, 37604, "", "=q1=Tooth Pick", "=ds=#m20#", "#HALLOWSEND:2#"};
 				{ 19, 33189, "", "=q2=Rickety Magic Broom", "=ds=#e12#"};
 				{ 20, 20516, "", "=q1=Bobbing Apple", "=ds=#e3#"};
 				{ 22, 0, "inv_gauntlets_06", "=q6="..AL["Handful of Treats"], ""};
