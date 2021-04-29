@@ -103,11 +103,11 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["WORLDEPICS"] = {
 		["Normal"] = {
 			{
-				{ 3, "WorldEpics70", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
-				{ 4, "WorldEpics4049", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
-				{ 17, "WorldEpics80", "INV_Sword_109", "=ds="..AL["Level 80"], ""};
-				{ 18, "WorldEpics5060", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
-				{ 19, "WorldEpics3039", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
+				{ 2, "WorldEpics80", "INV_Sword_109", "=ds="..AL["Level 80"], ""};
+				{ 3, "WorldEpics5060", "INV_Jewelry_Amulet_01", "=ds="..AL["Level 50-60"], ""};
+				{ 4, "WorldEpics3039", "INV_Jewelry_Ring_15", "=ds="..AL["Level 30-39"], ""};
+				{ 17,"WorldEpics70", "INV_Sword_76", "=ds="..AL["Level 70"], ""};
+				{ 18,"WorldEpics4049", "INV_Staff_29", "=ds="..AL["Level 40-49"], ""};
 			};
 		};
 		info = {

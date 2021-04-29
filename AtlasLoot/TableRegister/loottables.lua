@@ -1423,7 +1423,7 @@ AtlasLoot_LootTableRegister = {
 				{ "PetsRemoved" },
 				{ "PetsAccessories" },
 			},
-			["Info"] = { BabbleInventory["Companions"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Companions"], "AtlasLootWotLK"},
 		},
 
 		["Mounts"] = {
@@ -1438,7 +1438,7 @@ AtlasLoot_LootTableRegister = {
 				{ "MountsEvent" },
 				{ "MountsRemoved" },
 			},
-			["Info"] = { BabbleInventory["Mounts"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Mounts"], "AtlasLootWotLK"},
 		},
 
 		["Tabards"] = {
@@ -1448,7 +1448,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TabardsAchievementQuestRareMisc" },
 				{ "TabardsRemoved" },
 			},
-			["Info"] = { BabbleInventory["Tabards"], "AtlasLootCataclysm"},
+			["Info"] = { BabbleInventory["Tabards"], "AtlasLootWotLK"},
 		},
 		
 		["TransformationItems"] = {
@@ -1457,12 +1457,11 @@ AtlasLoot_LootTableRegister = {
 				{ "TransformationConsumableItems" },
 				{ "TransformationAdditionalEffects" },
 			},
-			["Info"] = { AL["Transformation Items"], "AtlasLootCataclysm"},
+			["Info"] = { AL["Transformation Items"], "AtlasLootWotLK"},
 		},
 		
 		["WorldEpics"] = {
 			["Bosses"] = {
-				{ "WorldEpics85" },
 				{ "WorldEpics80" },
 				{ "WorldEpics70" },
 				{ "WorldEpics5060" },

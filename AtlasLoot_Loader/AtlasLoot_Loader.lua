@@ -83,7 +83,7 @@ function AtlasLoot:OnInitialize()
 end
 
 --- Loads a AtlasLoot module
--- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCataclysm, AtlasLootCrafting, AtlasLootWorldEvents, all
+-- @param module AtlasLootClassicWoW, AtlasLootBurningCrusade, AtlasLootWotLK, AtlasLootCrafting, AtlasLootWorldEvents, all
 -- @usage AtlasLoot:LoadModule(module)
 function AtlasLoot:LoadModule(module)
 	if not module or type(module) ~= "string" then return end

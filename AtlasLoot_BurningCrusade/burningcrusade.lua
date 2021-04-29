@@ -6516,7 +6516,7 @@ local moduleName = "AtlasLootBurningCrusade"
 		};
 		info = {
 			name = AL["BoE World Epics"].." "..AL["Level 70"],
-			module = "AtlasLootWotLK", menu = "WORLDEPICS", instance = "WorldEpics",
+			module = moduleName, menu = "WORLDEPICS", instance = "WorldEpics",
 		};
 	}
 

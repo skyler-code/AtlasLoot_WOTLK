@@ -3,7 +3,7 @@ local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 local BabbleBoss = AtlasLoot_GetLocaleLibBabble("LibBabble-Boss-3.0")
 
 local EY_SUPPORT = { 
-	["AtlasLootCataclysm"] = true 
+	["AtlasLootWotLK"] = true 
 }
 -- ["Bosses"]
 local BOSS_IDS = {}
