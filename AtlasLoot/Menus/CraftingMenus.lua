@@ -364,10 +364,10 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["COOKINGDAILYMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "CookingDaily#3", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
-				{ 17, "CookingDaily#2", "inv_misc_food_12", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
-				{ 19, 46349, "", "=q3=Chef's Hat", "=ds=#s1#", "#DALARANCK:100#"};
-				{ 20, 43007, "", "=q1=Northern Spices", "=ds=#e8#", "#DALARANCK:1#"};
+				{ 2, "CookingDaily#1", "inv_misc_food_12", "=ds="..BabbleZone["Dalaran"], "=q5="..AL["Wrath of the Lich King"] };
+				{ 17, "CookingDaily#2", "inv_misc_cauldron_arcane", "=ds="..BabbleZone["Shattrath"], "=q5="..AL["Burning Crusade"] };
+				{ 4, 46349, "", "=q3=Chef's Hat", "=ds=#s1#", "#DALARANCK:100#"};
+				{ 5, 43007, "", "=q1=Northern Spices", "=ds=#e8#", "#DALARANCK:1#"};
 			};
 		};
 		info = {
