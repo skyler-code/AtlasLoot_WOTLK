@@ -11725,15 +11725,14 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["TabardsAlliance"] = {
 		["Normal"] = {
 			{
-				{ 1, 63379, "", "=q3=Baradin's Wardens Tabard", "=ds=#s7#"};
-				{ 2, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
-				{ 3, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
-				{ 4, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
-				{ 5, 23999, "", "=q1=Honor Hold Tabard", "=ds=#s7#"};
-				{ 6, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
-				{ 7, 31774, "", "=q1=Kurenai Tabard", "=ds=#s7#"};
-				{ 8, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
-				{ 9, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
+				{ 1, 45579, "", "=q1=Darnassus Tabard", "=ds=#s7#"};
+				{ 2, 45580, "", "=q1=Exodar Tabard", "=ds=#s7#"};
+				{ 3, 45578, "", "=q1=Gnomeregan Tabard", "=ds=#s7#"};
+				{ 4, 23999, "", "=q1=Honor Hold Tabard", "=ds=#s7#"};
+				{ 5, 45577, "", "=q1=Ironforge Tabard", "=ds=#s7#"};
+				{ 6, 31774, "", "=q1=Kurenai Tabard", "=ds=#s7#"};
+				{ 7, 46817, "", "=q1=Silver Covenant Tabard", "=ds=#s7#"};
+				{ 8, 45574, "", "=q1=Stormwind Tabard", "=ds=#s7#"};
 				{ 16, 0, "INV_BannerPVP_02", "=q6="..AL["PvP Tabards"], ""};
 				{ 17, 15196, "", "=q1=Private's Tabard", "=ds=#s7#"};
 				{ 18, 15198, "", "=q1=Knight's Colors", "=ds=#s7#"};
@@ -11751,15 +11750,14 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["TabardsHorde"] = {
 		["Normal"] = {
 			{
-				{ 1, 63378, "", "=q3=Hellscream's Reach Tabard", "=ds=#s7#"};
-				{ 2, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#"};
-				{ 3, 31773, "", "=q1=Mag'har Tabard", "=ds=#s7#"};
-				{ 4, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
-				{ 5, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#"};
-				{ 6, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#"};
-				{ 7, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#"};
-				{ 8, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
-				{ 9, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
+				{ 1, 45582, "", "=q1=Darkspear Tabard", "=ds=#s7#"};
+				{ 2, 31773, "", "=q1=Mag'har Tabard", "=ds=#s7#"};
+				{ 3, 45581, "", "=q1=Orgrimmar Tabard", "=ds=#s7#"};
+				{ 4, 45585, "", "=q1=Silvermoon City Tabard", "=ds=#s7#"};
+				{ 5, 46818, "", "=q1=Sunreaver Tabard", "=ds=#s7#"};
+				{ 6, 24004, "", "=q1=Thrallmar Tabard", "=ds=#s7#"};
+				{ 7, 45584, "", "=q1=Thunder Bluff Tabard", "=ds=#s7#"};
+				{ 8, 45583, "", "=q1=Undercity Tabard", "=ds=#s7#"};
 				{ 16, 0, "INV_BannerPVP_01", "=q6="..AL["PvP Tabards"], ""};
 				{ 17, 15197, "", "=q1=Scout's Tabard", "=ds=#s7#"};
 				{ 18, 15199, "", "=q1=Stone Guard's Herald", "=ds=#s7#"};
@@ -11789,9 +11787,7 @@ local moduleName = "AtlasLootWotLK"
 				{ 7, 49054, "", "=q3=Tabard of Conquest", "#ACHIEVEMENTID:3957#, =ec1=#m6#"};
 				{ 9, 0, "INV_Box_01", "=q6="..AL["Misc"], ""};
 				{ 10, 23192, "", "=q2=Tabard of the Scarlet Crusade", "=ds=#s7#", "", "0.48%"};
-				{ 11, 69210, "", "=q4=Renowned Guild Tabard", "=ds=#s7#"};
-				{ 12, 69209, "", "=q3=Illustrious Guild Tabard", "=ds=#s7#"};
-				{ 13, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
+				{ 11, 5976, "", "=q1=Guild Tabard", "=ds=#s7#"};
 				{ 16, 0, "achievement_guildperk_honorablemention", "=q6="..AL["Quest Reward"], ""};
 				{ 17, 52252, "", "=q4=Tabard of the Lightbringer", "=q1=#m4#: #QUESTID:24919#"};
 				{ 18, 35280, "", "=q3=Tabard of Summer Flames", "=q1=#m4#: #QUESTID:11972#"};
