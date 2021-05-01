@@ -1026,31 +1026,28 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingArmorEnhancement"] = {
 		["Normal"] = {
 			{
-				{ 1, "s76439", "55054", "=q3=Ebonsteel Belt Buckle", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 2, "s55656", "41611", "=q3=Eternal Belt Buckle", "=ds=#sr# 415", "=ds="..AL["Trainer"]};
-				{ 3, "s55628", "item_socketedbracer", "=ds=Socket Bracer", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 4, "s55641", "INV_GAUNTLETS_61", "=ds=Socket Gloves", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
-				{ 6, "s32285", "25521", "=q1=Greater Rune of Warding", "=ds=#sr# 350", "=ds="..BabbleFaction["Cenarion Expedition"].." - "..BabbleFaction["Honored"]};
-				{ 7, "s32284", "23559", "=q1=Lesser Rune of Warding", "=ds=#sr# 325", "=ds="..AL["Trainer"]};
-				{ 9, "s9964", "7969", "=q2=Mithril Spurs", "=ds=#sr# 235", "=ds="..AL["World Drop"]};
-				{ 16, "s76440", "55056", "=q3=Pyrium Shield Spike", "=ds=#sr# 525", "=ds="..AL["Trainer"]};
-				{ 17, "s76441", "55055", "=q2=Elementium Shield Spike", "=ds=#sr# 490", "=ds="..AL["Trainer"]};
-				{ 18, "s56357", "42500", "=q2=Titanium Shield Spike", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{ 1, "s55656", "41611", "=q3=Eternal Belt Buckle", "=ds=#sr# 415", "=ds="..AL["Trainer"]};
+				{ 2, "s55628", "inv_jewelcrafting_thoriumsetting", "=ds=Socket Bracer", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 3, "s55641", "INV_GAUNTLETS_61", "=ds=Socket Gloves", "=ds=#sr# 400", "=ds="..AL["Trainer"]};
+				{ 5, "s32285", "25521", "=q1=Greater Rune of Warding", "=ds=#sr# 350", "=ds="..BabbleFaction["Cenarion Expedition"].." - "..BabbleFaction["Honored"]};
+				{ 6, "s32284", "23559", "=q1=Lesser Rune of Warding", "=ds=#sr# 325", "=ds="..AL["Trainer"]};
+				{ 8, "s9964", "7969", "=q2=Mithril Spurs", "=ds=#sr# 235", "=ds="..AL["World Drop"]};
+				{ 16, "s56357", "42500", "=q2=Titanium Shield Spike", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
 				{
-					{ 19, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360", "=ds="..BabbleFaction["Thrallmar"].." - "..BabbleFaction["Exalted"]};
-					{ 19, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360", "=ds="..BabbleFaction["Honor Hold"].." - "..BabbleFaction["Exalted"]};
+					{ 17, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360", "=ds="..BabbleFaction["Thrallmar"].." - "..BabbleFaction["Exalted"]};
+					{ 17, "s29657", "23530", "=q2=Felsteel Shield Spike", "=ds=#sr# 360", "=ds="..BabbleFaction["Honor Hold"].." - "..BabbleFaction["Exalted"]};
 				};
-				{ 20, "s16651", "12645", "=q2=Thorium Shield Spike", "=ds=#sr# 275", "=ds="..AL["World Drop"]};
-				{ 21, "s9939", "7967", "=q2=Mithril Shield Spike", "=ds=#sr# 215", "=ds="..AL["World Drop"]};
-				{ 22, "s7221", "6042", "=q1=Iron Shield Spike", "=ds=#sr# 150", "=ds="..AL["World Drop"]};
+				{ 18, "s16651", "12645", "=q2=Thorium Shield Spike", "=ds=#sr# 275", "=ds="..AL["World Drop"]};
+				{ 19, "s9939", "7967", "=q2=Mithril Shield Spike", "=ds=#sr# 215", "=ds="..AL["World Drop"]};
+				{ 20, "s7221", "6042", "=q1=Iron Shield Spike", "=ds=#sr# 150", "=ds="..AL["World Drop"]};
 				{
-					{ 24, "s62202", "44936", "=q3=Titanium Plating", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"].." - "..BabbleFaction["Exalted"]};
-					{ 24, "s62202", "44936", "=q3=Titanium Plating", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"].." - "..BabbleFaction["Exalted"]};
+					{ 21, "s62202", "44936", "=q3=Titanium Plating", "=ds=#sr# 450", "=ds="..BabbleFaction["Horde Expedition"].." - "..BabbleFaction["Exalted"]};
+					{ 21, "s62202", "44936", "=q3=Titanium Plating", "=ds=#sr# 450", "=ds="..BabbleFaction["Alliance Vanguard"].." - "..BabbleFaction["Exalted"]};
 				};
-				{ 25, "s29729", "23576", "=q1=Greater Ward of Shielding", "=ds=#sr# 375", "=ds="..AL["Drop"]..": "..BabbleZone["Netherstorm"]};
+				{ 22, "s29729", "23576", "=q1=Greater Ward of Shielding", "=ds=#sr# 375", "=ds="..AL["Drop"]..": "..BabbleZone["Netherstorm"]};
 				{
-					{ 26, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"].." / "..BabbleZone["Kelp'thar Forest"]};
-					{ 26, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"].." / "..BabbleZone["Kelp'thar Forest"]};
+					{ 23, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"]};
+					{ 23, "s29728", "23575", "=q1=Lesser Ward of Shielding", "=ds=#sr# 340", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"]};
 				};
 			};
 		};
@@ -1093,33 +1090,30 @@ local SPELLFIRE = GetSpellInfo(26797);
 	AtlasLoot_Data["SmithingMisc"] = {
 		["Normal"] = {
 			{
-				{ 1, "s76438", "55053", "=q1=Obsidium Skeleton Key", "=ds=#sr# 475", "=ds="..AL["Trainer"]};
-				{ 2, "s59406", "43853", "=q2=Titanium Skeleton Key", "=ds=#sr# 430", "=ds="..AL["Trainer"]};
-				{ 3, "s59405", "43854", "=q2=Cobalt Skeleton Key", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
-				{ 4, "s19669", "15872", "=q2=Arcanite Skeleton Key", "=ds=#sr# 275", "=ds="..AL["Trainer"]};
-				{ 5, "s19668", "15871", "=q2=Truesilver Skeleton Key", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
-				{ 6, "s19667", "15870", "=q2=Golden Skeleton Key", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
-				{ 7, "s19666", "15869", "=q2=Silver Skeleton Key", "=ds=#sr# 100", "=ds="..AL["Trainer"]};
-				{ 9, "s76178", "65365", "=q1=Folded Obsidium", "=ds=#sr# 425", "=ds="..AL["Trainer"]};
-				{ 10, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
-				{ 11, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
-				{ 12, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
-				{ 13, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75", "=ds="..AL["Trainer"]};
-				{ 14, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25", "=ds="..AL["Trainer"]};
-				{ 16, "s92375", "65358", "=q1=Elementium Rod", "=ds=#sr# 475", "=ds="..AL["Trainer"] };
-				{ 17, "s55732", "41745", "=q1=Titanium Rod", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
+				{ 1, "s59406", "43853", "=q2=Titanium Skeleton Key", "=ds=#sr# 430", "=ds="..AL["Trainer"]};
+				{ 2, "s59405", "43854", "=q2=Cobalt Skeleton Key", "=ds=#sr# 350", "=ds="..AL["Trainer"]};
+				{ 3, "s19669", "15872", "=q2=Arcanite Skeleton Key", "=ds=#sr# 275", "=ds="..AL["Trainer"]};
+				{ 4, "s19668", "15871", "=q2=Truesilver Skeleton Key", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 5, "s19667", "15870", "=q2=Golden Skeleton Key", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 6, "s19666", "15869", "=q2=Silver Skeleton Key", "=ds=#sr# 100", "=ds="..AL["Trainer"]};
+				{ 8, "s16639", "12644", "=q1=Dense Grinding Stone", "=ds=#sr# 250", "=ds="..AL["Trainer"]};
+				{ 9, "s9920", "7966", "=q1=Solid Grinding Stone", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 10, "s3337", "3486", "=q1=Heavy Grinding Stone", "=ds=#sr# 125", "=ds="..AL["Trainer"]};
+				{ 11, "s3326", "3478", "=q1=Coarse Grinding Stone", "=ds=#sr# 75", "=ds="..AL["Trainer"]};
+				{ 12, "s3320", "3470", "=q1=Rough Grinding Stone", "=ds=#sr# 25", "=ds="..AL["Trainer"]};
+				{ 16, "s55732", "41745", "=q1=Titanium Rod", "=ds=#sr# 420", "=ds="..AL["Trainer"]};
 				{
-					{ 18, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"].." / "..BabbleZone["Kelp'thar Forest"]};
-					{ 18, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"].." / "..BabbleZone["Kelp'thar Forest"]};
+					{ 17, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleZone["Hellfire Peninsula"]};
+					{ 17, "s32657", "25845", "=q1=Eternium Rod", "=ds=#sr# 360", "=ds="..AL["Vendor"]..": "..BabbleZone["Shadowmoon Valley"]};
 				};
-				{ 19, "s32656", "25844", "=q1=Adamantite Rod", "=ds=#sr# 350", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"].." / "..BabbleZone["Kelp'thar Forest"]};
-				{ 20, "s32655", "25843", "=q1=Fel Iron Rod", "=ds=#sr# 300", "=ds="..AL["Trainer"]};
-				{ 21, "s20201", "16206", "=q1=Arcanite Rod", "=ds=#sr# 275", "=ds="..AL["Trainer"]};
-				{ 22, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
-				{ 23, "s14379", "11128", "=q1=Golden Rod", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
-				{ 24, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100", "=ds="..AL["Trainer"]};
-				{ 26, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036).." (205)"};
-				{ 27, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 18, "s32656", "25844", "=q1=Adamantite Rod", "=ds=#sr# 350", "=ds="..AL["Vendor"]..": "..BabbleZone["Shattrath City"]};
+				{ 19, "s32655", "25843", "=q1=Fel Iron Rod", "=ds=#sr# 300", "=ds="..AL["Trainer"]};
+				{ 20, "s20201", "16206", "=q1=Arcanite Rod", "=ds=#sr# 275", "=ds="..AL["Trainer"]};
+				{ 21, "s14380", "11144", "=q1=Truesilver Rod", "=ds=#sr# 200", "=ds="..AL["Trainer"]};
+				{ 22, "s14379", "11128", "=q1=Golden Rod", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
+				{ 23, "s7818", "6338", "=q1=Silver Rod", "=ds=#sr# 100", "=ds="..AL["Trainer"]};
+				{ 25, "s11454", "9060", "=q1=Inlaid Mithril Cylinder", "=ds=#sr# 200", "=ds="..AL["Crafted"]..": "..GetSpellInfo(4036).." (205)"};
+				{ 26, "s8768", "7071", "=q1=Iron Buckle", "=ds=#sr# 150", "=ds="..AL["Trainer"]};
 			};
 		};
 		info = {
@@ -1981,9 +1975,8 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 19, "s42620", "inv_misc_note_01", "=ds=Enchant Weapon - Greater Agility", "=ds=#sr# 350", "=ds="..BabbleFaction["The Violet Eye"].." - "..BabbleFaction["Exalted"]};
 				{ 20, "s23800", "inv_misc_note_01", "=ds=Enchant Weapon - Agility", "=ds=#sr# 290", "=ds="..BabbleFaction["Timbermaw Hold"].." - "..BabbleFaction["Honored"]};
 				{ 22, 0, "INV_Box_01", "=q6="..AL["Intellect"], ""};
-				{ 23, "s74242", "inv_enchant_formulasuperior_01", "=ds=Enchant Weapon - Power Torrent", "=ds=#sr# 525", "=ds="..AL["Vendor"]};
-				{ 24, "s27968", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Intellect", "=ds=#sr# 340", "=ds="..AL["Drop"]};
-				{ 25, "s23804", "inv_misc_note_01", "=ds=Enchant Weapon - Mighty Intellect", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
+				{ 23, "s27968", "inv_enchant_formulagood_01", "=ds=Enchant Weapon - Major Intellect", "=ds=#sr# 340", "=ds="..AL["Drop"]};
+				{ 24, "s23804", "inv_misc_note_01", "=ds=Enchant Weapon - Mighty Intellect", "=ds=#sr# 300", "=ds="..AL["Vendor"]};
 			};
 			{
 				{ 1, 0, "INV_Box_01", "=q6="..AL["Damage"], ""};
