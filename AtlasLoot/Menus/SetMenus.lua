@@ -34,27 +34,6 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 		};
 	}
 
-	AtlasLoot_Data["VALORPOINTSMENU"] = {
-		["Normal"] = {
-			{
-				{ 2, "ValorPoints", "inv_helmet_robe_raidwarlock_k_01", "=ds="..BabbleInventory["Cloth"], ""};
-				{ 3, "ValorPoints#2", "inv_chest_mail_raidhunter_k_01", "=ds="..BabbleInventory["Mail"], ""};
-				{ 5, "ValorPoints#4", "inv_qiraj_jewelengraved", "=ds="..AL["Accessories"], ""};
-    			{ 7, 77087, "", "=q4=Darting Chakram", "=ds=#w11#", "#VALOR:700#" },
-    			{ 8, 77085, "", "=q4=Unexpected Backup", "=ds=#w11#", "#VALOR:700#" },
-    			{ 9, 77086, "", "=q4=Windslicer Boomerang", "=ds=#w11#", "#VALOR:700#" },
-				{ 17, "ValorPoints", "inv_gauntlets_leather_raidrogue_k_01", "=ds="..BabbleInventory["Leather"], ""};
-				{ 18, "ValorPoints#3", "plate_raiddeathknight_k_01_belt", "=ds="..BabbleInventory["Plate"], ""};
-				{ 22, 77079, "", "=q4=Hungermouth Wand", "=ds=#w12#", "#VALOR:700#" },
-    			{ 23, 77078, "", "=q4=Scintillating Rods", "=ds=#w12#", "#VALOR:700#" },
-			};
-		};
-		info = {
-			name = AL["Valor Points"].." "..AL["Rewards"],
-			menu = "SETMENU",
-		};
-	}
-
 	AtlasLoot_Data["WOTLKEMBLEMMENU"] = {
 		["Normal"] = {
 			{
