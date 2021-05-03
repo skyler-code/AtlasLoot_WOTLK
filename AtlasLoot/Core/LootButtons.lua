@@ -20,9 +20,12 @@ local CURRENCY_PRICE = {
 	["CHAMPSEAL"] = { itemID = 44990 },	-- Champion's Seal
 	["ARENA"] = { func = GetHonorCurrency, text=[[Interface\PVPFrame\PVP-ArenaPoints-Icon]], name=ARENA }, 	-- Conquest Points
 	["HONOR"] = { func = GetHonorCurrency, text="Interface\\PVPFrame\\PVP-Currency-"..UnitFactionGroup("player"), name=HONOR },		-- Honor Points	
-	["JUSTICE"] = { itemID = 43016 },		-- Justice Points
-	["VALOR"] = { itemID = 43016 },		-- Valor Points
+	["JUSTICE"] = { itemID = 29434 },		-- Badge of Justice
 	["HEROISM"] = { itemID = 40752 }, -- Emblem of Heroism
+	["VALOR"] = { itemID = 40753 }, -- Emblem of Valor
+	["CONQUEST"] = { itemID = 45624 }, -- Emblem of Conquest
+	["TRIUMPH"] = { itemID = 47241 }, -- Emblem of Triumph
+	["FROST"] = { itemID = 49426 }, -- Emblem of Frost
 	
 	-- Custom currencys
 	["MIDSUMMER"] = { itemID = 23247 },
