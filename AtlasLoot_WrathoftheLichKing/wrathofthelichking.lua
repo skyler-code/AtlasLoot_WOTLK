@@ -284,7 +284,6 @@ local moduleName = "AtlasLootWotLK"
 				{ 2, 35657, "", "=q3=Exquisite Spider-Silk Footwraps", "=ds=#s12#, #a1#", "", "30%"};
 				{ 3, 35656, "", "=q3=Aura Focused Gauntlets", "=ds=#s9#, #a4#", "", "32%"};
 				{ 4, 35655, "", "=q3=Cobweb Machete", "=ds=#h1#, #w4#", "", "30%"};
-				{ 6, 74616, "", "=q1=The Gatewatcher's Talisman", "=ds=#m3#", "", "100%"};
 				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
 				{ 17, 37218, "", "=q3=Stone-Worn Footwraps", "=ds=#s12#, #a1#", "", "21%"};
 				{ 18, 37219, "", "=q3=Custodian's Chestpiece", "=ds=#s5#, #a2#", "", "21%"};
@@ -9710,25 +9709,25 @@ local moduleName = "AtlasLootWotLK"
 		};
 	}
 
-		------------------------
-		--- Tier 9 Sets (T9) ---
-		------------------------
+	------------------------
+	--- Tier 9 Sets (T9) ---
+	------------------------
 
 	AtlasLoot_Data["T9DeathKnightDPS"] = {
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48478, "", "=q4=Thassarian's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48474, "", "=q4=Thassarian's Battleplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48472, "", "=q4=Thassarian's Helmet of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48478, "", "=q4=Thassarian's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48474, "", "=q4=Thassarian's Battleplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48480, "", "=q4=Thassarian's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48476, "", "=q4=Thassarian's Legplates of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48483, "", "=q4=Thassarian's Helmet of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48485, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48481, "", "=q4=Thassarian's Battleplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48483, "", "=q4=Thassarian's Helmet of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48485, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48481, "", "=q4=Thassarian's Battleplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48482, "", "=q4=Thassarian's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48484, "", "=q4=Thassarian's Legplates of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t9s10_2a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48488, "", "=q4=Thassarian's Helmet of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48486, "", "=q4=Thassarian's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
@@ -9740,17 +9739,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48503, "", "=q4=Koltira's Helmet of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48505, "", "=q4=Koltira's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48501, "", "=q4=Koltira's Battleplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48503, "", "=q4=Koltira's Helmet of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48505, "", "=q4=Koltira's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48501, "", "=q4=Koltira's Battleplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48502, "", "=q4=Koltira's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48504, "", "=q4=Koltira's Legplates of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48498, "", "=q4=Koltira's Helmet of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48496, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48500, "", "=q4=Koltira's Battleplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48498, "", "=q4=Koltira's Helmet of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48496, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48500, "", "=q4=Koltira's Battleplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48499, "", "=q4=Koltira's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48497, "", "=q4=Koltira's Legplates of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_deathknight_frostpresence", "=q6=#t9s10_2h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48493, "", "=q4=Koltira's Helmet of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48495, "", "=q4=Koltira's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
@@ -9769,17 +9768,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48529, "", "=q4=Thassarian's Faceguard of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48535, "", "=q4=Thassarian's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48531, "", "=q4=Thassarian's Chestguard of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48529, "", "=q4=Thassarian's Faceguard of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48535, "", "=q4=Thassarian's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48531, "", "=q4=Thassarian's Chestguard of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48537, "", "=q4=Thassarian's Handguards of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48533, "", "=q4=Thassarian's Legguards of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48540, "", "=q4=Thassarian's Faceguard of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48542, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48538, "", "=q4=Thassarian's Chestguard of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48539, "", "=q4=Thassarian's Handguards of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48540, "", "=q4=Thassarian's Faceguard of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48542, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48538, "", "=q4=Thassarian's Chestguard of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48539, "", "=q4=Thassarian's Handguards of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48541, "", "=q4=Thassarian's Legguards of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t9s10_1a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48545, "", "=q4=Thassarian's Faceguard of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48543, "", "=q4=Thassarian's Pauldrons of Triumph", "=ds=#s3#, #a4#"};
@@ -9791,17 +9790,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48560, "", "=q4=Koltira's Faceguard of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48562, "", "=q4=Koltira's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48558, "", "=q4=Koltira's Chestguard of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48560, "", "=q4=Koltira's Faceguard of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48562, "", "=q4=Koltira's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48558, "", "=q4=Koltira's Chestguard of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48559, "", "=q4=Koltira's Handguards of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48561, "", "=q4=Koltira's Legguards of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48555, "", "=q4=Koltira's Faceguard of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48553, "", "=q4=Koltira's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48557, "", "=q4=Koltira's Chestguard of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48556, "", "=q4=Koltira's Handguards of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48554, "", "=q4=Koltira's Legguards of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48555, "", "=q4=Koltira's Faceguard of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48553, "", "=q4=Koltira's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48557, "", "=q4=Koltira's Chestguard of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48556, "", "=q4=Koltira's Handguards of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48554, "", "=q4=Koltira's Legguards of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_deathknight_bloodpresence", "=q6=#t9s10_1h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48550, "", "=q4=Koltira's Faceguard of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48552, "", "=q4=Koltira's Pauldrons of Triumph", "=ds=#s3#, #a4#"};
@@ -9820,17 +9819,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48102, "", "=q4=Malfurion's Headpiece of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48131, "", "=q4=Malfurion's Spaulders of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48129, "", "=q4=Malfurion's Robe of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48132, "", "=q4=Malfurion's Handguards of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48130, "", "=q4=Malfurion's Leggings of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48102, "", "=q4=Malfurion's Headpiece of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48131, "", "=q4=Malfurion's Spaulders of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48129, "", "=q4=Malfurion's Robe of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48132, "", "=q4=Malfurion's Handguards of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48130, "", "=q4=Malfurion's Leggings of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48134, "", "=q4=Malfurion's Headpiece of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48137, "", "=q4=Malfurion's Spaulders of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48136, "", "=q4=Malfurion's Robe of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48133, "", "=q4=Malfurion's Handguards of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48135, "", "=q4=Malfurion's Leggings of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48134, "", "=q4=Malfurion's Headpiece of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48137, "", "=q4=Malfurion's Spaulders of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48136, "", "=q4=Malfurion's Robe of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48133, "", "=q4=Malfurion's Handguards of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48135, "", "=q4=Malfurion's Leggings of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#t9s1_1a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48141, "", "=q4=Malfurion's Headpiece of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48138, "", "=q4=Malfurion's Spaulders of Triumph", "=ds=#s3#, #a2#"};
@@ -9842,17 +9841,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48156, "", "=q4=Runetotem's Robe of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48153, "", "=q4=Runetotem's Handguards of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48155, "", "=q4=Runetotem's Leggings of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48154, "", "=q4=Runetotem's Headpiece of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48157, "", "=q4=Runetotem's Spaulders of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48156, "", "=q4=Runetotem's Robe of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48153, "", "=q4=Runetotem's Handguards of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48155, "", "=q4=Runetotem's Leggings of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48151, "", "=q4=Runetotem's Headpiece of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48148, "", "=q4=Runetotem's Spaulders of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48149, "", "=q4=Runetotem's Robe of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48152, "", "=q4=Runetotem's Handguards of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48150, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48151, "", "=q4=Runetotem's Headpiece of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48148, "", "=q4=Runetotem's Spaulders of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48149, "", "=q4=Runetotem's Robe of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48152, "", "=q4=Runetotem's Handguards of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48150, "", "=q4=Runetotem's Leggings of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#t9s1_1h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48144, "", "=q4=Runetotem's Headpiece of Triumph", "=ds=#s1#, #a2#" };
 				{ 18, 48147, "", "=q4=Runetotem's Spaulders of Triumph", "=ds=#s3#, #a2#"};
@@ -9871,17 +9870,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48214, "", "=q4=Malfurion's Headguard of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48217, "", "=q4=Malfurion's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48216, "", "=q4=Malfurion's Raiments of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48213, "", "=q4=Malfurion's Handgrips of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48215, "", "=q4=Malfurion's Legguards of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48214, "", "=q4=Malfurion's Headguard of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48217, "", "=q4=Malfurion's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48216, "", "=q4=Malfurion's Raiments of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48213, "", "=q4=Malfurion's Handgrips of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48215, "", "=q4=Malfurion's Legguards of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48211, "", "=q4=Malfurion's Headguard of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48208, "", "=q4=Malfurion's Shoulderpads of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48209, "", "=q4=Malfurion's Raiments of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48212, "", "=q4=Malfurion's Handgrips of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48210, "", "=q4=Malfurion's Legguards of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48211, "", "=q4=Malfurion's Headguard of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48208, "", "=q4=Malfurion's Shoulderpads of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48209, "", "=q4=Malfurion's Raiments of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48212, "", "=q4=Malfurion's Handgrips of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48210, "", "=q4=Malfurion's Legguards of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "ability_racial_bearform", "=q6=#t9s1_2a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48204, "", "=q4=Malfurion's Headguard of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48207, "", "=q4=Malfurion's Shoulderpads of Triumph", "=ds=#s3#, #a2#"};
@@ -9893,17 +9892,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48188, "", "=q4=Runetotem's Headguard of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48191, "", "=q4=Runetotem's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48189, "", "=q4=Runetotem's Raiments of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48192, "", "=q4=Runetotem's Handgrips of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48190, "", "=q4=Runetotem's Legguards of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48188, "", "=q4=Runetotem's Headguard of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48191, "", "=q4=Runetotem's Shoulderpads of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48189, "", "=q4=Runetotem's Raiments of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48192, "", "=q4=Runetotem's Handgrips of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48190, "", "=q4=Runetotem's Legguards of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48194, "", "=q4=Runetotem's Headguard of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48197, "", "=q4=Runetotem's Shoulderpads of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48196, "", "=q4=Runetotem's Raiments of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48193, "", "=q4=Runetotem's Handgrips of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48195, "", "=q4=Runetotem's Legguards of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48194, "", "=q4=Runetotem's Headguard of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48197, "", "=q4=Runetotem's Shoulderpads of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48196, "", "=q4=Runetotem's Raiments of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48193, "", "=q4=Runetotem's Handgrips of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48195, "", "=q4=Runetotem's Legguards of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "ability_racial_bearform", "=q6=#t9s1_2h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48201, "", "=q4=Runetotem's Headguard of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48198, "", "=q4=Runetotem's Shoulderpads of Triumph", "=ds=#s3#, #a2#"};
@@ -9922,17 +9921,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48158, "", "=q4=Malfurion's Cover of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48161, "", "=q4=Malfurion's Mantle of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48159, "", "=q4=Malfurion's Vestments of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48162, "", "=q4=Malfurion's Gloves of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48160, "", "=q4=Malfurion's Trousers of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48158, "", "=q4=Malfurion's Cover of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48161, "", "=q4=Malfurion's Mantle of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48159, "", "=q4=Malfurion's Vestments of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48162, "", "=q4=Malfurion's Gloves of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48160, "", "=q4=Malfurion's Trousers of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48164, "", "=q4=Malfurion's Cover of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48167, "", "=q4=Malfurion's Mantle of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48166, "", "=q4=Malfurion's Vestments of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48163, "", "=q4=Malfurion's Gloves of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48165, "", "=q4=Malfurion's Trousers of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48164, "", "=q4=Malfurion's Cover of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48167, "", "=q4=Malfurion's Mantle of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48166, "", "=q4=Malfurion's Vestments of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48163, "", "=q4=Malfurion's Gloves of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48165, "", "=q4=Malfurion's Trousers of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#t9s1_3a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48171, "", "=q4=Malfurion's Cover of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48168, "", "=q4=Malfurion's Mantle of Triumph", "=ds=#s3#, #a2#"};
@@ -9944,17 +9943,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48186, "", "=q4=Runetotem's Vestments of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48183, "", "=q4=Runetotem's Gloves of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48185, "", "=q4=Runetotem's Trousers of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48184, "", "=q4=Runetotem's Cover of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48187, "", "=q4=Runetotem's Mantle of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48186, "", "=q4=Runetotem's Vestments of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48183, "", "=q4=Runetotem's Gloves of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48185, "", "=q4=Runetotem's Trousers of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48181, "", "=q4=Runetotem's Cover of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48178, "", "=q4=Runetotem's Mantle of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48179, "", "=q4=Runetotem's Vestments of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48182, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48180, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48181, "", "=q4=Runetotem's Cover of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48178, "", "=q4=Runetotem's Mantle of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48179, "", "=q4=Runetotem's Vestments of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48182, "", "=q4=Runetotem's Gloves of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48180, "", "=q4=Runetotem's Trousers of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#t9s1_3h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48174, "", "=q4=Runetotem's Cover of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48177, "", "=q4=Runetotem's Mantle of Triumph", "=ds=#s3#, #a2#"};
@@ -9973,17 +9972,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48250, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48253, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48251, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48254, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48252, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48250, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48253, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48251, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48254, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48252, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t9s2_a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48257, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48259, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48255, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48257, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48259, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48255, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48256, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48258, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48262, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48260, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
@@ -9995,17 +9994,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48277, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48279, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48275, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48276, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48278, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48277, "", "=q4=Windrunner's Headpiece of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48279, "", "=q4=Windrunner's Spaulders of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48275, "", "=q4=Windrunner's Tunic of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48276, "", "=q4=Windrunner's Handguards of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48278, "", "=q4=Windrunner's Legguards of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48272, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48270, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48274, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48273, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48271, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48272, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48270, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48274, "", "=q4=Windrunner's Tunic of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48273, "", "=q4=Windrunner's Handguards of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48271, "", "=q4=Windrunner's Legguards of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#t9s2_h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48267, "", "=q4=Windrunner's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48269, "", "=q4=Windrunner's Spaulders of Triumph", "=ds=#s3#, #a3#"};
@@ -10024,17 +10023,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
-				{ 2, 47748, "", "=q4=Khadgar's Hood of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 47751, "", "=q4=Khadgar's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 47749, "", "=q4=Khadgar's Robe of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 47752, "", "=q4=Khadgar's Gauntlets of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 47750, "", "=q4=Khadgar's Leggings of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 47748, "", "=q4=Khadgar's Hood of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 47751, "", "=q4=Khadgar's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 47749, "", "=q4=Khadgar's Robe of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 47752, "", "=q4=Khadgar's Gauntlets of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 47750, "", "=q4=Khadgar's Leggings of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "inv_staff_13", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
-				{ 9, 47754, "", "=q4=Khadgar's Hood of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 47757, "", "=q4=Khadgar's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 47756, "", "=q4=Khadgar's Robe of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 47753, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 47755, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 47754, "", "=q4=Khadgar's Hood of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 47757, "", "=q4=Khadgar's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 47756, "", "=q4=Khadgar's Robe of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 47753, "", "=q4=Khadgar's Gauntlets of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 47755, "", "=q4=Khadgar's Leggings of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "inv_staff_13", "=q6=#t9s3_a#", "=q5="..AL["Tier 9"]};
 				{ 17, 47761, "", "=q4=Khadgar's Hood of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 47758, "", "=q4=Khadgar's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
@@ -10046,17 +10045,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
-				{ 2, 47774, "", "=q4=Sunstrider's Hood of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 47777, "", "=q4=Sunstrider's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 47776, "", "=q4=Sunstrider's Robe of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 47773, "", "=q4=Sunstrider's Gauntlets of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 47775, "", "=q4=Sunstrider's Leggings of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 47774, "", "=q4=Sunstrider's Hood of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 47777, "", "=q4=Sunstrider's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 47776, "", "=q4=Sunstrider's Robe of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 47773, "", "=q4=Sunstrider's Gauntlets of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 47775, "", "=q4=Sunstrider's Leggings of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "inv_staff_13", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
-				{ 9, 47771, "", "=q4=Sunstrider's Hood of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 47768, "", "=q4=Sunstrider's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 47769, "", "=q4=Sunstrider's Robe of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 47772, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 47770, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 47771, "", "=q4=Sunstrider's Hood of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 47768, "", "=q4=Sunstrider's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 47769, "", "=q4=Sunstrider's Robe of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 47772, "", "=q4=Sunstrider's Gauntlets of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 47770, "", "=q4=Sunstrider's Leggings of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "inv_staff_13", "=q6=#t9s3_h#", "=q5="..AL["Tier 9"]};
 				{ 17, 47764, "", "=q4=Sunstrider's Hood of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 47767, "", "=q4=Sunstrider's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
@@ -10075,17 +10074,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48564, "", "=q4=Turalyon's Headpiece of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48572, "", "=q4=Turalyon's Spaulders of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48566, "", "=q4=Turalyon's Tunic of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48574, "", "=q4=Turalyon's Gloves of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48568, "", "=q4=Turalyon's Greaves of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48564, "", "=q4=Turalyon's Headpiece of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48572, "", "=q4=Turalyon's Spaulders of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48566, "", "=q4=Turalyon's Tunic of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48574, "", "=q4=Turalyon's Gloves of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48568, "", "=q4=Turalyon's Greaves of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48577, "", "=q4=Turalyon's Headpiece of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48579, "", "=q4=Turalyon's Spaulders of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48575, "", "=q4=Turalyon's Tunic of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48576, "", "=q4=Turalyon's Gloves of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48578, "", "=q4=Turalyon's Greaves of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48577, "", "=q4=Turalyon's Headpiece of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48579, "", "=q4=Turalyon's Spaulders of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48575, "", "=q4=Turalyon's Tunic of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48576, "", "=q4=Turalyon's Gloves of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48578, "", "=q4=Turalyon's Greaves of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48582, "", "=q4=Turalyon's Headpiece of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48580, "", "=q4=Turalyon's Spaulders of Triumph", "=ds=#s3#, #a4#"};
@@ -10097,17 +10096,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48597, "", "=q4=Liadrin's Headpiece of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48595, "", "=q4=Liadrin's Spaulders of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48599, "", "=q4=Liadrin's Tunic of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48598, "", "=q4=Liadrin's Gloves of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48596, "", "=q4=Liadrin's Greaves of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48597, "", "=q4=Liadrin's Headpiece of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48595, "", "=q4=Liadrin's Spaulders of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48599, "", "=q4=Liadrin's Tunic of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48598, "", "=q4=Liadrin's Gloves of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48596, "", "=q4=Liadrin's Greaves of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48592, "", "=q4=Liadrin's Headpiece of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48590, "", "=q4=Liadrin's Spaulders of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48594, "", "=q4=Liadrin's Tunic of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48593, "", "=q4=Liadrin's Gloves of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48591, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48592, "", "=q4=Liadrin's Headpiece of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48590, "", "=q4=Liadrin's Spaulders of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48594, "", "=q4=Liadrin's Tunic of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48593, "", "=q4=Liadrin's Gloves of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48591, "", "=q4=Liadrin's Greaves of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#t9s4_1h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48587, "", "=q4=Liadrin's Headpiece of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48585, "", "=q4=Liadrin's Spaulders of Triumph", "=ds=#s3#, #a4#"};
@@ -10126,17 +10125,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48604, "", "=q4=Turalyon's Helm of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48606, "", "=q4=Turalyon's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48602, "", "=q4=Turalyon's Battleplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48603, "", "=q4=Turalyon's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48605, "", "=q4=Turalyon's Legplates of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48604, "", "=q4=Turalyon's Helm of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48606, "", "=q4=Turalyon's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48602, "", "=q4=Turalyon's Battleplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48603, "", "=q4=Turalyon's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48605, "", "=q4=Turalyon's Legplates of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48609, "", "=q4=Turalyon's Helm of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48611, "", "=q4=Turalyon's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48607, "", "=q4=Turalyon's Battleplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48608, "", "=q4=Turalyon's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48610, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48609, "", "=q4=Turalyon's Helm of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48611, "", "=q4=Turalyon's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48607, "", "=q4=Turalyon's Battleplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48608, "", "=q4=Turalyon's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48610, "", "=q4=Turalyon's Legplates of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48614, "", "=q4=Turalyon's Helm of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48612, "", "=q4=Turalyon's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
@@ -10148,17 +10147,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48629, "", "=q4=Liadrin's Helm of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48627, "", "=q4=Liadrin's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48631, "", "=q4=Liadrin's Battleplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48630, "", "=q4=Liadrin's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48628, "", "=q4=Liadrin's Legplates of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48629, "", "=q4=Liadrin's Helm of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48627, "", "=q4=Liadrin's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48631, "", "=q4=Liadrin's Battleplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48630, "", "=q4=Liadrin's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48628, "", "=q4=Liadrin's Legplates of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48624, "", "=q4=Liadrin's Helm of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48622, "", "=q4=Liadrin's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48626, "", "=q4=Liadrin's Battleplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48625, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48623, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48624, "", "=q4=Liadrin's Helm of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48622, "", "=q4=Liadrin's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48626, "", "=q4=Liadrin's Battleplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48625, "", "=q4=Liadrin's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48623, "", "=q4=Liadrin's Legplates of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#t9s4_2h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48619, "", "=q4=Liadrin's Helm of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48621, "", "=q4=Liadrin's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
@@ -10177,17 +10176,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t9s4_3a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48634, "", "=q4=Turalyon's Faceguard of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48636, "", "=q4=Turalyon's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48632, "", "=q4=Turalyon's Breastplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48633, "", "=q4=Turalyon's Handguards of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48635, "", "=q4=Turalyon's Legguards of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48634, "", "=q4=Turalyon's Faceguard of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48636, "", "=q4=Turalyon's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48632, "", "=q4=Turalyon's Breastplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48633, "", "=q4=Turalyon's Handguards of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48635, "", "=q4=Turalyon's Legguards of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t9s4_3a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48639, "", "=q4=Turalyon's Faceguard of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48637, "", "=q4=Turalyon's Shoulderguards of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48641, "", "=q4=Turalyon's Breastplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48640, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48638, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48639, "", "=q4=Turalyon's Faceguard of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48637, "", "=q4=Turalyon's Shoulderguards of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48641, "", "=q4=Turalyon's Breastplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48640, "", "=q4=Turalyon's Handguards of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48638, "", "=q4=Turalyon's Legguards of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_holy_devotionaura", "=q6=#t9s4_3a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48644, "", "=q4=Turalyon's Faceguard of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48646, "", "=q4=Turalyon's Shoulderguards of Triumph", "=ds=#s3#, #a4#"};
@@ -10199,17 +10198,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t9s4_3h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48654, "", "=q4=Liadrin's Faceguard of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48656, "", "=q4=Liadrin's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48652, "", "=q4=Liadrin's Breastplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48653, "", "=q4=Liadrin's Handguards of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48655, "", "=q4=Liadrin's Legguards of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48654, "", "=q4=Liadrin's Faceguard of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48656, "", "=q4=Liadrin's Shoulderguards of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48652, "", "=q4=Liadrin's Breastplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48653, "", "=q4=Liadrin's Handguards of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48655, "", "=q4=Liadrin's Legguards of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t9s4_3h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48659, "", "=q4=Liadrin's Faceguard of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48661, "", "=q4=Liadrin's Shoulderguards of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48657, "", "=q4=Liadrin's Breastplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48658, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48660, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48659, "", "=q4=Liadrin's Faceguard of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48661, "", "=q4=Liadrin's Shoulderguards of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48657, "", "=q4=Liadrin's Breastplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48658, "", "=q4=Liadrin's Handguards of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48660, "", "=q4=Liadrin's Legguards of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_holy_devotionaura", "=q6=#t9s4_3h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48649, "", "=q4=Liadrin's Faceguard of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48647, "", "=q4=Liadrin's Shoulderguards of Triumph", "=ds=#s3#, #a4#"};
@@ -10228,17 +10227,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t9s5_1a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48073, "", "=q4=Velen's Circlet of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 48076, "", "=q4=Velen's Mantle of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 48075, "", "=q4=Velen's Raiments of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 48072, "", "=q4=Velen's Handwraps of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 48074, "", "=q4=Velen's Pants of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 48073, "", "=q4=Velen's Circlet of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 48076, "", "=q4=Velen's Mantle of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 48075, "", "=q4=Velen's Raiments of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 48072, "", "=q4=Velen's Handwraps of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 48074, "", "=q4=Velen's Pants of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t9s5_1a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48078, "", "=q4=Velen's Circlet of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48081, "", "=q4=Velen's Mantle of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48080, "", "=q4=Velen's Raiments of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48077, "", "=q4=Velen's Handwraps of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48079, "", "=q4=Velen's Pants of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48078, "", "=q4=Velen's Circlet of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48081, "", "=q4=Velen's Mantle of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48080, "", "=q4=Velen's Raiments of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48077, "", "=q4=Velen's Handwraps of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48079, "", "=q4=Velen's Pants of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t9s5_1a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48085, "", "=q4=Velen's Circlet of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 48082, "", "=q4=Velen's Mantle of Triumph", "=ds=#s3#, #a1#"};
@@ -10250,17 +10249,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t9s5_1h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48098, "", "=q4=Zabra's Circlet of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 48101, "", "=q4=Zabra's Mantle of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 48100, "", "=q4=Zabra's Raiments of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 48097, "", "=q4=Zabra's Handwraps of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 48099, "", "=q4=Zabra's Pants of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 48098, "", "=q4=Zabra's Circlet of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 48101, "", "=q4=Zabra's Mantle of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 48100, "", "=q4=Zabra's Raiments of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 48097, "", "=q4=Zabra's Handwraps of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 48099, "", "=q4=Zabra's Pants of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t9s5_1h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48095, "", "=q4=Zabra's Circlet of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48092, "", "=q4=Zabra's Mantle of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48093, "", "=q4=Zabra's Raiments of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48096, "", "=q4=Zabra's Handwraps of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48094, "", "=q4=Zabra's Pants of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48095, "", "=q4=Zabra's Circlet of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48092, "", "=q4=Zabra's Mantle of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48093, "", "=q4=Zabra's Raiments of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48096, "", "=q4=Zabra's Handwraps of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48094, "", "=q4=Zabra's Pants of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#t9s5_1h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48088, "", "=q4=Zabra's Circlet of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 48091, "", "=q4=Zabra's Mantle of Triumph", "=ds=#s3#, #a1#"};
@@ -10279,17 +10278,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t9s5_2a#", "=q5="..AL["Tier 9"]};
-				{ 2, 47914, "", "=q4=Velen's Cowl of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 47981, "", "=q4=Velen's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 47936, "", "=q4=Velen's Robe of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 47982, "", "=q4=Velen's Gloves of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 47980, "", "=q4=Velen's Leggings of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 47914, "", "=q4=Velen's Cowl of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 47981, "", "=q4=Velen's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 47936, "", "=q4=Velen's Robe of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 47982, "", "=q4=Velen's Gloves of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 47980, "", "=q4=Velen's Leggings of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t9s5_2a#", "=q5="..AL["Tier 9"]};
-				{ 9, 47984, "", "=q4=Velen's Cowl of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 47987, "", "=q4=Velen's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 47986, "", "=q4=Velen's Robe of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 47983, "", "=q4=Velen's Gloves of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 47985, "", "=q4=Velen's Leggings of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 47984, "", "=q4=Velen's Cowl of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 47987, "", "=q4=Velen's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 47986, "", "=q4=Velen's Robe of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 47983, "", "=q4=Velen's Gloves of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 47985, "", "=q4=Velen's Leggings of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t9s5_2a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48035, "", "=q4=Velen's Cowl of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 48029, "", "=q4=Velen's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
@@ -10301,17 +10300,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t9s5_2h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48068, "", "=q4=Zabra's Cowl of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 48071, "", "=q4=Zabra's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 48070, "", "=q4=Zabra's Robe of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 48067, "", "=q4=Zabra's Gloves of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 48069, "", "=q4=Zabra's Leggings of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 48068, "", "=q4=Zabra's Cowl of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 48071, "", "=q4=Zabra's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 48070, "", "=q4=Zabra's Robe of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 48067, "", "=q4=Zabra's Gloves of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 48069, "", "=q4=Zabra's Leggings of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t9s5_2h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48065, "", "=q4=Zabra's Cowl of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48062, "", "=q4=Zabra's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48063, "", "=q4=Zabra's Robe of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48066, "", "=q4=Zabra's Gloves of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48064, "", "=q4=Zabra's Leggings of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48065, "", "=q4=Zabra's Cowl of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48062, "", "=q4=Zabra's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48063, "", "=q4=Zabra's Robe of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48066, "", "=q4=Zabra's Gloves of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48064, "", "=q4=Zabra's Leggings of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#t9s5_2h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48058, "", "=q4=Zabra's Cowl of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 48061, "", "=q4=Zabra's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
@@ -10330,17 +10329,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t9s6_a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48218, "", "=q4=VanCleef's Helmet of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48221, "", "=q4=VanCleef's Pauldrons of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48219, "", "=q4=VanCleef's Breastplate of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48222, "", "=q4=VanCleef's Gauntlets of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48220, "", "=q4=VanCleef's Legplates of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48218, "", "=q4=VanCleef's Helmet of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48221, "", "=q4=VanCleef's Pauldrons of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48219, "", "=q4=VanCleef's Breastplate of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48222, "", "=q4=VanCleef's Gauntlets of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48220, "", "=q4=VanCleef's Legplates of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t9s6_a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48225, "", "=q4=VanCleef's Helmet of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48227, "", "=q4=VanCleef's Pauldrons of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48223, "", "=q4=VanCleef's Breastplate of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48224, "", "=q4=VanCleef's Gauntlets of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48226, "", "=q4=VanCleef's Legplates of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48225, "", "=q4=VanCleef's Helmet of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48227, "", "=q4=VanCleef's Pauldrons of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48223, "", "=q4=VanCleef's Breastplate of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48224, "", "=q4=VanCleef's Gauntlets of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48226, "", "=q4=VanCleef's Legplates of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t9s6_a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48230, "", "=q4=VanCleef's Helmet of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48228, "", "=q4=VanCleef's Pauldrons of Triumph", "=ds=#s3#, #a2#"};
@@ -10352,17 +10351,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t9s6_h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48245, "", "=q4=Garona's Helmet of Conquest", "=ds=#s1#, #a2#", "#JUSTICE:591#"};
-				{ 3, 48247, "", "=q4=Garona's Pauldrons of Conquest", "=ds=#s3#, #a2#", "#JUSTICE:478#"};
-				{ 4, 48243, "", "=q4=Garona's Breastplate of Conquest", "=ds=#s5#, #a2#", "#JUSTICE:591#"};
-				{ 5, 48244, "", "=q4=Garona's Gauntlets of Conquest", "=ds=#s9#, #a2#", "#JUSTICE:478#"};
-				{ 6, 48246, "", "=q4=Garona's Legplates of Conquest", "=ds=#s11#, #a2#", "#JUSTICE:591#"};
+				{ 2, 48245, "", "=q4=Garona's Helmet of Conquest", "=ds=#s1#, #a2#", "#TRIUMPH:50#"};
+				{ 3, 48247, "", "=q4=Garona's Pauldrons of Conquest", "=ds=#s3#, #a2#", "#TRIUMPH:30#"};
+				{ 4, 48243, "", "=q4=Garona's Breastplate of Conquest", "=ds=#s5#, #a2#", "#TRIUMPH:50#"};
+				{ 5, 48244, "", "=q4=Garona's Gauntlets of Conquest", "=ds=#s9#, #a2#", "#TRIUMPH:30#"};
+				{ 6, 48246, "", "=q4=Garona's Legplates of Conquest", "=ds=#s11#, #a2#", "#TRIUMPH:50#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t9s6_h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48240, "", "=q4=Garona's Helmet of Triumph", "=ds=#s1#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48238, "", "=q4=Garona's Pauldrons of Triumph", "=ds=#s3#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48242, "", "=q4=Garona's Breastplate of Triumph", "=ds=#s5#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48241, "", "=q4=Garona's Gauntlets of Triumph", "=ds=#s9#, #a2#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48239, "", "=q4=Garona's Legplates of Triumph", "=ds=#s11#, #a2#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48240, "", "=q4=Garona's Helmet of Triumph", "=ds=#s1#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48238, "", "=q4=Garona's Pauldrons of Triumph", "=ds=#s3#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48242, "", "=q4=Garona's Breastplate of Triumph", "=ds=#s5#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48241, "", "=q4=Garona's Gauntlets of Triumph", "=ds=#s9#, #a2#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48239, "", "=q4=Garona's Legplates of Triumph", "=ds=#s11#, #a2#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#t9s6_h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48235, "", "=q4=Garona's Helmet of Triumph", "=ds=#s1#, #a2#"};
 				{ 18, 48237, "", "=q4=Garona's Pauldrons of Triumph", "=ds=#s3#, #a2#"};
@@ -10381,17 +10380,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48313, "", "=q4=Nobundo's Helm of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48315, "", "=q4=Nobundo's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48310, "", "=q4=Nobundo's Hauberk of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48312, "", "=q4=Nobundo's Gloves of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48314, "", "=q4=Nobundo's Kilt of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48313, "", "=q4=Nobundo's Helm of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48315, "", "=q4=Nobundo's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48310, "", "=q4=Nobundo's Hauberk of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48312, "", "=q4=Nobundo's Gloves of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48314, "", "=q4=Nobundo's Kilt of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48318, "", "=q4=Nobundo's Helm of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48320, "", "=q4=Nobundo's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48316, "", "=q4=Nobundo's Hauberk of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48317, "", "=q4=Nobundo's Gloves of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48319, "", "=q4=Nobundo's Kilt of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48318, "", "=q4=Nobundo's Helm of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48320, "", "=q4=Nobundo's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48316, "", "=q4=Nobundo's Hauberk of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48317, "", "=q4=Nobundo's Gloves of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48319, "", "=q4=Nobundo's Kilt of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48323, "", "=q4=Nobundo's Helm of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48321, "", "=q4=Nobundo's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
@@ -10403,17 +10402,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48338, "", "=q4=Thrall's Helm of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48340, "", "=q4=Thrall's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48336, "", "=q4=Thrall's Hauberk of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48337, "", "=q4=Thrall's Gloves of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48339, "", "=q4=Thrall's Kilt of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48338, "", "=q4=Thrall's Helm of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48340, "", "=q4=Thrall's Shoulderpads of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48336, "", "=q4=Thrall's Hauberk of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48337, "", "=q4=Thrall's Gloves of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48339, "", "=q4=Thrall's Kilt of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48333, "", "=q4=Thrall's Helm of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48331, "", "=q4=Thrall's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48335, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48334, "", "=q4=Thrall's Gloves of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48332, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48333, "", "=q4=Thrall's Helm of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48331, "", "=q4=Thrall's Shoulderpads of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48335, "", "=q4=Thrall's Hauberk of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48334, "", "=q4=Thrall's Gloves of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48332, "", "=q4=Thrall's Kilt of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#t9s7_3h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48328, "", "=q4=Thrall's Helm of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48330, "", "=q4=Thrall's Shoulderpads of Triumph", "=ds=#s3#, #a3#"};
@@ -10432,17 +10431,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t9s7_2a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48343, "", "=q4=Nobundo's Faceguard of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48345, "", "=q4=Nobundo's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48341, "", "=q4=Nobundo's Chestguard of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48342, "", "=q4=Nobundo's Grips of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48344, "", "=q4=Nobundo's War-Kilt of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48343, "", "=q4=Nobundo's Faceguard of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48345, "", "=q4=Nobundo's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48341, "", "=q4=Nobundo's Chestguard of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48342, "", "=q4=Nobundo's Grips of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48344, "", "=q4=Nobundo's War-Kilt of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t9s7_2a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48348, "", "=q4=Nobundo's Faceguard of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48350, "", "=q4=Nobundo's Shoulderguards of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48346, "", "=q4=Nobundo's Chestguard of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48347, "", "=q4=Nobundo's Grips of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48349, "", "=q4=Nobundo's War-Kilt of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48348, "", "=q4=Nobundo's Faceguard of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48350, "", "=q4=Nobundo's Shoulderguards of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48346, "", "=q4=Nobundo's Chestguard of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48347, "", "=q4=Nobundo's Grips of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48349, "", "=q4=Nobundo's War-Kilt of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t9s7_2a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48353, "", "=q4=Nobundo's Faceguard of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48351, "", "=q4=Nobundo's Shoulderguards of Triumph", "=ds=#s3#, #a3#"};
@@ -10454,17 +10453,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t9s7_2h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48368, "", "=q4=Thrall's Faceguard of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48370, "", "=q4=Thrall's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48366, "", "=q4=Thrall's Chestguard of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48367, "", "=q4=Thrall's Grips of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48369, "", "=q4=Thrall's War-Kilt of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48368, "", "=q4=Thrall's Faceguard of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48370, "", "=q4=Thrall's Shoulderguards of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48366, "", "=q4=Thrall's Chestguard of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48367, "", "=q4=Thrall's Grips of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48369, "", "=q4=Thrall's War-Kilt of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t9s7_2h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48363, "", "=q4=Thrall's Faceguard of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48361, "", "=q4=Thrall's Shoulderguards of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48365, "", "=q4=Thrall's Chestguard of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48364, "", "=q4=Thrall's Grips of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48362, "", "=q4=Thrall's War-Kilt of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48363, "", "=q4=Thrall's Faceguard of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48361, "", "=q4=Thrall's Shoulderguards of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48365, "", "=q4=Thrall's Chestguard of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48364, "", "=q4=Thrall's Grips of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48362, "", "=q4=Thrall's War-Kilt of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#t9s7_2h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48358, "", "=q4=Thrall's Faceguard of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48360, "", "=q4=Thrall's Shoulderguards of Triumph", "=ds=#s3#, #a3#"};
@@ -10483,17 +10482,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48280, "", "=q4=Nobundo's Headpiece of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48283, "", "=q4=Nobundo's Spaulders of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48281, "", "=q4=Nobundo's Tunic of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48284, "", "=q4=Nobundo's Handguards of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48282, "", "=q4=Nobundo's Legguards of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48280, "", "=q4=Nobundo's Headpiece of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48283, "", "=q4=Nobundo's Spaulders of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48281, "", "=q4=Nobundo's Tunic of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48284, "", "=q4=Nobundo's Handguards of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48282, "", "=q4=Nobundo's Legguards of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48287, "", "=q4=Nobundo's Headpiece of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48289, "", "=q4=Nobundo's Spaulders of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48285, "", "=q4=Nobundo's Tunic of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48286, "", "=q4=Nobundo's Handguards of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48288, "", "=q4=Nobundo's Legguards of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48287, "", "=q4=Nobundo's Headpiece of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48289, "", "=q4=Nobundo's Spaulders of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48285, "", "=q4=Nobundo's Tunic of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48286, "", "=q4=Nobundo's Handguards of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48288, "", "=q4=Nobundo's Legguards of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t9s7_1a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48292, "", "=q4=Nobundo's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48290, "", "=q4=Nobundo's Spaulders of Triumph", "=ds=#s3#, #a3#"};
@@ -10505,17 +10504,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48297, "", "=q4=Thrall's Headpiece of Conquest", "=ds=#s1#, #a3#", "#JUSTICE:591#"};
-				{ 3, 48299, "", "=q4=Thrall's Spaulders of Conquest", "=ds=#s3#, #a3#", "#JUSTICE:478#"};
-				{ 4, 48295, "", "=q4=Thrall's Tunic of Conquest", "=ds=#s5#, #a3#", "#JUSTICE:591#"};
-				{ 5, 48296, "", "=q4=Thrall's Handguards of Conquest", "=ds=#s9#, #a3#", "#JUSTICE:478#"};
-				{ 6, 48298, "", "=q4=Thrall's Legguards of Conquest", "=ds=#s11#, #a3#", "#JUSTICE:591#"};
+				{ 2, 48297, "", "=q4=Thrall's Headpiece of Conquest", "=ds=#s1#, #a3#", "#TRIUMPH:50#"};
+				{ 3, 48299, "", "=q4=Thrall's Spaulders of Conquest", "=ds=#s3#, #a3#", "#TRIUMPH:30#"};
+				{ 4, 48295, "", "=q4=Thrall's Tunic of Conquest", "=ds=#s5#, #a3#", "#TRIUMPH:50#"};
+				{ 5, 48296, "", "=q4=Thrall's Handguards of Conquest", "=ds=#s9#, #a3#", "#TRIUMPH:30#"};
+				{ 6, 48298, "", "=q4=Thrall's Legguards of Conquest", "=ds=#s11#, #a3#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48302, "", "=q4=Thrall's Headpiece of Triumph", "=ds=#s1#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48304, "", "=q4=Thrall's Spaulders of Triumph", "=ds=#s3#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48300, "", "=q4=Thrall's Tunic of Triumph", "=ds=#s5#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48301, "", "=q4=Thrall's Handguards of Triumph", "=ds=#s9#, #a3#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48303, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48302, "", "=q4=Thrall's Headpiece of Triumph", "=ds=#s1#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48304, "", "=q4=Thrall's Spaulders of Triumph", "=ds=#s3#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48300, "", "=q4=Thrall's Tunic of Triumph", "=ds=#s5#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48301, "", "=q4=Thrall's Handguards of Triumph", "=ds=#s9#, #a3#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48303, "", "=q4=Thrall's Legguards of Triumph", "=ds=#s11#, #a3#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#t9s7_1h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48307, "", "=q4=Thrall's Headpiece of Triumph", "=ds=#s1#, #a3#"};
 				{ 18, 48309, "", "=q4=Thrall's Spaulders of Triumph", "=ds=#s3#, #a3#"};
@@ -10534,17 +10533,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t9s8_a#", "=q5="..AL["Tier 9"]};
-				{ 2, 47784, "", "=q4=Kel'Thuzad's Hood of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 47787, "", "=q4=Kel'Thuzad's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 47786, "", "=q4=Kel'Thuzad's Robe of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 47783, "", "=q4=Kel'Thuzad's Gloves of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 47785, "", "=q4=Kel'Thuzad's Leggings of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 47784, "", "=q4=Kel'Thuzad's Hood of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 47787, "", "=q4=Kel'Thuzad's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 47786, "", "=q4=Kel'Thuzad's Robe of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 47783, "", "=q4=Kel'Thuzad's Gloves of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 47785, "", "=q4=Kel'Thuzad's Leggings of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t9s8_a#", "=q5="..AL["Tier 9"]};
-				{ 9, 47778, "", "=q4=Kel'Thuzad's Hood of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 47781, "", "=q4=Kel'Thuzad's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 47779, "", "=q4=Kel'Thuzad's Robe of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 47782, "", "=q4=Kel'Thuzad's Gloves of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 47780, "", "=q4=Kel'Thuzad's Leggings of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 47778, "", "=q4=Kel'Thuzad's Hood of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 47781, "", "=q4=Kel'Thuzad's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 47779, "", "=q4=Kel'Thuzad's Robe of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 47782, "", "=q4=Kel'Thuzad's Gloves of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 47780, "", "=q4=Kel'Thuzad's Leggings of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#t9s8_a#", "=q5="..AL["Tier 9"]};
 				{ 17, 47789, "", "=q4=Kel'Thuzad's Hood of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 47792, "", "=q4=Kel'Thuzad's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
@@ -10556,17 +10555,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "spell_shadow_rainoffire", "=q6=#t9s8_h#", "=q5="..AL["Tier 9"]};
-				{ 2, 47801, "", "=q4=Gul'dan's Hood of Conquest", "=ds=#s1#, #a1#", "#JUSTICE:591#"};
-				{ 3, 47798, "", "=q4=Gul'dan's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#JUSTICE:478#"};
-				{ 4, 47799, "", "=q4=Gul'dan's Robe of Conquest", "=ds=#s5#, #a1#", "#JUSTICE:591#"};
-				{ 5, 47802, "", "=q4=Gul'dan's Gloves of Conquest", "=ds=#s9#, #a1#", "#JUSTICE:478#"};
-				{ 6, 47800, "", "=q4=Gul'dan's Leggings of Conquest", "=ds=#s11#, #a1#", "#JUSTICE:591#"};
+				{ 2, 47801, "", "=q4=Gul'dan's Hood of Conquest", "=ds=#s1#, #a1#", "#TRIUMPH:50#"};
+				{ 3, 47798, "", "=q4=Gul'dan's Shoulderpads of Conquest", "=ds=#s3#, #a1#", "#TRIUMPH:30#"};
+				{ 4, 47799, "", "=q4=Gul'dan's Robe of Conquest", "=ds=#s5#, #a1#", "#TRIUMPH:50#"};
+				{ 5, 47802, "", "=q4=Gul'dan's Gloves of Conquest", "=ds=#s9#, #a1#", "#TRIUMPH:30#"};
+				{ 6, 47800, "", "=q4=Gul'dan's Leggings of Conquest", "=ds=#s11#, #a1#", "#TRIUMPH:50#"};
 				{ 8, 0, "spell_shadow_rainoffire", "=q6=#t9s8_h#", "=q5="..AL["Tier 9"]};
-				{ 9, 47804, "", "=q4=Gul'dan's Hood of Triumph", "=ds=#s1#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 47807, "", "=q4=Gul'dan's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 47806, "", "=q4=Gul'dan's Robe of Triumph", "=ds=#s5#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 47803, "", "=q4=Gul'dan's Gloves of Triumph", "=ds=#s9#, #a1#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 47805, "", "=q4=Gul'dan's Leggings of Triumph", "=ds=#s11#, #a1#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 47804, "", "=q4=Gul'dan's Hood of Triumph", "=ds=#s1#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 47807, "", "=q4=Gul'dan's Shoulderpads of Triumph", "=ds=#s3#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 47806, "", "=q4=Gul'dan's Robe of Triumph", "=ds=#s5#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 47803, "", "=q4=Gul'dan's Gloves of Triumph", "=ds=#s9#, #a1#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 47805, "", "=q4=Gul'dan's Leggings of Triumph", "=ds=#s11#, #a1#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "spell_shadow_rainoffire", "=q6=#t9s8_h#", "=q5="..AL["Tier 9"]};
 				{ 17, 47796, "", "=q4=Gul'dan's Hood of Triumph", "=ds=#s1#, #a1#"};
 				{ 18, 47793, "", "=q4=Gul'dan's Shoulderpads of Triumph", "=ds=#s3#, #a1#"};
@@ -10585,17 +10584,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48371, "", "=q4=Wrynn's Helmet of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48374, "", "=q4=Wrynn's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48372, "", "=q4=Wrynn's Battleplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48375, "", "=q4=Wrynn's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48373, "", "=q4=Wrynn's Legplates of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48371, "", "=q4=Wrynn's Helmet of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48374, "", "=q4=Wrynn's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48372, "", "=q4=Wrynn's Battleplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48375, "", "=q4=Wrynn's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48373, "", "=q4=Wrynn's Legplates of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48378, "", "=q4=Wrynn's Helmet of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48380, "", "=q4=Wrynn's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48376, "", "=q4=Wrynn's Battleplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48377, "", "=q4=Wrynn's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48379, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48378, "", "=q4=Wrynn's Helmet of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48380, "", "=q4=Wrynn's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48376, "", "=q4=Wrynn's Battleplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48377, "", "=q4=Wrynn's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48379, "", "=q4=Wrynn's Legplates of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t9s9_1a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48383, "", "=q4=Wrynn's Helmet of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48381, "", "=q4=Wrynn's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
@@ -10607,17 +10606,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48388, "", "=q4=Hellscream's Helmet of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48390, "", "=q4=Hellscream's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48386, "", "=q4=Hellscream's Battleplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48387, "", "=q4=Hellscream's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48389, "", "=q4=Hellscream's Legplates of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48388, "", "=q4=Hellscream's Helmet of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48390, "", "=q4=Hellscream's Shoulderplates of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48386, "", "=q4=Hellscream's Battleplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48387, "", "=q4=Hellscream's Gauntlets of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48389, "", "=q4=Hellscream's Legplates of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48393, "", "=q4=Hellscream's Helmet of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48395, "", "=q4=Hellscream's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48391, "", "=q4=Hellscream's Battleplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48392, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48394, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48393, "", "=q4=Hellscream's Helmet of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48395, "", "=q4=Hellscream's Shoulderplates of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48391, "", "=q4=Hellscream's Battleplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48392, "", "=q4=Hellscream's Gauntlets of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48394, "", "=q4=Hellscream's Legplates of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#t9s9_1h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48398, "", "=q4=Hellscream's Helmet of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48400, "", "=q4=Hellscream's Shoulderplates of Triumph", "=ds=#s3#, #a4#"};
@@ -10636,17 +10635,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_A"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
-				{ 2, 48429, "", "=q4=Wrynn's Greathelm of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48448, "", "=q4=Wrynn's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48436, "", "=q4=Wrynn's Breastplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48449, "", "=q4=Wrynn's Handguards of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48445, "", "=q4=Wrynn's Legguards of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48429, "", "=q4=Wrynn's Greathelm of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48448, "", "=q4=Wrynn's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48436, "", "=q4=Wrynn's Breastplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48449, "", "=q4=Wrynn's Handguards of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48445, "", "=q4=Wrynn's Legguards of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
-				{ 9, 48430, "", "=q4=Wrynn's Greathelm of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48454, "", "=q4=Wrynn's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48450, "", "=q4=Wrynn's Breastplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48452, "", "=q4=Wrynn's Handguards of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48446, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48430, "", "=q4=Wrynn's Greathelm of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48454, "", "=q4=Wrynn's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48450, "", "=q4=Wrynn's Breastplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48452, "", "=q4=Wrynn's Handguards of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48446, "", "=q4=Wrynn's Legguards of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t9s9_2a#", "=q5="..AL["Tier 9"]};
 				{ 17, 48433, "", "=q4=Wrynn's Greathelm of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48455, "", "=q4=Wrynn's Pauldrons of Triumph", "=ds=#s3#, #a4#"};
@@ -10658,17 +10657,17 @@ local moduleName = "AtlasLootWotLK"
 		["Normal_H"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
-				{ 2, 48458, "", "=q4=Hellscream's Greathelm of Conquest", "=ds=#s1#, #a4#", "#JUSTICE:591#"};
-				{ 3, 48460, "", "=q4=Hellscream's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#JUSTICE:478#"};
-				{ 4, 48456, "", "=q4=Hellscream's Breastplate of Conquest", "=ds=#s5#, #a4#", "#JUSTICE:591#"};
-				{ 5, 48457, "", "=q4=Hellscream's Handguards of Conquest", "=ds=#s9#, #a4#", "#JUSTICE:478#"};
-				{ 6, 48459, "", "=q4=Hellscream's Legguards of Conquest", "=ds=#s11#, #a4#", "#JUSTICE:591#"};
+				{ 2, 48458, "", "=q4=Hellscream's Greathelm of Conquest", "=ds=#s1#, #a4#", "#TRIUMPH:50#"};
+				{ 3, 48460, "", "=q4=Hellscream's Pauldrons of Conquest", "=ds=#s3#, #a4#", "#TRIUMPH:30#"};
+				{ 4, 48456, "", "=q4=Hellscream's Breastplate of Conquest", "=ds=#s5#, #a4#", "#TRIUMPH:50#"};
+				{ 5, 48457, "", "=q4=Hellscream's Handguards of Conquest", "=ds=#s9#, #a4#", "#TRIUMPH:30#"};
+				{ 6, 48459, "", "=q4=Hellscream's Legguards of Conquest", "=ds=#s11#, #a4#", "#TRIUMPH:50#"};
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
-				{ 9, 48463, "", "=q4=Hellscream's Greathelm of Triumph", "=ds=#s1#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 10, 48465, "", "=q4=Hellscream's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 11, 48461, "", "=q4=Hellscream's Breastplate of Triumph", "=ds=#s5#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
-				{ 12, 48462, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#", "#JUSTICE:717# 1 #trophyofthecrusade#"};
-				{ 13, 48464, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#", "#JUSTICE:1196# 1 #trophyofthecrusade#"};
+				{ 9, 48463, "", "=q4=Hellscream's Greathelm of Triumph", "=ds=#s1#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 10, 48465, "", "=q4=Hellscream's Pauldrons of Triumph", "=ds=#s3#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 11, 48461, "", "=q4=Hellscream's Breastplate of Triumph", "=ds=#s5#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
+				{ 12, 48462, "", "=q4=Hellscream's Handguards of Triumph", "=ds=#s9#, #a4#", "#TRIUMPH:45# 1 #trophyofthecrusade#"};
+				{ 13, 48464, "", "=q4=Hellscream's Legguards of Triumph", "=ds=#s11#, #a4#", "#TRIUMPH:75# 1 #trophyofthecrusade#"};
 				{ 16, 0, "ability_warrior_defensivestance", "=q6=#t9s9_2h#", "=q5="..AL["Tier 9"]};
 				{ 17, 48468, "", "=q4=Hellscream's Greathelm of Triumph", "=ds=#s1#, #a4#"};
 				{ 18, 48470, "", "=q4=Hellscream's Pauldrons of Triumph", "=ds=#s3#, #a4#"};
@@ -11488,46 +11487,46 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["EmblemofTriumph"] = {
 		["Normal_A"] = {
 			{
-				{ 2, 47694, "", "=q4=Helm of Clouded Sight", "=ds=#s1#, #a1#", "#JUSTICE:935#" };
-				{ 3, 47693, "", "=q4=Hood of Fiery Aftermath", "=ds=#s1#, #a1#", "#JUSTICE:935#" };
-				{ 4, 47713, "", "=q4=Mantle of Catastrophic Emanation", "=ds=#s3#, #a1#", "#JUSTICE:591#" };
-				{ 5, 47715, "", "=q4=Pauldrons of Revered Mortality", "=ds=#s3#, #a1#", "#JUSTICE:591#" };
-				{ 7, 47690, "", "=q4=Helm of Abundant Growth", "=ds=#s1#, #a2#", "#JUSTICE:935#" };
-				{ 8, 47689, "", "=q4=Hood of Lethal Intent", "=ds=#s1#, #a2#", "#JUSTICE:935#" };
-				{ 9, 47708, "", "=q4=Duskstalker Shoulderpads", "=ds=#s3#, #a2#", "#JUSTICE:591#" };
-				{ 10, 47712, "", "=q4=Shoulders of the Fateful Accord", "=ds=#s3#, #a2#", "#JUSTICE:591#" };
-				{ 17, 47686, "", "=q4=Helm of Inner Warmth", "=ds=#s1#, #a3#", "#JUSTICE:935#" };
-				{ 18, 47685, "", "=q4=Helm of the Brooding Dragon", "=ds=#s1#, #a3#", "#JUSTICE:935#" };
-				{ 19, 47704, "", "=q4=Epaulets of the Devourer", "=ds=#s3#, #a3#", "#JUSTICE:591#" };
-				{ 20, 47707, "", "=q4=Mantle of the Groundbreaker", "=ds=#s3#, #a3#", "#JUSTICE:591#" };
-				{ 22, 47677, "", "=q4=Faceplate of the Honorbound", "=ds=#s1#, #a4#", "#JUSTICE:935#" };
-				{ 23, 47681, "", "=q4=Heaume of the Restless Watch", "=ds=#s1#, #a4#", "#JUSTICE:935#" };
-				{ 24, 47674, "", "=q4=Helm of Thunderous Rampage", "=ds=#s1#, #a4#", "#JUSTICE:935#" };
-				{ 25, 47702, "", "=q4=Pauldrons of the Cavalier", "=ds=#s3#, #a4#", "#JUSTICE:591#" };
-				{ 26, 47697, "", "=q4=Pauldrons of Trembling Rage", "=ds=#s3#, #a4#", "#JUSTICE:591#" };
-				{ 27, 47698, "", "=q4=Shoulderplates of Enduring Order", "=ds=#s3#, #a4#", "#JUSTICE:591#" };
+				{ 2, 47694, "", "=q4=Helm of Clouded Sight", "=ds=#s1#, #a1#", "#TRIUMPH:75#" };
+				{ 3, 47693, "", "=q4=Hood of Fiery Aftermath", "=ds=#s1#, #a1#", "#TRIUMPH:75#" };
+				{ 4, 47713, "", "=q4=Mantle of Catastrophic Emanation", "=ds=#s3#, #a1#", "#TRIUMPH:50#" };
+				{ 5, 47715, "", "=q4=Pauldrons of Revered Mortality", "=ds=#s3#, #a1#", "#TRIUMPH:50#" };
+				{ 7, 47690, "", "=q4=Helm of Abundant Growth", "=ds=#s1#, #a2#", "#TRIUMPH:75#" };
+				{ 8, 47689, "", "=q4=Hood of Lethal Intent", "=ds=#s1#, #a2#", "#TRIUMPH:75#" };
+				{ 9, 47708, "", "=q4=Duskstalker Shoulderpads", "=ds=#s3#, #a2#", "#TRIUMPH:50#" };
+				{ 10, 47712, "", "=q4=Shoulders of the Fateful Accord", "=ds=#s3#, #a2#", "#TRIUMPH:50#" };
+				{ 17, 47686, "", "=q4=Helm of Inner Warmth", "=ds=#s1#, #a3#", "#TRIUMPH:75#" };
+				{ 18, 47685, "", "=q4=Helm of the Brooding Dragon", "=ds=#s1#, #a3#", "#TRIUMPH:75#" };
+				{ 19, 47704, "", "=q4=Epaulets of the Devourer", "=ds=#s3#, #a3#", "#TRIUMPH:50#" };
+				{ 20, 47707, "", "=q4=Mantle of the Groundbreaker", "=ds=#s3#, #a3#", "#TRIUMPH:50#" };
+				{ 22, 47677, "", "=q4=Faceplate of the Honorbound", "=ds=#s1#, #a4#", "#TRIUMPH:75#" };
+				{ 23, 47681, "", "=q4=Heaume of the Restless Watch", "=ds=#s1#, #a4#", "#TRIUMPH:75#" };
+				{ 24, 47674, "", "=q4=Helm of Thunderous Rampage", "=ds=#s1#, #a4#", "#TRIUMPH:75#" };
+				{ 25, 47702, "", "=q4=Pauldrons of the Cavalier", "=ds=#s3#, #a4#", "#TRIUMPH:50#" };
+				{ 26, 47697, "", "=q4=Pauldrons of Trembling Rage", "=ds=#s3#, #a4#", "#TRIUMPH:50#" };
+				{ 27, 47698, "", "=q4=Shoulderplates of Enduring Order", "=ds=#s3#, #a4#", "#TRIUMPH:50#" };
 			};
 		};
 		["Normal_H"] = {
 			{
-				{ 2, 47695, "", "=q4=Hood of Clouded Sight", "=ds=#s1#, #a1#", "#JUSTICE:935#" };
-				{ 3, 47692, "", "=q4=Hood of Smoldering Aftermath", "=ds=#s1#, #a1#", "#JUSTICE:935#" };
-				{ 4, 47714, "", "=q4=Pauldrons of Catastrophic Emanation", "=ds=#s3#, #a1#", "#JUSTICE:591#" };
-				{ 5, 47716, "", "=q4=Mantle of Revered Mortality", "=ds=#s3#, #a1#", "#JUSTICE:591#" };
-				{ 7, 47691, "", "=q4=Mask of Abundant Growth", "=ds=#s1#, #a2#", "#JUSTICE:935#" };
-				{ 8, 47688, "", "=q4=Mask of Lethal Intent", "=ds=#s1#, #a2#", "#JUSTICE:935#" };
-				{ 9, 47709, "", "=q4=Duskstalker Pauldrons", "=ds=#s3#, #a2#", "#JUSTICE:591#" };
-				{ 10, 47710, "", "=q4=Epaulets of the Fateful Accord", "=ds=#s3#, #a2#", "#JUSTICE:591#" };
-				{ 17, 47687, "", "=q4=Headguard of Inner Warmth", "=ds=#s1#, #a3#", "#JUSTICE:935#" };
-				{ 18, 47684, "", "=q4=Coif of the Brooding Dragon", "=ds=#s1#, #a3#", "#JUSTICE:935#" };
-				{ 19, 47705, "", "=q4=Pauldrons of the Devourer", "=ds=#s3#, #a3#", "#JUSTICE:591#" };
-				{ 20, 47706, "", "=q4=Shoulders of the Groundbreaker", "=ds=#s3#, #a3#", "#JUSTICE:591#" };
-				{ 22, 47678, "", "=q4=Headplate of the Honorbound", "=ds=#s1#, #a4#", "#JUSTICE:935#" };
-				{ 23, 47682, "", "=q4=Helm of the Restless Watch", "=ds=#s1#, #a4#", "#JUSTICE:935#" };
-				{ 24, 47675, "", "=q4=Faceplate of Thunderous Rampage", "=ds=#s1#, #a4#", "#JUSTICE:935#" };
-				{ 25, 47701, "", "=q4=Shoulderplates of the Cavalier", "=ds=#s3#, #a4#", "#JUSTICE:591#" };
-				{ 26, 47696, "", "=q4=Shoulderplates of Trembling Rage", "=ds=#s3#, #a4#", "#JUSTICE:591#" };
-				{ 27, 47699, "", "=q4=Shoulderguards of Enduring Order", "=ds=#s3#, #a4#", "#JUSTICE:591#" };
+				{ 2, 47695, "", "=q4=Hood of Clouded Sight", "=ds=#s1#, #a1#", "#TRIUMPH:75#" };
+				{ 3, 47692, "", "=q4=Hood of Smoldering Aftermath", "=ds=#s1#, #a1#", "#TRIUMPH:75#" };
+				{ 4, 47714, "", "=q4=Pauldrons of Catastrophic Emanation", "=ds=#s3#, #a1#", "#TRIUMPH:50#" };
+				{ 5, 47716, "", "=q4=Mantle of Revered Mortality", "=ds=#s3#, #a1#", "#TRIUMPH:50#" };
+				{ 7, 47691, "", "=q4=Mask of Abundant Growth", "=ds=#s1#, #a2#", "#TRIUMPH:75#" };
+				{ 8, 47688, "", "=q4=Mask of Lethal Intent", "=ds=#s1#, #a2#", "#TRIUMPH:75#" };
+				{ 9, 47709, "", "=q4=Duskstalker Pauldrons", "=ds=#s3#, #a2#", "#TRIUMPH:50#" };
+				{ 10, 47710, "", "=q4=Epaulets of the Fateful Accord", "=ds=#s3#, #a2#", "#TRIUMPH:50#" };
+				{ 17, 47687, "", "=q4=Headguard of Inner Warmth", "=ds=#s1#, #a3#", "#TRIUMPH:75#" };
+				{ 18, 47684, "", "=q4=Coif of the Brooding Dragon", "=ds=#s1#, #a3#", "#TRIUMPH:75#" };
+				{ 19, 47705, "", "=q4=Pauldrons of the Devourer", "=ds=#s3#, #a3#", "#TRIUMPH:50#" };
+				{ 20, 47706, "", "=q4=Shoulders of the Groundbreaker", "=ds=#s3#, #a3#", "#TRIUMPH:50#" };
+				{ 22, 47678, "", "=q4=Headplate of the Honorbound", "=ds=#s1#, #a4#", "#TRIUMPH:75#" };
+				{ 23, 47682, "", "=q4=Helm of the Restless Watch", "=ds=#s1#, #a4#", "#TRIUMPH:75#" };
+				{ 24, 47675, "", "=q4=Faceplate of Thunderous Rampage", "=ds=#s1#, #a4#", "#TRIUMPH:75#" };
+				{ 25, 47701, "", "=q4=Shoulderplates of the Cavalier", "=ds=#s3#, #a4#", "#TRIUMPH:50#" };
+				{ 26, 47696, "", "=q4=Shoulderplates of Trembling Rage", "=ds=#s3#, #a4#", "#TRIUMPH:50#" };
+				{ 27, 47699, "", "=q4=Shoulderguards of Enduring Order", "=ds=#s3#, #a4#", "#TRIUMPH:50#" };
 			};
 		};
 		info = {
@@ -11539,30 +11538,30 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["EmblemofTriumph2"] = {
 		["Normal"] = {
 			{
-				{ 1, 47732, "", "=q4=Band of the Invoker", "=ds=#s13#", "#JUSTICE:492#" };
-				{ 2, 47729, "", "=q4=Bloodshed Band", "=ds=#s13#", "#JUSTICE:492#" };
-				{ 3, 47731, "", "=q4=Clutch of Fortification", "=ds=#s13#", "#JUSTICE:492#" };
-				{ 4, 47730, "", "=q4=Dexterous Brightstone Ring", "=ds=#s13#", "#JUSTICE:492#" };
-				{ 5, 47733, "", "=q4=Heartmender Circle", "=ds=#s13#", "#JUSTICE:492#" };
-				{ 7, 47735, "", "=q4=Glyph of Indomitability", "=ds=#s14#", "#JUSTICE:591#" };
-				{ 8, 47734, "", "=q4=Mark of Supremacy", "=ds=#s14#", "#JUSTICE:591#" };
-				{ 9, 48722, "", "=q4=Shard of the Crystal Heart", "=ds=#s14#", "#JUSTICE:591#" };
-				{ 10, 48724, "", "=q4=Talisman of Resurgence", "=ds=#s14#", "#JUSTICE:591#" };
-				{ 12, 47659, "", "=q4=Crimson Star", "=ds=#w11#", "#JUSTICE:295#" };
-				{ 13, 47660, "", "=q4=Blades of the Sable Cross", "=ds=#w11#", "#JUSTICE:295#" };
-				{ 14, 47658, "", "=q4=Brimstone Igniter", "=ds=#w12#", "#JUSTICE:295#" };	
-				{ 16, 47671, "", "=q4=Idol of Flaring Growth", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 17, 47670, "", "=q4=Idol of Lunar Fury", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 18, 47668, "", "=q4=Idol of Mutilation", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 19, 47664, "", "=q4=Libram of Defiance", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 20, 47661, "", "=q4=Libram of Valiance", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 21, 47662, "", "=q4=Libram of Veracity", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 22, 47672, "", "=q4=Sigil of Insolence", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 23, 47673, "", "=q4=Sigil of Virulence", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 24, 47665, "", "=q4=Totem of Calming Tides", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 25, 47666, "", "=q4=Totem of Electrifying Wind", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 26, 47667, "", "=q4=Totem of Quaking Earth", "=ds=#s16#", "#JUSTICE:295#" };
-				{ 28, 47556, "", "=q3=Crusader Orb", "=ds=#e6#", "#JUSTICE:226#"};
+				{ 1, 47732, "", "=q4=Band of the Invoker", "=ds=#s13#", "#TRIUMPH:35#" };
+				{ 2, 47729, "", "=q4=Bloodshed Band", "=ds=#s13#", "#TRIUMPH:35#" };
+				{ 3, 47731, "", "=q4=Clutch of Fortification", "=ds=#s13#", "#TRIUMPH:35#" };
+				{ 4, 47730, "", "=q4=Dexterous Brightstone Ring", "=ds=#s13#", "#TRIUMPH:35#" };
+				{ 5, 47733, "", "=q4=Heartmender Circle", "=ds=#s13#", "#TRIUMPH:35#" };
+				{ 7, 47735, "", "=q4=Glyph of Indomitability", "=ds=#s14#", "#TRIUMPH:50#" };
+				{ 8, 47734, "", "=q4=Mark of Supremacy", "=ds=#s14#", "#TRIUMPH:50#" };
+				{ 9, 48722, "", "=q4=Shard of the Crystal Heart", "=ds=#s14#", "#TRIUMPH:50#" };
+				{ 10, 48724, "", "=q4=Talisman of Resurgence", "=ds=#s14#", "#TRIUMPH:50#" };
+				{ 12, 47659, "", "=q4=Crimson Star", "=ds=#w11#", "#TRIUMPH:25#" };
+				{ 13, 47660, "", "=q4=Blades of the Sable Cross", "=ds=#w11#", "#TRIUMPH:25#" };
+				{ 14, 47658, "", "=q4=Brimstone Igniter", "=ds=#w12#", "#TRIUMPH:25#" };	
+				{ 16, 47671, "", "=q4=Idol of Flaring Growth", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 17, 47670, "", "=q4=Idol of Lunar Fury", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 18, 47668, "", "=q4=Idol of Mutilation", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 19, 47664, "", "=q4=Libram of Defiance", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 20, 47661, "", "=q4=Libram of Valiance", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 21, 47662, "", "=q4=Libram of Veracity", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 22, 47672, "", "=q4=Sigil of Insolence", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 23, 47673, "", "=q4=Sigil of Virulence", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 24, 47665, "", "=q4=Totem of Calming Tides", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 25, 47666, "", "=q4=Totem of Electrifying Wind", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 26, 47667, "", "=q4=Totem of Quaking Earth", "=ds=#s16#", "#TRIUMPH:25#" };
+				{ 28, 47556, "", "=q3=Crusader Orb", "=ds=#e6#", "#TRIUMPH:15#"};
 			};
 		};
 		info = {
