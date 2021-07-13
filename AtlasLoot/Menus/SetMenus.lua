@@ -10,8 +10,8 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 	AtlasLoot_Data["SETMENU"] = {
 		["Normal"] = {
 			{
-				{ 2, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
-				{ 3, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Justice Points"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
+				{ 2, "WOTLKEMBLEMMENU", "inv_misc_frostemblem_01", "=ds="..AL["Emblems"].." "..AL["Rewards"], "=q5="..AL["Wrath of the Lich King"]};
+				{ 3, "70TOKENMENU", "inv_valentineperfumebottle", "=ds="..AL["Badges"].." "..AL["Rewards"], "=q5="..AL["Burning Crusade"]};
 				{ 7, "WORLDEPICS", "INV_Sword_76", "=ds="..AL["BoE World Epics"], ""};
 				{ 8, "Legendaries", "inv_hammer_unique_sulfuras", "=ds="..AL["Legendary Items"], ""};
 				{ 9, "MOUNTMENU", "ability_hunter_pet_dragonhawk", "=ds="..BabbleInventory["Mounts"], ""};
@@ -53,7 +53,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
+			name = AL["Emblems"].." "..AL["Rewards"],
 			menu = "SETMENU",
 		};
 	}
@@ -74,7 +74,7 @@ local BabbleZone = AtlasLoot_GetLocaleLibBabble("LibBabble-Zone-3.0")
 			};
 		};
 		info = {
-			name = AL["Justice Points"].." "..AL["Rewards"],
+			name = AL["Badges"].." "..AL["Rewards"],
 			menu = "SETMENU",
 		};
 	}

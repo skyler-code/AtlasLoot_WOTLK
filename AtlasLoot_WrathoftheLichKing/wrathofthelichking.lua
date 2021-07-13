@@ -7865,11 +7865,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51414, "", "=q4=Wrathful Gladiator's Dreadplate Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51416, "", "=q4=Wrathful Gladiator's Dreadplate Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_deathknight_classicon", "=q6=#arenas10#", ""};
-				{ 9, 40830, "", "=q4=Relentless Gladiator's Dreadplate Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 40871, "", "=q4=Relentless Gladiator's Dreadplate Shoulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 40791, "", "=q4=Relentless Gladiator's Dreadplate Chestpiece", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 40830, "", "=q4=Relentless Gladiator's Dreadplate Helm", "=ds=", "#FROST:95#"};
+				{ 10, 40871, "", "=q4=Relentless Gladiator's Dreadplate Shoulders", "=ds=", "#FROST:60#"};
+				{ 11, 40791, "", "=q4=Relentless Gladiator's Dreadplate Chestpiece", "=ds=", "#FROST:95#"};
+				{ 12, 40811, "", "=q4=Relentless Gladiator's Dreadplate Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 40851, "", "=q4=Relentless Gladiator's Dreadplate Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_deathknight_classicon", "=q6=#arenas10#", ""};
 				{ 17, 40827, "", "=q4=Furious Gladiator's Dreadplate Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 40868, "", "=q4=Furious Gladiator's Dreadplate Shoulders", "=ds=", "#JUSTICE:591#"};
@@ -7914,11 +7914,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51434, "", "=q4=Wrathful Gladiator's Wyrmhide Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51436, "", "=q4=Wrathful Gladiator's Wyrmhide Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_nature_starfall", "=q6=#arenas1_2#", ""};
-				{ 9, 41328, "", "=q4=Relentless Gladiator's Wyrmhide Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41282, "", "=q4=Relentless Gladiator's Wyrmhide Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41317, "", "=q4=Relentless Gladiator's Wyrmhide Robes", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41328, "", "=q4=Relentless Gladiator's Wyrmhide Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41282, "", "=q4=Relentless Gladiator's Wyrmhide Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 41317, "", "=q4=Relentless Gladiator's Wyrmhide Robes", "=ds=", "#FROST:95#"};
+				{ 12, 41294, "", "=q4=Relentless Gladiator's Wyrmhide Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 41305, "", "=q4=Relentless Gladiator's Wyrmhide Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_nature_starfall", "=q6=#arenas1_2#", ""};
 				{ 17, 41327, "", "=q4=Furious Gladiator's Wyrmhide Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41281, "", "=q4=Furious Gladiator's Wyrmhide Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -7963,11 +7963,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51426, "", "=q4=Wrathful Gladiator's Dragonhide Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51428, "", "=q4=Wrathful Gladiator's Dragonhide Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "ability_racial_bearform", "=q6=#arenas1_1#", ""};
-				{ 9, 41679, "", "=q4=Relentless Gladiator's Dragonhide Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41716, "", "=q4=Relentless Gladiator's Dragonhide Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41662, "", "=q4=Relentless Gladiator's Dragonhide Robes", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41679, "", "=q4=Relentless Gladiator's Dragonhide Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41716, "", "=q4=Relentless Gladiator's Dragonhide Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 41662, "", "=q4=Relentless Gladiator's Dragonhide Robes", "=ds=", "#FROST:95#"};
+				{ 12, 41774, "", "=q4=Relentless Gladiator's Dragonhide Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 41668, "", "=q4=Relentless Gladiator's Dragonhide Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "ability_racial_bearform", "=q6=#arenas1_1#", ""};
 				{ 17, 41678, "", "=q4=Furious Gladiator's Dragonhide Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41715, "", "=q4=Furious Gladiator's Dragonhide Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8012,11 +8012,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51420, "", "=q4=Wrathful Gladiator's Kodohide Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51422, "", "=q4=Wrathful Gladiator's Kodohide Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", ""};
-				{ 9, 41322, "", "=q4=Relentless Gladiator's Kodohide Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41276, "", "=q4=Relentless Gladiator's Kodohide Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41311, "", "=q4=Relentless Gladiator's Kodohide Robes", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41322, "", "=q4=Relentless Gladiator's Kodohide Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41276, "", "=q4=Relentless Gladiator's Kodohide Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 41311, "", "=q4=Relentless Gladiator's Kodohide Robes", "=ds=", "#FROST:95#"};
+				{ 12, 41288, "", "=q4=Relentless Gladiator's Kodohide Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 41299, "", "=q4=Relentless Gladiator's Kodohide Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_nature_healingtouch", "=q6=#arenas1_3#", ""};
 				{ 17, 41321, "", "=q4=Furious Gladiator's Kodohide Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41275, "", "=q4=Furious Gladiator's Kodohide Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8061,11 +8061,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51459, "", "=q4=Wrathful Gladiator's Chain Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51461, "", "=q4=Wrathful Gladiator's Chain Leggings", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#arenas2#", ""};
-				{ 9, 41158, "", "=q4=Relentless Gladiator's Chain Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41218, "", "=q4=Relentless Gladiator's Chain Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41088, "", "=q4=Relentless Gladiator's Chain Armor", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41158, "", "=q4=Relentless Gladiator's Chain Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41218, "", "=q4=Relentless Gladiator's Chain Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 41088, "", "=q4=Relentless Gladiator's Chain Armor", "=ds=", "#FROST:95#"};
+				{ 12, 41144, "", "=q4=Relentless Gladiator's Chain Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 41206, "", "=q4=Relentless Gladiator's Chain Leggings", "=ds=", "#FROST:95#"};
 				{ 16, 0, "inv_weapon_bow_07", "=q6=#arenas2#", ""};
 				{ 17, 41157, "", "=q4=Furious Gladiator's Chain Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41217, "", "=q4=Furious Gladiator's Chain Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8110,11 +8110,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51464, "", "=q4=Wrathful Gladiator's Silk Handguards", "=ds=", "#HONOR:1040#"};
 				{ 6, 51466, "", "=q4=Wrathful Gladiator's Silk Trousers", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "inv_staff_13", "=q6=#arenas3#", ""};
-				{ 9, 41947, "", "=q4=Relentless Gladiator's Silk Cowl", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41966, "", "=q4=Relentless Gladiator's Silk Amice", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41954, "", "=q4=Relentless Gladiator's Silk Raiment", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41947, "", "=q4=Relentless Gladiator's Silk Cowl", "=ds=", "#FROST:95#"};
+				{ 10, 41966, "", "=q4=Relentless Gladiator's Silk Amice", "=ds=", "#FROST:60#"};
+				{ 11, 41954, "", "=q4=Relentless Gladiator's Silk Raiment", "=ds=", "#FROST:95#"};
+				{ 12, 41972, "", "=q4=Relentless Gladiator's Silk Handguards", "=ds=", "#FROST:60#"};
+				{ 13, 41960, "", "=q4=Relentless Gladiator's Silk Trousers", "=ds=", "#FROST:95#"};
 				{ 16, 0, "inv_staff_13", "=q6=#arenas3#", ""};
 				{ 17, 41946, "", "=q4=Furious Gladiator's Silk Cowl", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41965, "", "=q4=Furious Gladiator's Silk Amice", "=ds=", "#JUSTICE:591#"};
@@ -8159,11 +8159,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51475, "", "=q4=Wrathful Gladiator's Scaled Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51477, "", "=q4=Wrathful Gladiator's Scaled Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
-				{ 9, 40831, "", "=q4=Relentless Gladiator's Scaled Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 40872, "", "=q4=Relentless Gladiator's Scaled Shoulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 40792, "", "=q4=Relentless Gladiator's Scaled Chestpiece", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 40831, "", "=q4=Relentless Gladiator's Scaled Helm", "=ds=", "#FROST:95#"};
+				{ 10, 40872, "", "=q4=Relentless Gladiator's Scaled Shoulders", "=ds=", "#FROST:60#"};
+				{ 11, 40792, "", "=q4=Relentless Gladiator's Scaled Chestpiece", "=ds=", "#FROST:95#"};
+				{ 12, 40812, "", "=q4=Relentless Gladiator's Scaled Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 40852, "", "=q4=Relentless Gladiator's Scaled Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "Spell_Holy_AuraOfLight", "=q6=#arenas4_2#", ""};
 				{ 17, 40828, "", "=q4=Furious Gladiator's Scaled Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 40869, "", "=q4=Furious Gladiator's Scaled Shoulders", "=ds=", "#JUSTICE:591#"};
@@ -8208,11 +8208,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51469, "", "=q4=Wrathful Gladiator's Ornamented Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51471, "", "=q4=Wrathful Gladiator's Ornamented Legplates", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
-				{ 9, 40934, "", "=q4=Relentless Gladiator's Ornamented Headcover", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 40964, "", "=q4=Relentless Gladiator's Ornamented Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 40910, "", "=q4=Relentless Gladiator's Ornamented Chestguard", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 40934, "", "=q4=Relentless Gladiator's Ornamented Headcover", "=ds=", "#FROST:95#"};
+				{ 10, 40964, "", "=q4=Relentless Gladiator's Ornamented Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 40910, "", "=q4=Relentless Gladiator's Ornamented Chestguard", "=ds=", "#FROST:95#"};
+				{ 12, 40928, "", "=q4=Relentless Gladiator's Ornamented Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 40940, "", "=q4=Relentless Gladiator's Ornamented Legplates", "=ds=", "#FROST:95#"};
 				{ 16, 0, "Spell_Holy_HolyBolt", "=q6=#arenas4_3#", ""};
 				{ 17, 40933, "", "=q4=Furious Gladiator's Ornamented Headcover", "=ds=", "#JUSTICE:935#"};
 				{ 18, 40963, "", "=q4=Furious Gladiator's Ornamented Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8257,11 +8257,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51488, "", "=q4=Wrathful Gladiator's Satin Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51490, "", "=q4=Wrathful Gladiator's Satin Leggings", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", ""};
-				{ 9, 41916, "", "=q4=Relentless Gladiator's Satin Hood", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41935, "", "=q4=Relentless Gladiator's Satin Mantle", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41922, "", "=q4=Relentless Gladiator's Satin Robe", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41916, "", "=q4=Relentless Gladiator's Satin Hood", "=ds=", "#FROST:95#"};
+				{ 10, 41935, "", "=q4=Relentless Gladiator's Satin Mantle", "=ds=", "#FROST:60#"};
+				{ 11, 41922, "", "=q4=Relentless Gladiator's Satin Robe", "=ds=", "#FROST:95#"};
+				{ 12, 41941, "", "=q4=Relentless Gladiator's Satin Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 41928, "", "=q4=Relentless Gladiator's Satin Leggings", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_shadow_shadowwordpain", "=q6=#arenas5_1#", ""};
 				{ 17, 41915, "", "=q4=Furious Gladiator's Satin Hood", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41934, "", "=q4=Furious Gladiator's Satin Mantle", "=ds=", "#JUSTICE:591#"};
@@ -8306,11 +8306,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51483, "", "=q4=Wrathful Gladiator's Mooncloth Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51485, "", "=q4=Wrathful Gladiator's Mooncloth Leggings", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#arenas5_2#", ""};
-				{ 9, 41855, "", "=q4=Relentless Gladiator's Mooncloth Hood", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41870, "", "=q4=Relentless Gladiator's Mooncloth Mantle", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41855, "", "=q4=Relentless Gladiator's Mooncloth Hood", "=ds=", "#FROST:95#"};
+				{ 10, 41870, "", "=q4=Relentless Gladiator's Mooncloth Mantle", "=ds=", "#FROST:60#"};
+				{ 11, 41860, "", "=q4=Relentless Gladiator's Mooncloth Robe", "=ds=", "#FROST:95#"};
+				{ 12, 41875, "", "=q4=Relentless Gladiator's Mooncloth Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 41865, "", "=q4=Relentless Gladiator's Mooncloth Leggings", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_holy_guardianspirit", "=q6=#arenas5_2#", ""};
 				{ 17, 41854, "", "=q4=Furious Gladiator's Mooncloth Hood", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41869, "", "=q4=Furious Gladiator's Mooncloth Mantle", "=ds=", "#JUSTICE:591#"};
@@ -8355,11 +8355,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51493, "", "=q4=Wrathful Gladiator's Leather Gloves", "=ds=", "#HONOR:1040#"};
 				{ 6, 51495, "", "=q4=Wrathful Gladiator's Leather Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "inv_throwingknife_04", "=q6=#arenas6#", ""};
-				{ 9, 41673, "", "=q4=Relentless Gladiator's Leather Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41684, "", "=q4=Relentless Gladiator's Leather Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41651, "", "=q4=Relentless Gladiator's Leather Tunic", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41673, "", "=q4=Relentless Gladiator's Leather Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41684, "", "=q4=Relentless Gladiator's Leather Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 41651, "", "=q4=Relentless Gladiator's Leather Tunic", "=ds=", "#FROST:95#"};
+				{ 12, 41768, "", "=q4=Relentless Gladiator's Leather Gloves", "=ds=", "#FROST:60#"};
+				{ 13, 41656, "", "=q4=Relentless Gladiator's Leather Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "inv_throwingknife_04", "=q6=#arenas6#", ""};
 				{ 17, 41672, "", "=q4=Furious Gladiator's Leather Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41683, "", "=q4=Furious Gladiator's Leather Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8404,11 +8404,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51510, "", "=q4=Wrathful Gladiator's Mail Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51512, "", "=q4=Wrathful Gladiator's Mail Leggings", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
-				{ 9, 41020, "", "=q4=Relentless Gladiator's Mail Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41045, "", "=q4=Relentless Gladiator's Mail Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 40995, "", "=q4=Relentless Gladiator's Mail Armor", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41020, "", "=q4=Relentless Gladiator's Mail Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41045, "", "=q4=Relentless Gladiator's Mail Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 40995, "", "=q4=Relentless Gladiator's Mail Armor", "=ds=", "#FROST:95#"};
+				{ 12, 41008, "", "=q4=Relentless Gladiator's Mail Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 41034, "", "=q4=Relentless Gladiator's Mail Leggings", "=ds=", "#FROST:95#"};
 				{ 16, 0, "Spell_Nature_Lightning", "=q6=#arenas7_2#", ""};
 				{ 17, 41019, "", "=q4=Furious Gladiator's Mail Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41044, "", "=q4=Furious Gladiator's Mail Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8453,11 +8453,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51504, "", "=q4=Wrathful Gladiator's Linked Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51506, "", "=q4=Wrathful Gladiator's Linked Leggings", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", ""};
-				{ 9, 41152, "", "=q4=Relentless Gladiator's Linked Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41212, "", "=q4=Relentless Gladiator's Linked Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41082, "", "=q4=Relentless Gladiator's Linked Armor", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41152, "", "=q4=Relentless Gladiator's Linked Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41212, "", "=q4=Relentless Gladiator's Linked Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 41082, "", "=q4=Relentless Gladiator's Linked Armor", "=ds=", "#FROST:95#"};
+				{ 12, 41138, "", "=q4=Relentless Gladiator's Linked Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 41200, "", "=q4=Relentless Gladiator's Linked Leggings", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_nature_lightningshield", "=q6=#arenas7_1#", ""};
 				{ 17, 41151, "", "=q4=Furious Gladiator's Linked Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41211, "", "=q4=Furious Gladiator's Linked Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8502,11 +8502,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51498, "", "=q4=Wrathful Gladiator's Ringmail Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51500, "", "=q4=Wrathful Gladiator's Ringmail Leggings", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", ""};
-				{ 9, 41014, "", "=q4=Relentless Gladiator's Ringmail Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 41039, "", "=q4=Relentless Gladiator's Ringmail Spaulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 40994, "", "=q4=Relentless Gladiator's Ringmail Armor", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41014, "", "=q4=Relentless Gladiator's Ringmail Helm", "=ds=", "#FROST:95#"};
+				{ 10, 41039, "", "=q4=Relentless Gladiator's Ringmail Spaulders", "=ds=", "#FROST:60#"};
+				{ 11, 40994, "", "=q4=Relentless Gladiator's Ringmail Armor", "=ds=", "#FROST:95#"};
+				{ 12, 41002, "", "=q4=Relentless Gladiator's Ringmail Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 41028, "", "=q4=Relentless Gladiator's Ringmail Leggings", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_nature_magicimmunity", "=q6=#arenas7_3#", ""};
 				{ 17, 41013, "", "=q4=Furious Gladiator's Ringmail Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 41038, "", "=q4=Furious Gladiator's Ringmail Spaulders", "=ds=", "#JUSTICE:591#"};
@@ -8551,11 +8551,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51537, "", "=q4=Wrathful Gladiator's Felweave Handguards", "=ds=", "#HONOR:1040#"};
 				{ 6, 51539, "", "=q4=Wrathful Gladiator's Felweave Trousers", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", ""};
-				{ 9, 41994, "", "=q4=Relentless Gladiator's Felweave Cowl", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 42012, "", "=q4=Relentless Gladiator's Felweave Amice", "=ds=", "#JUSTICE:695#"};
-				{ 11, 41999, "", "=q4=Relentless Gladiator's Felweave Raiment", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=", "#JUSTICE:695#"};
-				{ 13, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 41994, "", "=q4=Relentless Gladiator's Felweave Cowl", "=ds=", "#FROST:95#"};
+				{ 10, 42012, "", "=q4=Relentless Gladiator's Felweave Amice", "=ds=", "#FROST:60#"};
+				{ 11, 41999, "", "=q4=Relentless Gladiator's Felweave Raiment", "=ds=", "#FROST:95#"};
+				{ 12, 42018, "", "=q4=Relentless Gladiator's Felweave Handguards", "=ds=", "#FROST:60#"};
+				{ 13, 42006, "", "=q4=Relentless Gladiator's Felweave Trousers", "=ds=", "#FROST:95#"};
 				{ 16, 0, "spell_nature_drowsy", "=q6=#arenas8_2#", ""};
 				{ 17, 41993, "", "=q4=Furious Gladiator's Felweave Cowl", "=ds=", "#JUSTICE:935#"};
 				{ 18, 42011, "", "=q4=Furious Gladiator's Felweave Amice", "=ds=", "#JUSTICE:591#"};
@@ -8600,11 +8600,11 @@ local moduleName = "AtlasLootWotLK"
 				{ 5, 51542, "", "=q4=Wrathful Gladiator's Plate Gauntlets", "=ds=", "#HONOR:1040#"};
 				{ 6, 51544, "", "=q4=Wrathful Gladiator's Plate Legguards", "=ds=", "#HONOR:1650#"};
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#arenas9#", ""};
-				{ 9, 40829, "", "=q4=Relentless Gladiator's Plate Helm", "=ds=", "#JUSTICE:1100#"};
-				{ 10, 40870, "", "=q4=Relentless Gladiator's Plate Shoulders", "=ds=", "#JUSTICE:695#"};
-				{ 11, 40790, "", "=q4=Relentless Gladiator's Plate Chestpiece", "=ds=", "#JUSTICE:1100#"};
-				{ 12, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=", "#JUSTICE:695#"};
-				{ 13, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=", "#JUSTICE:1100#"};
+				{ 9, 40829, "", "=q4=Relentless Gladiator's Plate Helm", "=ds=", "#FROST:95#"};
+				{ 10, 40870, "", "=q4=Relentless Gladiator's Plate Shoulders", "=ds=", "#FROST:60#"};
+				{ 11, 40790, "", "=q4=Relentless Gladiator's Plate Chestpiece", "=ds=", "#FROST:95#"};
+				{ 12, 40810, "", "=q4=Relentless Gladiator's Plate Gauntlets", "=ds=", "#FROST:60#"};
+				{ 13, 40850, "", "=q4=Relentless Gladiator's Plate Legguards", "=ds=", "#FROST:95#"};
 				{ 16, 0, "ability_warrior_innerrage", "=q6=#arenas9#", ""};
 				{ 17, 40826, "", "=q4=Furious Gladiator's Plate Helm", "=ds=", "#JUSTICE:935#"};
 				{ 18, 40866, "", "=q4=Furious Gladiator's Plate Shoulders", "=ds=", "#JUSTICE:591#"};
@@ -10690,11 +10690,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_frostpresence", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
-				{ 2, 50096, "", "=q4=Scourgelord Helmet", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50098, "", "=q4=Scourgelord Shoulderplates", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50094, "", "=q4=Scourgelord Battleplate", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50096, "", "=q4=Scourgelord Helmet", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50098, "", "=q4=Scourgelord Shoulderplates", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50094, "", "=q4=Scourgelord Battleplate", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50095, "", "=q4=Scourgelord Gauntlets", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50097, "", "=q4=Scourgelord Legplates", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "spell_deathknight_frostpresence", "=q6=#t10s10_1#", "=q5="..AL["Tier 10"]};
 				{ 9, 51127, "", "=q4=Sanctified Scourgelord Helmet", "=ds=#s1#, #a4#"};
 				{ 10, 51125, "", "=q4=Sanctified Scourgelord Shoulderplates", "=ds=#s3#, #a4#"};
@@ -10719,11 +10719,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_deathknight_bloodpresence", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50855, "", "=q4=Scourgelord Faceguard", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50853, "", "=q4=Scourgelord Pauldrons", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50857, "", "=q4=Scourgelord Chestguard", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50855, "", "=q4=Scourgelord Faceguard", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50853, "", "=q4=Scourgelord Pauldrons", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50857, "", "=q4=Scourgelord Chestguard", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50856, "", "=q4=Scourgelord Handguards", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50854, "", "=q4=Scourgelord Legguards", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "spell_deathknight_bloodpresence", "=q6=#t10s10_2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51133, "", "=q4=Sanctified Scourgelord Faceguard", "=ds=#s1#, #a4#"};
 				{ 10, 51130, "", "=q4=Sanctified Scourgelord Pauldrons", "=ds=#s3#, #a4#"};
@@ -10748,11 +10748,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_healingtouch", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
-				{ 2, 50108, "", "=q4=Lasherweave's Helmet  ", "=ds=#s1#, #a2#", "#JUSTICE:1100#" };
-				{ 3, 50113, "", "=q4=Lasherweave's Pauldrons", "=ds=#s3#, #a2#", "#JUSTICE:695#" };
-				{ 4, 50106, "", "=q4=Lasherweave's Robes", "=ds=#s5#, #a2#", "#JUSTICE:1100#" };
-				{ 5, 50107, "", "=q4=Lasherweave's Gauntlets", "=ds=#s9#, #a2#", "#JUSTICE:695#" };
-				{ 6, 50109, "", "=q4=Lasherweave's Legplates", "=ds=#s11#, #a2#", "#JUSTICE:1100#" };
+				{ 2, 50108, "", "=q4=Lasherweave's Helmet  ", "=ds=#s1#, #a2#", "#FROST:95#" };
+				{ 3, 50113, "", "=q4=Lasherweave's Pauldrons", "=ds=#s3#, #a2#", "#FROST:60#" };
+				{ 4, 50106, "", "=q4=Lasherweave's Robes", "=ds=#s5#, #a2#", "#FROST:95#" };
+				{ 5, 50107, "", "=q4=Lasherweave's Gauntlets", "=ds=#s9#, #a2#", "#FROST:60#" };
+				{ 6, 50109, "", "=q4=Lasherweave's Legplates", "=ds=#s11#, #a2#", "#FROST:95#" };
 				{ 8, 0, "spell_nature_healingtouch", "=q6=#t10s1_1#", "=q5="..AL["Tier 10"]};
 				{ 9, 51137, "", "=q4=Sanctified Lasherweave's Helmet", "=ds=#s1#, #a2#" };
 				{ 10, 51135, "", "=q4=Sanctified Lasherweave's Pauldrons", "=ds=#s3#, #a2#" };
@@ -10777,11 +10777,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_racial_bearform", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50826, "", "=q4=Lasherweave's Headguard", "=ds=#s1#, #a2#", "#JUSTICE:1100#" };
-				{ 3, 50824, "", "=q4=Lasherweave's Shoulderpads", "=ds=#s3#, #a2#", "#JUSTICE:695#" };
-				{ 4, 50828, "", "=q4=Lasherweave's Raiment", "=ds=#s5#, #a2#", "#JUSTICE:1100#" };
-				{ 5, 50827, "", "=q4=Lasherweave's Handgrips", "=ds=#s9#, #a2#", "#JUSTICE:695#" };
-				{ 6, 50825, "", "=q4=Lasherweave's Legguards", "=ds=#s11#, #a2#", "#JUSTICE:1100#" };
+				{ 2, 50826, "", "=q4=Lasherweave's Headguard", "=ds=#s1#, #a2#", "#FROST:95#" };
+				{ 3, 50824, "", "=q4=Lasherweave's Shoulderpads", "=ds=#s3#, #a2#", "#FROST:60#" };
+				{ 4, 50828, "", "=q4=Lasherweave's Raiment", "=ds=#s5#, #a2#", "#FROST:95#" };
+				{ 5, 50827, "", "=q4=Lasherweave's Handgrips", "=ds=#s9#, #a2#", "#FROST:60#" };
+				{ 6, 50825, "", "=q4=Lasherweave's Legguards", "=ds=#s11#, #a2#", "#FROST:95#" };
 				{ 8, 0, "ability_racial_bearform", "=q6=#t10s1_2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51143, "", "=q4=Sanctified Lasherweave's Headguard", "=ds=#s1#, #a2#" };
 				{ 10, 51140, "", "=q4=Sanctified Lasherweave's Shoulderpads", "=ds=#s3#, #a2#" };
@@ -10806,11 +10806,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_starfall", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
-				{ 2, 50821, "", "=q4=Lasherweave's Cover", "=ds=#s1#, #a2#", "#JUSTICE:1100#" };
-				{ 3, 50819, "", "=q4=Lasherweave's Mantle", "=ds=#s3#, #a2#", "#JUSTICE:695#" };
-				{ 4, 50823, "", "=q4=Lasherweave's Vestment", "=ds=#s5#, #a2#", "#JUSTICE:1100#" };
-				{ 5, 50822, "", "=q4=Lasherweave's Gloves", "=ds=#s9#, #a2#", "#JUSTICE:695#" };
-				{ 6, 50820, "", "=q4=Lasherweave's Trousers", "=ds=#s11#, #a2#", "#JUSTICE:1100#" };
+				{ 2, 50821, "", "=q4=Lasherweave's Cover", "=ds=#s1#, #a2#", "#FROST:95#" };
+				{ 3, 50819, "", "=q4=Lasherweave's Mantle", "=ds=#s3#, #a2#", "#FROST:60#" };
+				{ 4, 50823, "", "=q4=Lasherweave's Vestment", "=ds=#s5#, #a2#", "#FROST:95#" };
+				{ 5, 50822, "", "=q4=Lasherweave's Gloves", "=ds=#s9#, #a2#", "#FROST:60#" };
+				{ 6, 50820, "", "=q4=Lasherweave's Trousers", "=ds=#s11#, #a2#", "#FROST:95#" };
 				{ 8, 0, "spell_nature_starfall", "=q6=#t10s1_3#", "=q5="..AL["Tier 10"]};
 				{ 9, 51149, "", "=q4=Sanctified Lasherweave's Cover", "=ds=#s1#, #a2#" };
 				{ 10, 51147, "", "=q4=Sanctified Lasherweave's Mantle", "=ds=#s3#, #a2#" };
@@ -10835,11 +10835,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_weapon_bow_07", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunter's Headpiece", "=ds=#s1#, #a3#", "#JUSTICE:1100#" };
-				{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunter's Spaulders", "=ds=#s3#, #a3#", "#JUSTICE:695#" };
-				{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunter's Tunic", "=ds=#s5#, #a3#", "#JUSTICE:1100#" };
-				{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunter's Handguards", "=ds=#s9#, #a3#", "#JUSTICE:695#" };
-				{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunter's Legguards", "=ds=#s11#, #a3#", "#JUSTICE:1100#" };
+				{ 2, 50115, "", "=q4=Ahn'Kahar Blood Hunter's Headpiece", "=ds=#s1#, #a3#", "#FROST:95#" };
+				{ 3, 50117, "", "=q4=Ahn'Kahar Blood Hunter's Spaulders", "=ds=#s3#, #a3#", "#FROST:60#" };
+				{ 4, 50118, "", "=q4=Ahn'Kahar Blood Hunter's Tunic", "=ds=#s5#, #a3#", "#FROST:95#" };
+				{ 5, 50114, "", "=q4=Ahn'Kahar Blood Hunter's Handguards", "=ds=#s9#, #a3#", "#FROST:60#" };
+				{ 6, 50116, "", "=q4=Ahn'Kahar Blood Hunter's Legguards", "=ds=#s11#, #a3#", "#FROST:95#" };
 				{ 8, 0, "inv_weapon_bow_07", "=q6=#t10s2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51153, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Headpiece", "=ds=#s1#, #a3#"};
 				{ 10, 51151, "", "=q4=Sanctified Ahn'Kahar Blood Hunter's Spaulders", "=ds=#s3#, #a3#"};
@@ -10864,11 +10864,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_staff_13", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
-				{ 2, 50276, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#", "#JUSTICE:1100#" };
-				{ 3, 50279, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#", "#JUSTICE:695#" };
-				{ 4, 50278, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#", "#JUSTICE:1100#" };
-				{ 5, 50275, "", "=q4=Bloodmage Gloves", "=ds=#s9#, #a1#", "#JUSTICE:695#" };
-				{ 6, 50277, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#", "#JUSTICE:1100#" };
+				{ 2, 50276, "", "=q4=Bloodmage Hood", "=ds=#s1#, #a1#", "#FROST:95#" };
+				{ 3, 50279, "", "=q4=Bloodmage Shoulderpads", "=ds=#s3#, #a1#", "#FROST:60#" };
+				{ 4, 50278, "", "=q4=Bloodmage Robe", "=ds=#s5#, #a1#", "#FROST:95#" };
+				{ 5, 50275, "", "=q4=Bloodmage Gloves", "=ds=#s9#, #a1#", "#FROST:60#" };
+				{ 6, 50277, "", "=q4=Bloodmage Leggings", "=ds=#s11#, #a1#", "#FROST:95#" };
 				{ 8, 0, "inv_staff_13", "=q6=#t10s3#", "=q5="..AL["Tier 10"]};
 				{ 9, 51158, "", "=q4=Sanctified Bloodmage Hood", "=ds=#s1#, #a1#"};
 				{ 10, 51155, "", "=q4=Sanctified Bloodmage Shoulderpads", "=ds=#s3#, #a1#"};
@@ -10893,11 +10893,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
-				{ 2, 50867, "", "=q4=Lightsworn Headpiece", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50865, "", "=q4=Lightsworn Spaulders", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50869, "", "=q4=Lightsworn Tunic", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50867, "", "=q4=Lightsworn Headpiece", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50865, "", "=q4=Lightsworn Spaulders", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50869, "", "=q4=Lightsworn Tunic", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50868, "", "=q4=Lightsworn Gloves", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50866, "", "=q4=Lightsworn Greaves", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "Spell_Holy_HolyBolt", "=q6=#t10s4_1#", "=q5="..AL["Tier 10"]};
 				{ 9, 51167, "", "=q4=Sanctified Lightsworn Headpiece", "=ds=#s1#, #a4#" };
 				{ 10, 51166, "", "=q4=Sanctified Lightsworn Spaulders", "=ds=#s3#, #a4#" };
@@ -10922,11 +10922,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50326, "", "=q4=Lightsworn Helmet", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50324, "", "=q4=Lightsworn Shoulderplates", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50328, "", "=q4=Lightsworn Battleplate", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50326, "", "=q4=Lightsworn Helmet", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50324, "", "=q4=Lightsworn Shoulderplates", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50328, "", "=q4=Lightsworn Battleplate", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50327, "", "=q4=Lightsworn Gauntlets", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50325, "", "=q4=Lightsworn Legplates", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "Spell_Holy_AuraOfLight", "=q6=#t10s4_2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51162, "", "=q4=Sanctified Lightsworn Helmet", "=ds=#s1#, #a4#" };
 				{ 10, 51160, "", "=q4=Sanctified Lightsworn Shoulderplates", "=ds=#s3#, #a4#" };
@@ -10951,11 +10951,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_devotionaura", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
-				{ 2, 50862, "", "=q4=Lightsworn Faceguard", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50860, "", "=q4=Lightsworn Shoulderguards", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50864, "", "=q4=Lightsworn Chestguard", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50862, "", "=q4=Lightsworn Faceguard", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50860, "", "=q4=Lightsworn Shoulderguards", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50864, "", "=q4=Lightsworn Chestguard", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50863, "", "=q4=Lightsworn Handguards", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50861, "", "=q4=Lightsworn Legguards", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "spell_holy_devotionaura", "=q6=#t10s4_3#", "=q5="..AL["Tier 10"]};
 				{ 9, 51173, "", "=q4=Sanctified Lightsworn Faceguard", "=ds=#s1#, #a4#" };
 				{ 10, 51170, "", "=q4=Sanctified Lightsworn Shoulderguards", "=ds=#s3#, #a4#" };
@@ -10980,11 +10980,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_shadow_shadowwordpain", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
-				{ 2, 50392, "", "=q4=Crimson Acolyte Cowl", "=ds=#s1#, #a1#", "#JUSTICE:1100#" };
-				{ 3, 50396, "", "=q4=Crimson Acolyte Mantle", "=ds=#s3#, #a1#", "#JUSTICE:695#" };
-				{ 4, 50394, "", "=q4=Crimson Acolyte Raiments", "=ds=#s5#, #a1#", "#JUSTICE:1100#" };
-				{ 5, 50391, "", "=q4=Crimson Acolyte Handwraps", "=ds=#s9#, #a1#", "#JUSTICE:695#" };
-				{ 6, 50393, "", "=q4=Crimson Acolyte Pants", "=ds=#s11#, #a1#", "#JUSTICE:1100#" };
+				{ 2, 50392, "", "=q4=Crimson Acolyte Cowl", "=ds=#s1#, #a1#", "#FROST:95#" };
+				{ 3, 50396, "", "=q4=Crimson Acolyte Mantle", "=ds=#s3#, #a1#", "#FROST:60#" };
+				{ 4, 50394, "", "=q4=Crimson Acolyte Raiments", "=ds=#s5#, #a1#", "#FROST:95#" };
+				{ 5, 50391, "", "=q4=Crimson Acolyte Handwraps", "=ds=#s9#, #a1#", "#FROST:60#" };
+				{ 6, 50393, "", "=q4=Crimson Acolyte Pants", "=ds=#s11#, #a1#", "#FROST:95#" };
 				{ 8, 0, "spell_shadow_shadowwordpain", "=q6=#t10s5_1#", "=q5="..AL["Tier 10"]};
 				{ 9, 51184, "", "=q4=Sanctified Crimson Acolyte Cowl", "=ds=#s1#, #a1#"};
 				{ 10, 51182, "", "=q4=Sanctified Crimson Acolyte Mantle", "=ds=#s3#, #a1#"};
@@ -11009,11 +11009,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_holy_guardianspirit", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50765, "", "=q4=Crimson Acolyte Hood", "=ds=#s1#, #a1#", "#JUSTICE:1100#" };
-				{ 3, 50767, "", "=q4=Crimson Acolyte Shoulderpads", "=ds=#s3#, #a1#", "#JUSTICE:695#" };
-				{ 4, 50768, "", "=q4=Crimson Acolyte Robe", "=ds=#s5#, #a1#", "#JUSTICE:1100#" };
-				{ 5, 50766, "", "=q4=Crimson Acolyte Gloves", "=ds=#s9#, #a1#", "#JUSTICE:695#" };
-				{ 6, 50769, "", "=q4=Crimson Acolyte Leggings", "=ds=#s11#, #a1#", "#JUSTICE:1100#" };
+				{ 2, 50765, "", "=q4=Crimson Acolyte Hood", "=ds=#s1#, #a1#", "#FROST:95#" };
+				{ 3, 50767, "", "=q4=Crimson Acolyte Shoulderpads", "=ds=#s3#, #a1#", "#FROST:60#" };
+				{ 4, 50768, "", "=q4=Crimson Acolyte Robe", "=ds=#s5#, #a1#", "#FROST:95#" };
+				{ 5, 50766, "", "=q4=Crimson Acolyte Gloves", "=ds=#s9#, #a1#", "#FROST:60#" };
+				{ 6, 50769, "", "=q4=Crimson Acolyte Leggings", "=ds=#s11#, #a1#", "#FROST:95#" };
 				{ 8, 0, "spell_holy_guardianspirit", "=q6=#t10s5_2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51178, "", "=q4=Sanctified Crimson Acolyte Hood", "=ds=#s1#, #a1#"};
 				{ 10, 51175, "", "=q4=Sanctified Crimson Acolyte Shoulderpads", "=ds=#s3#, #a1#"};
@@ -11038,11 +11038,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "inv_throwingknife_04", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
-				{ 2, 50089, "", "=q4=Shadowblade Helmet", "=ds=#s1#, #a2#", "#JUSTICE:1100#" };
-				{ 3, 50105, "", "=q4=Shadowblade Pauldrons", "=ds=#s3#, #a2#", "#JUSTICE:695#" };
-				{ 4, 50087, "", "=q4=Shadowblade Breastplate", "=ds=#s5#, #a2#", "#JUSTICE:1100#" };
-				{ 5, 50088, "", "=q4=Shadowblade Gauntlets", "=ds=#s9#, #a2#", "#JUSTICE:695#" };
-				{ 6, 50090, "", "=q4=Shadowblade Legplates", "=ds=#s11#, #a2#", "#JUSTICE:1100#" };
+				{ 2, 50089, "", "=q4=Shadowblade Helmet", "=ds=#s1#, #a2#", "#FROST:95#" };
+				{ 3, 50105, "", "=q4=Shadowblade Pauldrons", "=ds=#s3#, #a2#", "#FROST:60#" };
+				{ 4, 50087, "", "=q4=Shadowblade Breastplate", "=ds=#s5#, #a2#", "#FROST:95#" };
+				{ 5, 50088, "", "=q4=Shadowblade Gauntlets", "=ds=#s9#, #a2#", "#FROST:60#" };
+				{ 6, 50090, "", "=q4=Shadowblade Legplates", "=ds=#s11#, #a2#", "#FROST:95#" };
 				{ 8, 0, "inv_throwingknife_04", "=q6=#t10s6#", "=q5="..AL["Tier 10"]};
 				{ 9, 51187, "", "=q4=Sanctified Shadowblade Helmet", "=ds=#s1#, #a2#"};
 				{ 10, 51185, "", "=q4=Sanctified Shadowblade Pauldrons", "=ds=#s3#, #a2#"};
@@ -11067,11 +11067,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
-				{ 2, 50843, "", "=q4=Frost Witch's Helm", "=ds=#s1#, #a3#", "#JUSTICE:1100#" };
-				{ 3, 50845, "", "=q4=Frost Witch's Shoulderpads", "=ds=#s3#, #a3#", "#JUSTICE:695#" };
-				{ 4, 50841, "", "=q4=Frost Witch's Hauberk", "=ds=#s5#, #a3#", "#JUSTICE:1100#" };
-				{ 5, 50842, "", "=q4=Frost Witch's Gloves", "=ds=#s9#, #a3#", "#JUSTICE:695#" };
-				{ 6, 50844, "", "=q4=Frost Witch's Kilt", "=ds=#s11#, #a3#", "#JUSTICE:1100#" };
+				{ 2, 50843, "", "=q4=Frost Witch's Helm", "=ds=#s1#, #a3#", "#FROST:95#" };
+				{ 3, 50845, "", "=q4=Frost Witch's Shoulderpads", "=ds=#s3#, #a3#", "#FROST:60#" };
+				{ 4, 50841, "", "=q4=Frost Witch's Hauberk", "=ds=#s5#, #a3#", "#FROST:95#" };
+				{ 5, 50842, "", "=q4=Frost Witch's Gloves", "=ds=#s9#, #a3#", "#FROST:60#" };
+				{ 6, 50844, "", "=q4=Frost Witch's Kilt", "=ds=#s11#, #a3#", "#FROST:95#" };
 				{ 8, 0, "Spell_Nature_Lightning", "=q6=#t10s7_3#", "=q5="..AL["Tier 10"]};
 				{ 9, 51202, "", "=q4=Sanctified Frost Witch's Helm", "=ds=#s1#, #a3#" };
 				{ 10, 51204, "", "=q4=Sanctified Frost Witch's Shoulderpads", "=ds=#s3#, #a3#" };
@@ -11096,11 +11096,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_lightningshield", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50832, "", "=q4=Frost Witch's Faceguard", "=ds=#s1#, #a3#", "#JUSTICE:1100#" };
-				{ 3, 50834, "", "=q4=Frost Witch's Shoulderguards", "=ds=#s3#, #a3#", "#JUSTICE:695#" };
-				{ 4, 50830, "", "=q4=Frost Witch's Chestguard", "=ds=#s5#, #a3#", "#JUSTICE:1100#" };
-				{ 5, 50831, "", "=q4=Frost Witch's Grips", "=ds=#s9#, #a3#", "#JUSTICE:695#" };
-				{ 6, 50833, "", "=q4=Frost Witch's War-Kilt", "=ds=#s11#, #a3#", "#JUSTICE:1100#" };
+				{ 2, 50832, "", "=q4=Frost Witch's Faceguard", "=ds=#s1#, #a3#", "#FROST:95#" };
+				{ 3, 50834, "", "=q4=Frost Witch's Shoulderguards", "=ds=#s3#, #a3#", "#FROST:60#" };
+				{ 4, 50830, "", "=q4=Frost Witch's Chestguard", "=ds=#s5#, #a3#", "#FROST:95#" };
+				{ 5, 50831, "", "=q4=Frost Witch's Grips", "=ds=#s9#, #a3#", "#FROST:60#" };
+				{ 6, 50833, "", "=q4=Frost Witch's War-Kilt", "=ds=#s11#, #a3#", "#FROST:95#" };
 				{ 8, 0, "spell_nature_lightningshield", "=q6=#t10s7_2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51197, "", "=q4=Sanctified Frost Witch's Faceguard", "=ds=#s1#, #a3#" };
 				{ 10, 51199, "", "=q4=Sanctified Frost Witch's Shoulderguards", "=ds=#s3#, #a3#" };
@@ -11125,11 +11125,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_magicimmunity", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
-				{ 2, 50837, "", "=q4=Frost Witch's Headpiece", "=ds=#s1#, #a3#", "#JUSTICE:1100#" };
-				{ 3, 50839, "", "=q4=Frost Witch's Spaulders", "=ds=#s3#, #a3#", "#JUSTICE:695#" };
-				{ 4, 50835, "", "=q4=Frost Witch's Tunic", "=ds=#s5#, #a3#", "#JUSTICE:1100#" };
-				{ 5, 50836, "", "=q4=Frost Witch's Handguards", "=ds=#s9#, #a3#", "#JUSTICE:695#" };
-				{ 6, 50838, "", "=q4=Frost Witch's Legguards", "=ds=#s11#, #a3#", "#JUSTICE:1100#" };
+				{ 2, 50837, "", "=q4=Frost Witch's Headpiece", "=ds=#s1#, #a3#", "#FROST:95#" };
+				{ 3, 50839, "", "=q4=Frost Witch's Spaulders", "=ds=#s3#, #a3#", "#FROST:60#" };
+				{ 4, 50835, "", "=q4=Frost Witch's Tunic", "=ds=#s5#, #a3#", "#FROST:95#" };
+				{ 5, 50836, "", "=q4=Frost Witch's Handguards", "=ds=#s9#, #a3#", "#FROST:60#" };
+				{ 6, 50838, "", "=q4=Frost Witch's Legguards", "=ds=#s11#, #a3#", "#FROST:95#" };
 				{ 8, 0, "spell_nature_magicimmunity", "=q6=#t10s7_1#", "=q5="..AL["Tier 10"]};
 				{ 9, 51192, "", "=q4=Sanctified Frost Witch's Headpiece", "=ds=#s1#, #a3#" };
 				{ 10, 51194, "", "=q4=Sanctified Frost Witch's Spaulders", "=ds=#s3#, #a3#" };
@@ -11154,11 +11154,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "spell_nature_drowsy", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
-				{ 2, 50241, "", "=q4=Dark Coven Hood", "=ds=#s1#, #a1#", "#JUSTICE:1100#" };
-				{ 3, 50244, "", "=q4=Dark Coven Shoulderpads", "=ds=#s3#, #a1#", "#JUSTICE:695#" };
-				{ 4, 50243, "", "=q4=Dark Coven Robe", "=ds=#s5#, #a1#", "#JUSTICE:1100#" };
-				{ 5, 50240, "", "=q4=Dark Coven Gloves", "=ds=#s9#, #a1#", "#JUSTICE:695#" };
-				{ 6, 50242, "", "=q4=Dark Coven Leggings", "=ds=#s11#, #a1#", "#JUSTICE:1100#" };
+				{ 2, 50241, "", "=q4=Dark Coven Hood", "=ds=#s1#, #a1#", "#FROST:95#" };
+				{ 3, 50244, "", "=q4=Dark Coven Shoulderpads", "=ds=#s3#, #a1#", "#FROST:60#" };
+				{ 4, 50243, "", "=q4=Dark Coven Robe", "=ds=#s5#, #a1#", "#FROST:95#" };
+				{ 5, 50240, "", "=q4=Dark Coven Gloves", "=ds=#s9#, #a1#", "#FROST:60#" };
+				{ 6, 50242, "", "=q4=Dark Coven Leggings", "=ds=#s11#, #a1#", "#FROST:95#" };
 				{ 8, 0, "spell_nature_drowsy", "=q6=#t10s8#", "=q5="..AL["Tier 10"]};
 				{ 9, 51208, "", "=q4=Sanctified Dark Coven Hood", "=ds=#s1#, #a1#"};
 				{ 10, 51205, "", "=q4=Sanctified Dark Coven Shoulderpads", "=ds=#s3#, #a1#"};
@@ -11183,11 +11183,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_innerrage", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
-				{ 2, 50080, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50082, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50078, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50079, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50080, "", "=q4=Ymirjar Lord's Helmet", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50082, "", "=q4=Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50078, "", "=q4=Ymirjar Lord's Battleplate", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50079, "", "=q4=Ymirjar Lord's Gauntlets", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50081, "", "=q4=Ymirjar Lord's Legplates", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "ability_warrior_innerrage", "=q6=#t10s9_1#", "=q5="..AL["Tier 10"]};
 				{ 9, 51212, "", "=q4=Sanctified Ymirjar Lord's Helmet", "=ds=#s1#, #a4#"};
 				{ 10, 51210, "", "=q4=Sanctified Ymirjar Lord's Shoulderplates", "=ds=#s3#, #a4#"};
@@ -11212,11 +11212,11 @@ local moduleName = "AtlasLootWotLK"
 		["Normal"] = {
 			{
 				{ 1, 0, "ability_warrior_defensivestance", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
-				{ 2, 50848, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#", "#JUSTICE:1100#" };
-				{ 3, 50846, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#", "#JUSTICE:695#" };
-				{ 4, 50850, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#", "#JUSTICE:1100#" };
-				{ 5, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#", "#JUSTICE:695#" };
-				{ 6, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#", "#JUSTICE:1100#" };
+				{ 2, 50848, "", "=q4=Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#", "#FROST:95#" };
+				{ 3, 50846, "", "=q4=Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#", "#FROST:60#" };
+				{ 4, 50850, "", "=q4=Ymirjar Lord's Breastplate", "=ds=#s5#, #a4#", "#FROST:95#" };
+				{ 5, 50849, "", "=q4=Ymirjar Lord's Handguards", "=ds=#s9#, #a4#", "#FROST:60#" };
+				{ 6, 50847, "", "=q4=Ymirjar Lord's Legguards", "=ds=#s11#, #a4#", "#FROST:95#" };
 				{ 8, 0, "ability_warrior_defensivestance", "=q6=#t10s9_2#", "=q5="..AL["Tier 10"]};
 				{ 9, 51218, "", "=q4=Sanctified Ymirjar Lord's Greathelm", "=ds=#s1#, #a4#"};
 				{ 10, 51215, "", "=q4=Sanctified Ymirjar Lord's Pauldrons", "=ds=#s3#, #a4#"};
