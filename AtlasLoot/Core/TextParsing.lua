@@ -98,6 +98,10 @@ AtlasLoot_TextParsing = {
 	{ "#w11#", BabbleInventory["Thrown"] },
 	{ "#w12#", BabbleInventory["Wand"] },
 	{ "#w13#", BabbleInventory["Fist Weapon"] },
+	{ "#w14#", BabbleInventory["Idol"] },
+	{ "#w15#", BabbleInventory["Totem"] },
+	{ "#w16#", BabbleInventory["Libram"] },
+	{ "#w21#", BabbleInventory["Sigil"] },
 
 	-- Misc Inventory related words
 	{ "#e1#", BabbleInventory["Bag"] },

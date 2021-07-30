@@ -32,11 +32,12 @@ local FilterTableNames = {
 	["WeaponsMeeleTwoHand"] = BabbleInventory["Two-Hand"],--.." "..AL["Melee weapons:"],
 	["WeaponsRanged"] = AL["Ranged weapons"],
 	["Other"] = AL["Other"],
+	["Relic"] = BabbleInventory["Relic"],
 	["ItemSlot"] = AL["Itemslot"],
 	["Stats"] = AL["Stats"],
 }
 
-local FilterSort = {"Armor", "Other", "ItemSlot", "WeaponsMeele", "WeaponsMeeleTwoHand", "WeaponsRanged", "Stats"}
+local FilterSort = {"Armor", "Other", "ItemSlot", "WeaponsMeele", "WeaponsMeeleTwoHand", "WeaponsRanged", "Relic", "Stats"}
 local FilterTable = {
 	["Armor"] = {
 		"#a1#",				-- Cloth
@@ -70,13 +71,19 @@ local FilterTable = {
 		"#w5#",				-- Gun
 		"#w11#",			-- Thrown
 	},
+		
+	["Relic"] = {
+		"#w14#",		-- Idol
+		"#w15#",		-- Totem
+		"#w16#",		-- Libram
+		"#w21#",		-- Sigil
+	},
 	
 	["Other"] = {
 		"#s13#",			-- Ring
 		"#s14#",			-- Trinket
 		"#s2#",				-- Neck
 		"#s4#",				-- Back
-		"#s16#",			-- Relic
 	},
 
 	["ItemSlot"] = {
@@ -133,6 +140,7 @@ local ClassHides = {
 		["WeaponsMeele"] = {true,true,true,true,false,true,false,false,false},
 		["WeaponsMeeleTwoHand"] = {true,false,false},
 		["WeaponsRanged"] = {false,false,false,false,false},
+		["Relic"] = {true,false,false,false},
 		["Other"] = {true,true,true,true,true},
 		["Stats"] = {true,true,false,true,true,true,false,true,true,true,false,true,true,true}
 	},
@@ -141,6 +149,7 @@ local ClassHides = {
 		["WeaponsMeele"] = {true,true,false,true,false,false,false,true,false},
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {true,false,false,false,false},
+		["Relic"] = {false,false,false,false},
 		["Other"] = {true,true,true,true,false},
 		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false,true}
 	},
@@ -150,6 +159,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {true,false,true},
 		["WeaponsRanged"] = {false,false,false,false,false},
 		["Other"] = {true,true,true,true,true},
+		["Relic"] = {false,false,true,false},
 		["Stats"] = {true,false,true,true,true,true,true,true,true,true,true,true,true,true}
 	},
 	["PRIEST"] = {
@@ -158,6 +168,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {true,false,false,false,false},
 		["Other"] = {true,true,true,true,false},
+		["Relic"] = {false,false,false,false},
 		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false,true}
 	},
 	["ROGUE"] = {
@@ -166,6 +177,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {false,true,true,true,true},
 		["Other"] = {true,true,true,true,false},
+		["Relic"] = {false,false,false,false},
 		["Stats"] = {true,true,false,false,false,true,true,true,true,true,true,false,true,true}
 	},
 	["HUNTER"] = {
@@ -174,6 +186,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,true,true},
 		["WeaponsRanged"] = {false,true,true,true,false},
 		["Other"] = {true,true,true,true,false},
+		["Relic"] = {false,false,false,false},
 		["Stats"] = {true,true,false,false,false,true,false,false,true,true,false,false,true,true}
 	},
 	["SHAMAN"] = {
@@ -182,6 +195,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {true,true,false},
 		["WeaponsRanged"] = {false,false,false,false,false},
 		["Other"] = {true,true,true,true,true},
+		["Relic"] = {false,true,false,false},
 		["Stats"] = {true,true,false,true,true,true,false,true,true,true,false,true,false,true}
 	},
 	["WARLOCK"] = {
@@ -190,6 +204,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {false,false,false},
 		["WeaponsRanged"] = {true,false,false,false,false},
 		["Other"] = {true,true,true,true,false},
+		["Relic"] = {false,false,false,false},
 		["Stats"] = {true,false,false,true,false,true,false,false,true,true,false,true,false,true}
 	},
 	["WARRIOR"] = {
@@ -198,6 +213,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {true,true,true},
 		["WeaponsRanged"] = {false,true,true,true,true},
 		["Other"] = {true,true,true,true,false},
+		["Relic"] = {false,false,false,false},
 		["Stats"] = {true,false,true,false,false,true,true,true,true,true,true,false,true,true}
 	},
 	["DEATHKNIGHT"] = {
@@ -206,6 +222,7 @@ local ClassHides = {
 		["WeaponsMeeleTwoHand"] = {true,true,true},
 		["WeaponsRanged"] = {false,false,false,false,false},
 		["Other"] = {true,true,true,true,true},
+		["Relic"] = {false,false,false,true},
 		["Stats"] = {true,false,true,false,false,true,true,true,true,true,true,false,true,true}
 	}
 }
