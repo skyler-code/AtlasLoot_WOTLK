@@ -26,6 +26,7 @@ local CURRENCY_PRICE = {
 	["CONQUEST"] = { itemID = 45624 }, -- Emblem of Conquest
 	["TRIUMPH"] = { itemID = 47241 }, -- Emblem of Triumph
 	["FROST"] = { itemID = 49426 }, -- Emblem of Frost
+	["VENTURE"] = { itemID = 37836 }, -- Venture Coin
 	
 	-- Custom currencys
 	["MIDSUMMER"] = { itemID = 23247 },

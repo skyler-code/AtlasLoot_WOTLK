@@ -9009,25 +9009,25 @@ local moduleName = "AtlasLootWotLK"
 	AtlasLoot_Data["VentureBay"] = {
 		["Normal"] = {
 			{
-				{ 1, 38354, "", "=q3=Oil-Stained Tarp", "=ds=#s4#", "#HONOR:150#"};
-				{ 2, 38355, "", "=q3=Thick Goblin Back Protector ", "=ds=#s4#", "#HONOR:150#"};
-				{ 3, 38353, "", "=q3=Venture Bay Buccaneer's Cape", "=ds=#s4#", "#HONOR:150#"};
-				{ 4, 38358, "", "=q3=Arcane Revitalizer", "=ds=#s14#", "#HONOR:210#"};
-				{ 5, 38359, "", "=q3=Goblin Repetition Reducer", "=ds=#s14#", "#HONOR:210#"};
-				{ 6, 38357, "", "=q3=Sharpened Throwing Gizmo", "=ds=#w11#", "#HONOR:90#"};
-				{ 7, 38356, "", "=q3=Venture Battle Wand", "=ds=#w12#", "#HONOR:90#"};
-				{ 8, 38360, "", "=q3=Idol of Arcane Terror", "=ds=#s16#", "#HONOR:90#"};
-				{ 9, 38365, "", "=q3=Idol of Perspicacious Attacks", "=ds=#s16#", "#HONOR:90#"};
-				{ 10, 38366, "", "=q3=Idol of Pure Thoughts", "=ds=#s16#", "#HONOR:90#"};
-				{ 11, 38364, "", "=q3=Venture Co. Libram of Mostly Holy Deeds", "=ds=#s16#", "#HONOR:90#"};
-				{ 12, 38363, "", "=q3=Venture Co. Libram of Protection", "=ds=#s16#", "#HONOR:90#"};
-				{ 13, 38362, "", "=q3=Venture Co. Libram of Retribution", "=ds=#s16#", "#HONOR:90#"};
-				{ 16, 38368, "", "=q3=Totem of the Bay", "=ds=#s16#", "#HONOR:90#"};
-				{ 17, 38367, "", "=q3=Venture Co. Flame Slicer", "=ds=#s16#", "#HONOR:90#"};
-				{ 18, 38361, "", "=q3=Venture Co. Lightning Rod", "=ds=#s16#", "#HONOR:90#"};
-				{ 19, 40875, "", "=q3=Sigil of Arthritic Binding", "=ds=#s16#", "#HONOR:90#"};
-				{ 20, 40822, "", "=q3=Sigil of the Frozen Conscience", "=ds=#s16#", "#HONOR:90#"};
-				{ 21, 40867, "", "=q3=Sigil of the Wild Buck", "=ds=#s16#", "#HONOR:90#"};
+				{ 1, 38354, "", "=q3=Oil-Stained Tarp", "=ds=#s4#", "#VENTURE:50#"};
+				{ 2, 38355, "", "=q3=Thick Goblin Back Protector ", "=ds=#s4#", "#VENTURE:50#"};
+				{ 3, 38353, "", "=q3=Venture Bay Buccaneer's Cape", "=ds=#s4#", "#VENTURE:50#"};
+				{ 4, 38358, "", "=q3=Arcane Revitalizer", "=ds=#s14#", "#VENTURE:70#"};
+				{ 5, 38359, "", "=q3=Goblin Repetition Reducer", "=ds=#s14#", "#VENTURE:70#"};
+				{ 6, 38357, "", "=q3=Sharpened Throwing Gizmo", "=ds=#w11#", "#VENTURE:30#"};
+				{ 7, 38356, "", "=q3=Venture Battle Wand", "=ds=#w12#", "#VENTURE:30#"};
+				{ 8, 38360, "", "=q3=Idol of Arcane Terror", "=ds=#w14#", "#VENTURE:30#"};
+				{ 9, 38365, "", "=q3=Idol of Perspicacious Attacks", "=ds=#w14#", "#VENTURE:30#"};
+				{ 10, 38366, "", "=q3=Idol of Pure Thoughts", "=ds=#w14#", "#VENTURE:30#"};
+				{ 11, 38364, "", "=q3=Venture Co. Libram of Mostly Holy Deeds", "=ds=#w16#", "#VENTURE:30#"};
+				{ 12, 38363, "", "=q3=Venture Co. Libram of Protection", "=ds=#w16#", "#VENTURE:30#"};
+				{ 13, 38362, "", "=q3=Venture Co. Libram of Retribution", "=ds=#w16#", "#VENTURE:30#"};
+				{ 16, 38368, "", "=q3=Totem of the Bay", "=ds=#w15#", "#VENTURE:30#"};
+				{ 17, 38367, "", "=q3=Venture Co. Flame Slicer", "=ds=#w15#", "#VENTURE:30#"};
+				{ 18, 38361, "", "=q3=Venture Co. Lightning Rod", "=ds=#w15#", "#VENTURE:30#"};
+				{ 19, 40875, "", "=q3=Sigil of Arthritic Binding", "=ds=#w21#", "#VENTURE:30#"};
+				{ 20, 40822, "", "=q3=Sigil of the Frozen Conscience", "=ds=#w21#", "#VENTURE:30#"};
+				{ 21, 40867, "", "=q3=Sigil of the Wild Buck", "=ds=#w21#", "#VENTURE:30#"};
 			};
 		};
 		info = {
