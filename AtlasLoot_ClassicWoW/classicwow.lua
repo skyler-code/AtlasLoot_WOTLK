@@ -434,8 +434,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 7, 21652, "", "=q4=Silithid Carapace Chestguard", "=ds=#s5#, #a4#", "", "10.29%"};
 				{ 9, 21647, "", "=q4=Fetish of the Sand Reaver", "=ds=#s14#", "", "13.82%"};
 				{ 10, 21664, "", "=q4=Barbed Choker", "=ds=#s2#", "", "12.63%"};
-				{ 11, 22402, "", "=q4=Libram of Grace", "=ds=#s16#", "", "4.21%"};
-				{ 12, 22396, "", "=q4=Totem of Life", "=ds=#s16#", "", "1.69%"};
+				{ 11, 22402, "", "=q4=Libram of Grace", "=ds=#w16#", "", "4.21%"};
+				{ 12, 22396, "", "=q4=Totem of Life", "=ds=#w15#", "", "1.69%"};
 				{ 13, 21650, "", "=q4=Ancient Qiraji Ripper", "=ds=#h1#, #w10#", "", " 7.19%"};
 				{ 14, 21635, "", "=q4=Barb of the Sand Reaver", "=ds=#w7#", "", "6.61%"};
 				{ 16, 21237, "", "=q4=Imperial Qiraji Regalia", "=ds=#m3#", "", "4.84%"};
@@ -463,7 +463,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 21623, "", "=q4=Gauntlets of the Righteous Champion", "=ds=#s9#, #a4#", "", "5.37%"};
 				{ 5, 21677, "", "=q4=Ring of the Qiraji Fury", "=ds=#s13#", "", "2.93%"};
 				{ 6, 21625, "", "=q4=Scarab Brooch", "=ds=#s14#", "", "21.46%"};
-				{ 7, 22399, "", "=q4=Idol of Health", "=ds=#s16#", "", "7.32%"};
+				{ 7, 22399, "", "=q4=Idol of Health", "=ds=#w14#", "", "7.32%"};
 				{ 8, 21622, "", "=q4=Sharpened Silithid Femur", "=ds=#h3#, #w10#", "", "15.12%"};
 				{ 10, 20932, "", "=q4=Qiraji Bindings of Dominance", "=q1=#m1# =ds=#c8#, #c3#, #c7#, #c1#, #c4#", "", "100%"};
 				{ 11, 20928, "", "=q4=Qiraji Bindings of Command", "=q1=#m1# =ds=#c5#, #c6#, #c9#, #c2#", "", "100%"};
@@ -739,7 +739,7 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 22234, "", "=q3=Mantle of Lost Hope", "=ds=#s3#, #a1#", "", "25%"};
 				{ 2, 11632, "", "=q3=Earthslag Shoulders", "=ds=#s3#, #a4#", "", "25%"};
-				{ 3, 22397, "", "=q3=Idol of Ferocity", "=ds=#s16#", "", "25%"};
+				{ 3, 22397, "", "=q3=Idol of Ferocity", "=ds=#w14#", "", "25%"};
 				{ 4, 11631, "", "=q3=Stoneshell Guard", "=ds=#w8#", "", "25%"};
 				{ 16, 45050, "", "=q2=Formula: Smoking Heart of the Mountain", "=ds=#p4# (265)", "", "100%"};
 				{ 17, 11811, "", "=q3=Smoking Heart of the Mountain", "=ds=#s14#"};
@@ -1037,8 +1037,8 @@ local moduleName = "AtlasLootClassicWoW"
 			{
 				{ 1, 11746, "", "=q3=Golem Skull Helm", "=ds=#s1#, #a4#", "", "20%"};
 				{ 2, 11935, "", "=q3=Magmus Stone", "=ds=#s15#", "", "20%"};
-				{ 3, 22395, "", "=q3=Totem of Rage", "=ds=#s16#", "", "20%"};
-				{ 4, 22400, "", "=q3=Libram of Truth", "=ds=#s16#", "", "20%"};
+				{ 3, 22395, "", "=q3=Totem of Rage", "=ds=#w15#", "", "20%"};
+				{ 4, 22400, "", "=q3=Libram of Truth", "=ds=#w16#", "", "20%"};
 				{ 5, 22208, "", "=q3=Lavastone Hammer", "=ds=#h2#, #w6#", "", "20%"};
 			};
 		};
@@ -3295,8 +3295,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.81%"};
 				{ 22, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "0.83%"};
 				{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "0.85%"};
-				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#s16#"};
-				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#s16#", "", "3.5%"};
+				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#"};
+				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "3.5%"};
 				{ 26, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.35%"};
 				{ 27, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.17%"};
 			}
@@ -3333,8 +3333,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.81%"};
 				{ 22, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "0.83%"};
 				{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "0.85%"};
-				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#s16#"};
-				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#s16#", "", "3.5%"};
+				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#"};
+				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "3.5%"};
 				{ 26, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.35%"};
 				{ 27, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.17%"};
 			}
@@ -3371,8 +3371,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.81%"};
 				{ 22, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "0.83%"};
 				{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "0.85%"};
-				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#s16#"};
-				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#s16#", "", "3.5%"};
+				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#"};
+				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "3.5%"};
 				{ 26, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.35%"};
 				{ 27, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.17%"};
 			}
@@ -3409,8 +3409,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.81%"};
 				{ 22, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "0.83%"};
 				{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "0.85%"};
-				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#s16#"};
-				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#s16#", "", "3.5%"};
+				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#"};
+				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "3.5%"};
 				{ 26, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.35%"};
 				{ 27, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.17%"};
 			}
@@ -3447,8 +3447,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.81%"};
 				{ 22, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "0.83%"};
 				{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "0.85%"};
-				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#s16#"};
-				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#s16#", "", "3.5%"};
+				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#"};
+				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "3.5%"};
 				{ 26, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.35%"};
 				{ 27, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.17%"};
 			}
@@ -3501,8 +3501,8 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 21, 14624, "", "=q3=Deathbone Chestplate", "=ds=#s5#, #a4#", "", "0.81%"};
 				{ 22, 14623, "", "=q3=Deathbone Legguards", "=ds=#s11#, #a4#", "", "0.83%"};
 				{ 23, 18684, "", "=q3=Dimly Opalescent Ring", "=ds=#s13#", "", "0.85%"};
-				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#s16#"};
-				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#s16#", "", "3.5%"};
+				{ 24, 23201, "", "=q3=Libram of Divinity", "=ds=#w16#"};
+				{ 25, 23200, "", "=q3=Totem of Sustaining", "=ds=#w15#", "", "3.5%"};
 				{ 26, 18683, "", "=q3=Hammer of the Vesper", "=ds=#h1#, #w6#", "", "1.35%"};
 				{ 27, 18680, "", "=q3=Ancient Bone Bow", "=ds=#w2#", "", "1.17%"};
 			}
@@ -3641,14 +3641,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 0, "INV_Box_01", "=q6=#j1#", ""};
 				{ 2, 3191, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
 				{ 3, 6320, "", "=q3=Commander's Crest", "=ds=#w8#" };
-				{ 5, 60879, "", "=q1=Commander's Holy Symbol", "=ds=#m3#, =q1=#m1# =ds=#c4#, =ds=#c5#", "", "100%" };
-				{ 6, 60880, "", "=q1=Springvale's Sharpening Stone", "=ds=#m3#, =q1=#m1# =ds=#c6#", "", "100%" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 21, 63448, "", "=q3=Springvale's Cloak", "=ds=#s4#" };
-				{ 21, 63449, "", "=q3=Thieving Spaulders", "=ds=#s3#, #a2#" };
-				{ 21, 63447, "", "=q3=Breastplate of the Stilled Heart", "=ds=#s5#, #a3#" };
-				{ 21, 63446, "", "=q3=Haunting Footfalls", "=ds=#s12#, #a3#" };
-				{ 21, 63445, "", "=q3=Arced War Axe", "=ds=#h2#, #w1#" };
 			};
 		};
 		info = {
@@ -3665,14 +3657,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 6642, "", "=q3=Phantom Armor", "=ds=#s5#, #a3#" };
 				{ 4, 6341, "", "=q3=Eerie Stable Lantern", "=ds=#s15#" };
 				{ 5, 1292, "", "=q3=Butcher's Cleaver", "=ds=#h1#, #w1#" };
-				{ 7, 60876, "", "=q1=Walden's Elixirs", "=ds=#m3#, =q1=#m1# =ds=#c1#", "", "100%" };
-				{ 8, 60881, "", "=q1=Walden's Talisman", "=ds=#m3#, =q1=#m1# =ds=#c7#", "", "100%" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63455, "", "=q3=Blinders of the Follower", "=ds=#s1#, #a1#" };
-				{ 18, 63454, "", "=q3=Double Dealing Bracers", "=ds=#s8#, #a2#" };
-				{ 19, 63452, "", "=q3=Burden of Lost Humanity", "=ds=#s3#, #a3#" };
-				{ 20, 63450, "", "=q3=Phantom Armor", "=ds=#s5#, #a4#" };
-				{ 21, 63453, "", "=q3=Iron Will Girdle", "=ds=#s10#, #a4#" };
 			};
 		};
 		info = {
@@ -3689,19 +3673,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 3, 6220, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
 				{ 4, 6641, "", "=q3=Haunting Blade", "=ds=#h2#, #w10#" };
 				{ 5, 6318, "", "=q3=Odo's Ley Staff", "=ds=#w9#" };
-				{ 7, 60877, "", "=q1=Godfrey's Crystal Scope", "=ds=#m3#, =q1=#m1# =ds=#c2#", "", "100%" };
-				{ 8, 60882, "", "=q1=Tenebrous Orb", "=ds=#m3#, =q1=#m1# =ds=#c8#", "", "100%" };
-				{ 16, 0, "inv_box_04", "=q6=#j3#", ""};
-				{ 17, 63465, "", "=q3=Mantle of Loss", "=ds=#s3#, #a1#" };
-				{ 18, 63463, "", "=q3=Mantle of the Eastern Lords", "=ds=#s3#, #a1#" };
-				{ 19, 63459, "", "=q3=Worgen Hunter's Helm", "=ds=#s1#, #a3#" };
-				{ 20, 63462, "", "=q3=Helm of Untold Stories", "=ds=#s1#, #a4#" };
-				{ 21, 63458, "", "=q3=Lord Walden's Breastplate", "=ds=#s5#, #a4#" };
-				{ 22, 63457, "", "=q3=Shackles of Undeath", "=ds=#s8#, #a4#" };
-				{ 23, 63464, "", "=q3=Greaves of the Misguided", "=ds=#s11#, #a4#" };
-				{ 24, 63460, "", "=q3=Relic of Arathor", "=ds=#s16#" };
-				{ 25, 63456, "", "=q3=Meteor Shard", "=ds=#h1#, #w4#" };
-				{ 26, 63461, "", "=q3=Staff of Isolation", "=ds=#w9#" };
 			};
 		};
 		info = {
@@ -3720,9 +3691,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 5, 2807, "", "=q3=Guillotine Axe", "=ds=#h1#, #w1#", "", "0.01%"};
 				{ 6, 1318, "", "=q3=Night Reaver", "=ds=#h2#, #w1#", "", "0.01%"};
 				{ 7, 1484, "", "=q3=Witching Stave", "=ds=#h2#, #w9#", "", "0.01%"};
-				{ 17, 60977, "", "=q1=Orders from High Command", "=ds=#m3#"};
-				{ 18, 60874, "", "=q1=Deathless Sinew", "=ds=#m3#", "", "100%"};
-				{ 19, 60875, "", "=q1=Ghostly Essence", "=ds=#m3#", "", "100%"};
 			};
 		};
 		info = {
@@ -3983,7 +3951,7 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 2, 18727, "", "=q3=Crimson Felt Hat", "=ds=#s1#, #a1#", "", "13.82%"};
 				{ 3, 18726, "", "=q3=Magistrate's Cuffs", "=ds=#s8#, #a2#", "", "12.87%"};
 				{ 4, 18722, "", "=q3=Death Grips", "=ds=#s9#, #a4#", "", "15.34%"};
-				{ 5, 23198, "", "=q3=Idol of Brutality", "=ds=#s16#", "", "2.37%"};
+				{ 5, 23198, "", "=q3=Idol of Brutality", "=ds=#w14#", "", "2.37%"};
 				{ 6, 18725, "", "=q3=Peacemaker", "=ds=#w7#", "", "14.22%"};
 			}
 		};
