@@ -1299,7 +1299,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 1, 13244, "", "=q3=Gilded Gauntlets", "=ds=#s9#, #a3#", "", "25.06%"};
 				{ 2, 13213, "", "=q3=Smolderweb's Eye", "=ds=#s14#", "", "24.97%"};
 				{ 3, 13183, "", "=q3=Venomspitter", "=ds=#h1#, #w6#", "", "12.49%"};
-				{ 5, 68673, "", "=q3=Smolderweb Egg", "=ds=#e13#"};
 			};
 		};
 		info = {

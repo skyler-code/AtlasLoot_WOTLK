@@ -3477,6 +3477,7 @@ local SPELLFIRE = GetSpellInfo(26797);
 				{ 10, "s66582", "40145", "=q4=Resplendent Ametrine", "=ds=#sr# 450", "#DALARANJW:4#"..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 11, "s66581", "40160", "=q4=Stalwart Ametrine", "=ds=#sr# 450", "#DALARANJW:4#"..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
 				{ 12, "s66571", "40154", "=q4=Willful Ametrine", "=ds=#sr# 450", "#DALARANJW:4#"..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
+				{ 13, "s53994", "40162", "=q4=Accurate Ametrine", "=ds=#sr# 450", "=ds="..AL["World Drop"] };
 				{ 16, "s53977", "40039", "=q3=Champion's Monarch Topaz", "=ds=#sr# 390", "=ds="..AL["World Drop"]..""};
 				{ 17, "s53979", "40043", "=q3=Deadly Monarch Topaz", "=ds=#sr# 390", "=ds="..BabbleFaction["Knights of the Ebon Blade"].." - "..BabbleFaction["Revered"] };
 				{ 18, "s53982", "40046", "=q3=Deft Monarch Topaz", "=ds=#sr# 390", "#DALARANJW:3#"..AL["Vendor"]..": "..BabbleZone["Dalaran"] };
