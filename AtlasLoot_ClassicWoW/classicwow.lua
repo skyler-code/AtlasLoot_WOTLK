@@ -7244,7 +7244,6 @@ local moduleName = "AtlasLootClassicWoW"
 				{ 19, 19218, "", "=q1=Pattern: Mantle of the Timbermaw", "=ds=#p8# (300)"};
 				{ 22, 0, "achievement_reputation_timbermaw", "=q6=#r5#", ""};
 				{ 23, 21326, "", "=q4=Defender of the Timbermaw", "=q1=#m4#: =ds=#s14#"};
-				{ 24, 66888, "", "=q1=Stave of Fur and Claw", "=ds=#e25#"};
 			};
 		};
 		info = {
