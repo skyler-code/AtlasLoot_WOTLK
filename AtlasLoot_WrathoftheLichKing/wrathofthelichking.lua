@@ -5862,6 +5862,111 @@ local moduleName = "AtlasLootWotLK"
 		};
 	}
 
+	AtlasLoot_Data["TrialoftheCrusaderTribute"] = {
+		["Heroic_A"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3918#"}; -- Call of the Grand Crusade
+				{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3808#"}; -- A Tribute To Skill
+				{ 5, 48712, "", "=q4=The Spinebreaker", "=ds=#h3#, #w13#"};
+				{ 6, 48708, "", "=q4=Spellstorm Blade", "=ds=#h3#, #w10#"};
+				{ 7, 48713, "", "=q4=Lothar's Edge", "=ds=#h2#, #w1#"};
+				{ 8, 48709, "", "=q4=Heartcrusher", "=ds=#h3#, #w6#"};
+				{ 9, 48714, "", "=q4=Honor of the Fallen", "=ds=#h1#, #w6#"};
+				{ 10, 48710, "", "=q4=Paragon's Breadth", "=ds=#w9#"};
+				{ 11, 48711, "", "=q4=Rhok'shalla, the Shadow's Bane", "=ds=#w2#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3809#"}; -- A Tribute to Mad Skill
+				{ 17, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3810#"}; -- A Tribute to Insanity
+				{ 20, 48673, "", "=q4=Cloak of the Silver Covenant", "=ds=#s4#" };
+				{ 21, 48675, "", "=q4=Cloak of the Unmoving Guardian", "=ds=#s4#" };
+				{ 22, 48674, "", "=q4=Cloak of the Victorious Combatant", "=ds=#s4#" };
+				{ 23, 48671, "", "=q4=Drape of Bitter Incantation", "=ds=#s4#" };
+				{ 24, 48672, "", "=q4=Shawl of the Fervent Crusader", "=ds=#s4#" };
+				{ 25, 49044, "", "=q4=Swift Alliance Steed", "=ds=#e12# =ec1=#m7#"};
+			};
+		};
+		["25ManHeroic_A"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3812#"}; -- Call of the Grand Crusade
+				{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
+				{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
+				{ 4, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3817#"}; -- A Tribute To Skill
+				{ 7, 47517, "", "=q4=Blade of the Unbroken Covenant", "=ds=#h3#, #w10#"};
+				{ 8, 47506, "", "=q4=Silverwing Defender", "=ds=#h1#, #w10#"};
+				{ 9, 47515, "", "=q4=Decimation", "=ds=#h2#, #w10#"};
+				{ 10, 47526, "", "=q4=Remorseless", "=ds=#h1#, #w6#"};
+				{ 11, 47519, "", "=q4=Catastrophe", "=ds=#h2#, #w6#"};
+				{ 12, 47524, "", "=q4=Clemency", "=ds=#w9#"};
+				{ 13, 47521, "", "=q4=BRK-1000", "=ds=#w5#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3818#"}; -- A Tribute to Mad Skill
+				{ 17, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
+				{ 18, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
+				{ 19, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
+				{ 21, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3819#"}; -- A Tribute to Insanity
+				{ 22, 47553, "", "=q4=Bolvar's Devotion", "=ds=#s4#"};
+				{ 23, 47552, "", "=q4=Jaina's Radiance", "=ds=#s4#"};
+				{ 24, 47549, "", "=q4=Magni's Resolution", "=ds=#s4#"};
+				{ 25, 47545, "", "=q4=Vereesa's Dexterity", "=ds=#s4#"};
+				{ 26, 47547, "", "=q4=Varian's Furor", "=ds=#s4#"};
+			};
+		};
+		["Heroic_H"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3918#"}; -- Call of the Grand Crusade
+				{ 2, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
+				{ 4, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3808#"}; -- A Tribute To Skill
+				{ 5, 48703, "", "=q4=The Facebreaker", "=ds=#h3#, #w13#" };
+				{ 6, 48701, "", "=q4=Spellharvest", "=ds=#h3#, #w10#" };
+				{ 7, 48695, "", "=q4=Mor'kosh, the Bloodreaver", "=ds=#h2#, #w1#" };
+				{ 8, 48693, "", "=q4=Heartsmasher", "=ds=#h3#, #w6#" };
+				{ 9, 48699, "", "=q4=Blood and Glory", "=ds=#h1#, #w6#" };
+				{ 10, 48705, "", "=q4=Attrition", "=ds=#w9#" };
+				{ 11, 48697, "", "=q4=Frenzystrike Longbow", "=ds=#w2#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3809#"}; -- A Tribute to Mad Skill
+				{ 17, 47242, "", "=q4=Trophy of the Crusade", "=ds=2x #e15#"};
+				{ 19, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3810#"}; -- A Tribute to Insanity
+				{ 20, 48668, "", "=q4=Cloak of Serrated Blades", "=ds=#s4#" };
+				{ 21, 48669, "", "=q4=Cloak of the Triumphant Combatant", "=ds=#s4#" };
+				{ 22, 48670, "", "=q4=Cloak of the Unflinching Guardian", "=ds=#s4#" };
+				{ 23, 48666, "", "=q4=Drape of the Sunreavers", "=ds=#s4#" };
+				{ 24, 48667, "", "=q4=Shawl of the Devout Crusader", "=ds=#s4#" };
+				{ 25, 49046, "", "=q4=Swift Horde Wolf", "=ds=#e12# =ec1=#m6#"};
+			};
+		};
+		["25ManHeroic_H"] = {
+			{
+				{ 1, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3812#"}; -- Call of the Grand Crusade
+				{ 2, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
+				{ 3, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
+				{ 4, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
+				{ 6, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3817#"}; -- A Tribute To Skill
+				{ 7, 47518, "", "=q4=Mortalis", "=ds=#h3#, #w10#"};
+				{ 8, 47513, "", "=q4=Ogrim's Deflector", "=ds=#h1#, #w10#"};
+				{ 9, 47516, "", "=q4=Fleshrender", "=ds=#h2#, #w10#"};
+				{ 10, 47528, "", "=q4=Cudgel of the Damned", "=ds=#h1#, #w6#"};
+				{ 11, 47520, "", "=q4=Grievance", "=ds=#h2#, #w6#"};
+				{ 12, 47525, "", "=q4=Sufferance", "=ds=#w9#"};
+				{ 13, 47523, "", "=q4=Fezzik's Autocannon", "=ds=#w5#"};
+				{ 16, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3818#"}; -- A Tribute to Mad Skill
+				{ 17, 47557, "", "=q4=Regalia of the Grand Conqueror", "=ds=#e15#"};
+				{ 18, 47558, "", "=q4=Regalia of the Grand Protector", "=ds=#e15#"};
+				{ 19, 47559, "", "=q4=Regalia of the Grand Vanquisher", "=ds=#e15#"};
+				{ 21, 0, "INV_Box_01", "=q6="..AL["Bonus Loot"], "#ACHIEVEMENTID:3819#"}; -- A Tribute to Insanity
+				{ 22, 47551, "", "=q4=Aethas' Intensity", "=ds=#s4#"};
+				{ 23, 47550, "", "=q4=Cairne's Endurance", "=ds=#s4#"};
+				{ 24, 47548, "", "=q4=Garrosh's Rage", "=ds=#s4#"};
+				{ 25, 47554, "", "=q4=Lady Liadrin's Conviction", "=ds=#s4#"};
+				{ 26, 47546, "", "=q4=Sylvanas' Cunning", "=ds=#s4#"};
+			};
+		};
+		info = {
+			name = AL["Tribute Run"],
+			module = moduleName, instance = "TrialOfTheCrusader",
+		};
+	}
+
 	AtlasLoot_Data["TrialoftheCrusaderPatterns"] = {
 		["Normal_A"] = {
 			{

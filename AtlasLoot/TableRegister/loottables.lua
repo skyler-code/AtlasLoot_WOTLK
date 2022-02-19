@@ -326,6 +326,7 @@ AtlasLoot_LootTableRegister = {
 				{ "TrialoftheCrusaderFactionChampions", 10 },
 				{ "TrialoftheCrusaderTwinValkyrs", 11 },
 				{ "TrialoftheCrusaderAnubarak", 14 },
+				{ "TrialoftheCrusaderTribute", 15 },
 				{ "TrialoftheCrusaderPatterns", 16 },
 			},
 			["Info"] = { BabbleZone["Trial of the Crusader"], "AtlasLootWotLK", mapname = "TheArgentColiseum", raid = true },

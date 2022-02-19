@@ -412,6 +412,7 @@ AtlasLoot_InstanceList_Loader = {
 ["UlduarHodir"] = 3,
 ["AuchShadowHellmaw"] = 2,
 ["TrialoftheCrusaderAnubarak"] = 3,
+["TrialoftheCrusaderTribute"] = 3,
 ["CookingDaily"] = 4,
 ["LBRSDoomhowl"] = 1,
 ["EnchantingCataVendor"] = 4,
