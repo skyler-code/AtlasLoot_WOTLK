@@ -205,7 +205,7 @@ local ClassHides = {
 		["WeaponsRanged"] = {true,false,false,false,false},
 		["Other"] = {true,true,true,true,false},
 		["Relic"] = {false,false,false,false},
-		["Stats"] = {true,false,false,true,false,true,false,false,true,true,false,true,false,true}
+		["Stats"] = {true,false,false,true,true,true,false,false,true,true,false,true,false,true}
 	},
 	["WARRIOR"] = {
 		["Armor"] = {false,false,false,true},
