@@ -461,7 +461,7 @@ do
 			wlButton = _G["AL_WishList_Button_"..i]
 			index = (offset * 5) + i;
 			--texture = GetMacroIconInfo(index);
-			texture = "INTERFACE\\ICONS\\"..MACRO_ICON_FILENAMES[index]
+			texture = MACRO_ICON_FILENAMES[index]
 			
 			if ( index <= numMacroIcons ) then
 				wlIcon:SetTexture(texture);
@@ -494,7 +494,7 @@ do
 	end
 
 	local function SelectTexture(selectedIcon)
-		newIcon = "INTERFACE\\ICONS\\"..MACRO_ICON_FILENAMES[selectedIcon]
+		newIcon = MACRO_ICON_FILENAMES[selectedIcon]
 		WishList.IconSelect.selectedIcon = selectedIcon
 		WishList.IconSelect.selectedIconTexture = nil
 		
@@ -567,7 +567,7 @@ do
 		IconSelect.SelectIcon:SetPoint("TOPLEFT", IconSelect, "TOPLEFT", 24, -69)
 		IconSelect.SelectIcon:SetText(MACRO_POPUP_CHOOSE_ICON)
 		
-		IconSelect.ScrollFrame = CreateFrame("ScrollFrame", "AL_WishList_IconSelect", IconSelect, "ListScrollFrameTemplate")
+		IconSelect.ScrollFrame = CreateFrame("ScrollFrame", "AL_WishList_IconSelect", IconSelect, "FauxScrollFrameTemplate")
 		IconSelect.ScrollFrame:SetWidth(296)
 		IconSelect.ScrollFrame:SetHeight(195)
 		IconSelect.ScrollFrame:SetPoint("TOPRIGHT", IconSelect, "TOPRIGHT", -39, -67)
@@ -611,12 +611,16 @@ do
 			AtlasLoot:RefreshModuleOptions()
 		end)
 		
-		IconSelect:SetScript("OnShow", onVerticalScroll) 
-		
-		MACRO_ICON_FILENAMES[1] = "INV_MISC_QUESTIONMARK"
-		GetMacroIcons( MACRO_ICON_FILENAMES );
-  		GetMacroItemIcons( MACRO_ICON_FILENAMES );
-  
+		IconSelect:SetScript("OnShow", onVerticalScroll)
+
+		for i = 1, GetNumMacroIcons() do
+			tinsert(MACRO_ICON_FILENAMES, GetMacroIconInfo(i))
+		end
+
+		for i = 2, GetNumMacroItemIcons() do
+			tinsert(MACRO_ICON_FILENAMES, GetMacroItemIconInfo(i))
+		end
+
 		onVerticalScroll()
 
 	end
