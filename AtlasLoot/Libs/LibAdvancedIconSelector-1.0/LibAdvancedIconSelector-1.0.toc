@@ -1,0 +1,34 @@
+## Title: Lib: AdvancedIconSelector-1.0
+## Notes: Provides a searchable icon selection GUI to addons
+## Version: 1.0.0
+## Author: Darthyl of Bronzebeard-US
+## Interface: 40200
+## OptionalDeps: Ace3
+## X-Curse-Packaged-Version: 1.0.0
+## X-Curse-Project-Name: LibAdvancedIconSelector-1.0
+## X-Curse-Project-ID: libadvancediconselector-1-0
+## X-Curse-Repository-ID: wow/libadvancediconselector-1-0/mainline
+
+## X-Category: Libraries
+## X-Website: http://wow.curse.com/downloads/wow-addons/details/libadvancediconselector-1.0.aspx
+## X-Donate: http://wow.curse.com/downloads/wow-addons/details/libadvancediconselector-1.0.aspx
+## X-Feedback: http://wow.curse.com/downloads/wow-addons/details/libadvancediconselector-1.0.aspx
+## X-Date: September 17, 2011
+## X-Email: darthyl@hotmail.com
+## X-Localizations: enUS
+## X-License: MIT
+## X-Embeds: Ace3
+## X-Credits: Darthyl of Bronzebeard-US
+
+### Embedded libraries
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceTimer-3.0\AceTimer-3.0.xml
+#@end-no-lib-strip@
+
+### Localization
+Locales\enUS.lua
+
+### Main file
+LibAdvancedIconSelector-1.0.lua

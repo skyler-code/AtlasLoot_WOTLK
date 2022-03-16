@@ -9,6 +9,7 @@
 <Include file="Libs\LibBabble-Inventory-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-ItemSet-3.0\lib.xml"/>
 <Include file="Libs\LibBabble-Zone-3.0\lib.xml"/>
+<Include file="Libs\LibAdvancedIconSelector-1.0\LibAdvancedIconSelector-1.0.xml"/>
 
 <!--@end-no-lib-strip@-->
 

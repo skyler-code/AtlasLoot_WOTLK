@@ -1,0 +1,2 @@
+v1.0.0 (September 17, 2011)
+- Initial release of LibAdvancedIconSelector-1.0
