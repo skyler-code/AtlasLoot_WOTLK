@@ -9,6 +9,7 @@ Can be integrated with Atlas (http://www.atlasmod.com)
 local AtlasLoot = LibStub("AceAddon-3.0"):GetAddon("AtlasLoot")
 
 local AL = LibStub("AceLocale-3.0"):GetLocale("AtlasLoot");
+local IconSelectorLib = LibStub("LibAdvancedIconSelector-1.0")
 
 local MODULENAME = "WishList"
 WishList = AtlasLoot:NewModule(MODULENAME)
@@ -443,186 +444,36 @@ function WishList:SetupDb(change)
 end
 -- Icon select
 do
-	local icon_row_height = 36
-	local lastButton = 1
-	local newIcon, selectedIcon = ""
-	local curInfo
-	local MACRO_ICON_FILENAMES = {}
-
-	local function onVerticalScroll(self)
-		local numMacroIcons = #MACRO_ICON_FILENAMES
-		local wlIcon, wlButton
-		local index
-		local offset = FauxScrollFrame_GetOffset(AL_WishList_IconSelect)
-		
-		local texture
-		for i=1, 20 do
-			wlIcon = _G["AL_WishList_Button_"..i.."Icon"]
-			wlButton = _G["AL_WishList_Button_"..i]
-			index = (offset * 5) + i;
-			--texture = GetMacroIconInfo(index);
-			texture = MACRO_ICON_FILENAMES[index]
-			
-			if ( index <= numMacroIcons ) then
-				wlIcon:SetTexture(texture);
-				wlButton:Show();
-			else
-				wlIcon:SetTexture("");
-				wlButton:Hide();
-			end
-			
-			if ( WishList.IconSelect.selectedIcon and (index == WishList.IconSelect.selectedIcon) ) then
-				wlButton:SetChecked(1);
-			elseif ( WishList.IconSelect.selectedIconTexture ==  texture ) then
-				wlButton:SetChecked(1);
-			else
-				wlButton:SetChecked(nil);
-			end
-		end
-		
-		-- Scrollbar stuff
-		FauxScrollFrame_Update(AL_WishList_IconSelect, ceil(numMacroIcons / 5) , 4, icon_row_height );
-	end
-
-	local function cancelButton_OnClick(self, button)
-		WishList.IconSelect:Hide()
-	end
-
-	local function okayButton_OnClick(self, button)
-		curInfo.icon = newIcon
-		WishList.IconSelect:Hide()
-	end
-
-	local function SelectTexture(selectedIcon)
-		newIcon = MACRO_ICON_FILENAMES[selectedIcon]
-		WishList.IconSelect.selectedIcon = selectedIcon
-		WishList.IconSelect.selectedIconTexture = nil
-		
-		onVerticalScroll()
-	end
-
-	local function buttonOnClick(self, button)
-		SelectTexture(self:GetID() + (FauxScrollFrame_GetOffset(AL_WishList_IconSelect) * 5))
-	end
-
-	local function createIconButton(frame)
-		local button = CreateFrame("CheckButton", "AL_WishList_Button_"..#WishList.IconSelect.Icons + 1, frame, "WishListIconButtonTemplate")
-			button:SetScript("OnClick", buttonOnClick)	
-			
-		return button	
-	end
-
 	function WishList:CreateIconSelect(info)
-		if self.IconSelect then 
-			self.IconSelect.Title:SetText(info.name)
-			self.IconSelect.selectedIcon = nil
-			self.IconSelect.selectedIconTexture = info.icon or "Interface\\Icons\\INV_Misc_QuestionMark"
-			self.IconSelect.OkayButton.info = info
+		if self.IconSelect then
+			self.IconSelect.info = info
 			self.IconSelect:Show() 
 			return
 		end
-		
-		self.IconSelect = CreateFrame("FRAME")
-		
+
+		local options = { okayCancel = false }
+		self.IconSelect = IconSelectorLib:CreateIconSelectorWindow("AL_WishList_IconSelect", InterfaceOptionsFrame, options)
 		local IconSelect = self.IconSelect
-		IconSelect:ClearAllPoints()
-		IconSelect:SetParent(UIParent)
-		IconSelect:SetPoint("CENTER", UIParent, "CENTER")
-		IconSelect:SetFrameStrata("TOOLTIP")
-		IconSelect:SetWidth(297)
-		IconSelect:SetHeight(298)
-		
-		IconSelect.Textures = {}
-		
-		IconSelect.Textures[1] = IconSelect:CreateTexture(nil, "ARTWORK")
-		IconSelect.Textures[1]:SetPoint("TOPLEFT", IconSelect, "TOPLEFT")	
-		IconSelect.Textures[1]:SetWidth(256)
-		IconSelect.Textures[1]:SetHeight(256)
-		IconSelect.Textures[1]:SetTexture("Interface\\MacroFrame\\MacroPopup-TopLeft")
-		
-		IconSelect.Textures[2] = IconSelect:CreateTexture(nil, "ARTWORK")
-		IconSelect.Textures[2]:SetPoint("TOPLEFT", IconSelect, "TOPLEFT", 256, 0)	
-		IconSelect.Textures[2]:SetWidth(64)
-		IconSelect.Textures[2]:SetHeight(256)
-		IconSelect.Textures[2]:SetTexture("Interface\\MacroFrame\\MacroPopup-TopRight")
-		
-		IconSelect.Textures[3] = IconSelect:CreateTexture(nil, "ARTWORK")
-		IconSelect.Textures[3]:SetPoint("TOPLEFT", IconSelect, "TOPLEFT", 0, -256)	
-		IconSelect.Textures[3]:SetWidth(256)
-		IconSelect.Textures[3]:SetHeight(64)
-		IconSelect.Textures[3]:SetTexture("Interface\\MacroFrame\\MacroPopup-BotLeft")
-		
-		IconSelect.Textures[3] = IconSelect:CreateTexture(nil, "ARTWORK")
-		IconSelect.Textures[3]:SetPoint("TOPLEFT", IconSelect, "TOPLEFT", 256, -256)	
-		IconSelect.Textures[3]:SetWidth(64)
-		IconSelect.Textures[3]:SetHeight(64)
-		IconSelect.Textures[3]:SetTexture("Interface\\MacroFrame\\MacroPopup-BotRight")
-		
-		IconSelect.Title = IconSelect:CreateFontString(nil,"OVERLAY","GameFontNormal")
-		IconSelect.Title:SetPoint("CENTER", IconSelect, "TOP", 0, -25)
-		IconSelect.Title:SetText(info.name)
-		IconSelect.Title:SetWidth(272)
-		
-		IconSelect.SelectIcon = IconSelect:CreateFontString(nil,"OVERLAY","GameFontHighlightSmall")
-		IconSelect.SelectIcon:SetPoint("TOPLEFT", IconSelect, "TOPLEFT", 24, -69)
-		IconSelect.SelectIcon:SetText(MACRO_POPUP_CHOOSE_ICON)
-		
-		IconSelect.ScrollFrame = CreateFrame("ScrollFrame", "AL_WishList_IconSelect", IconSelect, "FauxScrollFrameTemplate")
-		IconSelect.ScrollFrame:SetWidth(296)
-		IconSelect.ScrollFrame:SetHeight(195)
-		IconSelect.ScrollFrame:SetPoint("TOPRIGHT", IconSelect, "TOPRIGHT", -39, -67)
-		IconSelect.ScrollFrame:SetScript("OnVerticalScroll", function(self, offset) FauxScrollFrame_OnVerticalScroll(self, offset, icon_row_height, onVerticalScroll) end)
-		
-		IconSelect.Icons = {}
-		for i = 1,4 do
-			IconSelect.Icons[#IconSelect.Icons + 1] = createIconButton(IconSelect)
-			if i == 1 then
-				lastButton = 1
-				IconSelect.Icons[#IconSelect.Icons]:SetPoint("TOPLEFT", IconSelect, "TOPLEFT", 24, -85)
-				IconSelect.Icons[#IconSelect.Icons]:SetID(#IconSelect.Icons)
-			else
-				IconSelect.Icons[#IconSelect.Icons]:SetPoint("TOPLEFT", IconSelect.Icons[lastButton], "BOTTOMLEFT", 0, -8)
-				IconSelect.Icons[#IconSelect.Icons]:SetID(#IconSelect.Icons)
-				lastButton = lastButton + 5
+		IconSelect.info = info
+		IconSelect:SetPoint("CENTER")
+		IconSelect:SetFrameStrata(IconSelect:GetParent():GetFrameStrata())
+		IconSelect:SetFrameLevel(IconSelect:GetParent():GetFrameLevel() + 1)
+
+		IconSelect.iconsFrame:SetScript("BeforeShow", function(self)
+			local keywordsLib = LibStub("LibAdvancedIconSelector-KeywordData-1.0", true)
+			-- Load the keywords library if a newer version isn't already loaded.
+			if not keywordsLib or keywordsLib:GetRevision() < GetAddOnMetadata("AdvancedIconSelector-KeywordData", "X-Revision") then
+				LoadAddOn("AdvancedIconSelector-KeywordData")
 			end
-			for j = 1,4 do
-				IconSelect.Icons[#IconSelect.Icons + 1] = createIconButton(IconSelect)
-				IconSelect.Icons[#IconSelect.Icons]:SetID(#IconSelect.Icons)
-				IconSelect.Icons[#IconSelect.Icons]:SetPoint("LEFT", IconSelect.Icons[#IconSelect.Icons - 1], "RIGHT", 10, 0)
-			end
-		end
-		
-		IconSelect.CancelButton = CreateFrame("Button", nil, IconSelect, "UIPanelButtonTemplate")
-		IconSelect.CancelButton:SetWidth(78)
-		IconSelect.CancelButton:SetHeight(22)
-		IconSelect.CancelButton:SetPoint("BOTTOMRIGHT", IconSelect, "BOTTOMRIGHT", -11, 13)
-		IconSelect.CancelButton:SetText(CANCEL)
-		IconSelect.CancelButton:SetScript("OnClick", cancelButton_OnClick)
-		
-		IconSelect.OkayButton = CreateFrame("Button", nil, IconSelect, "UIPanelButtonTemplate")
-		IconSelect.OkayButton:SetWidth(78)
-		IconSelect.OkayButton:SetHeight(22)
-		IconSelect.OkayButton:SetPoint("RIGHT", IconSelect.CancelButton, "LEFT", -2, 0)
-		IconSelect.OkayButton:SetText(OKAY)	
-		IconSelect.OkayButton.info = info
-		IconSelect.OkayButton:SetScript("OnClick", function(self) 
-			self.info.icon = newIcon
-			WishList.IconSelect:Hide()
-			AtlasLoot:RefreshModuleOptions()
 		end)
 		
-		IconSelect:SetScript("OnShow", onVerticalScroll)
+		IconSelect.iconsFrame:SetScript("OnSelectedIconChanged", function(frame,...)
+			local id, kind, texture = frame:GetSelectedIconInfo()
+			IconSelect.info.icon = texture
+			AtlasLoot:RefreshModuleOptions()
+		end)
 
-		for i = 1, GetNumMacroIcons() do
-			tinsert(MACRO_ICON_FILENAMES, GetMacroIconInfo(i))
-		end
-
-		for i = 2, GetNumMacroItemIcons() do
-			tinsert(MACRO_ICON_FILENAMES, GetMacroItemIconInfo(i))
-		end
-
-		onVerticalScroll()
-
+		IconSelect:Show()
 	end
 
 end
